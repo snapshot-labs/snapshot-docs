@@ -17,7 +17,7 @@
   
 **6: Make a pull request.**   
   
-**7: Open the Fleek test deployment in the PR, create a test proposal for your space and vote for it.**
+**7: Open the Fleek test deployment in the PR, create a test proposal for your space and vote for it.** \(if the token logo isn't working it's normal, it will work when PR merged\).
 
 \*\*\*\*
 
