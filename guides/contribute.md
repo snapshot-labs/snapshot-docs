@@ -16,6 +16,10 @@
 
 {% embed url="https://github.com/balancer-labs/snapshot" caption="" %}
 
+### Tech stack
+
+{% embed url="https://snapshot.page/report.html" %}
+
 ### Snapshot hub
 
 {% embed url="https://github.com/balancer-labs/snapshot-hub" caption="" %}
