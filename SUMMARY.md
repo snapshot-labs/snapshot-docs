@@ -1,4 +1,9 @@
 # Table of contents
 
-* [How to create a space?](README.md)
+* [Snapshot](README.md)
+
+## Guides
+
+* [Create a space](guides/create-a-space.md)
+* [Contribute](guides/contribute.md)
 

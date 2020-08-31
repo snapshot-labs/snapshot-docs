@@ -1,25 +1,24 @@
-# How to create a space?
+# Snapshot
 
-**1: Fork Snapshot repo here:**   
-[https://github.com/balancer-labs/snapshot](https://github.com/balancer-labs/snapshot) 
+## **Welcome to Snapshot!**
 
-**2: Add your token here:**   
-[https://github.com/balancer-labs/snapshot/blob/develop/src/namespaces.json](https://github.com/balancer-labs/snapshot/blob/develop/src/namespaces.json) use `"visible": false`.   
-  
-**3: Add image of your token here size 256 x 256px:**   
-[https://github.com/balancer-labs/snapshot/tree/develop/src/assets](https://github.com/balancer-labs/snapshot/tree/develop/src/assets) the name of the file must be the key of your space.   
-  
-**4: \(Optional\) Create a new skin follow this base:**  
-[https://github.com/balancer-labs/snapshot/blob/develop/src/assets/example.scss](https://github.com/balancer-labs/snapshot/blob/develop/src/assets/example.scss)   
-  
-**5: \(Optional\) Add your skin file here:**  
-[https://github.com/balancer-labs/snapshot/blob/develop/src/assets/skins/index.scss](https://github.com/balancer-labs/snapshot/blob/develop/src/assets/skins/index.scss)   
-  
-**6: Make a pull request.**   
-  
-**7: Open the Fleek test deployment in the PR, create a test proposal for your space and vote for it.** \(if the token logo isn't working it's normal, it will work when PR merged\).
+Snapshot is an off-chain gasless multi-governance client with easy to verify and hard to contest results.
 
-\*\*\*\*
+* **Creating a proposal and voting is free** no transaction
+* **Proposals and votes are just signed messages stored on IPFS**
+* **Signatures are easily verifiable online** they use the "eth\_sign" format
+* **We don't have any token**
+* **It's free to create a space** it take 5mn
+* **Space can have their custom domain name**
+* **Space can have their own skin**
+* **Fully open source** with MIT license
+* **We don't use any tracking or ads in our site**
+
+{% page-ref page="guides/create-a-space.md" %}
+
+**We have limited resources so feel free to contribute with code, code review, design, bug reports, advices, documentation, or anything else you are good at.**
+
+{% page-ref page="guides/contribute.md" %}
 
 
 
