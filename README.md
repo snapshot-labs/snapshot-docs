@@ -1,6 +1,6 @@
 # How to create a space?
 
-**1: Fork Snapshot repo here:**  
+**1: Fork Snapshot repo here:**   
 [https://github.com/balancer-labs/snapshot](https://github.com/balancer-labs/snapshot) 
 
 **2: Add your token here:**   
