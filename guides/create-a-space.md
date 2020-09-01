@@ -23,7 +23,7 @@
 
 * Copy this base:
 
-{% embed url="https://github.com/balancer-labs/snapshot/blob/develop/src/assets/example.scss" %}
+{% embed url="https://github.com/balancer-labs/snapshot/blob/develop/src/assets/skins/example.scss" %}
 
 * Add your skin file here:
 
