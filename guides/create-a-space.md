@@ -24,6 +24,12 @@
 * Create a test proposal for your space and vote for it. ****
 * If the token logo isn't working it's normal, it will work when PR merged.
 
+### Example of a valid pull request to add a space
+
+{% embed url="https://github.com/balancer-labs/snapshot/pull/59/files" %}
+
+
+
 \*\*\*\*
 
 
