@@ -33,5 +33,5 @@
 
 ### 7: You got your PR merged, your space is live!
 
-
+It may take 1 or 2 days to get your PR reviewed and merged. 
 
