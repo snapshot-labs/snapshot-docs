@@ -1,12 +1,12 @@
 # Create a space
 
-### **1: Fork Snapshot repository** 
+### **1: Fork Snapshot spaces repository here**
 
-{% embed url="https://github.com/balancer-labs/snapshot" %}
+{% embed url="https://github.com/bonustrack/snapshot-spaces" %}
 
 ### **2: Copy the space example folder**
 
-{% embed url="https://github.com/balancer-labs/snapshot/tree/develop/spaces/example" %}
+{% embed url="https://github.com/bonustrack/snapshot-spaces/tree/master/spaces/example" %}
 
 ### **3: Change your space metadata and logo**
 
@@ -18,20 +18,7 @@
 
 * If you want a skin you can change colors in the file `skin.scss` and change the `.name` to the id of your space.
 
-### **5: Make a pull request**  **6: Test it!**
+### **5: Make a pull request**
 
-* Open the Fleek test deployment in the PR
-
-![](../.gitbook/assets/image%20%281%29.png)
-
-* Create a test proposal for your space and vote for it. ****
-* If the token logo isn't working it's normal, it will work when PR merged.
-
-### Example of a valid pull request to add a space
-
-{% embed url="https://github.com/balancer-labs/snapshot/pull/59/files" %}
-
-### 7: You got your PR merged, your space is live!
-
-It may take 1 or 2 days to get your PR reviewed and merged. 
+It may take 1 or 2 days to get your PR reviewed , merged and appear on Snapshot. 
 
