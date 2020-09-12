@@ -62,8 +62,6 @@
 ```
 
 ### **6: Make a pull request**
-
-{% embed url="https://github.com/bonustrack/snapshot-spaces/compare" %}
  
 * Please name your PR title on the model `Add SYMBOL space`
 * It may take 1 or 2 days to get your PR reviewed , merged and appear on Snapshot.
