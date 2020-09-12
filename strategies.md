@@ -51,3 +51,9 @@ Strategies are defined in the space `index.json` file level. This is how to add 
 
 Strategies can be used to create a score from on-chain data, the data does not necessary need to be monetary, we can imagine a strategy that calculate how many POAP you own or use any other data available on-chain so issue a score.
 
+The strategies are on Snapshot.js here:
+
+{% embed url="https://github.com/bonustrack/snapshot.js/tree/master/src/strategies" %}
+
+
+
