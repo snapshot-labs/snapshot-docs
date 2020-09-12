@@ -1,14 +1,14 @@
 # Create a space
 
-### **1: Fork Snapshot spaces repository here**
+## **1: Fork Snapshot spaces repository here**
 
-{% embed url="https://github.com/bonustrack/snapshot-spaces" %}
+{% embed url="https://github.com/bonustrack/snapshot-spaces" caption="" %}
 
-### **2: Copy the space example folder**
+## **2: Copy the space example folder**
 
-{% embed url="https://github.com/bonustrack/snapshot-spaces/tree/master/spaces/example" %}
+{% embed url="https://github.com/bonustrack/snapshot-spaces/tree/master/spaces/example" caption="" %}
 
-```yml
+```text
 |-- spaces
     |-- example
         |-- index.json
@@ -17,13 +17,14 @@
         |-- space.png
 ```
 
-### **3: Change your space metadata**
+## **3: Change your space metadata**
 
 * The name of the folder must be the key of your space.
 * This key also corresponds to the slug url and must not be composed with uppercase characters. `"key": "example"` to `"key": "my-space"`
 
 `index.json`
-```json
+
+```javascript
 {
   "key": "example",
   "symbol": "EXAMPLE",
@@ -39,16 +40,18 @@
 }
 ```
 
-### **4: Add a logo and space images** 
+## **4: Add a logo and space images**
+
 * You must add both `logo.png` and `space.png` images for your space with a size of 256 x 256 pixels.
 
-### **5: Create a skin \(optional\)**
+## **5: Create a skin \(optional\)**
 
 * If you want the default skin you can delete the file `skin.scss`.
 * If you want a skin you can change colors in the file `skin.scss` and change the `.name` to the id of your space. `.name` to `.my-space`
 
 `skin.scss`
-```scss
+
+```css
 .name {
   --primary-color: #384aff;
   --bg-color: white;
@@ -61,7 +64,8 @@
 }
 ```
 
-### **6: Make a pull request**
- 
+## **6: Make a pull request**
+
 * Please name your PR title on the model `Add SYMBOL space`
 * It may take 1 or 2 days to get your PR reviewed , merged and appear on Snapshot.
+

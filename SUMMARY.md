@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Snapshot](README.md)
+* [Strategies](strategies.md)
 
 ## Guides
 
