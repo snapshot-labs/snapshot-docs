@@ -46,7 +46,7 @@ Or just look at [etherscan.io/blocks](https://etherscan.io/blocks) and use the l
 12. Click on “Publish” and create the proposal 
 13. Sign the message via your wallet and you are done
 
-## ** How to use Snapshot for voting
+## **How to use Snapshot for voting**
 
 1. Go to your project's snapshot.page
 2. Click on “Connect wallet” button in top right corner 
