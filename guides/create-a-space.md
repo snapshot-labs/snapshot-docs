@@ -35,8 +35,10 @@
   "core": [ // List of official addresses that can post in "Core" tab of your space
     "0xeF8305E140ac520225DAf050e2f71d5fBcC543e7"
   ],
-  "min": 0, // Minimum balance to have from the base token to have your proposal visible in the space (unless the address is a core address)
-  "invalid": [] // List of proposal ids, use this to remove a proposal from your space
+  "min": 123, // Minimum balance to have from the base token to have your proposal visible in the space (unless the address is a core address)
+  "invalid": [
+    "QmXAZP8tYwX2zZz5EzfxLZUYJt6TM9EmxY1L4qodhZ5zcZ"
+  ] // List of proposal ids, use this to remove a proposal from your space
 }
 ```
 
