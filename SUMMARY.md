@@ -3,7 +3,7 @@
 * [Home](README.md)
 * [Strategies](strategies.md)
 * [Plugins](plugins/README.md)
-  * [Aragon](plugins/aragon.md)
+  * [Aragon Agreements](plugins/aragon.md)
 
 ## Guides
 
