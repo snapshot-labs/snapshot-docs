@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Snapshot](README.md)
+* [Home](README.md)
 * [Strategies](strategies.md)
 * [Plugins](plugins/README.md)
   * [Aragon](plugins/aragon.md)

@@ -1,4 +1,4 @@
-# Snapshot
+# Home
 
 ## **Welcome to Snapshot!**
 
