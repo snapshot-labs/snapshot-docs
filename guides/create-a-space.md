@@ -26,17 +26,17 @@
 
 ```javascript
 {
-  "key": "example",
-  "symbol": "EXAMPLE",
-  "name": "Example",
-  "defaultView": "core",
-  "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-  "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-  "core": [
+  "key": "example", // This will be the url of your space
+  "symbol": "EXAMPLE", // Symbol of the base token
+  "name": "Example", // Name of the space (max 12 chars)
+  "defaultView": "core", // The default tab to see in your space
+  "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The address of the base token
+  "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The same address of the base token
+  "core": [ // List of official addresses that can post in "Core" tab of your space
     "0xeF8305E140ac520225DAf050e2f71d5fBcC543e7"
   ],
-  "min": 0,
-  "invalid": []
+  "min": 0, // Minimum balance to have from the base token to have your proposal visible in the space (unless the address is a core address)
+  "invalid": [] // List of proposal ids, use this to remove a proposal from your space
 }
 ```
 
