@@ -49,6 +49,7 @@ description: Create your own space on Snapshot
 ## **4: Add a logo and space images**
 
 * You must add both `logo.png` and `space.png` images for your space with a size of 256 x 256 pixels.
+* The file size should not exceed `50KB`.
 
 ## **5: Create a skin \(optional\)**
 
