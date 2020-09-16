@@ -1,3 +1,7 @@
+---
+description: Please ask the team for validating a custom domain
+---
+
 # Add a custom domain
 
 ## **1: Add the domain here**

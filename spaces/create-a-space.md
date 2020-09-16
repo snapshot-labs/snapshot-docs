@@ -1,3 +1,7 @@
+---
+description: Create your own space on Snapshot
+---
+
 # Create a space
 
 ## **1: Fork Snapshot spaces repository here**
