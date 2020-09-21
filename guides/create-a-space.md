@@ -31,8 +31,10 @@ description: Create your own space on Snapshot
 ```javascript
 {
   "key": "example", // This will be the url of your space
-  "symbol": "EXAMPLE", // Symbol of the base token
   "name": "Example", // Name of the space (max 12 chars)
+  "chainId": 1, // ID of the blockchain network
+  "decimals": 18, // Number of decimals in the token
+  "symbol": "EXAMPLE", // Symbol of the base token
   "defaultView": "core", // The default tab to see in your space
   "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The address of the base token
   "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The same address of the base token
