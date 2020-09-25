@@ -1,4 +1,8 @@
-# Vote for a proposal
+---
+description: Submit your vote on a proposal.
+---
+
+# Vote on a Proposal
 
 1. Go to your project's snapshot.page
 2. Click on “Connect wallet” button in top right corner 
