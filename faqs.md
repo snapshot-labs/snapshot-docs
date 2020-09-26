@@ -1,24 +1,20 @@
----
-description: Frequently asked questions.
----
+# Sitemap
 
-# FAQs
+**1:** [**Create a space**](spaces/create-a-space.md#1-fork-snapshot-spaces-repository-here)\*\*\*\*
 
-**1: How to create a space?** [**Create a space**](spaces/create-a-space.md#1-fork-snapshot-spaces-repository-here)\*\*\*\*
+**2:** [**Create a Proposal**](guides/create-a-proposal.md)\*\*\*\*
 
-**2: How to create a proposal?** [**Create a Proposal**](guides/create-a-proposal.md)\*\*\*\*
+**3:** [**Vote on a Proposal**](guides/vote-for-a-proposal.md)\*\*\*\*
 
-**2.1: How to vote on a proposal?** [**Vote on a Proposal**](guides/vote-for-a-proposal.md)\*\*\*\*
+**4:** [**Add a Custom Domain**](spaces/add-custom-domain.md)\*\*\*\*
 
-**3: How to add a custom domain?** [**Add a Custom Domain**](spaces/add-custom-domain.md)\*\*\*\*
+**5:** [**Strategies**](strategies.md)\*\*\*\*
 
-**4: What are strategies?** [**Strategies**](strategies.md)\*\*\*\*
+**6.** [**Plugins**](plugins/)\*\*\*\*
 
-**5. What are plugins?** [**Plugins**](plugins/)\*\*\*\*
+**7:** [**Error Messages**](guides/error-messages.md)\*\*\*\*
 
-**4: What error messages i can expect?** [**Error Messages**](guides/error-messages.md)\*\*\*\*
-
-**6: How can i contribute?** [**Contribute**](contribute.md)\*\*\*\*
+**8:** [**Contribute**](contribute.md)\*\*\*\*
 
 
 

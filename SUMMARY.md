@@ -8,7 +8,7 @@
   * [Create a Space](spaces/create-a-space.md)
   * [Add a Custom Domain](spaces/add-custom-domain.md)
 * [Contribute](contribute.md)
-* [FAQs](faqs.md)
+* [Sitemap](faqs.md)
 
 ## Guides
 
