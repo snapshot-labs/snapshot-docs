@@ -2,7 +2,7 @@
 description: Learn how to create a proposal.
 ---
 
-# Create a Proposal
+# Create a proposal
 
 1. Go to a project's space
 2. Click on “Connect wallet” button in top right corner 

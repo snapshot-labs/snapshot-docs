@@ -2,9 +2,9 @@
 description: Information about specific errors that can appear.
 ---
 
-# Error Messages
+# Error messages
 
-| **Error Code** | **Error Information** |
+| **Error code** | **Error information** |
 | :--- | :--- |
 | **`wrong message body`** | Message did not pass because body was empty or did not contain address or did not contain sig. |
 | **`wrong signed message`** | Message did dont have his local clock sync.  |
