@@ -16,19 +16,15 @@ Usually we check and follow through PRs every 24 to 48h, if you submitted yours 
 
 \*\*\*\*
 
-**3: I am getting an error "wrong timestamp" how to fix it?**
+**3: I am getting an error "wrong timestamp", what is the problem?**
 
 Make sure your computer clock is synced, to do so: go to your date and time settings and tick the "Sync automaticaly" checkbox/option from there.
 
 
 
-**4: I went to** `https://snapshot.page/#/space` **but i see a blank page, how to fix it?**
+**4: I went to** `https://snapshot.page/#/your-space` **but i see a blank page, how to fix it?**
 
 * Make sure your PR is already merged.
 * Make sure you are connected with metamask on the ETH mainnet.
-* Check if you are using other than Chrome.
-
-\*\*\*\*
-
-
+* Check if you are using a browser other than Chrome. 
 
