@@ -2,7 +2,7 @@
 description: Frequently asked questions.
 ---
 
-# FAQs
+# F.A.Q.
 
 **1: I pushed my PR, when do you check it? and what time it will be live?**
 
