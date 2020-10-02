@@ -30,9 +30,12 @@ Your computer time is not synced, follow the steps to fix it: \(for other errors
 2. Add key here [https://github.com/bonustrack/snapshot-spaces/blob/master/spaces/homepage.json](https://github.com/bonustrack/snapshot-spaces/blob/master/spaces/homepage.json)
 3. Your space must have activity on it, so we include it, otherwise empty space or space with low / no participation behavior, doenst get added.
 
-## **5: How can i access my space if it was not showing on the Snapshot homepage?**
+## **5: How can i access my space or the demo space on snapshot?**
 
-Change YOUR-KEY on this link: [http://snapshot.page/\#/YOUR-KEY](http://snapshot.page/#/YOUR-KEY) \(and if you want to access the demo: [http://demo.snapshot.page/\#/YOUR-KEY](http://demo.snapshot.page/#/YOUR-KEY)\)
+Change **YOUR-KEY** on the links:
+
+* If you want to access snapshot live: [http://snapshot.page/\#/**YOUR-KEY**](http://snapshot.page/#/YOUR-KEY)\*\*\*\*
+* If you want to access snapshot demo: [http://demo.snapshot.page/\#/**YOUR-KEY**](http://demo.snapshot.page/#/YOUR-KEY)\*\*\*\*
 
 
 
