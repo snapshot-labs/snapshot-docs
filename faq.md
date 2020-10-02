@@ -34,7 +34,7 @@ Your computer time is not synced, follow the steps to fix it: \(for other errors
 
 Change **YOUR-KEY** on the links:
 
-* If you want to access snapshot live: [http://snapshot.page/\#/**YOUR-KEY**](http://snapshot.page/#/YOUR-KEY)\*\*\*\*
+* If you want to access snapshot live: [http://snapshot.page/\#/**YOUR-KEY**](http://snapshot.page/#/YOUR-KEY) \(only works after live deploy\)
 * If you want to access snapshot demo: [http://demo.snapshot.page/\#/**YOUR-KEY**](http://demo.snapshot.page/#/YOUR-KEY)\*\*\*\*
 
 
