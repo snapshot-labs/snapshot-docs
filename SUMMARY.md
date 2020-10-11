@@ -18,3 +18,8 @@
 * [Error messages](guides/error-messages.md)
 * [Sitemap](guides/sitemap.md)
 
+---
+
+* [Details](details/README.md)
+  * [Block Number](details/block-number.md)
+
