@@ -36,7 +36,7 @@ Example: `index.json`
   "chainId": 1, // ID of the blockchain network
   "decimals": 18, // Number of decimals in the token
   "symbol": "EXAMPLE", // Symbol of the base token
-  "skin": "example", // Skin filename "example.scss" located at /skins folder 
+  "skin": "example", // Skin filename "example.scss" located at "/skins" folder 
   "defaultView": "core", // The default tab to see in your space
   "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The address of the base token
   "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The same address of the base token
@@ -52,16 +52,17 @@ Example: `index.json`
 
 ## **4: Add a logo and space images**
 
-1. [x] You must add both `logo.png` and `space.png` images for your space with a size of 256 x 256 pixels.
-2. [ ] The file size should not exceed `50KB`.
+1. You must add both `logo.png` and `space.png` images for your space with a size of 256 x 256 pixels.
+2. The file size should not exceed `50KB`.
 
 ## **5: Create a skin \(optional\)**
 
 1. To create your own skin go to the `/skins` folder.
 2. Copy `example.scss` change the name to what you like \(prefferably your space name\).
 3. Change the colors, then make sure both the `scss` file and its class name are the same.
-4. exampe: your file is `uniswap.scss` class name should be `.uniswap`
-5. Save it in `/skins` folder.
+4. Exampe: your file is `example.scss` class name should be `.example`
+5. Include your skin name in the `index.json` file as: `"skin": "example"`
+6. Save it in `/skins` folder.
 
 Example: `your-skin.scss`
 

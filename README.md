@@ -14,9 +14,9 @@ Snapshot is an off-chain gasless multi-governance client with easy to verify and
 * **Fully open source** with MIT license
 * **We don't use any tracking or ads in our site**
 
-_\*\*\*\*_
+\_\_
 
-> _**We have limited resources so feel free to contribute with code, code review, design, bug reports, advices, documentation, or anything else you are good at.**_ ****
+> _We have limited resources so feel free to contribute with code, code review, design, bug reports, advices, documentation, or anything else you are good at._
 
 {% page-ref page="contribute.md" %}
 
