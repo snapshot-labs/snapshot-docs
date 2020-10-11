@@ -6,7 +6,7 @@ description: More about strategies.
 
 A strategy is a JavaScript function that return a score for a set of addresses. Strategies are being used on Snapshot to calculate the result for a proposal. A proposal can have multiple strategies, the default strategy is to calculate the balance of an ERC20 for each voters. A strategy can send call to a node or subgraph.
 
-All the strategies are visible here: [https://snapshot.page/\#/strategies](https://snapshot.page/#/strategies)
+**All the strategies are visible here:** [https://snapshot.page/\#/strategies](https://snapshot.page/#/strategies)
 
 ## 1: This is the default strategy used `erc20-balance-of`:
 
@@ -42,15 +42,21 @@ Strategies are defined in the space `index.json` file level. This is how to add 
 {
   ...
   "strategies": [
-    ["erc20BalanceOf", {
-      "address": "0xba100000625a3754423978a60c9317c58a424e3D",
-      "symbol": "BAL",
-      "decimals": 18
-    }],
-    ["balancer", {
-      "address": "0xba100000625a3754423978a60c9317c58a424e3D",
-      "symbol": "BAL BPT"
-    }]
+    [
+      "erc20BalanceOf",
+      {
+        "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "symbol": "BAL",
+        "decimals": 18
+      }
+    ],
+    [
+      "balancer",
+      {
+        "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+        "symbol": "BAL BPT"
+      }
+    ]
   ]
 }
 ```

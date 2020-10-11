@@ -1,16 +1,14 @@
 # Sitemap
 
-**Website:** [**https://snapshot.page/**](https://snapshot.page/)\*\*\*\*
+**Website:** [https://snapshot.page/](https://snapshot.page/)
 
-**Twitter:** [**https://twitter.com/SnapshotLabs**](https://twitter.com/SnapshotLabs)\*\*\*\*
+* **Strategies:** [https://snapshot.page/\#/strategies](https://snapshot.page/#/strategies)
 
-**Discord:** [**https://discord.snapshot.page/**](https://discord.snapshot.page/)\*\*\*\*
+**Twitter:** [https://twitter.com/SnapshotLabs](https://twitter.com/SnapshotLabs)
 
-**Telegram:** [**https://t.me/snapshotlabs**](https://t.me/snapshotlabs)\*\*\*\*
+**Discord:** [https://discord.snapshot.page/](https://discord.snapshot.page/)
+
+**Telegram:** [https://t.me/snapshotlabs](https://t.me/snapshotlabs)
 
 \*\*\*\*
-
-\*\*\*\*
-
-
 

@@ -1,12 +1,11 @@
 # Table of contents
 
 * [Home](README.md)
+* [Spaces](spaces.md)
+* [Proposals](proposals.md)
 * [Strategies](strategies.md)
 * [Plugins](plugins/README.md)
-  * [Aragon agreements](plugins/aragon.md)
-* [Spaces](spaces/README.md)
-  * [Create a space](spaces/create-a-space.md)
-  * [Add a custom domain](spaces/add-custom-domain.md)
+  * [Aragon Agreements](plugins/aragon.md)
 * [Contribute](contribute.md)
 * [F.A.Q.](faq.md)
 
@@ -15,11 +14,9 @@
 * [Create a space](guides/create-a-space.md)
 * [Create a proposal](guides/create-a-proposal.md)
 * [Vote on a proposal](guides/vote-for-a-proposal.md)
-* [Error messages](guides/error-messages.md)
+* [Custom domain](guides/custom-domain.md)
 * [Sitemap](guides/sitemap.md)
-
----
-
-* [Details](details/README.md)
-  * [Block Number](details/block-number.md)
+* [Details](guides/details/README.md)
+  * [Error messages](guides/details/error-messages.md)
+  * [Block Number](guides/details/block-number.md)
 

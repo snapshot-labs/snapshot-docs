@@ -2,7 +2,7 @@
 description: On-chain settlement using Aragon Agreements
 ---
 
-# Aragon agreements
+# Aragon Agreements
 
 {% embed url="https://aragon.org/blog/snapshot" %}
 

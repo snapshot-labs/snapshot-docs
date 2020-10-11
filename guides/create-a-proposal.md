@@ -7,17 +7,17 @@ description: Learn how to create a proposal.
 ## How to create a proposal?
 
 1. Go to a project space.
-2. Click on “Connect wallet” button in top right corner.
+2. Click on “**Connect wallet**” button in top right corner.
 3. Connect with wallet provider where you hold relevant token.
-4. Click on “New proposal” button at the project homepage.
+4. Click on “**New proposal**” button at the project homepage.
 5. Fill out the Title in accordance with project naming standard.
 6. Fill out the large text field with your community proposal.
 7. Select the desired voting options.
-8. Now go to the “Actions” box.
+8. Now go to the “**Actions**” box.
 9. Select the start date.
-10. Select the end date \(allow enough time for voting\).
-11. Fill out the Snapshot block number \(See Add a snapshot block number\).
-12. Click on “Publish” and create the proposal.
+10. Select the end date \(Allow enough time for voting\).
+11. Fill out the Snapshot block number \(See below: **Add a snapshot block number**\).
+12. Click on “**Publish**” to create the proposal.
 13. Sign the message via your wallet and you are done.
 
 ### **Add a Snapshot block number**

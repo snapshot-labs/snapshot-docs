@@ -10,7 +10,7 @@ Usually snapshot checks and follows through PRs every 24 to 48h, if you submitte
 
 ## **2: I am getting an error "wrong timestamp", what is the problem?**
 
-Your computer time is not synced, follow the steps to fix it: \(for other errors check [here](guides/error-messages.md)\)
+Your computer time is not synced, follow the steps to fix it: \(for other errors check [here](guides/details/error-messages.md)\)
 
 1. Make sure your time zone is a correct timezone, set it from the dropdown box.
 2. Click sync button.
