@@ -8,7 +8,7 @@ description: Create your own space on Snapshot!
 
 {% embed url="https://github.com/bonustrack/snapshot-spaces" caption="" %}
 
-## **2: Copy the space example folder**
+## **2: Copy the space "example" folder**
 
 {% embed url="https://github.com/bonustrack/snapshot-spaces/tree/master/spaces/example" caption="" %}
 
@@ -17,8 +17,9 @@ description: Create your own space on Snapshot!
     |-- example
         |-- index.json
         |-- logo.png
-        |-- skin.scss
         |-- space.png
+|-- skins (optional)
+    |-- example.scss (optional)
 ```
 
 ## **3: Change your space metadata**
@@ -26,7 +27,7 @@ description: Create your own space on Snapshot!
 * The name of the folder must be the key of your space.
 * This key also corresponds to the slug url and must not be composed with uppercase characters. `"key": "example"` to `"key": "my-space"`
 
-`index.json`
+Example: `index.json`
 
 ```javascript
 {
@@ -35,6 +36,7 @@ description: Create your own space on Snapshot!
   "chainId": 1, // ID of the blockchain network
   "decimals": 18, // Number of decimals in the token
   "symbol": "EXAMPLE", // Symbol of the base token
+  "skin": "example", // Skin filename "example.scss" located at /skins folder 
   "defaultView": "core", // The default tab to see in your space
   "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The address of the base token
   "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The same address of the base token
@@ -55,13 +57,16 @@ description: Create your own space on Snapshot!
 
 ## **5: Create a skin \(optional\)**
 
-* If you want the default skin you can delete the file `skin.scss`.
-* If you want a skin you can change colors in the file `skin.scss` and change the `.name` to the id of your space. `.name` to `.my-space`
+* To create your own skin go to the `/skins` folder.
+* Copy `example.scss` change the name to what you like \(prefferably your space name\).
+* Change the colors, then make sure both the `scss` file and its class name are the same.
+* exampe: your file is `uniswap.scss` class name should be `.uniswap`
+* Save it in `/skins` folder.
 
-`skin.scss`
+Example: `your-skin.scss`
 
 ```css
-.name {
+.your-skin {
   --primary-color: #384aff;
   --bg-color: white;
   --text-color: #586069;
@@ -76,5 +81,5 @@ description: Create your own space on Snapshot!
 ## **6: Make a pull request**
 
 * Please name your PR title on the model `Add SYMBOL space`
-* It may take 1 or 2 days to get your PR reviewed , merged and appear on Snapshot.
+* It may take 1 or 2 days to get your PR reviewed, merged and appear on Snapshot.
 

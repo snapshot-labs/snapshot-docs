@@ -1,20 +1,14 @@
 # Sitemap
 
-**1:** [**Create a space**](../spaces/create-a-space.md#1-fork-snapshot-spaces-repository-here)\*\*\*\*
+**Website:** [**https://snapshot.page/**](https://snapshot.page/)\*\*\*\*
 
-**2:** [**Create a Proposal**](create-a-proposal.md)\*\*\*\*
+**Twitter:** [**https://twitter.com/SnapshotLabs**](https://twitter.com/SnapshotLabs)\*\*\*\*
 
-**3:** [**Vote on a Proposal**](vote-for-a-proposal.md)\*\*\*\*
+**Discord:** [**https://discord.snapshot.page/**](https://discord.snapshot.page/)\*\*\*\*
 
-**4:** [**Add a Custom Domain**](../spaces/add-custom-domain.md)\*\*\*\*
+**Telegram:** [**https://t.me/snapshotlabs**](https://t.me/snapshotlabs)\*\*\*\*
 
-**5:** [**Strategies**](../strategies.md)\*\*\*\*
-
-**6.** [**Plugins**](../plugins/)\*\*\*\*
-
-**7:** [**Error Messages**](error-messages.md)\*\*\*\*
-
-**8:** [**Contribute**](../contribute.md)\*\*\*\*
+\*\*\*\*
 
 \*\*\*\*
 
