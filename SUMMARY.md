@@ -15,8 +15,8 @@
 * [Create a proposal](guides/create-a-proposal.md)
 * [Vote on a proposal](guides/vote-for-a-proposal.md)
 * [Custom domain](guides/custom-domain.md)
-* [Sitemap](guides/sitemap.md)
+* [Error messages](guides/error-messages.md)
 * [Details](guides/details/README.md)
-  * [Error messages](guides/details/error-messages.md)
   * [Block Number](guides/details/block-number.md)
+* [Sitemap](guides/sitemap.md)
 
