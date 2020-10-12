@@ -60,14 +60,14 @@ Example: `index.json`
 1. To create your own skin go to the `/skins` folder.
 2. Copy `example.scss` change the name to what you like \(prefferably your space name\).
 3. Change the colors, then make sure both the `scss` file and its class name are the same.
-4. Exampe: your file is `example.scss` class name should be `.example`
-5. Include your skin name in the `index.json` file as: `"skin": "example"`
+4. Exampe: your file is `your-space.scss` class name should be `.your-space`
+5. Include your skin name in the `index.json` file as: `"skin": "your-space"`
 6. Save it in `/skins` folder.
 
-Example: `your-skin.scss`
+Example: `your-space.scss`
 
 ```css
-.your-skin {
+.your-space {
   --primary-color: #384aff;
   --bg-color: white;
   --text-color: #586069;
