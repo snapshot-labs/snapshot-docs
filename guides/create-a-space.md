@@ -79,7 +79,21 @@ Example: `your-space.scss`
 }
 ```
 
-## **6: Make a pull request**
+## **6: Make sure everything is ready**
+
+Your files should something like this:
+
+```text
+|-- spaces
+    |-- your-space
+        |-- index.json
+        |-- logo.png
+        |-- space.png
+|-- skins (optional)
+    |-- your-space.scss (optional)
+```
+
+## **7: Make a pull request**
 
 * Please name your PR title on the model `Add SYMBOL space`
 * It may take 1 or 2 days to get your PR reviewed, merged and appear on Snapshot.
