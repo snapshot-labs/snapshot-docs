@@ -31,22 +31,20 @@ Example: `index.json`
 
 ```javascript
 {
-  "key": "your-space", // This will be the url of your space
   "name": "Your Space", // Name of the space (max 12 chars)
   "chainId": 1, // ID of the blockchain network
   "decimals": 18, // Number of decimals in the token
   "symbol": "YOURSPACE", // Symbol of the base token
   "skin": "your-space", // Copy skin filename "example.scss" located at "/skins" folder and renaming it to "your-space.scss"
   "defaultView": "core", // The default tab to see in your space
-  "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The address of the base token
   "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The same address of the base token
   "core": [ // List of official addresses that can post in "Core" tab of your space
     "0xeF8305E140ac520225DAf050e2f71d5fBcC543e7"
   ],
   "min": 123, // Minimum balance to have from the base token to have your proposal visible in the space (unless the address is a core address)
-  "invalid": [
+  "invalid": [ // List of proposal ids, use this to remove a proposal from your space
     "QmXAZP8tYwX2zZz5EzfxLZUYJt6TM9EmxY1L4qodhZ5zcZ"
-  ] // List of proposal ids, use this to remove a proposal from your space
+  ]
 }
 ```
 
