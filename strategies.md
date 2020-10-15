@@ -43,7 +43,7 @@ Strategies are defined in the space `index.json` file level. This is how to add 
   ...
   "strategies": [
     [
-      "erc20BalanceOf",
+      "erc20-balance-of",
       {
         "address": "0xba100000625a3754423978a60c9317c58a424e3D",
         "symbol": "BAL",
