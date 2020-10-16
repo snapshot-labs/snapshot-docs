@@ -4,6 +4,10 @@
 
 {% embed url="https://hub.snapshot.page/api/spaces" %}
 
+### Get a single space
+
+{% embed url="https://hub.snapshot.page/api/spaces/yam" %}
+
 ### Get all proposals for a space
 
 {% embed url="https://hub.snapshot.page/api/balancer/proposals" %}
