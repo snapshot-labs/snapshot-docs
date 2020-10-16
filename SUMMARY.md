@@ -7,6 +7,7 @@
 * [Plugins](plugins/README.md)
   * [Aragon Agreements](plugins/aragon.md)
 * [Contribute](contribute.md)
+* [Hub API](hub-api.md)
 * [F.A.Q.](faq.md)
 
 ## Guides
