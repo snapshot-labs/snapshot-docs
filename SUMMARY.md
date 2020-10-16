@@ -18,6 +18,6 @@
 * [Custom domain](guides/custom-domain.md)
 * [Error messages](guides/error-messages.md)
 * [Details](guides/details/README.md)
-  * [Block Number](guides/details/block-number.md)
+  * [Snapshot block number](guides/details/block-number.md)
 * [Sitemap](guides/sitemap.md)
 
