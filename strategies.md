@@ -1,7 +1,3 @@
----
-description: More about strategies.
----
-
 # Strategies
 
 A strategy is a JavaScript function that return a score for a set of addresses. Strategies are being used on Snapshot to calculate the result for a proposal. A proposal can have multiple strategies, the default strategy is to calculate the balance of an ERC20 for each voters. A strategy can send call to a node or subgraph.
