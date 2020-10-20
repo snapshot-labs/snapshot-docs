@@ -22,7 +22,7 @@ description: Create your own space on Snapshot!
     |-- example.scss (optional)
 ```
 
-## **3: Change your space metadata**
+## **3: Space metadata**
 
 * The name of the folder must be the key of your space.
 * This key also corresponds to the slug url and must not be composed with uppercase characters. `"key": "example"` to `"key": "your-space"`
@@ -31,22 +31,37 @@ Example: `index.json`
 
 ```javascript
 {
-  "name": "Your Space", // Name of the space (max 12 chars)
-  "chainId": 1, // ID of the blockchain network
-  "decimals": 18, // Number of decimals in the token
-  "symbol": "YOURSPACE", // Symbol of the base token
+  "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // Token address
+  "name": "Your Space", // Name of your space (max 12 chars)
+  "network": "1", // What network you are on? (if on Ethereum it is "1", for other check: https://docs.snapshot.page/networks)
+  "symbol": "YOURSPACE", // Your main token symbol 
   "skin": "your-space", // Copy skin filename "example.scss" located at "/skins" folder and renaming it to "your-space.scss"
-  "defaultView": "core", // The default tab to see in your space
-  "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The same address of the base token
-  "core": [ // List of official addresses that can post in "Core" tab of your space
-    "0xeF8305E140ac520225DAf050e2f71d5fBcC543e7"
+  "domain": "vote.yourdomain.com", // Your domain if you have one
+  "strategies": [ // Strategies
+    {
+      "name": "erc20-balance-of", // Strategy name
+      "params": {
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The address of the base token
+        "symbol": "LEND", // Symbol of the base token
+        "decimals": 18 // ID of the blockchain network
+      }
+    }
   ],
-  "min": 123, // Minimum balance to have from the base token to have your proposal visible in the space (unless the address is a core address)
-  "invalid": [ // List of proposal ids, use this to remove a proposal from your space
-    "QmXAZP8tYwX2zZz5EzfxLZUYJt6TM9EmxY1L4qodhZ5zcZ"
+  "members": [ // List of official addresses that can post in "Core" tab of the space
+    "0xeF8305E140ac520225DAf050e2f71d5fBcC543e7" // Address
+  ],
+  "filters": { // Filters
+    "defaultTab": "all", // The default tab for the space
+    "minScore": 123, // Minimum balance from the base token that a user should have to show his proposal in the space (unless the address is a core address)
+    "onlyMembers": true
+  },
+  "invalids": [ // List of proposals IDs (use this to remove a proposal from your space)
+    "QmXAZP8tYwX2zZz5EzfxLZUYJt6TM9EmxY1L4qodhZ5zcZ" // ID
   ]
 }
 ```
+
+#### **Space** required **fields:** `token, name, network, symbol, strategies`
 
 ## **4: Add a logo and space images**
 
