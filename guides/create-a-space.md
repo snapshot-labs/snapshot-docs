@@ -36,7 +36,7 @@ Example: `index.json`
   "network": "1", // What network you are on? (if on Ethereum it is "1", for other check: https://docs.snapshot.page/networks)
   "symbol": "SYMBOL", // Your main token symbol 
   "skin": "your-space", // Copy skin filename "example.scss" located at "/skins" folder and renaming it to "your-space.scss"
-  "domain": "vote.yourdomain.com", // Your domain if you have one
+  "domain": "vote.yourdomain.com", // Add your voting/governance subdomain if you have one
   "strategies": [ // Strategies
     {
       "name": "erc20-balance-of", // Strategy name
