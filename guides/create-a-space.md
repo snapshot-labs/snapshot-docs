@@ -34,29 +34,29 @@ Example: `index.json`
   "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // Token address
   "name": "Your Space", // Name of your space (max 12 chars)
   "network": "1", // What network you are on? (if on Ethereum it is "1", for other check: https://docs.snapshot.page/networks)
-  "symbol": "YOURSPACE", // Your main token symbol 
+  "symbol": "SYMBOL", // Your main token symbol 
   "skin": "your-space", // Copy skin filename "example.scss" located at "/skins" folder and renaming it to "your-space.scss"
   "domain": "vote.yourdomain.com", // Your domain if you have one
   "strategies": [ // Strategies
     {
       "name": "erc20-balance-of", // Strategy name
-      "params": {
-        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // The address of the base token
-        "symbol": "LEND", // Symbol of the base token
-        "decimals": 18 // ID of the blockchain network
+      "params": { // Strategy parameters
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // Address of the base token
+        "symbol": "SYMBOL", // Symbol of the base token
+        "decimals": 18 // Decimals of the base token
       }
     }
   ],
   "members": [ // List of official addresses that can post in "Core" tab of the space
-    "0xeF8305E140ac520225DAf050e2f71d5fBcC543e7" // Address
+    "0xeF8305E140ac520225DAf050e2f71d5fBcC543e7" // Core member address
   ],
   "filters": { // Filters
     "defaultTab": "all", // The default tab for the space
     "minScore": 123, // Minimum balance from the base token that a user should have to show his proposal in the space (unless the address is a core address)
-    "onlyMembers": true
+    "onlyMembers": true // Hides everything keeping the core tab and core proposals
   },
   "invalids": [ // List of proposals IDs (use this to remove a proposal from your space)
-    "QmXAZP8tYwX2zZz5EzfxLZUYJt6TM9EmxY1L4qodhZ5zcZ" // ID
+    "QmXAZP8tYwX2zZz5EzfxLZUYJt6TM9EmxY1L4qodhZ5zcZ" // Proposal ID
   ]
 }
 ```
