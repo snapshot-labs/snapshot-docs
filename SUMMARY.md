@@ -4,11 +4,11 @@
 * [Spaces](spaces.md)
 * [Proposals](proposals.md)
 * [Strategies](strategies.md)
+* [Networks](networks.md)
 * [Plugins](plugins/README.md)
   * [Aragon Agreements](plugins/aragon.md)
-* [Contribute](contribute.md)
 * [Hub API](hub-api.md)
-* [Networks](networks.md)
+* [Contribute](contribute.md)
 * [F.A.Q.](faq.md)
 
 ## Guides
