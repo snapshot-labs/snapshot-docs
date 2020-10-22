@@ -8,6 +8,21 @@ description: Create your own space on Snapshot!
 
 {% embed url="https://github.com/bonustrack/snapshot-spaces" caption="" %}
 
+{% hint style="info" %}
+**Update your fork with the original repo using Git**
+
+If you have already forked a space, you must update your repo before submitting changes.
+
+Use the 4 commands below to sync your forked repository with the original repository.
+{% endhint %}
+
+```text
+git remote add master https://github.com/snapshot-labs/snapshot-spaces.git
+git fetch master
+git checkout master
+git merge master/master
+```
+
 ## **2: Copy the space "example" folder**
 
 {% embed url="https://github.com/bonustrack/snapshot-spaces/tree/master/spaces/example" caption="" %}
@@ -53,7 +68,7 @@ Example: `index.json`
   "filters": { // Filters
     "defaultTab": "all", // The default tab for the space
     "minScore": 123, // Minimum balance from the base token that a user should have to show his proposal in the space (unless the address is a core address)
-    "onlyMembers": true // Hides everything keeping the core tab and core proposals
+    "onlyMembers": true // Shows only core tab and core proposals
   },
   "invalids": [ // List of proposals IDs (use this to remove a proposal from your space)
     "QmXAZP8tYwX2zZz5EzfxLZUYJt6TM9EmxY1L4qodhZ5zcZ" // Proposal ID
