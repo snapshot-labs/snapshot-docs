@@ -2,52 +2,17 @@
 
 ### Get all spaces
 
-{% api-method method="get" host="https://hub.snapshot.page/api/spaces" path="" %}
-{% api-method-summary %}
-Get all spaces
-{% endapi-method-summary %}
-
-{% api-method-description %}
-Gets all snapshot spaces
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-{
-  "space-key": {},
-  "space-key": {},
-}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
 {% embed url="https://hub.snapshot.page/api/spaces" %}
 
 ### Get a single space
 
 {% embed url="https://hub.snapshot.page/api/spaces/yam" %}
 
-### Get all proposals for a space
+### Get all proposals of a space
 
 {% embed url="https://hub.snapshot.page/api/balancer/proposals" %}
 
-### Get all votes for a proposal
+### Get all votes of a proposal
 
 {% embed url="https://hub.snapshot.page/api/balancer/proposal/QmQpKL29E6ydTvC6p9NoEbTda9ddDkVtWe2YWpWK3NFYqq" %}
 
