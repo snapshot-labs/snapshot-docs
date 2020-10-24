@@ -77,7 +77,7 @@ Example: `index.json`
 }
 ```
 
-#### **Space** required **fields:** `token, name, network, symbol, strategies`
+#### **R**equired **fields:** `token, name, network, symbol, strategies`
 
 ## **4: Add a logo and space images**
 
