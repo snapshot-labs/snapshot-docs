@@ -69,10 +69,11 @@ Example: `index.json`
     "defaultTab": "all", // The default tab for the space
     "minScore": 123, // Minimum balance from the base token that a user should have to show his proposal in the space (unless the address is a core address)
     "onlyMembers": true // Shows only core tab and core proposals
-  },
-  "invalids": [ // List of proposals IDs (use this to remove a proposal from your space)
-    "QmXAZP8tYwX2zZz5EzfxLZUYJt6TM9EmxY1L4qodhZ5zcZ" // Proposal ID
-  ]
+    "invalids": [ // List of proposals IDs (use this to remove a proposal from your space)
+      "QmXAZP8tYwX2zZz5EzfxLZUYJt6TM9EmxY1L4qodhZ5zcZ",
+      "QmXAZV8tYwX2zZz5EzfxLZUYJt6TM9EmxY1L4qodhZ5lbL"
+    ]
+  }
 }
 ```
 
