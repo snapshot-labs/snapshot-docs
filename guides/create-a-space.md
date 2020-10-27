@@ -39,8 +39,9 @@ git merge master/master
 
 ## **3: Space metadata**
 
-* The name of the folder must be the key of your space.
-* This key also corresponds to the slug url and must not be composed with uppercase characters. `"key": "example"` to `"key": "your-space"`
+Note that your pace folder name will be the name that will show on the snapshot link:
+
+* https://snapshot.page/\#/**name**
 
 Example: `index.json`
 
