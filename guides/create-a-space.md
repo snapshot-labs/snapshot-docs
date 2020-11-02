@@ -47,7 +47,6 @@ Example: `index.json`
 
 ```javascript
 {
-  "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", // Token address
   "name": "Your Space", // Name of your space (max 20 chars)
   "network": "1", // What network you are on? (if on Ethereum it is "1", for other check: https://docs.snapshot.page/networks)
   "symbol": "SYMBOL", // Your main token symbol 
