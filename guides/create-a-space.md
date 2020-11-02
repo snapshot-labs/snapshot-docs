@@ -39,9 +39,9 @@ git merge master/master
 
 ## **3: Space metadata**
 
-Note that your pace folder name will be the name that will show on the snapshot link:
+Note that your path folder name will be the name that will show on the snapshot link:
 
-* https://snapshot.page/\#/**name**
+* https://snapshot.page/\#/**your-space**
 
 Example: `index.json`
 
