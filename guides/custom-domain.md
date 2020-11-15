@@ -16,6 +16,10 @@ description: Please ask the team for validating a custom domain
 }
 ```
 
+{% hint style="info" %}
+Check that you have the `domain` field in the `index.json` file of your space following the documentation to create a space in the paragraph[ **Space metadata**](create-a-space.md#3-space-metadata).
+{% endhint %}
+
 ## **2: Configure the DNS**
 
 You will need to add this as CNAME in your domain DNS `snapshotpage.b-cdn.net`
