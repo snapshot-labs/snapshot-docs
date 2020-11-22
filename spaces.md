@@ -1,10 +1,12 @@
 # Spaces
 
-## Create a space:
+### Create a space
 
-{% page-ref page="guides/create-a-space-github.md" %}
+{% page-ref page="guides/create-a-space.md" %}
 
-## Add a custom domain to your space:
+### Add a custom domain to your space
 
 {% page-ref page="guides/custom-domain.md" %}
+
+
 
