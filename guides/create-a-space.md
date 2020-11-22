@@ -29,3 +29,7 @@ If you don't have an ENS domain yet for your space you can register one here: [h
 When you create or edit a space, it take about 2min to see the changes live.
 {% endhint %}
 
+**4. Add your space logo and strategy image\(s\)**
+
+To get a logo for your space and images for the strategies you need to do a pull request on this repository [https://github.com/snapshot-labs/snapshot-spaces](https://github.com/snapshot-labs/snapshot-spaces). You will need to create a folder with the id of your space \(example: "my-space.eth"\). In this folder you need a file "space.png" and "logo.png" \(for the first strategy\) and "logo1.png" if you have a second strategy. All the images must be squared and less than 50kb. 
+
