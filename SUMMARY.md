@@ -8,18 +8,21 @@
 * [Plugins](plugins/README.md)
   * [Aragon Agreements](plugins/aragon.md)
 * [Hub API](hub-api.md)
-* [Contribute](contribute.md)
 * [F.A.Q.](faq.md)
 
 ## Guides
 
-* [Create a space with ENS \(beta\)](guides/create-a-space.md)
-* [Create a space \(on GitHub\)](guides/create-a-space-github.md)
+* [Create a space with ENS](guides/create-a-space.md)
+* [Migrate your space to ENS](guides/migrate-your-space-to-ens.md)
 * [Create a proposal](guides/create-a-proposal.md)
 * [Vote on a proposal](guides/vote-for-a-proposal.md)
 * [Custom domain](guides/custom-domain.md)
 * [Error messages](guides/error-messages.md)
-* [Details](guides/details/README.md)
-  * [Snapshot block number](guides/details/block-number.md)
+* [Contribute](guides/contribute.md)
 * [Sitemap](guides/sitemap.md)
+
+## Archived
+
+* [Create a space \(on GitHub\)](archived/create-a-space-github.md)
+* [Snapshot block number](archived/block-number.md)
 

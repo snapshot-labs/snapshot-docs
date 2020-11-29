@@ -1,4 +1,4 @@
-# Create a space with ENS \(beta\)
+# Create a space with ENS
 
 ### 1. Get an ENS domain for your space
 

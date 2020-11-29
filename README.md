@@ -1,6 +1,6 @@
 # Home
 
-## **Welcome to** [Snapshot](https://snapshot.page/)**!**
+## **Welcome to** Snapshot**!**
 
 Snapshot is an off-chain gasless multi-governance client with easy to verify and hard to contest results.
 
@@ -18,11 +18,7 @@ Snapshot is an off-chain gasless multi-governance client with easy to verify and
 
 {% page-ref page="proposals.md" %}
 
-
-
-
-
 > _We have limited resources so feel free to contribute with code, code review, design, bug reports, advices, documentation, or anything else you are good at._
 
-{% page-ref page="contribute.md" %}
+{% page-ref page="guides/contribute.md" %}
 
