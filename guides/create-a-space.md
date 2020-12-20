@@ -52,7 +52,7 @@ Refresh the Snapshot settings page https://snapshot.page/\#/my-space.eth/setting
 You need to add a voting strategy for your proposals. You can choose one by default and edit it by clicking on it to configure your own token in it or keep the default token. For more information on strategies, please refer to the [Strategies](../strategies.md) section.
 
 {% hint style="info" %}
-You can add several strategies by limiting them to a maximum of 3.
+You can add up to 3 strategies in your space.
 {% endhint %}
 
 ![Edit strategies on Snapshot.](../.gitbook/assets/capture-de-cran-2020-12-20-a-12.19.09.png)
