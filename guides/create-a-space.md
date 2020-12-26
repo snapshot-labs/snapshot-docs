@@ -1,5 +1,7 @@
 # Create a space with ENS
 
+*If you already have a space, see [instructions for migrating to ENS](./migrate-your-space-to-ens.md)*
+
 ### 1. Get an ENS domain for your space
 
 If you don't have an ENS domain yet for your space you will need to register one. If you need help follow the registrar  guide.
