@@ -4,15 +4,19 @@
 
 {% page-ref page="guides/create-a-space.md" %}
 
-#### See also:
+### Migrate a space
 
-[Migrate your space to ENS](guides/create-a-space.md#migrate-your-space-to-ens)
+{% page-ref page="guides/migrate-your-space-to-ens.md" %}
 
-[Add your space logo and strategy images](guides/create-a-space.md#add-your-space-logo-and-strategy-image-s)
+### Avatars
 
-[Create your own skin](guides/create-a-space.md#add-your-skin)
+{% page-ref page="guides/add-avatars.md" %}
 
-[Add a custom domain to your space](guides/create-a-space.md#add-a-custom-domain)
+### Skins
 
+{% page-ref page="guides/add-a-skin.md" %}
 
+### Custom domain
+
+{% page-ref page="guides/add-a-custom-domain.md" %}
 
