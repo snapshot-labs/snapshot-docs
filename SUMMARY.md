@@ -14,9 +14,11 @@
 
 * [Create a space with ENS](guides/create-a-space.md)
 * [Migrate your space to ENS](guides/migrate-your-space-to-ens.md)
+* [Add avatars](guides/add-avatars.md)
+* [Add a skin](guides/add-a-skin.md)
+* [Add a custom domain](guides/add-a-custom-domain.md)
 * [Create a proposal](guides/create-a-proposal.md)
 * [Vote on a proposal](guides/vote-for-a-proposal.md)
-* [Custom domain](guides/custom-domain.md)
 * [Error messages](guides/error-messages.md)
 * [Contribute](guides/contribute.md)
 * [Sitemap](guides/sitemap.md)

@@ -1,10 +1,16 @@
+---
+description: 'To create a space in Snapshot it''s easy, just follow these steps.'
+---
+
 # Create a space with ENS
 
-*If you already have a space, see [instructions for migrating to ENS](./migrate-your-space-to-ens.md)*
+{% hint style="warning" %}
+**If you already have a space see how to** [**Migrate your space to ENS**](migrate-your-space-to-ens.md)**.**
+{% endhint %}
 
-### 1. Get an ENS domain for your space
+## 1. Get an ENS domain for your space
 
-If you don't have an ENS domain yet for your space you will need to register one. If you need help follow the registrar  guide.
+If you don't have an ENS domain yet for your space you will need to register one. If you need help follow the registrar guide.
 
 **Register ENS domain**  
 [https://app.ens.domains](https://app.ens.domains/)
@@ -12,14 +18,14 @@ If you don't have an ENS domain yet for your space you will need to register one
 **DNS registrar guide**  
 [https://docs.ens.domains/dns-registrar-guide](https://docs.ens.domains/dns-registrar-guide)
 
-### 2. Link your ENS domain to Snapshot with "contenthash"
+## 2. Link your ENS domain to Snapshot with "contenthash"
 
 Once you have created your domain ENS, go on this url using your domain for space name. [https://snapshot.page/\#/**my-space.eth**/settings](https://snapshot.page/#/my-space.eth/settings)
 
 {% hint style="info" %}
 Change **my-space.eth** with your ENS domain and **login** with the wallet owner of the domain name.
 
- **&lt;your-adress&gt;** will automatically be replaced by your address when you log in.
+**&lt;your-address&gt;** will automatically be replaced by your address when you log in.
 {% endhint %}
 
 ![Set your Snapshot IPNS link.](../.gitbook/assets/capture-de-cran-2020-12-20-a-11.09.23.png)
@@ -34,22 +40,22 @@ Click **Confirm** and submit the change.
 
 ![Confirm to link your ENS domain to Snapshot.](../.gitbook/assets/image%20%285%29.png)
 
-### **3. Setup your space settings**
+## **3. Setup your space settings**
 
-Refresh the Snapshot settings page https://snapshot.page/\#/my-space.eth/settings. Now you can edit your space settings.
+Refresh the Snapshot settings page [https://snapshot.page/\#/my-space.eth/settings](https://snapshot.page/#/my-space.eth/settings). Now you can edit your space settings.
 
-#### Profile
+### Profile
 
-* **Change avatar** is detailed in the paragraph "Add your space logo and strategy image\(s\)".
+* **Change avatar** to have your [logo and strategy images in your space](add-avatars.md#add-your-space-logo-and-strategy-image-s).
 * **Name** is the name that will be displayed in the snapshot application.
 * **Network** must be the network relative to your token.
-* **Symbol** is the your main token symbol that will be displayed in your space.
-* **Skin** can be left as a default, used as an existing one or you can create your own.
-* **Domain name** is optional and must be configured as specified in the [custom domain](custom-domain.md) section.
+* **Symbol** is the main token symbol that will be displayed in your space. 
+* **Skin** can be left as a default, used as an existing one or you can [create your own skin](add-a-skin.md#add-your-skin).
+* **Domain name** is optional but you can [add a custom domain](add-a-custom-domain.md#add-a-custom-domain).
 
 ![Snapshot profile settings](../.gitbook/assets/capture-de-cran-2020-12-20-a-11.47.31.png)
 
-#### **Strategies**
+### **Strategies**
 
 You need to add a voting strategy for your proposals. You can choose one by default and edit it by clicking on it to configure your own token in it or keep the default token. For more information on strategies, please refer to the [Strategies](../strategies.md) section.
 
@@ -59,7 +65,7 @@ You can add up to 3 strategies in your space.
 
 ![Edit strategies on Snapshot.](../.gitbook/assets/capture-de-cran-2020-12-20-a-12.19.09.png)
 
-#### Members and Filters
+### Members and Filters
 
 * **Members** are those who can create official proposals that will be displayed in the "Core" tab. You can add as many addresses as you need, one per line.
 * **Default tab** is the one that will be displayed as the default for your space. For example `all` `core` or `community`
@@ -73,13 +79,17 @@ Click **Save** and **sign settings message** on your wallet.
 
 ![Save your Snapshot space settings.](../.gitbook/assets/capture-de-cran-2020-12-20-a-12.43.25.png)
 
-Now you are set! You can go on https://snapshot.page/\#/my-space.eth to see your space.
+Now you are set! You can go on [https://snapshot.page/\#/my-space.eth](https://snapshot.page/#/my-space.eth) to see your space.
 
 {% hint style="info" %}
 When you create or edit a space, it take about 3min to see the changes live.
 {% endhint %}
 
-### **4. Add your space logo and strategy image\(s\)**
+## What you should do now**?**
 
-To get a logo for your space and images for the strategies you need to do a pull request on this repository [https://github.com/snapshot-labs/snapshot-spaces](https://github.com/snapshot-labs/snapshot-spaces). You will need to create a folder with the id of your space \(example: "my-space.eth"\). In this folder you need a file "space.png" and "logo.png" \(for the first strategy\) and "logo1.png" if you have a second strategy. All the images must be squared and less than 50kb. 
+{% page-ref page="add-avatars.md" %}
+
+{% page-ref page="add-a-skin.md" %}
+
+{% page-ref page="add-a-custom-domain.md" %}
 

@@ -6,7 +6,7 @@ A strategy is a JavaScript function that returns a score for a set of addresses.
 
 ## 1: This is the default strategy used `erc20-balance-of`:
 
-{% embed url="https://github.com/bonustrack/snapshot.js/blob/master/src/strategies/erc20-balance-of/index.ts" %}
+{% embed url="https://github.com/bonustrack/snapshot.js/blob/master/src/strategies/erc20-balance-of/index.ts" caption="" %}
 
 ```javascript
 import { formatUnits } from '@ethersproject/units';
@@ -30,9 +30,9 @@ export async function strategy(provider, addresses, options, snapshot) {
 }
 ```
 
-Strategies are defined in the space `index.json` file level. This is how to add strategies to calculate the balance of voters in BAL and balance of BAL in Balancer pools where they provide liquidity. 
+Strategies are defined in the space `index.json` file level. This is how to add strategies to calculate the balance of voters in BAL and balance of BAL in Balancer pools where they provide liquidity.
 
-{% embed url="https://github.com/bonustrack/snapshot-spaces/blob/master/spaces/balancer/index.json\#L20-L30" %}
+{% embed url="https://github.com/bonustrack/snapshot-spaces/blob/master/spaces/balancer/index.json\#L20-L30" caption="" %}
 
 ```javascript
 {
@@ -61,7 +61,5 @@ Strategies can be used to create a score from on-chain data, the data does not n
 
 ## More strategies are on Snapshot.js here:
 
-{% embed url="https://github.com/bonustrack/snapshot.js/tree/master/src/strategies" %}
-
-
+{% embed url="https://github.com/bonustrack/snapshot.js/tree/master/src/strategies" caption="" %}
 
