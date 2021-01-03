@@ -26,6 +26,6 @@ All the images must be squared and less than 50kb.
 {% endhint %}
 
 {% hint style="info" %}
-After committing your PR, you will have to wait for the merge and the deployment of your PR to be able to select your skin and your domain live. This process can take a few hours.
+After committing your PR, you will have to wait for the merge of your PR to be able to see your images live. This process can take a few hours.
 {% endhint %}
 
