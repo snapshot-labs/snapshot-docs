@@ -44,5 +44,3 @@ Select then your skin in the Skin field in your space settings.
 After committing your PR, you will have to wait for the merge and the deployment of your PR to be able to select your skin available. This process can take a few hours.
 {% endhint %}
 
-
-
