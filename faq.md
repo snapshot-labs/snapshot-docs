@@ -10,13 +10,23 @@ Usually snapshot checks and follows through PRs every 24 to 48h, if you submitte
 
 ## **2: I am getting an error "wrong timestamp", what is the problem?**
 
-Your computer time is not synced, follow the steps to fix it: \(for other errors check [here](guides/error-messages.md)\)
+Most likely the issue is that your computer time is not synchronized with the internet time. This is how to fix this:
 
-1. Make sure your time zone is a correct timezone, set it from the dropdown box.
-2. Click sync button.
-3. Switch the **Set time automatically** to **ON**.
-4. Switch the **Set timezone automatically** to **ON**.
-5. Then try again on snapshot website.
+#### On MacOS
+
+1. On your Mac, choose Apple menu &gt; System Preferences, then click Date & Time. 
+2. Click Date & Time, then set the date and time automatically.
+
+![](.gitbook/assets/image.png)
+
+#### On Windows
+
+1. Go to Start  &gt; Settings  &gt; Time & language &gt; Date & time.
+2. Then set time automatically.
+
+![](.gitbook/assets/image%20%282%29.png)
+
+
 
 ## **3: I went to** `https://snapshot.page/#/your-space` **but i see a blank page, how to fix it?**
 
