@@ -9,7 +9,28 @@ Example: https://snapshot.page/\#/**yam.eth**/settings/**yam**
 
 {% page-ref page="create-a-space.md" %}
 
-### 2. Migrate proposals, votes and urls
+### 2. Declare your new space alias
+
+To add your new space alias you need to do a pull request on this repository:
+
+{% embed url="https://github.com/snapshot-labs/snapshot-spaces" %}
+
+#### Follow the Snapshot spaces directory tree
+
+```bash
+└── spaces
+    └── aliases.json
+```
+
+You must add your new alias in the [aliases.json file](https://github.com/snapshot-labs/snapshot-spaces/blob/master/spaces/aliases.json) by following this example.
+
+```javascript
+{
+  "my-space": "my-space.eth"
+}
+```
+
+### 3. Migrate proposals, votes and urls
 
 The migration of the proposals, votes and urls is done manually, once your space with ENS is ready please contact an admin on [Discord](https://discord.snapshot.page) to do the changes.
 
