@@ -24,8 +24,9 @@
 * [Contribute](guides/contribute.md)
 * [Sitemap](guides/sitemap.md)
 
-## Archived
+---
 
-* [Create a space \(on GitHub\)](archived/create-a-space-github.md)
-* [Snapshot block number](archived/block-number.md)
+* [Archived](archived/README.md)
+  * [Snapshot block number](archived/block-number.md)
+  * [Create a space \(on GitHub\)](archived/create-a-space-github.md)
 
