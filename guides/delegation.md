@@ -1,4 +1,8 @@
-# Snapshot Delegation
+---
+description: Snapshot Delegation.
+---
+
+# Delegation
 
 You can from now on **delegate** your votes on snapshot.
 
