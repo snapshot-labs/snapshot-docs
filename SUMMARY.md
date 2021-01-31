@@ -19,6 +19,7 @@
 * [Add a custom domain](guides/add-a-custom-domain.md)
 * [Create a proposal](guides/create-a-proposal.md)
 * [Vote on a proposal](guides/vote-for-a-proposal.md)
+* [Snapshot Delegation](guides/delegation.md)
 * [Error messages](guides/error-messages.md)
 * [Contribute](guides/contribute.md)
 * [Sitemap](guides/sitemap.md)
