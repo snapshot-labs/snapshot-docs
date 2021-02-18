@@ -26,14 +26,6 @@
 
 You can get a proposal content from IPFS directly using the proposal id:[ https://ipfs.io/ipfs/QmQpKL29E6ydTvC6p9NoEbTda9ddDkVtWe2YWpWK3NFYqq](https://ipfs.io/ipfs/QmQpKL29E6ydTvC6p9NoEbTda9ddDkVtWe2YWpWK3NFYqq)
 
-### Testnet hub
-
-To see content from [https://demo.snapshot.page](https://demo.snapshot.page/#/) you need to query the testnet hub at this url: [https://testnet.snapshot.page](https://testnet.snapshot.page/)
-
-### Get list of voters
-
-
-
 {% api-method method="get" host="https://hub.snapshot.page/api/voters?from=1608500000&to=1609500000&spaces=balancer,yam.eth" path="" %}
 {% api-method-summary %}
 List of voters
@@ -85,4 +77,8 @@ Spaces ids separated with commas
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+### Testnet hub
+
+To see content from [https://demo.snapshot.page](https://demo.snapshot.page/#/) you need to query the testnet hub at this url: [https://testnet.snapshot.page](https://testnet.snapshot.page/)
 
