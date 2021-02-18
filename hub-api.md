@@ -34,7 +34,7 @@ To see content from [https://demo.snapshot.page](https://demo.snapshot.page/#/) 
 
 
 
-{% api-method method="get" host="https://hub.snapshot.page/api/voters" path="?from=1608500000&to=1609500000&spaces=balancer,yam.eth" %}
+{% api-method method="get" host="https://hub.snapshot.page/api/voters ?from=1608500000&to=1609500000&spaces=balancer,yam.eth" path="" %}
 {% api-method-summary %}
 List of voters
 {% endapi-method-summary %}
