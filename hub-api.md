@@ -47,15 +47,15 @@ Get a list of all voters from specific spaces for a specific period.
 {% api-method-request %}
 {% api-method-query-parameters %}
 {% api-method-parameter name="from" type="number" required=false %}
-
+Timestamp from
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="to" type="number" required=false %}
-
+Timestamp to
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="spaces" type="string" required=false %}
-
+Spaces ids separated with commas
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -85,8 +85,4 @@ Get a list of all voters from specific spaces for a specific period.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-
-
-
 
