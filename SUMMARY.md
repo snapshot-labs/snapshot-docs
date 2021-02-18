@@ -2,7 +2,7 @@
 
 * [Home](README.md)
 * [Spaces](spaces/README.md)
-  * [Create space with ENS](spaces/create.md)
+  * [Create a space with ENS](spaces/create.md)
   * [Migrate your space to ENS](spaces/migrate.md)
   * [Add an avatar](spaces/add-avatar.md)
   * [Add a skin](spaces/add-skin.md)
@@ -16,7 +16,7 @@
   * [Aragon Agreements](plugins/aragon.md)
 * [Networks](networks.md)
 * [Hub API](hub-api.md)
-* [F.A.Q.](faq.md)
+* [FAQs](faq.md)
 
 ## Guides
 
