@@ -5,7 +5,7 @@ description: To create a space in Snapshot follow these steps.
 # Create a space with ENS
 
 {% hint style="warning" %}
-**If you already have a space see how to** [**Migrate your space to ENS**](migrate.md)**.**
+**If you already have a space with GitHub see how to** [**Migrate your space to ENS**](migrate.md)**.**
 {% endhint %}
 
 ## 1. Get an ENS domain for your space
@@ -15,7 +15,7 @@ You will need an ENS domain for creating your space, register one here:
 
 If you have never registered an ENS before or need help then checkout this guide:[ https://docs.ens.domains/dns-registrar-guide](https://docs.ens.domains/dns-registrar-guide)
 
-## 2. Link your ENS domain to Snapshot with "contenthash"
+## 2. Link your ENS domain to Snapshot
 
 Once you have created your domain ENS, go on this url using your domain for space name. `https://snapshot.page/#/<SPACE ADDRESS>/settings`
 
@@ -27,13 +27,14 @@ Replace `<SPACE ADDRESS>` with your ENS domain and login with the wallet that ow
 
 If you are on your domain space and connected with your wallet you will see the correct **IPNS link** in the **ENS field**. Click on the button **Set record on ENS**, and you will get redirected to ENS page.
 
-On the ENS page, click on **ADD/EDIT RECORD** and paste the **IPNS link** in the **CONTENT** field.
+* On the ENS page, click on **ADD/EDIT RECORD**
+* Select **TEXT** and type the key **"snapshot"**
+* Paste the **IPNS link** in the field.
+* Click **Save**.
+* Scroll down and click **Confirm**
+* Sign the transaction with your wallet.
 
-![Add your Snapshot IPNS link](../.gitbook/assets/image%20%283%29.png)
-
-Click **Confirm** and sign it with your wallet.
-
-![Confirm to link your ENS domain to Snapshot](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/snapshot%20%281%29.gif)
 
 ## **3. Setup your space settings**
 
