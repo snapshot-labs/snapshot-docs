@@ -5,7 +5,7 @@ description: To create a space in Snapshot follow these steps.
 # Create a space with ENS
 
 {% hint style="warning" %}
-**If you already have a space with GitHub see how to** [**Migrate your space to ENS**](migrate.md)**.**
+**If you already have a space with GitHub see how to** [**Migrate your space to ENS**](https://docs.snapshot.page/spaces/migrate)**.**
 {% endhint %}
 
 ## 1. Get an ENS domain for your space
@@ -27,11 +27,11 @@ Replace `<SPACE ADDRESS>` with your ENS domain and login with the wallet that ow
 
 If you are on your domain space and connected with your wallet you will see the correct **IPNS link** in the **ENS field**. Click on the button **Set record on ENS**, and you will get redirected to ENS page.
 
-* On the ENS page, click on **ADD/EDIT RECORD**
-* Select **TEXT** and type the key **"snapshot"**
+* On the ENS page, click on **ADD/EDIT RECORD**.
+* Select **TEXT** and type the key **"snapshot"** in lowercase.
 * Paste the **IPNS link** in the field.
 * Click **Save**.
-* Scroll down and click **Confirm**
+* Scroll down and click **Confirm**.
 * Sign the transaction with your wallet.
 
 ![](../.gitbook/assets/snapshot%20%281%29.gif)
