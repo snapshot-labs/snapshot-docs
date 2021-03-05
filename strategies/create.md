@@ -1,5 +1,5 @@
 ---
-description: Create a strategy and use it on your own space.
+description: Create a strategy and use it on your own space
 ---
 
 # Create new strategy
@@ -30,5 +30,5 @@ npm run test // for the default strategy
 
 #### 4. Include it at**`src\strategies\index.ts` and create a pull request**
 
-
+**5. The snapshot team will review your PR and after it is approved it will be available in your space settings.**
 
