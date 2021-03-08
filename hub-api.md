@@ -20,7 +20,7 @@
 
 \(Will be standardised\)
 
-{% embed url="https://github.com/balancer-labs/snapshot/blob/develop/src/views/Proposals.vue\#L97-L135" %}
+{% embed url="https://github.com/snapshot-labs/snapshot/blob/9cd2e670747669e9b5f2eef1896129e68fd3bc50/src/helpers/utils.ts\#L156-L176" %}
 
 ### Get a proposal
 
