@@ -42,12 +42,12 @@ Refresh the Snapshot settings page `https://snapshot.page/#/<SPACE ADDRESS>/sett
 
 ### Profile
 
-* **Change avatar** to have your [logo and strategy images in your space](add-avatar.md#add-your-space-logo-and-strategy-image-s).
+* **Change avatar** to have your [logo and strategy images in your space](add-avatar.md).
 * **Name** is the name that will be displayed in the snapshot application.
 * **Network** must be the network relative to your token.
 * **Symbol** is the main token symbol that will be displayed in your space.
-* **Skin** can be left as a default, used as an existing one or you can [create your own skin](add-skin.md#add-your-skin).
-* **Domain name** is optional but you can [add a custom domain](add-custom-domain.md#add-a-custom-domain).
+* **Skin** can be left as a default, used as an existing one or you can [create your own skin](add-skin.md).
+* **Domain name** is optional but you can [add a custom domain](add-custom-domain.md).
 
 ![Snapshot profile settings](../.gitbook/assets/capture-de-cran-2020-12-20-a-11.47.31.png)
 
