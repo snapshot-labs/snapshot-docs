@@ -40,3 +40,7 @@ Most likely the issue is that your computer time is not synchronized with the in
 * Snapshot live: `http://snapshot.page/#/<MY SPACE>`
 * Snapshot demo: `http://demo.snapshot.page/#/<MY SPACE>`
 
+## **Why i can't vote?**
+
+To be able to vote you need voting power, your voting power is calculated at the "snapshot" of the proposal. The snapshot is the block number where the voting power matter, if you don't have any token at this block number you will not have any voting power and won't be able to vote.
+
