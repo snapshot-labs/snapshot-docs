@@ -2,7 +2,7 @@
 
 * [Home](README.md)
 * [Spaces](spaces/README.md)
-  * [Create a space with ENS](spaces/create.md)
+  * [Create a space](spaces/create.md)
   * [Migrate your space to ENS](spaces/migrate.md)
   * [Add an avatar](spaces/add-avatar.md)
   * [Add a skin](spaces/add-skin.md)

@@ -2,18 +2,22 @@
 description: To create a space in Snapshot follow these steps.
 ---
 
-# Create a space with ENS
+# Create a space
 
-{% hint style="warning" %}
-**If you already have a space with GitHub see how to** [**Migrate your space to ENS**](https://docs.snapshot.page/spaces/migrate)**.**
+{% hint style="info" %}
+If you already have a space with GitHub see how to [Migrate your space to ENS](https://docs.snapshot.page/spaces/migrate).
 {% endhint %}
 
 ## 1. Get an ENS domain for your space
 
 You will need an ENS domain for creating your space, register one here:  
-[https://app.ens.domains](https://app.ens.domains/)
+[https://app.ens.domains](https://app.ens.domains/) 
 
 If you have never registered an ENS before or need help then checkout this guide:[ https://docs.ens.domains/dns-registrar-guide](https://docs.ens.domains/dns-registrar-guide)
+
+{% hint style="info" %}
+You need an ENS domain on **Ethereum mainnet** even if you want to use Ethereum testnets or others network \(Binance Smart Chain, xDAI... etc\).
+{% endhint %}
 
 ## 2. Link your ENS domain to Snapshot
 
