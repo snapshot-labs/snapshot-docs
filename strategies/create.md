@@ -18,7 +18,7 @@ To add your own strategy on Snapshot you need to fork the **snapshot.js** reposi
 
 #### 2. Create a copy of the **`erc20-balance-of`** strategy folder and rename it to the name of your strategy
 
-#### 3. Write the logic of your strategy and test it with:
+#### 3. Write the logic of your strategy, include it in**`src\strategies\index.ts` and test it with:
 
 ```javascript
 npm run test --strategy=<STRATEGY NAME> // replace <STRATEGY NAME>
@@ -28,7 +28,7 @@ npm run test --strategy=<STRATEGY NAME> // replace <STRATEGY NAME>
 npm run test // for the default strategy
 ```
 
-#### 4. Include it at**`src\strategies\index.ts` and create a pull request**
+#### 4. Create a pull request**
 
 **5. The snapshot team will review your PR and after it is approved it will be available in your space settings.**
 
