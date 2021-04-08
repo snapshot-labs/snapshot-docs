@@ -1,4 +1,12 @@
+---
+description: The official JavaScript client for build Snapshot apps.
+---
+
 # Snapshot.js
+
+
+
+{% embed url="https://github.com/snapshot-labs/snapshot.js" %}
 
 ### **Utils**
 
