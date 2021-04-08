@@ -17,6 +17,7 @@
   * [Aragon Agreements](plugins/aragon.md)
 * [Networks](networks.md)
 * [Hub API](hub-api.md)
+* [Snapshot.js](snapshot.js.md)
 * [FAQs](faq.md)
 
 ## Guides

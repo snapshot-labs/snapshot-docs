@@ -17,7 +17,7 @@ Most likely the issue is that your computer time is not synchronized with the in
 1. On your Mac, choose Apple menu &gt; System Preferences, then click Date & Time.
 2. Click Date & Time, then set the date and time automatically.
 
-![](.gitbook/assets/image.png)
+![](.gitbook/assets/image%20%286%29.png)
 
 ### On Windows
 
