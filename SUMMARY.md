@@ -13,6 +13,7 @@
 * [Strategies](strategies/README.md)
   * [Create new strategy](strategies/create.md)
 * [Plugins](plugins/README.md)
+  * [Create a plugin](plugins/create.md)
   * [DAO Module](plugins/dao-module.md)
   * [Aragon Agreements](plugins/aragon.md)
 * [Networks](networks.md)
