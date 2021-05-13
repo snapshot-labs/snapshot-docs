@@ -17,7 +17,9 @@
   * [DAO Module](plugins/dao-module.md)
   * [Aragon Agreements](plugins/aragon.md)
 * [Networks](networks.md)
-* [Hub API](hub-api.md)
+* [Snapshot hub API](snapshot-hub-api/README.md)
+  * [GraphQL API](snapshot-hub-api/graphql-api.md)
+  * [Rest API](snapshot-hub-api/hub-api.md)
 * [Snapshot.js](snapshot.js.md)
 * [FAQs](faq.md)
 

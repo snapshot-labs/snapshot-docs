@@ -1,4 +1,4 @@
-# Hub API
+# Rest API
 
 ### Get all spaces
 
@@ -15,12 +15,6 @@
 ### Get all votes of a proposal
 
 {% embed url="https://hub.snapshot.page/api/balancer/proposal/QmQpKL29E6ydTvC6p9NoEbTda9ddDkVtWe2YWpWK3NFYqq" %}
-
-### Filter proposals
-
-\(Will be standardised\)
-
-{% embed url="https://github.com/snapshot-labs/snapshot/blob/9cd2e670747669e9b5f2eef1896129e68fd3bc50/src/helpers/utils.ts\#L156-L176" %}
 
 ### Get a proposal
 
