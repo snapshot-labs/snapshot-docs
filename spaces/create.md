@@ -8,7 +8,7 @@ description: To create a space in Snapshot follow these steps.
 If you already have a space with GitHub see how to [Migrate your space to ENS](https://docs.snapshot.page/spaces/migrate).
 {% endhint %}
 
-## 1. Get an ENS domain for your space
+### 1. Get an ENS domain for your space
 
 You will need an ENS domain for creating your space, register one here:  
 [https://app.ens.domains](https://app.ens.domains/) 
@@ -17,7 +17,7 @@ _You need an ENS domain on **Ethereum mainnet** even if you want to use Ethereum
 
 If you have never registered an ENS before or need help then checkout this guide:[ https://docs.ens.domains/dns-registrar-guide](https://docs.ens.domains/dns-registrar-guide)
 
-## 2. Link your ENS domain to Snapshot
+### 2. Link your ENS domain to Snapshot
 
 Once you have created your domain ENS, go on this url using your domain for space name. `https://snapshot.page/#/<SPACE ADDRESS>/settings`
 
@@ -38,11 +38,11 @@ If you are on your domain space and connected with your wallet you will see the 
 
 ![](../.gitbook/assets/snapshot%20%281%29.gif)
 
-## **3. Setup your space settings**
+### **3. Setup your space settings**
 
 Refresh the Snapshot settings page `https://snapshot.page/#/<SPACE ADDRESS>/settings` to see the space setting.
 
-### Profile
+#### Profile
 
 * **Change avatar** to have your [logo and strategy images in your space](add-avatar.md).
 * **Name** is the name that will be displayed in the snapshot application.
@@ -53,7 +53,7 @@ Refresh the Snapshot settings page `https://snapshot.page/#/<SPACE ADDRESS>/sett
 
 ![Snapshot profile settings](../.gitbook/assets/capture-de-cran-2020-12-20-a-11.47.31.png)
 
-### **Strategies**
+#### **Strategies**
 
 You need to add a voting strategy for your proposals. `erc20-balance-of` is chosen by default and you can click on it to add your own token address.
 
@@ -67,7 +67,7 @@ You can add up to 3 strategies in your space.
 
 ![Edit strategies](../.gitbook/assets/capture-de-cran-2020-12-20-a-12.19.09.png)
 
-### Members and Filters
+#### Members and Filters
 
 * **Members** are those who can create official proposals that will be displayed in the "Core" tab. You can add as many addresses as you need, one per line.
 * **Default tab** is the one that will be displayed as the default for your space. For example `all` `core` or `community`
@@ -87,7 +87,7 @@ Now you are set! You can go on `https://snapshot.page/#/<SAPCE ADDRESS>` to see 
 When you create or edit a space, it take about 3min to see the changes live.
 {% endhint %}
 
-## What you should do now**?**
+### What you should do now**?**
 
 {% page-ref page="add-avatar.md" %}
 
