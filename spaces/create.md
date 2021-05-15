@@ -13,11 +13,9 @@ If you already have a space with GitHub see how to [Migrate your space to ENS](h
 You will need an ENS domain for creating your space, register one here:  
 [https://app.ens.domains](https://app.ens.domains/) 
 
-If you have never registered an ENS before or need help then checkout this guide:[ https://docs.ens.domains/dns-registrar-guide](https://docs.ens.domains/dns-registrar-guide)
+_You need an ENS domain on **Ethereum mainnet** even if you want to use Ethereum testnets or others networks \(Binance Smart Chain, xDAI... etc\)._
 
-{% hint style="info" %}
-You need an ENS domain on **Ethereum mainnet** even if you want to use Ethereum testnets or others network \(Binance Smart Chain, xDAI... etc\).
-{% endhint %}
+If you have never registered an ENS before or need help then checkout this guide:[ https://docs.ens.domains/dns-registrar-guide](https://docs.ens.domains/dns-registrar-guide)
 
 ## 2. Link your ENS domain to Snapshot
 
