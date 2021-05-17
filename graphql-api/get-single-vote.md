@@ -11,7 +11,7 @@
 {% tabs %}
 {% tab title="Request" %}
 ```graphql
-query Vote {
+query {
   vote (
     id: "QmeU7ct9Y4KLrh6F6mbT1eJNMkeQKMSnSujEfMCfbRLCMp"
   ) {

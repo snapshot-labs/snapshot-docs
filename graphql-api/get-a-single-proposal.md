@@ -11,7 +11,7 @@
 {% tabs %}
 {% tab title="Request" %}
 ```graphql
-query Proposal {
+query {
   proposal(id:"QmZ21uS8tVucpaNq2LZCbZUmHhYYXunC1ZS2gPDNWwPWD9") {
     id
     title

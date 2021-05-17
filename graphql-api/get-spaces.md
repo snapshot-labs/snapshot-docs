@@ -17,7 +17,7 @@ asc or desc`**
 {% tabs %}
 {% tab title="Request" %}
 ```graphql
-query Spaces {
+query {
   spaces(
     first: 20,
     skip: 0,
@@ -87,4 +87,6 @@ query Spaces {
 ```
 {% endtab %}
 {% endtabs %}
+
+
 

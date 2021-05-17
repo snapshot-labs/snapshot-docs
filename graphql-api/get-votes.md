@@ -31,7 +31,7 @@ state: [String]`**
 {% tabs %}
 {% tab title="Request" %}
 ```graphql
-query Votes {
+query {
   votes (
     first: 1000
     skip: 0

@@ -19,7 +19,7 @@
 * [Networks](networks.md)
 * [GraphQL API](graphql-api/README.md)
   * [Get spaces](graphql-api/get-spaces.md)
-  * [Get a single space](graphql-api/get-a-single-space.md)
+  * [Spaces](graphql-api/get-a-single-space.md)
   * [Get proposals](graphql-api/get-proposals.md)
   * [Get a single proposal](graphql-api/get-a-single-proposal.md)
   * [Get votes](graphql-api/get-votes.md)
