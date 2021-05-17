@@ -1,6 +1,22 @@
 # GraphQL API
 
-Try the GraphQL API here:
+### Endpoints
+
+Production hub
+
+```text
+https://hub.snapshot.page/graphql
+```
+
+Demo hub
+
+```text
+https://testnet.snapshot.page/graphql
+```
+
+### Console
+
+You can try the GraphQL API in the console here:
 
 {% embed url="https://hub.snapshot.page/graphql" %}
 
@@ -385,7 +401,6 @@ query {
     }
   }
 }
-
 ```
 {% endtab %}
 
