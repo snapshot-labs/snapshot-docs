@@ -154,7 +154,7 @@ id `string`‌
 {% tabs %}
 {% tab title="Request" %}
 ```graphql
-query Proposal {
+query {
   proposal(id:"QmWbpCtwdLzxuLKnMW4Vv4MPFd2pdPX71YBKPasfZxqLUS") {
     id
     title
@@ -212,13 +212,13 @@ Try on [GraphiQL](https://hub.snapshot.page/graphql?operationName=Proposal&query
 first `number`  
 skip `number`  
 where:  
-    - id`String`  
+    - id`string`  
     - id\_in`array`  
-    - space:`String`  
+    - space:`string`  
     - space\_in:`array`  
-    - author:`String`  
+    - author:`string`  
     - author\_in:`array`  
-    - network: `String`  
+    - network: `string`  
     - network\_in: `array`  
     - state: `array`  
 orderBy `string`  
@@ -229,7 +229,7 @@ orderDirection `asc` or `desc`
 {% tabs %}
 {% tab title="Request" %}
 ```graphql
-query Proposals {
+query {
   proposals (
     first: 20,
     skip: 0,
@@ -303,7 +303,7 @@ id `string`‌
 {% tabs %}
 {% tab title="Request" %}
 ```graphql
-query Vote {
+query {
   vote (
     id: "QmeU7ct9Y4KLrh6F6mbT1eJNMkeQKMSnSujEfMCfbRLCMp"
   ) {
@@ -349,13 +349,13 @@ Try on [GraphiQL](https://hub.snapshot.page/graphql?operationName=Vote&query=que
 first `number`  
 skip `number`  
 where:  
-    - id`String`  
+    - id`string`  
     - id\_in`array`  
-    - space:`String`  
+    - space:`string`  
     - space\_in:`array`  
-    - voter:`String`  
+    - voter:`string`  
     - voter\_in:`array`  
-    - proposal: `String`  
+    - proposal: `string`  
     - proposal\_in: `array`  
 orderBy `string`  
 orderDirection `asc` or `desc`
@@ -365,7 +365,7 @@ orderDirection `asc` or `desc`
 {% tabs %}
 {% tab title="Request" %}
 ```graphql
-query Votes {
+query {
   votes (
     first: 1000
     skip: 0
