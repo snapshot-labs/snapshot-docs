@@ -17,11 +17,7 @@
   * [DAO Module](plugins/dao-module.md)
   * [Aragon Agreements](plugins/aragon.md)
 * [Networks](networks.md)
-* [GraphQL API](graphql-api/README.md)
-  * [Get proposals](graphql-api/get-proposals.md)
-  * [Get a single proposal](graphql-api/get-a-single-proposal.md)
-  * [Get votes](graphql-api/get-votes.md)
-  * [Get single vote](graphql-api/get-single-vote.md)
+* [GraphQL API](graphql-api.md)
 * [Snapshot.js](snapshot.js.md)
 * [FAQs](faq.md)
 
