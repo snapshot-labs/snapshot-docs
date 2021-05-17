@@ -8,7 +8,7 @@ Try the GraphQL API here:
 
 ### Get a single space
 
-GraphQL query
+[GraphQL query](https://hub.snapshot.page/graphql?query=query%20%7B%0A%20%20space%28id%3A%20%22yam.eth%22%29%20%7B%0A%20%20%20%20id%0A%20%20%20%20name%0A%20%20%20%20about%0A%20%20%20%20network%0A%20%20%20%20symbol%0A%20%20%20%20members%0A%20%20%7D%0A%7D)
 
 ```graphql
 query {
