@@ -4,7 +4,7 @@ Try the GraphQL API here:
 
 {% embed url="https://hub.snapshot.page/graphql" %}
 
-![](../.gitbook/assets/image.png)
+![](.gitbook/assets/image.png)
 
 ### Get a single space
 

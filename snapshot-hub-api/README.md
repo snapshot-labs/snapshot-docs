@@ -1,2 +1,0 @@
-# Snapshot hub API
-

@@ -17,9 +17,7 @@
   * [DAO Module](plugins/dao-module.md)
   * [Aragon Agreements](plugins/aragon.md)
 * [Networks](networks.md)
-* [Snapshot hub API](snapshot-hub-api/README.md)
-  * [GraphQL API](snapshot-hub-api/graphql-api.md)
-  * [Rest API](snapshot-hub-api/hub-api.md)
+* [GraphQL API](graphql-api.md)
 * [Snapshot.js](snapshot.js.md)
 * [FAQs](faq.md)
 
@@ -30,6 +28,7 @@
 * [Error messages](guides/error-messages.md)
 * [Contribute](guides/contribute.md)
 * [Archived](guides/archived/README.md)
+  * [Rest API](guides/archived/hub-api.md)
   * [Snapshot block number](guides/archived/block-number.md)
   * [Create a space \(on GitHub\)](guides/archived/create-a-space-github.md)
 
