@@ -1,6 +1,16 @@
 # GraphQL API
 
-### Endpoints
+You can use the GraphQL API to create flexible queries for the data you need to integrate with Snapshot.
+
+## Explorer
+
+You can run queries on real Snapshot data using the GraphQL Explorer, an integrated development environment in your browser that includes docs, syntax highlighting, and validation errors. Try here:
+
+{% embed url="https://hub.snapshot.page/graphql" %}
+
+![](.gitbook/assets/image.png)
+
+## Endpoints
 
 Production hub
 
@@ -14,13 +24,7 @@ Demo hub
 https://testnet.snapshot.page/graphql
 ```
 
-### Console
-
-You can try the GraphQL API in the console here:
-
-{% embed url="https://hub.snapshot.page/graphql" %}
-
-![](.gitbook/assets/image.png)
+## Queries
 
 ### Get a single space <a id="space"></a>
 
