@@ -19,7 +19,7 @@ If you have never registered an ENS before or need help then checkout this guide
 
 ### 2. Link your ENS domain to Snapshot
 
-Once you have created your domain ENS, go on this url using your domain for space name. `https://snapshot.page/#/<SPACE ADDRESS>/settings`
+Once you have created your domain ENS, go on this url using your domain for space name. `https://snapshot.page/#/<SPACE ADDRESS>/settings` and login with your wallet, \(you will need a wallet that can sign message like MetaMask, Fortmatic, Portis, Argent. Don't use a Gnosis Safe has they are currently not supported\).
 
 {% hint style="info" %}
 Replace `<SPACE ADDRESS>` with your ENS domain and login with the wallet that owns the domain name.

@@ -181,6 +181,13 @@ query {
     snapshot
     state
     author
+    created
+    plugins
+    network
+    strategies {
+      name
+      params
+    }
     space {
       id
       name
