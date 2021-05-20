@@ -1,6 +1,10 @@
-# GraphQL API
+---
+description: >-
+  You can use the GraphQL API to create flexible queries for the data you need
+  to integrate with Snapshot.
+---
 
-You can use the GraphQL API to create flexible queries for the data you need to integrate with Snapshot.
+# GraphQL API
 
 ## Explorer
 
