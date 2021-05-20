@@ -82,6 +82,9 @@ Try on [GraphiQL](https://hub.snapshot.page/graphql?query=query%20%7B%0A%20%20sp
 
 first `number`  
 skip `number`  
+where:  
+    - id`string`  
+    - id\_in`array`  
 orderBy `string`  
 orderDirection `asc` or `desc`
 
