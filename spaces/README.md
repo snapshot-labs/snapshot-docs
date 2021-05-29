@@ -10,7 +10,7 @@
 
 ### Avatars
 
-{% page-ref page="add-avatar.md" %}
+{% page-ref page="../guides/archived/add-avatar.md" %}
 
 ### Skins
 

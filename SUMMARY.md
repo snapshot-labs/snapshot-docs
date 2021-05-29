@@ -4,7 +4,6 @@
 * [Spaces](spaces/README.md)
   * [Create a space](spaces/create.md)
   * [Migrate your space to ENS](spaces/migrate.md)
-  * [Add an avatar](spaces/add-avatar.md)
   * [Add a skin](spaces/add-skin.md)
   * [Add a custom domain](spaces/add-custom-domain.md)
 * [Proposals](proposals/README.md)
@@ -30,5 +29,6 @@
 * [Archived](guides/archived/README.md)
   * [Rest API](guides/archived/hub-api.md)
   * [Snapshot block number](guides/archived/block-number.md)
+  * [Add an avatar](guides/archived/add-avatar.md)
   * [Create a space \(on GitHub\)](guides/archived/create-a-space-github.md)
 

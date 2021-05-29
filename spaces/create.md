@@ -19,13 +19,17 @@ If you have never registered an ENS before or need help then checkout this guide
 
 ### 2. Link your ENS domain to Snapshot
 
-Once you have created your domain ENS, go on this url using your domain for space name. `https://snapshot.page/#/<SPACE ADDRESS>/settings` and login with your wallet, \(you will need a wallet that can sign message like MetaMask, Fortmatic, Portis, Argent. Don't use a Gnosis Safe has they are currently not supported\).
+Once you have created your ENS domain, Go to this url and modify the tag with your ENS domain. `https://snapshot.org/#/`**`<ENS DOMAIN>`**`/settings` and login with the wallet that owns the ENS domain.
+
+![Access your space settings](../.gitbook/assets/access-to-your-space-settings.png)
+
+Once connected, the **&lt;your-address&gt;** tag will be replaced with your wallet address.
 
 {% hint style="info" %}
-Replace `<SPACE ADDRESS>` with your ENS domain and login with the wallet that owns the domain name.
+You will need a wallet that can sign message like MetaMask, Fortmatic, Portis, Argent. Don't use a Gnosis Safe has they are currently not supported.
 {% endhint %}
 
-![Set your Snapshot IPNS link](../.gitbook/assets/capture-de-cran-2020-12-20-a-11.09.23.png)
+![Set your Snapshot IPNS link](../.gitbook/assets/set-your-ipns-link.png)
 
 If you are on your domain space and connected with your wallet you will see the correct **IPNS link** in the **ENS field**. Click on the button **Set record on ENS**, and you will get redirected to ENS page.
 
@@ -40,56 +44,79 @@ If you are on your domain space and connected with your wallet you will see the 
 
 ### **3. Setup your space settings**
 
-Refresh the Snapshot settings page `https://snapshot.page/#/<SPACE ADDRESS>/settings` to see the space setting.
+Refresh the Snapshot settings page `https://snapshot.org/#/`**`<ENS DOMAIN>`**`/settings` to see the space setting.
 
 #### Profile
 
-* **Change avatar** to have your [logo and strategy images in your space](add-avatar.md).
-* **Name** is the name that will be displayed in the snapshot application.
+![](../.gitbook/assets/profile-settings.png)
+
+* **Name** is the name that will be displayed in your space.
+* **About** is the description of your governance purposes.
+* **Avatar** is your company logo.
 * **Network** must be the network relative to your token.
+
+![Select a network](../.gitbook/assets/select-a-network.png)
+
 * **Symbol** is the main token symbol that will be displayed in your space.
 * **Skin** can be left as a default, used as an existing one or you can [create your own skin](add-skin.md).
-* **Domain name** is optional but you can [add a custom domain](add-custom-domain.md).
 
-![Snapshot profile settings](../.gitbook/assets/capture-de-cran-2020-12-20-a-11.47.31.png)
+![Select a skin](../.gitbook/assets/select-a-skin.png)
+
+* **Twitter** and **Github** just add a username to link to your different accounts.
+* **Domain name** is optional but you can [add a custom domain](add-custom-domain.md).
+* **Terms** links to your website's terms and conditions.
+* **Hide space from homepage** if you want to keep your space "private".
 
 #### **Strategies**
 
-You need to add a voting strategy for your proposals. `erc20-balance-of` is chosen by default and you can click on it to add your own token address.
+You need to add a voting strategy for your proposals. `erc20-balance-of` is the most used strategy.
+
+![Add a strategy](../.gitbook/assets/add-a-strategy.png)
+
+{% hint style="info" %}
+You can add up to 5 strategies in your space.
+{% endhint %}
+
+Once selected, you can edit the strategy by clicking on it if you want to add your own token.
+
+![](../.gitbook/assets/edit-a-strategy.png)
 
 More information here:
 
 {% page-ref page="../strategies/" %}
 
-{% hint style="info" %}
-You can add up to 3 strategies in your space.
-{% endhint %}
+#### Admins
 
-![Edit strategies](../.gitbook/assets/capture-de-cran-2020-12-20-a-12.19.09.png)
+The admins will be able to edit the space settings and moderate proposals. You must add one address per line.
 
-#### Members and Filters
+![Add admins&apos; addresses](../.gitbook/assets/add-admins-addresses.png)
 
-* **Members** are those who can create official proposals that will be displayed in the "Core" tab. You can add as many addresses as you need, one per line.
-* **Default tab** is the one that will be displayed as the default for your space. For example `all` `core` or `community`
+#### Members
+
+Members will be able to create proposals without being constrained by filters. You must add one address per line.
+
+![Add members&apos; addresses](../.gitbook/assets/add-members-addresses.png)
+
+#### Filters
+
 * **Minimum score** is the minimum number of tokens required to create a proposal.
-* **Only members proposals** is used to allow only members to post proposals and can be set to `true` or `false`
-* **Invalids** are the proposals you want to hide from your space. You can add as many proposal ids as you need, one per line.
+* **Show only members proposals** is used if you want only proposals created by members to be displayed in the space.
 
-![Configure the organization and permissions of the proposals](../.gitbook/assets/capture-de-cran-2020-12-20-a-12.25.49.png)
+![Set proposals filters](../.gitbook/assets/set-space-filters.png)
 
-Click **Save** and **sign settings message** on your wallet.
+#### Plugins
 
-![Save your Snapshot space settings](../.gitbook/assets/capture-de-cran-2020-12-20-a-12.43.25.png)
+Plugins give extra features for your space. More information here:
 
-Now you are set! You can go on `https://snapshot.page/#/<SAPCE ADDRESS>` to see your space.
+{% page-ref page="../plugins/" %}
 
-{% hint style="info" %}
-When you create or edit a space, it take about 3min to see the changes live.
-{% endhint %}
+### 4. Save your settings
 
-### What you should do now**?**
+Click "**Save**" then confirm the action in your wallet.
 
-{% page-ref page="add-avatar.md" %}
+You are all set! You can go on `https://snapshot.org/#/<ENS_DOMAIN>` to see your space.
+
+### What you can do now**?**
 
 {% page-ref page="add-skin.md" %}
 
