@@ -44,7 +44,7 @@ const voters = [
   '0xeF8305E140ac520225DAf050e2f71d5fBcC543e7',
   '0x1E1A51E25f2816335cA436D65e9Af7694BE232ad'
 ];
-const snapshot = 11437846;
+const blockNumber = 11437846;
 
 snapshot.utils.getScores(
   space,
@@ -52,7 +52,7 @@ snapshot.utils.getScores(
   network,
   provider,
   voters,
-  snapshot
+  blockNumber
 ).then(scores => {
   console.log('Scores', scores);
 });
