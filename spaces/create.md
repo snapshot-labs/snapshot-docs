@@ -52,7 +52,7 @@ Refresh the Snapshot settings page `https://snapshot.org/#/`**`<ENS DOMAIN>`**`/
 
 * **Name** is the name that will be displayed in your space.
 * **About** is the description of your governance purposes.
-* **Avatar** is your company logo.
+* **Avatar** is your project logo.
 * **Network** must be the network relative to your token.
 
 ![Select a network](../.gitbook/assets/select-a-network.png)
