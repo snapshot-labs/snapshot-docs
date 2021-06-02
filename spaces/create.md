@@ -99,10 +99,10 @@ Members will be able to create proposals without being constrained by filters. Y
 
 #### Filters
 
-* **Minimum score** is the minimum number of tokens required to create a proposal.
+* **Proposal threshold** is the minimum number of tokens required to create a proposal.
 * **Show only members proposals** is used if you want only proposals created by members to be displayed in the space.
 
-![Set proposals filters](../.gitbook/assets/set-space-filters.png)
+![](../.gitbook/assets/screen-shot-2021-06-02-at-12.36.50-pm.png)
 
 #### Plugins
 
