@@ -13,7 +13,7 @@
   * [Create new strategy](strategies/create.md)
 * [Plugins](plugins/README.md)
   * [Create a plugin](plugins/create.md)
-  * [DAO Module](plugins/dao-module.md)
+  * [SafeSnap](plugins/safesnap.md)
   * [Aragon Agreements](plugins/aragon.md)
 * [Networks](networks.md)
 * [GraphQL API](graphql-api.md)
