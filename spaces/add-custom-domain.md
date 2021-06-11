@@ -23,13 +23,23 @@ To add a custom domain, fill in the Domain name field in your settings.
 
 ![Domain name field in Snapshot settings.](../.gitbook/assets/capture-de-cran-2020-12-30-a-09.34.49.png)
 
-#### Insert it in the domains list
+#### Insert it in the domains**.json file** list
 
-You must then add your domain in the [domains.json file](https://github.com/snapshot-labs/snapshot-spaces/blob/master/spaces/domains.json) by following this example.
+To add your subdomain to Snapshot, you need to **edit the** **domains.json** file below.
+
+{% embed url="https://github.com/snapshot-labs/snapshot-spaces/blob/master/spaces/domains.json" caption="Add you custom domain in the domains.json file" %}
+
+{% hint style="warning" %}
+To prevent conflicts, it is recommended to add your subdomain between two existing domains rather than at the end or beginning of the list, as in the example below.
+{% endhint %}
 
 ```javascript
 {
-  "my.custom.url": "my-space.eth"
+  ...
+  "other.domain.com": "ens.eth",
+  "my.custom.url": "my-space.eth",
+  "other.domain.com": "ens.eth",
+  ...
 }
 ```
 
