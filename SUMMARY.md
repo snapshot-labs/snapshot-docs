@@ -9,6 +9,7 @@
 * [Proposals](proposals/README.md)
   * [Create a proposal](proposals/create.md)
   * [Vote on a proposal](proposals/vote.md)
+  * [Voting types](proposals/voting-types.md)
 * [Strategies](strategies/README.md)
   * [Create new strategy](strategies/create.md)
 * [Plugins](plugins/README.md)
