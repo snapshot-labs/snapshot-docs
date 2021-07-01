@@ -15,6 +15,7 @@
 * [Plugins](plugins/README.md)
   * [Create a plugin](plugins/create.md)
   * [SafeSnap](plugins/safesnap.md)
+  * [POAP](plugins/poap.md)
   * [Aragon Agreements](plugins/aragon.md)
 * [Networks](networks.md)
 * [GraphQL API](graphql-api.md)
