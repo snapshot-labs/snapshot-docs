@@ -8,4 +8,6 @@ You have a good understanding on how Snapshot works and want to help others? Get
   * Search on Discord or Telegram if the question was asked already. 
   * Try to figure out yourself with Snapshot documentation.
 * When someone report an issue, the first thing you can do is to try by yourself. If you can reproduce the issue and it's something that is obviously not working you can create an issue on GitHub here: [https://github.com/snapshot-labs/snapshot/issues/new?template=bug\_report.md](https://github.com/snapshot-labs/snapshot/issues/new?template=bug_report.md)
+* If someone spam or promote a project for no reason, please contact an admin.
+* The more you know about Snapshot the easier it will be for you to help others, if you have questions feel free to ask in the \#support channel, an admin will answer.
 
