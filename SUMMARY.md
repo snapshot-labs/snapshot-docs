@@ -24,14 +24,13 @@
 
 ## Guides
 
-* [Sitemap](guides/sitemap.md)
-* [Delegation](guides/delegation.md)
-* [Error messages](guides/error-messages.md)
 * [Contribute](guides/contribute/README.md)
   * [🙋‍♂️ Support](guides/contribute/support.md)
+* [Delegation](guides/delegation.md)
 * [Archived](guides/archived/README.md)
   * [Rest API](guides/archived/hub-api.md)
   * [Snapshot block number](guides/archived/block-number.md)
   * [Add an avatar](guides/archived/add-avatar.md)
   * [Create a space \(on GitHub\)](guides/archived/create-a-space-github.md)
+  * [Error messages](guides/archived/error-messages.md)
 
