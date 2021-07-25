@@ -11,3 +11,7 @@ You have a good understanding on how Snapshot works and want to help others? Get
 * If someone spam or promote a project for no reason, please contact an admin.
 * The more you know about Snapshot the easier it will be for you to help others, if you have questions feel free to ask in the \#support channel, an admin will answer.
 
+### Get paid
+
+We reward support contributors for a total of $1,000 per month. The amount is spread between the different contributors, based on how much they been contributing. The payment is done once a month at the very beginning of each months.
+
