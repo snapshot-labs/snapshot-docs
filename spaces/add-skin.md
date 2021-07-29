@@ -36,6 +36,8 @@ To add your skin you will need to create a "my-space.scss" file in the "skins" d
 Change the file name **my-space.scss** and css selector **.my-space** with your space name.
 {% endhint %}
 
+Then you will also need to list your skin on this file: [https://github.com/snapshot-labs/snapshot-spaces/blob/master/skins/index.ts](https://github.com/snapshot-labs/snapshot-spaces/blob/master/skins/index.ts) 
+
 Select then your skin in the Skin field in your space settings.
 
 ![Snapshot skin selector.](../.gitbook/assets/capture-de-cran-2020-12-30-a-09.33.58.png)
