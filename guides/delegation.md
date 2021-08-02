@@ -15,6 +15,8 @@ The contract is deployed on this address: [0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc0
 Delegations are stored on this subgraph:  
 [https://thegraph.com/explorer/subgraph/snapshot-labs/snapshot](https://thegraph.com/explorer/subgraph/snapshot-labs/snapshot)
 
+A delegation voting strategy must be added to the Spapshot space before delegated votes will be counted.
+
 ### Delegate voting power
 
 ####  From Snapshot interface
