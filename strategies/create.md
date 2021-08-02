@@ -4,9 +4,9 @@ description: Create a strategy and use it on your own space
 
 # Create new strategy
 
-To add your own strategy on Snapshot you need to fork the **Snapshot.js** repository and create pull request.
+To add your own strategy on Snapshot you need to fork the **snapshot-strategies** repository and create pull request.
 
-{% embed url="https://github.com/snapshot-labs/snapshot.js" caption="Snapshot.js repository" %}
+{% embed url="https://github.com/snapshot-labs/snapshot-strategies" %}
 
 ### 1. Navigate to the **`src\strategies`**
 
@@ -28,7 +28,7 @@ npm run test --strategy=<STRATEGY NAME> // replace <STRATEGY NAME>
 
 Have a look here on the requirements for adding a new strategy and make sure you full fill the points in the checklist: [https://github.com/snapshot-labs/snapshot.js/issues/212](https://github.com/snapshot-labs/snapshot.js/issues/212)
 
-### 5. Create a pull request\*\*
+### 5. Create a pull request
 
-**5. The snapshot team will review your PR and after it is approved it will be available in your space settings.**
+The team will then review your PR and after it's approved and merged it will be available in your space settings.
 

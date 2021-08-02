@@ -2,9 +2,11 @@
 
 A strategy is a JavaScript function that returns a score for a set of addresses. Strategies are being used on Snapshot to calculate the result for a proposal. A proposal can have multiple strategies. The default strategy is to calculate the balance of an ERC20 for each voter. A strategy can send a call to a node or subgraph.
 
-## This is the default strategy used `erc20-balance-of`
+## Example strategy
 
-{% embed url="https://github.com/bonustrack/snapshot.js/blob/master/src/strategies/erc20-balance-of/index.ts" caption="" %}
+Here is an example with the most common strategy called `erc20-balance-of`.
+
+{% embed url="https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/strategies/erc20-balance-of/index.ts" %}
 
 ```javascript
 import { formatUnits } from "@ethersproject/units";
@@ -59,7 +61,9 @@ The `balancer` strategy setting:
 
 Strategies can be used to create a score from on-chain data, the data does not necessary need to be monetary, you can imagine a strategy that calculate how many POAP you own or use any other data available on-chain to issue a score.
 
-### More strategies here:
+### Find more strategies here:
 
-{% embed url="https://github.com/bonustrack/snapshot.js/tree/master/src/strategies" caption="" %}
+{% embed url="https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/strategies" %}
+
+
 
