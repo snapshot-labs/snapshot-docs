@@ -19,6 +19,7 @@
   * [Aragon Agreements](plugins/aragon.md)
 * [Networks](networks.md)
 * [GraphQL API](graphql-api.md)
+* [Webhooks](webhooks.md)
 * [Snapshot.js](snapshot.js.md)
 * [FAQs](faq.md)
 
