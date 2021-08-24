@@ -13,7 +13,7 @@
   * [Vote on a proposal](proposals/vote.md)
   * [Voting types](proposals/voting-types.md)
 * [Strategies](strategies/README.md)
-  * [What is a strategy](strategies/what-is-a-strategy.md)
+  * [What is a strategy?](strategies/what-is-a-strategy.md)
   * [Create a new strategy](strategies/create.md)
 * [Plugins](plugins/README.md)
   * [Create a plugin](plugins/create.md)
