@@ -4,6 +4,8 @@ description: Custom domain is optional.
 
 # Add a custom domain
 
+As you already have a domain with ENS, adding a custom domain is optional. Custom domain allows you to get the interface for a specific space on a custom domain. E.g., **** [https://vote.balancer.fi/\#/](https://vote.balancer.fi/#/)
+
 To add a custom domain you need to do a pull request on this repository:
 
 {% embed url="https://github.com/snapshot-labs/snapshot-spaces" %}

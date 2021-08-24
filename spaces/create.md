@@ -69,6 +69,8 @@ Refresh the Snapshot settings page `https://snapshot.org/#/`**`<ENS DOMAIN>`**`/
 
 #### **Strategies**
 
+A strategy is a JavaScript function which defines how the voting power is calculated. You need to add a voting strategy for your proposals. erc20-balance-of is the most used strategy.  You can have multiple strategies and can have your custom strategies as well. 
+
 You need to add a voting strategy for your proposals. `erc20-balance-of` is the most used strategy.
 
 ![Add a strategy](../.gitbook/assets/add-a-strategy.png)
@@ -100,9 +102,10 @@ Members will be able to create proposals without being constrained by filters. Y
 #### Filters
 
 * **Proposal threshold** is the minimum number of tokens required to create a proposal.
-* **Show only members proposals** is used if you want only proposals created by members to be displayed in the space.
+* **Proposal validation** is a custom function to validate if someone can post a proposal or not. You can use the basic validation by default which takes your voting power with space strategies and checks if you pass a defined threshold.
+* **Allow only members to submit a proposal** makes sure that only members specified in members field are allowed to submit a proposal. 
 
-![](../.gitbook/assets/screen-shot-2021-06-02-at-12.36.50-pm.png)
+![](../.gitbook/assets/screenshot-179-.png)
 
 #### Plugins
 

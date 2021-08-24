@@ -10,12 +10,12 @@ Snapshot is a decentralized voting system. It provides flexibility on how voting
 
 ### **Key features**
 
-* Creating a proposal and voting is free
-* Votes are signed message easily verifiable online
-* Flexible voting strategies, vote with ERC20s, NFTs, or any contract
-* Multiple voting system, single choice, approval voting, quadratic voting and more
-* Spaces can have their custom skin and domain name
-* Fully open source with MIT license
+* **Creating a proposal and voting is free**
+* **Votes are signed message easily verifiable online**
+* **Flexible voting strategies, vote with ERC20s, NFTs, or any contract**
+* **Multiple voting system, single choice, approval voting, quadratic voting and more**
+* **Spaces can have their custom skin and domain name**
+* **Fully open source with MIT license**
 
 {% page-ref page="spaces/" %}
 
