@@ -29,6 +29,3 @@ Our next guide will take you through the steps of creating a space on Snapshot. 
 
 > _We have limited resources so feel free to contribute with code, code review, design, bug reports, advices, documentation, or anything else you are good at._
 
-  
-
-
