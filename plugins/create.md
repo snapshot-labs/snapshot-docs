@@ -7,6 +7,6 @@ The block “Quorum” on the right side of Yam is an example of plugin [https:/
 Another example of plugin is a block "Gnosis Impact" [on Gnosis https://snapshot.org/\#/gnosis.eth/proposal/QmdjWuBnBnPUafW9jBNNsJJvaeQAVExGcFZ7zB38VtNuu4](https://snapshot.org/#/gnosis.eth/proposal/QmdjWuBnBnPUafW9jBNNsJJvaeQAVExGcFZ7zB38VtNuu4)
 
 You can find examples of plugins here:   
-[https://github.com/snapshot-labs/snapshot.js/tree/master/src/plugins](https://github.com/snapshot-labs/snapshot.js/tree/master/src/plugins)  
+[https://github.com/snapshot-labs/snapshot-plugins/tree/master/src/plugins](https://github.com/snapshot-labs/snapshot-plugins/tree/master/src/plugins)  
 [https://github.com/snapshot-labs/snapshot/tree/develop/src/components/Plugin](https://github.com/snapshot-labs/snapshot/tree/develop/src/components/Plugin)
 
