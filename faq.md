@@ -44,3 +44,22 @@ Most likely the issue is that your computer time is not synchronized with the in
 
 To be able to vote you need voting power, your voting power is calculated at the "snapshot" of the proposal. The snapshot is the block number where the voting power matter, if you don't have any token at this block number you will not have any voting power and won't be able to vote.
 
+## **When we added delegation, it appears to not allow anyone to vote, we think this is probably a problem with our delegation strategy?**
+
+Yes delegation strategy needs strategy param with symbol 
+example:
+{
+  "symbol": "Shark",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0x232a...",
+        "symbol": "Shark",
+        "decimals": 18
+      }
+    }
+  ]
+}
+
+if you pass something like, it will calculate balance of this token 0x232a... that delegated to an address
