@@ -27,6 +27,7 @@
 * [Snapshot.js](snapshot.js.md)
 * [FAQs](faq/README.md)
   * [Dumb questions](faq/category-1.md)
+  * [Less dumb questions](faq/less-dumb-questions.md)
 
 ## Guides
 
