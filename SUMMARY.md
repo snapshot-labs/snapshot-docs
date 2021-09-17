@@ -26,8 +26,16 @@
 * [Webhooks](webhooks.md)
 * [Snapshot.js](snapshot.js.md)
 * [FAQs](faq/README.md)
-  * [Dumb questions](faq/category-1.md)
-  * [Less dumb questions](faq/less-dumb-questions.md)
+  * [Integration](faq/category-1.md)
+  * [Spaces](faq/spaces.md)
+  * [Proposals](faq/proposals.md)
+  * [Strategies](faq/less-dumb-questions.md)
+  * [Delegation](faq/delegation.md)
+  * [Plugins](faq/plugins.md)
+  * [Networks](faq/networks.md)
+  * [GraphQL API](faq/graphql-api.md)
+  * [Webhooks](faq/webhooks.md)
+  * [Snapshot.js](faq/snapshot.js.md)
 
 ## Guides
 

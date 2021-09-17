@@ -1,12 +1,14 @@
-# Less dumb questions
+# Strategies
 
-## Can I become who I want to be?
+## I have updated my strategy, when the changes will take effect ?
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+Once a proposal is created, if you change strategies, it will take effect from next proposal - It will not affect previous proposal.
 
-## Have you had a chance to answer the previous question?
+## May I use different chains / networks in a strategy ?
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+Yes you can use multichain strategy in your space, which can calculate voting power from multiple networks.
+
+
 
 
 
