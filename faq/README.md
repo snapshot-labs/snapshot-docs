@@ -17,14 +17,14 @@ Most likely the issue is that your computer time is not synchronized with the in
 1. On your Mac, choose Apple menu &gt; System Preferences, then click Date & Time.
 2. Click Date & Time, then set the date and time automatically.
 
-![](.gitbook/assets/image%20%286%29%20%281%29.png)
+![](../.gitbook/assets/image%20%286%29%20%281%29.png)
 
 ### On Windows
 
 1. Go to Start &gt; Settings &gt; Time & language &gt; Date & time.
 2. Then set time automatically.
 
-![](.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 ## **I went to** `https://snapshot.page/#/<MY SPACE>` **but I see a blank page?**
 
@@ -33,7 +33,7 @@ Most likely the issue is that your computer time is not synchronized with the in
 
 ## **How can I get my space showing on the Snapshot homepage?**
 
-{% page-ref page="spaces/create.md" %}
+{% page-ref page="../spaces/create.md" %}
 
 ## **How can I access my space or the demo space on snapshot?**
 
@@ -46,9 +46,9 @@ To be able to vote you need voting power, your voting power is calculated at the
 
 ## **When we added delegation, it appears to not allow anyone to vote, we think this is probably a problem with our delegation strategy?**
 
-Delegation strategy needs strategy param with symbol 
-example:
-```
+Delegation strategy needs strategy param with symbol example:
+
+```text
 {
   "symbol": "Shark",
   "strategies": [
@@ -63,4 +63,6 @@ example:
   ]
 }
 ```
+
 if you pass something like, it will calculate balance of this token 0x232a... that delegated to an address
+

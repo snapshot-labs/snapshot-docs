@@ -1,22 +1,22 @@
 # Rest API
 
-### Get all spaces
+## Get all spaces
 
-{% embed url="https://hub.snapshot.page/api/spaces" %}
+{% embed url="https://hub.snapshot.page/api/spaces" caption="" %}
 
-### Get a single space
+## Get a single space
 
-{% embed url="https://hub.snapshot.page/api/spaces/yam" %}
+{% embed url="https://hub.snapshot.page/api/spaces/yam" caption="" %}
 
-### Get all proposals of a space
+## Get all proposals of a space
 
-{% embed url="https://hub.snapshot.page/api/balancer/proposals" %}
+{% embed url="https://hub.snapshot.page/api/balancer/proposals" caption="" %}
 
-### Get all votes of a proposal
+## Get all votes of a proposal
 
-{% embed url="https://hub.snapshot.page/api/balancer/proposal/QmQpKL29E6ydTvC6p9NoEbTda9ddDkVtWe2YWpWK3NFYqq" %}
+{% embed url="https://hub.snapshot.page/api/balancer/proposal/QmQpKL29E6ydTvC6p9NoEbTda9ddDkVtWe2YWpWK3NFYqq" caption="" %}
 
-### Get a proposal
+## Get a proposal
 
 You can get a proposal content from IPFS directly using the proposal id:[ https://ipfs.io/ipfs/QmQpKL29E6ydTvC6p9NoEbTda9ddDkVtWe2YWpWK3NFYqq](https://ipfs.io/ipfs/QmQpKL29E6ydTvC6p9NoEbTda9ddDkVtWe2YWpWK3NFYqq)
 
@@ -52,7 +52,7 @@ Spaces ids separated with commas
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 [
   {
     "address": "0xaaAb28818F71C96E13518025Cc063A1CA6F4Fd58",
@@ -72,7 +72,7 @@ Spaces ids separated with commas
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### Testnet hub
+## Testnet hub
 
 To see content from [https://demo.snapshot.page](https://demo.snapshot.page/#/) you need to query the testnet hub at this url: [https://testnet.snapshot.page](https://testnet.snapshot.page/)
 

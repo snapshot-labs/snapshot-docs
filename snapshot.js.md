@@ -4,11 +4,11 @@ description: The official JavaScript client for build Snapshot apps.
 
 # Snapshot.js
 
-{% embed url="https://github.com/snapshot-labs/snapshot.js" %}
+{% embed url="https://github.com/snapshot-labs/snapshot.js" caption="" %}
 
-### **Utils**
+## **Utils**
 
-### **getProvider**
+## **getProvider**
 
 Return a Ethers.js JsonRPCProvider connected to an archive node.
 
@@ -19,7 +19,7 @@ const network = '1';
 const provider = snapshot.utils.getProvider(network);
 ```
 
-### **getScores**
+## **getScores**
 
 Calculate voting power for a list of voters.
 
@@ -57,7 +57,4 @@ snapshot.utils.getScores(
   console.log('Scores', scores);
 });
 ```
-
-  
-
 

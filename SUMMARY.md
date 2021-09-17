@@ -25,7 +25,8 @@
 * [GraphQL API](graphql-api.md)
 * [Webhooks](webhooks.md)
 * [Snapshot.js](snapshot.js.md)
-* [FAQs](faq.md)
+* [FAQs](faq/README.md)
+  * [Category 1](faq/category-1.md)
 
 ## Guides
 

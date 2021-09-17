@@ -6,19 +6,17 @@ If you already have an ENS domain, feel free to skip this and follow the guide b
 
 If you have never registered an ENS before or need help then checkout this guide: [https://docs.ens.domains/dns-registrar-guide](https://docs.ens.domains/dns-registrar-guide)​ or follow the following steps below.
 
-### **Creating an ENS Domain**
+## **Creating an ENS Domain**
 
-**1.**  Search for the availability of your name on ENS by going to the following link  [https://app.ens.domains/](https://app.ens.domains/) 
+**1.** Search for the availability of your name on ENS by going to the following link [https://app.ens.domains/](https://app.ens.domains/)
 
-**2.**  If the name is available, you would be able to see the 3 steps and fee for registration. Please note that the names with 3 or 4 characters cost considerably more than the names with 5+ characters.   
-****
+**2.** If the name is available, you would be able to see the 3 steps and fee for registration. Please note that the names with 3 or 4 characters cost considerably more than the names with 5+ characters.
 
 ![](https://lh6.googleusercontent.com/iE8w0jmuNrDV7jtpFPUYxB0rgSF6SKpU8OTNdVlvMaYaem1MzHglWQ9S99h2Ub-PWVJTDvOBbxGKA_7OuNHe6-YIt003oEdvudCZG37xAuUXSmJP5PXl-1By7s8betevYzuID3c=s0)
 
 **3.** Connect to the wallet of your choice by pressing on the connect key on the top left corner of your screen. Make sure your wallet has enough balance to make the transaction successful.
 
-**4.** Confirm all the transactions for the three steps from your chosen wallet.   
-****
+**4.** Confirm all the transactions for the three steps from your chosen wallet.
 
 ![](https://lh5.googleusercontent.com/d11GatKZ1P25f-uE1RphuiPEEf1V5ni-zX4hF4CKJYWaZUKWojmdbDw5wxxudYRVJMzoGxmP9MNhsh-lYVJEWdFu5zurWD1DXOkoYr6gMznyIRf0roFCuBXaimPdbmiqx_QNnqY=s0)
 

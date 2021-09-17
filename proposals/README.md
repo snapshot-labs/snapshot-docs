@@ -1,12 +1,10 @@
 # Proposals
 
-### Create a proposal
+## Create a proposal
 
 {% page-ref page="create.md" %}
 
-### Vote on a proposal
+## Vote on a proposal
 
 {% page-ref page="vote.md" %}
-
-
 
