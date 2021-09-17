@@ -1,4 +1,4 @@
-# Category 1
+# Dumb questions
 
 ## What is the proudest day of your life ?
 
