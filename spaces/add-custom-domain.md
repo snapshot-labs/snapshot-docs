@@ -49,7 +49,9 @@ To prevent conflicts, it is recommended to add your subdomain between two existi
 
 You will need to add this as CNAME in your domain DNS `snapshotpage.b-cdn.net`
 
-{% hint style="info" %}
 After committing your PR, you will have to wait for the merge and the deployment of your PR to be able to get your domain live. This process can take a few hours.
-{% endhint %}
+
+Once the PR is merged you can go here to activate the domain:  
+[https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com](https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com)  
+\(Replace "example.com" with your custom domain\).
 
