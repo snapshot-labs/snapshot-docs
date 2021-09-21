@@ -4,10 +4,6 @@ description: Frequently asked questions.
 
 # FAQs
 
-## **I pushed my PR, when do you check it and what time it will be live?**
-
-Usually snapshot checks and follows through PRs every 24 to 48h, if you submitted yours and snapshot did not get back to you within this time limit, please chat with us on [**Discord**](https://discord.gg/dDbNGZe) or [**Telegram**](https://t.me/snapshotlabs)**.**
-
 ## **I am getting an error "wrong timestamp", what is the problem?**
 
 Most likely the issue is that your computer time is not synchronized with the internet time. This is how to fix this:
