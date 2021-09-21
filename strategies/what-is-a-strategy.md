@@ -6,7 +6,7 @@ A strategy is a JavaScript function that returns a score for a set of addresses.
 
 Here is an example with the most common strategy called `erc20-balance-of`.
 
-{% embed url="https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/strategies/erc20-balance-of/index.ts" %}
+{% embed url="https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/strategies/erc20-balance-of/index.ts" caption="" %}
 
 ```javascript
 import { formatUnits } from "@ethersproject/units";
@@ -68,5 +68,5 @@ Strategies can be used to create a score from on-chain data, the data does not n
 
 ### Find more strategies here:
 
-{% embed url="https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/strategies" %}
+{% embed url="https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/strategies" caption="" %}
 

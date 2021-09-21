@@ -1,22 +1,22 @@
 # Spaces
 
-### Create a space
+## Create a space
 
 {% page-ref page="create.md" %}
 
-### Migrate a space
+## Migrate a space
 
 {% page-ref page="migrate.md" %}
 
-### Avatars
+## Avatars
 
 {% page-ref page="../guides/archived/add-avatar.md" %}
 
-### Skins
+## Skins
 
 {% page-ref page="add-skin.md" %}
 
-### Custom domain
+## Custom domain
 
 {% page-ref page="add-custom-domain.md" %}
 

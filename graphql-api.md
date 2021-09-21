@@ -10,7 +10,7 @@ description: >-
 
 You can run queries on real Snapshot data using the GraphQL Explorer, an integrated development environment in your browser that includes docs, syntax highlighting, and validation errors. Try here:
 
-{% embed url="https://hub.snapshot.org/graphql" %}
+{% embed url="https://hub.snapshot.org/graphql" caption="" %}
 
 ![](.gitbook/assets/image.png)
 
@@ -86,11 +86,14 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20spa
 
 first `number`  
 skip `number`  
-where:  
-    - id`string`  
-    - id\_in`array`  
-orderBy `string`  
-orderDirection `asc` or `desc`
+where:
+
+* id`string`  
+* id\_in`array`  
+
+  orderBy `string`  
+
+  orderDirection `asc` or `desc`
 
 #### Example
 
@@ -245,18 +248,21 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Proposal&query=
 
 first `number`  
 skip `number`  
-where:  
-    - id`string`  
-    - id\_in`array`  
-    - space:`string`  
-    - space\_in:`array`  
-    - author:`string`  
-    - author\_in:`array`  
-    - network: `string`  
-    - network\_in: `array`  
-    - state: `array`  
-orderBy `string`  
-orderDirection `asc` or `desc`
+where:
+
+* id`string`  
+* id\_in`array`  
+* space:`string`  
+* space\_in:`array`  
+* author:`string`  
+* author\_in:`array`  
+* network: `string`  
+* network\_in: `array`  
+* state: `array`  
+
+  orderBy `string`  
+
+  orderDirection `asc` or `desc`
 
 #### Example
 
@@ -382,17 +388,20 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Vote&query=quer
 
 first `number`  
 skip `number`  
-where:  
-    - id`string`  
-    - id\_in`array`  
-    - space:`string`  
-    - space\_in:`array`  
-    - voter:`string`  
-    - voter\_in:`array`  
-    - proposal: `string`  
-    - proposal\_in: `array`  
-orderBy `string`  
-orderDirection `asc` or `desc`
+where:
+
+* id`string`  
+* id\_in`array`  
+* space:`string`  
+* space\_in:`array`  
+* voter:`string`  
+* voter\_in:`array`  
+* proposal: `string`  
+* proposal\_in: `array`  
+
+  orderBy `string`  
+
+  orderDirection `asc` or `desc`
 
 #### Example
 
@@ -463,15 +472,18 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Votes&query=que
 
 first `number`  
 skip `number`  
-where:  
-    - id`string`  
-    - id\_in`array`  
-    - space:`string`  
-    - space\_in:`array`  
-    - follower:`string`  
-    - follower\_in:`array`  
-orderBy `string`  
-orderDirection `asc` or `desc`
+where:
+
+* id`string`  
+* id\_in`array`  
+* space:`string`  
+* space\_in:`array`  
+* follower:`string`  
+* follower\_in:`array`  
+
+  orderBy `string`  
+
+  orderDirection `asc` or `desc`
 
 #### Example
 
@@ -536,6 +548,4 @@ query {
 {% endtabs %}
 
 Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20follows%28%0A%20%20%20%20first%3A%2010%2C%0A%20%20%20%20where%3A%20%7B%0A%20%20%20%20%20%20follower%3A%20%220xeF8305E140ac520225DAf050e2f71d5fBcC543e7%22%0A%20%20%20%20%7D%0A%20%20%29%20%7B%0A%20%20%20%20follower%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%20%20created%0A%20%20%7D%0A%7D)
-
-
 

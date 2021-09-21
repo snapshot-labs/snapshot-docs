@@ -4,28 +4,28 @@ description: Custom domain is optional.
 
 # Add a custom domain
 
-As you already have a domain with ENS, adding a custom domain is optional. Custom domain allows you to get the interface for a specific space on a custom domain. E.g., **** [https://vote.balancer.fi/\#/](https://vote.balancer.fi/#/)
+As you already have a domain with ENS, adding a custom domain is optional. Custom domain allows you to get the interface for a specific space on a custom domain. E.g., _\*\*_ [https://vote.balancer.fi/\#/](https://vote.balancer.fi/#/)
 
 To add a custom domain you need to do a pull request on this repository:
 
-{% embed url="https://github.com/snapshot-labs/snapshot-spaces" %}
+{% embed url="https://github.com/snapshot-labs/snapshot-spaces" caption="" %}
 
-#### Follow the Snapshot spaces directory tree
+### Follow the Snapshot spaces directory tree
 
 ```bash
 └── spaces
     └── domains.json
 ```
 
-### Add a custom domain
+## Add a custom domain
 
-#### Set it in the Domain name field
+### Set it in the Domain name field
 
 To add a custom domain, fill in the Domain name field in your settings.
 
 ![Domain name field in Snapshot settings.](../.gitbook/assets/capture-de-cran-2020-12-30-a-09.34.49.png)
 
-#### Insert it in the domains**.json file** list
+### Insert it in the domains**.json file** list
 
 To add your subdomain to Snapshot, you need to **edit the** **domains.json** file below.
 
@@ -45,7 +45,7 @@ To prevent conflicts, it is recommended to add your subdomain between two existi
 }
 ```
 
-#### Configure your DNS 
+### Configure your DNS
 
 You will need to add this as CNAME in your domain DNS `snapshotpage.b-cdn.net`
 

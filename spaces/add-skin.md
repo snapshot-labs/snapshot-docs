@@ -6,16 +6,16 @@ description: Skins are optional.
 
 To create your own skin you need to do a pull request on this repository:
 
-{% embed url="https://github.com/snapshot-labs/snapshot-spaces" %}
+{% embed url="https://github.com/snapshot-labs/snapshot-spaces" caption="" %}
 
-#### Follow the Snapshot skins directory tree
+### Follow the Snapshot skins directory tree
 
 ```bash
 └── skins
     └── my-space.scss
 ```
 
-### Add your skin
+## Add your skin
 
 To add your skin you will need to create a "my-space.scss" file in the "skins" directory.
 

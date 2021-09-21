@@ -8,5 +8,5 @@ description: On-chain settlement using Aragon Agreements
 This plugin is still under development and not yet available.
 {% endhint %}
 
-{% embed url="https://aragon.org/blog/snapshot" %}
+{% embed url="https://aragon.org/blog/snapshot" caption="" %}
 

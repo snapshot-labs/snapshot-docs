@@ -28,5 +28,5 @@ A delegation voting strategy must be added to the Snapshot space before delegate
 
 ### With a smart contract
 
-You need to call the method "**setDelegate**" with the space id as first argument, and the address of the delegate as second argument. Here is an example of integration in a Solidity contract [https://github.com/convex-eth/platform/blob/d3061c19b5e01a4e562c8121b08c44f1b42f0b85/contracts/contracts/BasicCvxHolder.sol\#L49-L53](https://github.com/convex-eth/platform/blob/d3061c19b5e01a4e562c8121b08c44f1b42f0b85/contracts/contracts/BasicCvxHolder.sol#L49-L53) 
+You need to call the method "**setDelegate**" with the space id as first argument, and the address of the delegate as second argument. Here is an example of integration in a Solidity contract [https://github.com/convex-eth/platform/blob/d3061c19b5e01a4e562c8121b08c44f1b42f0b85/contracts/contracts/BasicCvxHolder.sol\#L49-L53](https://github.com/convex-eth/platform/blob/d3061c19b5e01a4e562c8121b08c44f1b42f0b85/contracts/contracts/BasicCvxHolder.sol#L49-L53)
 

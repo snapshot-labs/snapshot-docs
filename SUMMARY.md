@@ -25,7 +25,19 @@
 * [GraphQL API](graphql-api.md)
 * [Webhooks](webhooks.md)
 * [Snapshot.js](snapshot.js.md)
-* [FAQs](faq.md)
+* [FAQs](faq/README.md)
+  * [Spaces](faq/spaces.md)
+  * [Proposals](faq/proposals.md)
+  * [Votes](faq/votes.md)
+  * [Strategies](faq/strategies.md)
+  * [Delegation](faq/delegation.md)
+  * [Plugins](faq/plugins.md)
+  * [Networks](faq/networks.md)
+  * [Contribution](faq/contribution.md)
+  * [Integration](faq/integration.md)
+  * [GraphQL API](faq/graphql-api.md)
+  * [Webhooks](faq/webhooks.md)
+  * [Snapshot.js](faq/snapshot.js.md)
 
 ## Guides
 

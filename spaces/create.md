@@ -8,16 +8,16 @@ description: To create a space in Snapshot follow these steps.
 If you already have a space with GitHub see how to [Migrate your space to ENS](https://docs.snapshot.page/spaces/migrate).
 {% endhint %}
 
-### 1. Get an ENS domain for your space
+## 1. Get an ENS domain for your space
 
 You will need an ENS domain for creating your space, register one here:  
-[https://app.ens.domains](https://app.ens.domains/) 
+[https://app.ens.domains](https://app.ens.domains/)
 
 _You need an ENS domain on **Ethereum mainnet** even if you want to use Ethereum testnets or others networks \(Binance Smart Chain, xDAI... etc\)._
 
 If you have never registered an ENS before or need help then checkout this guide:[ https://docs.ens.domains/dns-registrar-guide](https://docs.ens.domains/dns-registrar-guide)
 
-### 2. Link your ENS domain to Snapshot
+## 2. Link your ENS domain to Snapshot
 
 Once you have created your ENS domain, Go to this url and modify the tag with your ENS domain. `https://snapshot.org/#/`**`<ENS DOMAIN>`**`/settings` and login with the wallet that owns the ENS domain.
 
@@ -42,11 +42,11 @@ If you are on your domain space and connected with your wallet you will see the 
 
 ![](../.gitbook/assets/snapshot%20%281%29.gif)
 
-### **3. Setup your space settings**
+## **3. Setup your space settings**
 
 Refresh the Snapshot settings page `https://snapshot.org/#/`**`<ENS DOMAIN>`**`/settings` to see the space setting.
 
-#### Profile
+### Profile
 
 ![](../.gitbook/assets/profile-settings.png)
 
@@ -67,9 +67,9 @@ Refresh the Snapshot settings page `https://snapshot.org/#/`**`<ENS DOMAIN>`**`/
 * **Terms** links to your website's terms and conditions.
 * **Hide space from homepage** if you want to keep your space "private".
 
-#### **Strategies**
+### **Strategies**
 
-A strategy is a JavaScript function which defines how the voting power is calculated. You need to add a voting strategy for your proposals. erc20-balance-of is the most used strategy.  You can have multiple strategies and can have your custom strategies as well. 
+A strategy is a JavaScript function which defines how the voting power is calculated. You need to add a voting strategy for your proposals. erc20-balance-of is the most used strategy. You can have multiple strategies and can have your custom strategies as well.
 
 You need to add a voting strategy for your proposals. `erc20-balance-of` is the most used strategy.
 
@@ -87,19 +87,19 @@ More information here:
 
 {% page-ref page="../strategies/" %}
 
-#### Admins
+### Admins
 
 The admins will be able to edit the space settings and moderate proposals. You must add one address per line.
 
 ![Add admins&apos; addresses](../.gitbook/assets/add-admins-addresses.png)
 
-#### Members
+### Members
 
 Members will be able to create proposals without being constrained by filters. You must add one address per line.
 
 ![Add members&apos; addresses](../.gitbook/assets/add-members-addresses.png)
 
-#### Filters
+### Filters
 
 * **Proposal threshold** is the minimum number of tokens required to create a proposal.
 * **Proposal validation** is a custom function to validate if someone can post a proposal or not. You can use the basic validation by default which takes your voting power with space strategies and checks if you pass a defined threshold.
@@ -107,19 +107,19 @@ Members will be able to create proposals without being constrained by filters. Y
 
 ![](../.gitbook/assets/screenshot-179-.png)
 
-#### Plugins
+### Plugins
 
 Plugins give extra features for your space. More information here:
 
 {% page-ref page="../plugins/" %}
 
-### 4. Save your settings
+## 4. Save your settings
 
 Click "**Save**" then confirm the action in your wallet.
 
 You are all set! You can go on `https://snapshot.org/#/<ENS_DOMAIN>` to see your space.
 
-### What you can do now**?**
+## What you can do now**?**
 
 {% page-ref page="add-skin.md" %}
 

@@ -6,18 +6,18 @@ description: Avatars are optional.
 
 To get a logo for your space, images you need to do a pull request on this repository:
 
-{% embed url="https://github.com/snapshot-labs/snapshot-spaces" %}
+{% embed url="https://github.com/snapshot-labs/snapshot-spaces" caption="" %}
 
-#### Follow the Snapshot spaces directory tree
+### Follow the Snapshot spaces directory tree
 
 ```bash
 └── spaces
     └── my-space.eth
         ├── logo.png
-        └── space.png    
+        └── space.png
 ```
 
-### **Add your space logo and strategy image\(s\)**
+## **Add your space logo and strategy image\(s\)**
 
 You will need to create a folder with the id of your space \(example: "my-space.eth"\). In this folder you need a file "space.png" and "logo.png" \(for the first strategy\) and "logo1.png" if you have a second strategy.
 
