@@ -1,12 +1,28 @@
 # Delegation
 
-## Can I become who I want to be?
+## **When I added delegation, it appears to not allow anyone to vote.**
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+Delegation strategy syntax example:
 
-## Have you had a chance to answer the previous question?
+```text
+{
+  "symbol": "Shark",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0x232a...",
+        "symbol": "Shark",
+        "decimals": 18
+      }
+    }
+  ]
+}
+```
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+if you pass something like this, it will calculate balance of this token 0x232a... that delegated to an address
+
+## 
 
 
 

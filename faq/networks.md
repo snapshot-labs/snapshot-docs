@@ -1,12 +1,10 @@
 # Networks
 
-## Can I become who I want to be?
+## Can I use ENS domain on testnet ?
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+The ENS domain must be on mainnet, then on Snapshot settings page you can use any network for your space
 
-## Have you had a chance to answer the previous question?
-
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+## 
 
 
 

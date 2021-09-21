@@ -4,61 +4,33 @@ description: Frequently asked questions.
 
 # FAQs
 
-## **I am getting an error "wrong timestamp", what is the problem?**
+{% page-ref page="spaces.md" %}
 
-Most likely the issue is that your computer time is not synchronized with the internet time. This is how to fix this:
+{% page-ref page="proposals.md" %}
 
-### On MacOS
+{% page-ref page="votes.md" %}
 
-1. On your Mac, choose Apple menu &gt; System Preferences, then click Date & Time.
-2. Click Date & Time, then set the date and time automatically.
+{% page-ref page="strategies.md" %}
 
-![](../.gitbook/assets/image%20%286%29%20%281%29.png)
+{% page-ref page="delegation.md" %}
 
-### On Windows
+{% page-ref page="plugins.md" %}
 
-1. Go to Start &gt; Settings &gt; Time & language &gt; Date & time.
-2. Then set time automatically.
+{% page-ref page="networks.md" %}
 
-![](../.gitbook/assets/image%20%282%29.png)
+{% page-ref page="contribution.md" %}
 
-## **I went to** `https://snapshot.page/#/<MY SPACE>` **but I see a blank page?**
+{% page-ref page="integration.md" %}
 
-* Make sure you are connected with Metamask on the ETH mainnet.
-* Try with Chrome or Firefox browser.
+{% page-ref page="graphql-api.md" %}
 
-## **How can I get my space showing on the Snapshot homepage?**
+{% page-ref page="webhooks.md" %}
 
-{% page-ref page="../spaces/create.md" %}
+{% page-ref page="snapshot.js.md" %}
 
-## **How can I access my space or the demo space on snapshot?**
 
-* Snapshot live: `http://snapshot.page/#/<MY SPACE>`
-* Snapshot demo: `http://demo.snapshot.page/#/<MY SPACE>`
 
-## **Why I can't vote?**
 
-To be able to vote you need voting power, your voting power is calculated at the "snapshot" of the proposal. The snapshot is the block number where the voting power matter, if you don't have any token at this block number you will not have any voting power and won't be able to vote.
 
-## **When we added delegation, it appears to not allow anyone to vote, we think this is probably a problem with our delegation strategy?**
 
-Delegation strategy needs strategy param with symbol example:
-
-```text
-{
-  "symbol": "Shark",
-  "strategies": [
-    {
-      "name": "erc20-balance-of",
-      "params": {
-        "address": "0x232a...",
-        "symbol": "Shark",
-        "decimals": 18
-      }
-    }
-  ]
-}
-```
-
-if you pass something like, it will calculate balance of this token 0x232a... that delegated to an address
 
