@@ -12,7 +12,9 @@ No, you can only delete it and make a new one.
 
 If you still cant's save your proposal contact us on Discord or Telegram
 
+## Can I create different types of proposals like "core" and "community"?
 
+If the proposal is created by a member \(added from settings\) it will be shown as `core`  all other are community.
 
 
 
