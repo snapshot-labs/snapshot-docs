@@ -2,7 +2,7 @@
 
 ## What strategy should I use for my proposal
 
-It's widely depends on your use case, if you want coin-voting \(1 token= 1 vote\) you can use "erc20-balance-of", however you may want:
+It widely depends on your use case, if you want coin-voting \(1 token= 1 vote\) you can use "erc20-balance-of", however you may want:
 
 * Delegate voting power using a delegation strategy
 * Weighting voting power using a quadratic strategy
