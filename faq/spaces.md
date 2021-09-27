@@ -14,3 +14,14 @@
 * Make sure you are connected with Metamask on the ETH mainnet.
 * Try with Chrome or Firefox browser.
 
+## **I can't save my space settings**
+
+* Make sure you have filled all the required fields. 
+* If "Terms" field is required make sure the format is `http://<terms URL>` or `https://<terms URL>`
+
+
+
+## **What's the difference between admin and authors**
+
+Admin can edit space settings, authors can post proposals.
+
