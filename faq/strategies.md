@@ -1,12 +1,23 @@
 # Strategies
 
+## What strategy should I use for my proposal
+
+It's widely depends on your use case, if you want coin-voting \(1 token= 1 vote\) you can use "erc20-balance-of", however you may want:
+
+* Delegate voting power using a delegation strategy
+* Weighting voting power using a quadratic strategy
+* NFT voting with an ERC-721 based strategy
+
+At the time of writing snapshot has over 150 voting strategies that you can combine. Explore them here [https://snapshot.org/\#/strategies](https://snapshot.org/#/strategies)   
+You can even preview actions using the playground button.
+
 ## I have updated my strategy, when the changes will take effect ?
 
 Once a proposal is created, if you change strategies, it will take effect from next proposal - It will not affect previous proposal.
 
 ## May I use multiple chains / networks in my space ?
 
-Yes you can use multichain strategy in your space, which can calculate voting power from multiple networks.
+Yes you can use multi-chain strategy in your space, which can calculate voting power from multiple networks.
 
 ## What is the decimal parameter ?
 
@@ -21,14 +32,5 @@ In order to setup a coin-voting strategy i.e. "erc20-balance-of" you need to cha
 
 Not yet, you need to create your token on another platform.
 
-## What strategy should I use for my proposal
 
-It's widely depends on your use case, if you want coin-voting \(1 token= 1 vote\) you can use "erc20-balance-of", however you may want:
-
-* Delegate voting power using a delegation strategy
-* Weighting voting power using a quadratic strategy
-* NFT voting with an ERC-721 based strategy
-
-At the time of writing snapshot has over 150 voting strategies that you can combine. Explore them here [https://snapshot.org/\#/strategies](https://snapshot.org/#/strategies)   
-You can even preview actions using the playground button.
 
