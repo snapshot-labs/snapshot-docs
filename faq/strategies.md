@@ -7,8 +7,12 @@ It's widely depends on your use case, if you want coin-voting \(1 token= 1 vote\
 * Delegate voting power using a delegation strategy
 * Weighting voting power using a quadratic strategy
 * NFT voting with an ERC-721 based strategy
+* Only allow certain members to vote using whitelist strategy
+* Calculate voting power from multiple chains with multichain strategy
 
-At the time of writing snapshot has over 150 voting strategies that you can combine. Explore them here [https://snapshot.org/\#/strategies](https://snapshot.org/#/strategies)   
+You can combine up to 5 strategies on a single proposal
+
+At the time of writing snapshot has over 150 voting strategies. Explore them here [https://snapshot.org/\#/strategies](https://snapshot.org/#/strategies)   
 You can even preview actions using the playground button.
 
 ## I have updated my strategy, when the changes will take effect ?
