@@ -92,6 +92,8 @@ Then set time automatically
 
 ## Strategies
 
+
+
 ### What strategy should I use for my proposal
 
 It widely depends on your use case, if you want coin-voting \(1 token= 1 vote\) you can use "erc20-balance-of", however you may want:
@@ -104,8 +106,21 @@ It widely depends on your use case, if you want coin-voting \(1 token= 1 vote\) 
 
 You can combine up to 5 strategies on a single proposal \(combination work as OR not AND opperator\)
 
-At the time of writing snapshot has over 150 voting strategies. Explore them here [https://snapshot.org/\#/strategies](https://snapshot.org/#/strategies)  
+At the time of writing snapshot has over 150 voting strategies.   
+Explore them here [https://snapshot.org/\#/strategies](https://snapshot.org/#/strategies)  
 You can even preview actions using the playground button.
+
+
+
+### I have updated my strategy, when the changes will take effect ?
+
+Your changes will only affect future proposals, already existing proposals can not be edited.
+
+
+
+### May I use multiple chains / networks strategies in my proposals ?
+
+Yes you can use multi-chain strategy in your space, which can calculate voting power from multiple networks. Check this out: [https://snapshot.org/\#/strategy/multichain](https://snapshot.org/#/strategy/multichain)
 
 ## Delegation
 
