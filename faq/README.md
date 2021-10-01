@@ -6,14 +6,12 @@ description: Use the categories on the right sidebar or search through the entir
 
 ## Spaces <a id="spaces"></a>
 
-
-
 ### How can I access my space or the demo space on snapshot?
 
 Snapshot live: `http://snapshot.org/#/<SPACE ENS ADDRESS>`  
 Snapshot demo: `http://demo.snapshot.org/#/<SPACE ENS ADDRESS>`
 
-### 
+
 
 ### How can I get my space showing on the Snapshot homepage?
 
@@ -35,8 +33,6 @@ If you want to create a new space with ENS
 
 
 ## Proposals <a id="proposals"></a>
-
-
 
 ### Can I edit a proposal once I posted it ?
 
@@ -64,8 +60,6 @@ All other proposal are community proposals.
 
 ## Votes
 
-
-
 ### **Why I can't vote?**
 
 To be able to vote you need voting power, your voting power is calculated at the "snapshot" of the proposal. The snapshot is the block number where we read the voting power from. If you didn't have the tokens at this block number, you will not have any voting power and won't be able to vote.
@@ -91,8 +85,6 @@ Then set time automatically
 
 
 ## Strategies
-
-
 
 ### What strategy should I use for my proposal
 
@@ -121,6 +113,20 @@ Your changes will only affect future proposals, already existing proposals can n
 ### May I use multiple chains / networks strategies in my proposals ?
 
 Yes you can use multi-chain strategy in your space, which can calculate voting power from multiple networks. Check this out: [https://snapshot.org/\#/strategy/multichain](https://snapshot.org/#/strategy/multichain)
+
+
+
+### What is the decimal parameter ?
+
+* When you create a token you have to define the number of decimal that you want
+* Most of the token use 18 decimals
+* To find out how many decimals your token has you can search the contract address on etherscan.io
+
+
+
+### What is the address parameter ?
+
+In order to setup a coin-voting strategy i.e. `erc20-balance-of` you need to change the placeholder address to your own token contract address.
 
 ## Delegation
 
