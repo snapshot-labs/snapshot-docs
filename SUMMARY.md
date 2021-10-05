@@ -25,6 +25,7 @@
 * [Networks](networks.md)
 * [GraphQL API](graphql-api.md)
 * [Webhooks](webhooks.md)
+* [Bots](bots.md)
 * [Snapshot.js](snapshot.js.md)
 * [FAQs](faq.md)
 
