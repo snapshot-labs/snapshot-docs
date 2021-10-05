@@ -4,18 +4,13 @@ description: To create a space in Snapshot follow these steps.
 
 # Create a space
 
-{% hint style="info" %}
-If you already have a space with GitHub see how to [Migrate your space to ENS](https://docs.snapshot.page/spaces/migrate).
+{% hint style="danger" %}
+Snapshot now requires an ENS domain to create a space. If you already have a space without ENS domain \(legacy\), you need to [Migrate your space to ENS](https://docs.snapshot.page/spaces/migrate).
 {% endhint %}
 
 ### 1. Get an ENS domain for your space
 
-You will need an ENS domain for creating your space, register one here:  
-[https://app.ens.domains](https://app.ens.domains/) 
-
-_You need an ENS domain on **Ethereum mainnet** even if you want to use Ethereum testnets or others networks \(Binance Smart Chain, xDAI... etc\)._
-
-If you have never registered an ENS before or need help then checkout this guide:[ https://docs.ens.domains/dns-registrar-guide](https://docs.ens.domains/dns-registrar-guide)
+If you haven't already, follow this guide - [https://docs.snapshot.org/spaces/before-creating-your-space](https://docs.snapshot.org/spaces/before-creating-your-space) to get your ENS domain. 
 
 ### 2. Link your ENS domain to Snapshot
 
@@ -69,9 +64,9 @@ Refresh the Snapshot settings page `https://snapshot.org/#/`**`<ENS DOMAIN>`**`/
 
 #### **Strategies**
 
-A strategy is a JavaScript function which defines how the voting power is calculated. You need to add a voting strategy for your proposals. erc20-balance-of is the most used strategy.  You can have multiple strategies and can have your custom strategies as well. 
+A strategy is a JavaScript function that defines how the voting power is calculated. You need to add a voting strategy for your proposals. erc20-balance-of is the most used strategy.  You can have multiple strategies and can have your custom strategies as well. 
 
-You need to add a voting strategy for your proposals. `erc20-balance-of` is the most used strategy.
+You need to add a voting strategy for your proposals. `erc20-balance-of` is the most common strategy.
 
 ![Add a strategy](../.gitbook/assets/add-a-strategy.png)
 

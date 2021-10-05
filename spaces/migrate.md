@@ -32,9 +32,9 @@ You must add your new alias in the [aliases.json file](https://github.com/snapsh
 }
 ```
 
-### 3. Migrate proposals, votes and urls
+### 3. Migrate proposals, votes and URLs
 
-The migration of the proposals, votes and urls is done manually, once your space with ENS is ready please contact an admin on [Discord](https://discord.snapshot.page) to do the changes.
+The migration of the proposals, votes, and URLs is done manually, once your space with ENS is ready please send us a message on the "helpdesk" channel on [Discord](https://discord.snapshot.page) to do the changes.
 
 You have now successfully migrated your space to ENS! The next guide will take you through steps for adding an avatar and skin for your space.
 

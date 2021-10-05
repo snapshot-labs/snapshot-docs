@@ -4,7 +4,13 @@ description: The official JavaScript client for build Snapshot apps.
 
 # Snapshot.js
 
+### **Overview**
+
+TBD
+
 {% embed url="https://github.com/snapshot-labs/snapshot.js" %}
+
+
 
 ### **Utils**
 
@@ -58,6 +64,6 @@ snapshot.utils.getScores(
 });
 ```
 
-  
+Other exposed methods - TBD  
 
 

@@ -4,11 +4,11 @@ description: Receive event notifications with webhooks
 
 # Webhooks
 
-Snapshot uses webhooks to notify your application when an event happens. Webhooks are particularly useful for asynchronous events like when a proposal is created, when it start or when it end.
+Snapshot uses webhooks to notify your application when an event happens. Webhooks are particularly useful for asynchronous events like when a proposal is created, when it starts, or when it ends.
 
-The webhook server send requests for any new event, the request are sent to custom url with `POST` method and the event object as body. 
+The webhook server sends a request for any new event, the request is sent to the configured URL with `POST` method and the event object as body. 
 
-**Here is an example of event object:**
+**Here is an example of the event object:**
 
 ```javascript
 {
@@ -25,15 +25,15 @@ The webhook server send requests for any new event, the request are sent to cust
 When a new proposal is created
 
 `proposal/start`   
-When the voting period for a proposal start.
+When the voting period for a proposal starts.
 
 `proposal/end`   
-When the voting period for a proposal end.
+When the voting period for a proposal ends.
 
 `proposal/deleted`    
 When a proposal is deleted by the author or an admin of the space.
 
 ### Subscribe to events
 
-If you want to subscribe to webhooks please contact us on Discord or Telegram. You will need to provide an URL to receive the webhooks requests.
+If you want to subscribe to webhooks please contact us on Discord or Telegram in the \#helpdesk channel. You will need to provide a URL to receive the webhook request.
 

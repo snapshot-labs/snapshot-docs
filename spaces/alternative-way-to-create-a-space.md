@@ -15,5 +15,5 @@ If you do not want to have the wallet control your settings, you can follow the 
 
 ![](https://lh6.googleusercontent.com/qfA-Pj7o2Fvld76V2gZIJm9U1V0uRBgNdedfxU4iKjGDfE3cHH7KLMx26eawZPD0Zl8j3H7AAfFsToDdl9ViQ5Y7WyI8FACqVlkc5JG9zwcyZg877KmnH6cf2vleHnn-icWLGTg=s0)
 
-* You can check if your space is in valid format from the github link below [https://github.com/snapshot-labs/snapshot.js/blob/a0adc547aa0922aa6abd35708a4a292048bca6a2/test/schema.ts\#L4](https://github.com/snapshot-labs/snapshot.js/blob/a0adc547aa0922aa6abd35708a4a292048bca6a2/test/schema.ts#L4)
+* You can check if your space is valid from the github link below [https://github.com/snapshot-labs/snapshot.js/blob/a0adc547aa0922aa6abd35708a4a292048bca6a2/test/schema.ts\#L4](https://github.com/snapshot-labs/snapshot.js/blob/a0adc547aa0922aa6abd35708a4a292048bca6a2/test/schema.ts#L4)
 

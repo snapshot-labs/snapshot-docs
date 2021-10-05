@@ -8,7 +8,9 @@ description: >-
 
 ## Explorer
 
-You can run queries on real Snapshot data using the GraphQL Explorer, an integrated development environment in your browser that includes docs, syntax highlighting, and validation errors. Try here:
+You can run queries on Snapshot data using a GraphQL Explorer. 
+
+We have exposed an integrated development environment in the browser that includes docs, syntax highlighting, and validation errors. Click the link below to access the interface. 
 
 {% embed url="https://hub.snapshot.org/graphql" %}
 
@@ -537,5 +539,7 @@ query {
 
 Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20follows%28%0A%20%20%20%20first%3A%2010%2C%0A%20%20%20%20where%3A%20%7B%0A%20%20%20%20%20%20follower%3A%20%220xeF8305E140ac520225DAf050e2f71d5fBcC543e7%22%0A%20%20%20%20%7D%0A%20%20%29%20%7B%0A%20%20%20%20follower%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%20%20created%0A%20%20%7D%0A%7D)
 
+### Aliases
 
+TBD
 

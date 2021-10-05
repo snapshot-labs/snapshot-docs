@@ -6,7 +6,7 @@ description: Snapshot delegation.
 
 ## Delegation contract
 
-Snapshot use the Gnosis "Delegate Registry" contract here:  
+Snapshot uses the Gnosis "Delegate Registry" contract here:  
 [https://github.com/gnosis/delegate-registry](https://github.com/gnosis/delegate-registry)
 
 The contract is deployed on this address: [0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446](https://etherscan.io/address/0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446#code)  
@@ -23,7 +23,7 @@ A delegation voting strategy must be added to the Snapshot space before delegate
 
 1. Go to [https://snapshot.page/\#/delegate](https://snapshot.page/#/delegate).
 2. Type in which address you want to delegate to.
-3. Type in the space key you want your delegation to take effect on. _\(If no space selected, effect will take place on all spaces\)_
+3. Type in the space key you want your delegation to take effect on. _\(If no space is selected, the effect will take place for all spaces\)_
 4. Click confirm to save your delegation.
 
 ### With a smart contract

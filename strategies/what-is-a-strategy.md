@@ -38,7 +38,7 @@ export async function strategy(
 }
 ```
 
-Strategies are defined in your space settings at `https://snapshot.page/#/<SPACE ADDRESS>/settings`. This is an example how to add a strategy to calculate the voting power in BAL and BAL that is in Balancer pools, where they are providing liquidity.
+Strategies are defined in your space settings at `https://snapshot.page/#/<SPACE ADDRESS>/settings`. This is an example of how to add a strategy to calculate the voting power in BAL and BAL that is in Balancer pools, where they are providing liquidity.
 
 The `erc20-balance-of` strategy setting:
 
@@ -66,7 +66,7 @@ Strategies can be used to create a score from on-chain data, the data does not n
 * **erc20-with-balance** is an example of strategy that checks whether the participant has a minimum amount of token required to vote and assigns all the votes to 1. You need to add the parameter “minBalance” and set it equal to the minimum balance required to vote on a proposal. This value is set to 0 by default. 
 * **erc20-balance-of-delegate** is used if you want to use a delegation contract along with erc20-balance-of. 
 
-### Find more strategies here:
+### Find more strategies here: <a id="find-more-strategies-here"></a>
 
 {% embed url="https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/strategies" %}
 

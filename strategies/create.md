@@ -4,7 +4,7 @@ description: Create a strategy and use it on your own space
 
 # Create a new strategy
 
-To add your own strategy on Snapshot you need to fork the **snapshot-strategies** repository and create pull request.
+To add your own strategy on Snapshot you need to fork the **snapshot-strategies** repository and create a pull request.
 
 {% embed url="https://github.com/snapshot-labs/snapshot-strategies" %}
 
