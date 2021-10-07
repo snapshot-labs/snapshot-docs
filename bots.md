@@ -6,6 +6,12 @@ description: Notifications bots
 
 Here are the different existing solutions to received notifications for new proposals.
 
+### HAL
+
+**For:** Discord, Telegram, Twitter, Email, Slack, Webhook  
+**Status:** Ready  
+**Install:** [https://9000.hal.xyz/recipes/snapshot-follow-new-proposals](https://9000.hal.xyz/recipes/snapshot-follow-new-proposals)
+
 ### Snapshot Discord bot
 
 **For:** Discord  
@@ -32,9 +38,4 @@ Here are the different existing solutions to received notifications for new prop
 **For:** Twitter  
 **Status:** Ready  
 **Install:** [https://twitter.com/proposalbot](https://twitter.com/proposalbot)
-
-### HAL
-
-**For:** Discord, Telegram, Email, Slack  
-**Status:** In progress
 
