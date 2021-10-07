@@ -17,7 +17,7 @@ Here are the different existing solutions to received notifications for new prop
 **For:** Discord  
 **Status:** Ready  
 **Install:**   
- - Invite the Discord bot with this link: [https://discord.com/oauth2/authorize?client\_id=892847850780762122&permissions=0&scope=bot](https://discord.com/oauth2/authorize?client_id=892847850780762122&permissions=0&scope=bot)  
+ - Invite the Discord bot with this link: [https://discord.com/oauth2/authorize?client\_id=892847850780762122&permissions=83968&scope=bot](https://discord.com/oauth2/authorize?client_id=892847850780762122&permissions=83968&scope=bot)   
  - Type `!snapshot` to see the commands \(require administrator role\)  
  - Need help? Ask on [Discord](https://discord.snapshot.org)   
 
