@@ -4,9 +4,11 @@ description: To create a space in Snapshot follow these steps.
 
 # Create a space
 
-{% hint style="danger" %}
-Snapshot now requires an ENS domain to create a space. If you already have a space without ENS domain \(legacy\), you need to [Migrate your space to ENS](https://docs.snapshot.page/spaces/migrate).
+{% hint style="info" %}
+If you already have a space without ENS domain (legacy), you need to [Migrate your space to ENS](https://docs.snapshot.page/spaces/migrate).
 {% endhint %}
+
+{% embed url="https://www.youtube.com/watch?v=oa6WCvnWLBc" %}
 
 ### 1. Get an ENS domain for your space
 
@@ -18,7 +20,7 @@ Once you have created your ENS domain, Go to this url and modify the tag with yo
 
 ![Access your space settings](../.gitbook/assets/access-to-your-space-settings.png)
 
-Once connected, the **&lt;your-address&gt;** tag will be replaced with your wallet address.
+Once connected, the **\<your-address>** tag will be replaced with your wallet address.
 
 {% hint style="info" %}
 You will need a wallet that can sign message like MetaMask, Fortmatic, Portis, Argent. Don't use a Gnosis Safe has they are currently not supported.
@@ -29,13 +31,13 @@ You will need a wallet that can sign message like MetaMask, Fortmatic, Portis, A
 If you are on your domain space and connected with your wallet you will see the correct **IPNS link** in the **ENS field**. Click on the button **Set record on ENS**, and you will get redirected to ENS page.
 
 * On the ENS page, click on **ADD/EDIT RECORD**.
-* Select **TEXT** and type the key **"snapshot"** in lowercase.
+* Select **TEXT** and type the key** "snapshot"** in lowercase.
 * Paste the **IPNS link** in the field.
 * Click **Save**.
 * Scroll down and click **Confirm**.
 * Sign the transaction with your wallet.
 
-![](../.gitbook/assets/snapshot%20%281%29.gif)
+![](<../.gitbook/assets/snapshot (1).gif>)
 
 ### **3. Setup your space settings**
 
@@ -80,25 +82,27 @@ Once selected, you can edit the strategy by clicking on it if you want to add yo
 
 More information here:
 
-{% page-ref page="../strategies/" %}
+{% content-ref url="../strategies/" %}
+[strategies](../strategies/)
+{% endcontent-ref %}
 
 #### Admins
 
 The admins will be able to edit the space settings and moderate proposals. You must add one address per line.
 
-![Add admins&apos; addresses](../.gitbook/assets/add-admins-addresses.png)
+![Add admins' addresses](../.gitbook/assets/add-admins-addresses.png)
 
 #### Members
 
 Members will be able to create proposals without being constrained by filters. You must add one address per line.
 
-![Add members&apos; addresses](../.gitbook/assets/add-members-addresses.png)
+![Add members' addresses](../.gitbook/assets/add-members-addresses.png)
 
 #### Filters
 
 * **Proposal threshold** is the minimum number of tokens required to create a proposal.
 * **Proposal validation** is a custom function to validate if someone can post a proposal or not. You can use the basic validation by default which takes your voting power with space strategies and checks if you pass a defined threshold.
-* **Allow only members to submit a proposal** makes sure that only members specified in members field are allowed to submit a proposal. 
+* **Allow only members to submit a proposal **makes sure that only members specified in members field are allowed to submit a proposal. 
 
 ![](../.gitbook/assets/screenshot-179-.png)
 
@@ -106,7 +110,9 @@ Members will be able to create proposals without being constrained by filters. Y
 
 Plugins give extra features for your space. More information here:
 
-{% page-ref page="../plugins/" %}
+{% content-ref url="../plugins/" %}
+[plugins](../plugins/)
+{% endcontent-ref %}
 
 ### 4. Save your settings
 
@@ -116,7 +122,10 @@ You are all set! You can go on `https://snapshot.org/#/<ENS_DOMAIN>` to see your
 
 ### What you can do now**?**
 
-{% page-ref page="add-skin.md" %}
+{% content-ref url="add-skin.md" %}
+[add-skin.md](add-skin.md)
+{% endcontent-ref %}
 
-{% page-ref page="add-custom-domain.md" %}
-
+{% content-ref url="add-custom-domain.md" %}
+[add-custom-domain.md](add-custom-domain.md)
+{% endcontent-ref %}
