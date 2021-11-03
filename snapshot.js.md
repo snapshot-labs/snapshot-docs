@@ -44,7 +44,6 @@ const strategies = [
   }
 ];
 const network = '1';
-const provider = snapshot.utils.getProvider(network);
 const voters = [
   '0xa478c2975ab1ea89e8196811f51a7b7ade33eb11',
   '0xeF8305E140ac520225DAf050e2f71d5fBcC543e7',
@@ -56,7 +55,6 @@ snapshot.utils.getScores(
   space,
   strategies,
   network,
-  provider,
   voters,
   blockNumber
 ).then(scores => {
