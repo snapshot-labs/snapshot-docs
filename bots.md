@@ -18,7 +18,7 @@ Here are the different existing solutions to received notifications for new prop
 ### HAL
 
 **For:** Discord, Telegram, Twitter, Email, Slack, Webhook\
-**Status:** Ready (require manual approval)\
+**Status:** Ready (for all spaces)\
 **Install:** [https://9000.hal.xyz/recipes/snapshot-follow-new-proposals](https://9000.hal.xyz/recipes/snapshot-follow-new-proposals)
 
 ### propbot
