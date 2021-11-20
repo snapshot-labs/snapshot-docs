@@ -6,26 +6,67 @@ description: The official JavaScript client for build Snapshot apps.
 
 ### **Overview**
 
-TBD
-
 {% embed url="https://github.com/snapshot-labs/snapshot.js" %}
 
+#### Init client
 
+```javascript
+import snapshot from '@snapshot-labs/snapshot.js/src/sign';
+
+const hub = 'https://hub.snapshot.org'; // or https://testnet.snapshot.org for testnet
+const client = new snapshot.Client712(hub);
+```
+
+#### Cast a vote
+
+```javascript
+import { Web3Provider } from '@ethersproject/providers';
+
+const web3 = new Web3Provider(window.ethereum);
+
+const receipt = await client712.vote(web3, web3.account, {
+  space: 'yam.eth',
+  proposal: '0x21ea31e896ec5b5a49a3653e51e787ee834aaf953263144ab936ed756f36609f',
+  type: 'single-choice',
+  choice: 1,
+  metadata: JSON.stringify({})
+});
+```
+
+#### Create proposal
+
+```javascript
+import { Web3Provider } from '@ethersproject/providers';
+
+const web3 = new Web3Provider(window.ethereum);
+
+const receipt = await client712.proposal(web3, web3.account, {
+  space: 'yam.eth',
+  type: 'single-choice',
+  title: 'Test proposal using Snapshot.js',
+  body: '',
+  choices: ['Alice', 'Bob', 'Carol'],
+  start: 1636984800,
+  end: 1637244000,
+  snapshot: 13620822,
+  network: 1,
+  strategies: JSON.stringify(space.strategies),
+  plugins: JSON.stringify({}),
+  metadata: JSON.stringify({ app: 'snapshot.js' })
+});
+```
+
+#### **Create or edit a space**
+
+...
+
+#### Join a space
+
+...
 
 ### **Utils**
 
-### **getProvider**
-
-Return a Ethers.js JsonRPCProvider connected to an archive node.
-
-```javascript
-import snapshot from '@snapshot-labs/snapshot.js';
-
-const network = '1';
-const provider = snapshot.utils.getProvider(network);
-```
-
-### **getScores**
+#### **getScores**
 
 Calculate voting power for a list of voters.
 
@@ -62,6 +103,15 @@ snapshot.utils.getScores(
 });
 ```
 
-Other exposed methods - TBD  
+#### **getProvider**
 
+Return a Ethers.js JsonRPCProvider connected to an archive node.
 
+```javascript
+import snapshot from '@snapshot-labs/snapshot.js';
+
+const network = '1';
+const provider = snapshot.utils.getProvider(network);
+```
+
+****
