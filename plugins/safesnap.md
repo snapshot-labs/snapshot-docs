@@ -10,9 +10,10 @@ With help of SafeSnap and Gnosis Safe, you can have a trustless on-chain executi
 
 ## Setup
 
-Here is the official guide on how to setup a SafeSnap for your project:
+Here are the official guides on how to setup a SafeSnap for your project:
 
-{% embed url="https://github.com/gnosis/dao-module/blob/main/docs/setup\_guide.md" %}
+Gnosis UI setup: {% embed url="https://gnosis.github.io/zodiac/docs/tutorial-module-reality/get-started" %}
+Manual setup: {% embed url="https://github.com/gnosis/dao-module/blob/main/docs/setup\_guide.md" %}
 
 Learn more about SafeSnap in this video:
 
