@@ -8,31 +8,31 @@ description: >-
 
 ## Explorer
 
-You can run queries on Snapshot data using a GraphQL Explorer. 
+You can run queries on Snapshot data using a GraphQL Explorer.
 
-We have exposed an integrated development environment in the browser that includes docs, syntax highlighting, and validation errors. Click the link below to access the interface. 
+We have exposed an integrated development environment in the browser that includes docs, syntax highlighting, and validation errors. Click the link below to access the interface.
 
 {% embed url="https://hub.snapshot.org/graphql" %}
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (1).png>)
 
 ## Endpoints
 
 Production hub
 
-```text
+```
 https://hub.snapshot.org/graphql
 ```
 
 Demo hub
 
-```text
+```
 https://testnet.snapshot.org/graphql
 ```
 
 ## Queries
 
-### Get a single space <a id="space"></a>
+### Get a single space <a href="#space" id="space"></a>
 
 #### Arguments
 
@@ -82,16 +82,16 @@ query {
 
 Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20space%28id%3A%20%22yam.eth%22%29%20%7B%0A%20%20%20%20id%0A%20%20%20%20name%0A%20%20%20%20about%0A%20%20%20%20network%0A%20%20%20%20symbol%0A%20%20%20%20members%0A%20%20%7D%0A%7D)
 
-### Get multiple spaces <a id="spaces"></a>
+### Get multiple spaces <a href="#spaces" id="spaces"></a>
 
 #### Arguments
 
-first `number`  
-skip `number`  
-where:  
-    - id`string`  
-    - id\_in`array`  
-orderBy `string`  
+first `number`\
+skip `number`\
+where:\
+\- id`string`\
+\- id\_in`array`\
+orderBy `string`\
 orderDirection `asc` or `desc`
 
 #### Example
@@ -172,9 +172,9 @@ query {
 
 Try on [GraphiQL](https://hub.snapshot.org/graphql?query=%0Aquery%20Spaces%20%7B%0A%20%20spaces%28%0A%20%20%20%20first%3A%2020%2C%0A%20%20%20%20skip%3A%200%2C%0A%20%20%20%20orderBy%3A%20%22created%22%2C%0A%20%20%20%20orderDirection%3A%20asc%0A%20%20%29%20%7B%0A%20%20%20%20id%0A%20%20%20%20name%0A%20%20%20%20about%0A%20%20%20%20network%0A%20%20%20%20symbol%0A%20%20%20%20strategies%20%7B%0A%20%20%20%20%20%20name%0A%20%20%20%20%20%20params%0A%20%20%20%20%7D%0A%20%20%20%20admins%0A%20%20%20%20members%0A%20%20%20%20filters%20%7B%0A%20%20%20%20%20%20minScore%0A%20%20%20%20%20%20onlyMembers%0A%20%20%20%20%7D%0A%20%20%20%20plugins%0A%20%20%7D%0A%7D)
 
-### Get a single proposal <a id="proposal"></a>
+### Get a single proposal <a href="#proposal" id="proposal"></a>
 
-#### Arguments <a id="arguments"></a>
+#### Arguments <a href="#arguments" id="arguments"></a>
 
 id `string`‌
 
@@ -239,25 +239,25 @@ query {
 {% endtab %}
 {% endtabs %}
 
-Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Proposal&query=query%20Proposal%20%7B%0A%20%20proposal%28id%3A%22QmWbpCtwdLzxuLKnMW4Vv4MPFd2pdPX71YBKPasfZxqLUS%22%29%20%7B%0A%20%20%20%20id%0A%20%20%20%20title%0A%20%20%20%20body%0A%20%20%20%20choices%0A%20%20%20%20start%0A%20%20%20%20end%0A%20%20%20%20snapshot%0A%20%20%20%20state%0A%20%20%20%20author%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%20%20name%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D)
+Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Proposal\&query=query%20Proposal%20%7B%0A%20%20proposal%28id%3A%22QmWbpCtwdLzxuLKnMW4Vv4MPFd2pdPX71YBKPasfZxqLUS%22%29%20%7B%0A%20%20%20%20id%0A%20%20%20%20title%0A%20%20%20%20body%0A%20%20%20%20choices%0A%20%20%20%20start%0A%20%20%20%20end%0A%20%20%20%20snapshot%0A%20%20%20%20state%0A%20%20%20%20author%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%20%20name%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D)
 
-### Get proposals <a id="proposals"></a>
+### Get proposals <a href="#proposals" id="proposals"></a>
 
 #### Arguments
 
-first `number`  
-skip `number`  
-where:  
-    - id`string`  
-    - id\_in`array`  
-    - space:`string`  
-    - space\_in:`array`  
-    - author:`string`  
-    - author\_in:`array`  
-    - network: `string`  
-    - network\_in: `array`  
-    - state: `array`  
-orderBy `string`  
+first `number`\
+skip `number`\
+where:\
+\- id`string`\
+\- id\_in`array`\
+\- space:`string`\
+\- space\_in:`array`\
+\- author:`string`\
+\- author\_in:`array`\
+\- network: `string`\
+\- network\_in: `array`\
+\- state: `array`\
+orderBy `string`\
 orderDirection `asc` or `desc`
 
 #### Example
@@ -326,11 +326,11 @@ query {
 {% endtab %}
 {% endtabs %}
 
-Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Proposals&query=query%20Proposals%20%7B%0A%20%20proposals%20%28%0A%20%20%20%20first%3A%2020%2C%0A%20%20%20%20skip%3A%200%2C%0A%20%20%20%20where%3A%20%7B%0A%20%20%20%20%20%20space_in%3A%20%5B%22yam.eth%22%5D%2C%0A%20%20%20%20%20%20state%3A%20%22closed%22%0A%20%20%20%20%7D%2C%0A%20%20%20%20orderBy%3A%20%22created%22%2C%0A%20%20%20%20orderDirection%3A%20desc%0A%20%20%29%20%7B%0A%20%20%20%20id%0A%20%20%20%20title%0A%20%20%20%20body%0A%20%20%20%20choices%0A%20%20%20%20start%0A%20%20%20%20end%0A%20%20%20%20snapshot%0A%20%20%20%20state%0A%20%20%20%20author%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%20%20name%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D)
+Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Proposals\&query=query%20Proposals%20%7B%0A%20%20proposals%20%28%0A%20%20%20%20first%3A%2020%2C%0A%20%20%20%20skip%3A%200%2C%0A%20%20%20%20where%3A%20%7B%0A%20%20%20%20%20%20space\_in%3A%20%5B%22yam.eth%22%5D%2C%0A%20%20%20%20%20%20state%3A%20%22closed%22%0A%20%20%20%20%7D%2C%0A%20%20%20%20orderBy%3A%20%22created%22%2C%0A%20%20%20%20orderDirection%3A%20desc%0A%20%20%29%20%7B%0A%20%20%20%20id%0A%20%20%20%20title%0A%20%20%20%20body%0A%20%20%20%20choices%0A%20%20%20%20start%0A%20%20%20%20end%0A%20%20%20%20snapshot%0A%20%20%20%20state%0A%20%20%20%20author%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%20%20name%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D)
 
-### Get a single vote <a id="vote"></a>
+### Get a single vote <a href="#vote" id="vote"></a>
 
-#### Arguments <a id="arguments"></a>
+#### Arguments <a href="#arguments" id="arguments"></a>
 
 id `string`‌
 
@@ -376,24 +376,24 @@ query {
 {% endtab %}
 {% endtabs %}
 
-Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Vote&query=query%20Vote%20%7B%0A%20%20vote%20%28%0A%20%20%20%20id%3A%20%22QmeU7ct9Y4KLrh6F6mbT1eJNMkeQKMSnSujEfMCfbRLCMp%22%0A%20%20%29%20%7B%0A%20%20%20%20id%0A%20%20%20%20voter%0A%20%20%20%20created%0A%20%20%20%20proposal%0A%20%20%20%20choice%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D)
+Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Vote\&query=query%20Vote%20%7B%0A%20%20vote%20%28%0A%20%20%20%20id%3A%20%22QmeU7ct9Y4KLrh6F6mbT1eJNMkeQKMSnSujEfMCfbRLCMp%22%0A%20%20%29%20%7B%0A%20%20%20%20id%0A%20%20%20%20voter%0A%20%20%20%20created%0A%20%20%20%20proposal%0A%20%20%20%20choice%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D)
 
-### Get votes <a id="votes"></a>
+### Get votes <a href="#votes" id="votes"></a>
 
 #### Arguments
 
-first `number`  
-skip `number`  
-where:  
-    - id`string`  
-    - id\_in`array`  
-    - space:`string`  
-    - space\_in:`array`  
-    - voter:`string`  
-    - voter\_in:`array`  
-    - proposal: `string`  
-    - proposal\_in: `array`  
-orderBy `string`  
+first `number`\
+skip `number`\
+where:\
+\- id`string`\
+\- id\_in`array`\
+\- space:`string`\
+\- space\_in:`array`\
+\- voter:`string`\
+\- voter\_in:`array`\
+\- proposal: `string`\
+\- proposal\_in: `array`\
+orderBy `string`\
 orderDirection `asc` or `desc`
 
 #### Example
@@ -457,22 +457,22 @@ query {
 {% endtab %}
 {% endtabs %}
 
-Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Votes&query=query%20Votes%20%7B%0A%20%20votes%20%28%0A%20%20%20%20first%3A%201000%0A%20%20%20%20skip%3A%200%0A%20%20%20%20where%3A%20%7B%0A%20%20%20%20%20%20proposal%3A%20%22QmPvbwguLfcVryzBRrbY4Pb9bCtxURagdv1XjhtFLf3wHj%22%0A%20%20%20%20%7D%0A%20%20%20%20orderBy%3A%20%22created%22%2C%0A%20%20%20%20orderDirection%3A%20desc%0A%20%20%29%20%7B%0A%20%20%20%20id%0A%20%20%20%20voter%0A%20%20%20%20created%0A%20%20%20%20proposal%0A%20%20%20%20choice%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A)
+Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Votes\&query=query%20Votes%20%7B%0A%20%20votes%20%28%0A%20%20%20%20first%3A%201000%0A%20%20%20%20skip%3A%200%0A%20%20%20%20where%3A%20%7B%0A%20%20%20%20%20%20proposal%3A%20%22QmPvbwguLfcVryzBRrbY4Pb9bCtxURagdv1XjhtFLf3wHj%22%0A%20%20%20%20%7D%0A%20%20%20%20orderBy%3A%20%22created%22%2C%0A%20%20%20%20orderDirection%3A%20desc%0A%20%20%29%20%7B%0A%20%20%20%20id%0A%20%20%20%20voter%0A%20%20%20%20created%0A%20%20%20%20proposal%0A%20%20%20%20choice%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A)
 
-### Get follows <a id="follows"></a>
+### Get follows <a href="#follows" id="follows"></a>
 
 #### Arguments
 
-first `number`  
-skip `number`  
-where:  
-    - id`string`  
-    - id\_in`array`  
-    - space:`string`  
-    - space\_in:`array`  
-    - follower:`string`  
-    - follower\_in:`array`  
-orderBy `string`  
+first `number`\
+skip `number`\
+where:\
+\- id`string`\
+\- id\_in`array`\
+\- space:`string`\
+\- space\_in:`array`\
+\- follower:`string`\
+\- follower\_in:`array`\
+orderBy `string`\
 orderDirection `asc` or `desc`
 
 #### Example
@@ -542,4 +542,3 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20fol
 ### Aliases
 
 TBD
-
