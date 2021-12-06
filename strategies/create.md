@@ -24,6 +24,8 @@ To add your own strategy on Snapshot you need to fork the **snapshot-strategies*
 npm run test --strategy=<STRATEGY NAME> // replace <STRATEGY NAME>
 ```
 
+See [How to write a basic strategy](how-to-write-a-basic-strategy.md)
+
 ### 4. Make sure you pass the checklist
 
 Have a look here on the requirements for adding a new strategy and make sure you full fill the points in the checklist: [https://github.com/snapshot-labs/snapshot.js/issues/212](https://github.com/snapshot-labs/snapshot.js/issues/212)
@@ -31,4 +33,3 @@ Have a look here on the requirements for adding a new strategy and make sure you
 ### 5. Create a pull request
 
 The team will then review your PR and after it's approved and merged it will be available in your space settings.
-
