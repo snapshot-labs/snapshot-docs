@@ -23,6 +23,7 @@ const client = new snapshot.Client712(hub);
 import { Web3Provider } from '@ethersproject/providers';
 
 const web3 = new Web3Provider(window.ethereum);
+const [account] = await web3.listAccounts();
 
 const receipt = await client.vote(web3, web3.account, {
   space: 'yam.eth',
@@ -39,6 +40,7 @@ const receipt = await client.vote(web3, web3.account, {
 import { Web3Provider } from '@ethersproject/providers';
 
 const web3 = new Web3Provider(window.ethereum);
+const [account] = await web3.listAccounts();
 
 const receipt = await client.proposal(web3, web3.account, {
   space: 'yam.eth',
