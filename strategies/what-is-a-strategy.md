@@ -1,4 +1,23 @@
-# What is a strategy?
+# Learn about the strategies
+
+
+
+## How to use strategies:
+
+If you want coin-voting (1 token = 1 vote) you can use "erc20-balance-of", however you may want:
+
+* Delegate voting power using a delegation strategy
+* Weighting voting power using a quadratic strategy
+* NFT voting with an ERC-721 or ERC-1155 based strategies
+* Only allow certain members to vote using whitelist strategy
+* Calculate voting power from multiple chains with multichain strategy
+
+You can combine up to 8 strategies on a single proposal (combination work as OR not AND opperator)
+
+At the time of writing snapshot has over 150 voting strategies. Explore them here [https://snapshot.org/#/strategies](https://snapshot.org/#/strategies)\
+You can even preview actions using the playground button.
+
+## What is a strategy
 
 A strategy is a JavaScript function that returns a score for a set of addresses. Strategies are being used on Snapshot to calculate the result for a proposal. A proposal can have multiple strategies. The default strategy is to calculate the balance of an ERC20 for each voter. A strategy can send a call to a node or subgraph.
 
@@ -63,10 +82,9 @@ Strategies can be used to create a score from on-chain data, the data does not n
 
 ### **Other Common strategies**
 
-* **erc20-with-balance** is an example of strategy that checks whether the participant has a minimum amount of token required to vote and assigns all the votes to 1. You need to add the parameter “minBalance” and set it equal to the minimum balance required to vote on a proposal. This value is set to 0 by default. 
-* **erc20-balance-of-delegate** is used if you want to use a delegation contract along with erc20-balance-of. 
+* **erc20-with-balance** is an example of strategy that checks whether the participant has a minimum amount of token required to vote and assigns all the votes to 1. You need to add the parameter “minBalance” and set it equal to the minimum balance required to vote on a proposal. This value is set to 0 by default.&#x20;
+* **erc20-balance-of-delegate** is used if you want to use a delegation contract along with erc20-balance-of.&#x20;
 
-### Find more strategies here: <a id="find-more-strategies-here"></a>
+### Find more strategies here: <a href="#find-more-strategies-here" id="find-more-strategies-here"></a>
 
 {% embed url="https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/strategies" %}
-

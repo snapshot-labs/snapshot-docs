@@ -11,7 +11,7 @@ description: The official JavaScript client for build Snapshot apps.
 #### Init client
 
 ```javascript
-import snapshot from '@snapshot-labs/snapshot.js/src/sign';
+import snapshot from '@snapshot-labs/snapshot.js';
 
 const hub = 'https://hub.snapshot.org'; // or https://testnet.snapshot.org for testnet
 const client = new snapshot.Client712(hub);
@@ -24,7 +24,7 @@ import { Web3Provider } from '@ethersproject/providers';
 
 const web3 = new Web3Provider(window.ethereum);
 
-const receipt = await client712.vote(web3, web3.account, {
+const receipt = await client.vote(web3, web3.account, {
   space: 'yam.eth',
   proposal: '0x21ea31e896ec5b5a49a3653e51e787ee834aaf953263144ab936ed756f36609f',
   type: 'single-choice',
@@ -40,7 +40,7 @@ import { Web3Provider } from '@ethersproject/providers';
 
 const web3 = new Web3Provider(window.ethereum);
 
-const receipt = await client712.proposal(web3, web3.account, {
+const receipt = await client.proposal(web3, web3.account, {
   space: 'yam.eth',
   type: 'single-choice',
   title: 'Test proposal using Snapshot.js',
