@@ -25,7 +25,7 @@ import { Web3Provider } from '@ethersproject/providers';
 const web3 = new Web3Provider(window.ethereum);
 const [account] = await web3.listAccounts();
 
-const receipt = await client.vote(web3, web3.account, {
+const receipt = await client.vote(web3, account, {
   space: 'yam.eth',
   proposal: '0x21ea31e896ec5b5a49a3653e51e787ee834aaf953263144ab936ed756f36609f',
   type: 'single-choice',
@@ -42,7 +42,7 @@ import { Web3Provider } from '@ethersproject/providers';
 const web3 = new Web3Provider(window.ethereum);
 const [account] = await web3.listAccounts();
 
-const receipt = await client.proposal(web3, web3.account, {
+const receipt = await client.proposal(web3, account, {
   space: 'yam.eth',
   type: 'single-choice',
   title: 'Test proposal using Snapshot.js',
