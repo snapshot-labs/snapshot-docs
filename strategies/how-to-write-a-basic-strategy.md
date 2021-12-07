@@ -9,7 +9,7 @@ Every strategy is, at its core, the implementation of the `strategy(space, netwo
 A quick word on the function parameters:
 
 * `space`: the space (if applicable), based on the registered ENS associated with this strategy (see [Spaces](../spaces/))
-* `network`: the network id as an integer (1 for Ethereum)
+* `network`: the network id as a string ("1" for Ethereum mainnet)
 * `provider`: the network provider used by the web browser
 * `addresses`: the list of addresses of the voters being processed.
 * `options`: a collection of options that can be passed to strategy(...) - those have no default keys and can be used to pass any useful data
