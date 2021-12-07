@@ -13,7 +13,7 @@ A quick word on the function parameters:
 * `provider`: the network provider used by the web browser
 * `addresses`: the list of addresses of the voters being processed.
 * `options`: a collection of options that can be passed to strategy(...) - those have no default keys and can be used to pass any useful data
-* `snapshots`: the block height at which the data are queried by strategy(...) - if none is passed, 'latest' is used.&#x20;
+* `snapshot`: the block height at which the data are queried by strategy(...) - if none is passed, 'latest' is used.&#x20;
 
 `Strategy(...)` returns a JavaScript object with every addresses from the addresses array as keys and the corresponding voting power as value (expressed in number of token owned by the address for `erc20-balance-of`, as a number of rocks owned for `has-rock`, etc).
 
