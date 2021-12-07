@@ -15,7 +15,7 @@ A quick word on the function parameters:
 * `options`: a collection of options that can be passed to strategy(...) - those have no default keys and can be used to pass any useful data
 * `snapshots`: the block height at which the data are queried by strategy(...) - if none is passed, 'latest' is used.&#x20;
 
-`Strategy(...)` returns a javascript object with every addresses from the addresses array as keys and the corresponding voting power as value (expressed in number of token owned by the address for `erc20-balance-of`, as a number of rocks owned for `has-rock`, etc).
+`Strategy(...)` returns a JavaScript object with every addresses from the addresses array as keys and the corresponding voting power as value (expressed in number of token owned by the address for `erc20-balance-of`, as a number of rocks owned for `has-rock`, etc).
 
 Every strategy comes with a JSON file `examples.json`. This file is mandatory as it will be used for testing and validating the strategy before including it in Snapshot main GitHub branch. Here are the main keys:
 
