@@ -17,7 +17,6 @@
 * [Strategies](strategies/README.md)
   * [What is a strategy?](strategies/what-is-a-strategy.md)
   * [Create a new strategy](strategies/create.md)
-  * [How to write a basic strategy](strategies/how-to-write-a-basic-strategy.md)
 * [Plugins](plugins/README.md)
   * [Create a plugin](plugins/create.md)
   * [SafeSnap](plugins/safesnap.md)
