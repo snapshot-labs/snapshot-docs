@@ -4,12 +4,14 @@ If you already have a space in Snapshot which does not have an ENS name, you nee
 
 ### 1. Create a space with ENS
 
-To migrate your space you will need first to create the space with ENS.   
-  
-You can use this url to get your previous space settings populated in the form: https://snapshot.page/\#/**&lt;ens\_space\_id&gt;**/settings/**&lt;previous\_space\_id&gt;**  
-Example: https://snapshot.page/\#/**yam.eth**/settings/**yam**
+To migrate your space you will need first to create the space with ENS. \
+\
+You can use this url to get your previous space settings populated in the form: https://snapshot.page/#/**\<ens\_space\_id>**/settings/**\<previous\_space\_id>**\
+****Example: https://snapshot.page/#/**yam.eth**/settings/**yam**
 
-{% page-ref page="create.md" %}
+{% content-ref url="create.md" %}
+[create.md](create.md)
+{% endcontent-ref %}
 
 ### 2. Declare your new space alias
 
@@ -37,4 +39,3 @@ You must add your new alias in the [aliases.json file](https://github.com/snapsh
 The migration of the proposals, votes, and URLs is done manually, once your space with ENS is ready please send us a message on the "helpdesk" channel on [Discord](https://discord.snapshot.page) to do the changes.
 
 You have now successfully migrated your space to ENS! The next guide will take you through steps for adding an avatar and skin for your space.
-

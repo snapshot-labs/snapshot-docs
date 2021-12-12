@@ -12,7 +12,7 @@ If you already have a space without ENS domain (legacy), you need to [Migrate yo
 
 ### 1. Get an ENS domain for your space
 
-If you haven't already, follow this guide - [https://docs.snapshot.org/spaces/before-creating-your-space](https://docs.snapshot.org/spaces/before-creating-your-space) to get your ENS domain. 
+If you haven't already, follow this guide - [https://docs.snapshot.org/spaces/before-creating-your-space](https://docs.snapshot.org/spaces/before-creating-your-space) to get your ENS domain.&#x20;
 
 ### 2. Link your ENS domain to Snapshot
 
@@ -31,13 +31,13 @@ You will need a wallet that can sign message like MetaMask, Fortmatic, Portis, A
 If you are on your domain space and connected with your wallet you will see the correct **IPNS link** in the **ENS field**. Click on the button **Set record on ENS**, and you will get redirected to ENS page.
 
 * On the ENS page, click on **ADD/EDIT RECORD**.
-* Select **TEXT** and type the key** "snapshot"** in lowercase.
+* Select **TEXT** and type the key **"snapshot"** in lowercase.
 * Paste the **IPNS link** in the field.
 * Click **Save**.
 * Scroll down and click **Confirm**.
 * Sign the transaction with your wallet.
 
-![](<../.gitbook/assets/snapshot (1).gif>)
+![](<../.gitbook/assets/snapshot (2).gif>)
 
 ### **3. Setup your space settings**
 
@@ -66,7 +66,7 @@ Refresh the Snapshot settings page `https://snapshot.org/#/`**`<ENS DOMAIN>`**`/
 
 #### **Strategies**
 
-A strategy is a JavaScript function that defines how the voting power is calculated. You need to add a voting strategy for your proposals. erc20-balance-of is the most used strategy.  You can have multiple strategies and can have your custom strategies as well. 
+A strategy is a JavaScript function that defines how the voting power is calculated. You need to add a voting strategy for your proposals. erc20-balance-of is the most used strategy.  You can have multiple strategies and can have your custom strategies as well.&#x20;
 
 You need to add a voting strategy for your proposals. `erc20-balance-of` is the most common strategy.
 
@@ -102,7 +102,7 @@ Members will be able to create proposals without being constrained by filters. Y
 
 * **Proposal threshold** is the minimum number of tokens required to create a proposal.
 * **Proposal validation** is a custom function to validate if someone can post a proposal or not. You can use the basic validation by default which takes your voting power with space strategies and checks if you pass a defined threshold.
-* **Allow only members to submit a proposal **makes sure that only members specified in members field are allowed to submit a proposal. 
+* **Allow only members to submit a proposal** makes sure that only members specified in members field are allowed to submit a proposal.&#x20;
 
 ![](../.gitbook/assets/screenshot-179-.png)
 
