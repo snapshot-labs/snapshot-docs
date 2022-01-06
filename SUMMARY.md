@@ -28,6 +28,7 @@
 * [Webhooks](webhooks.md)
 * [Bots](bots.md)
 * [Snapshot.js](snapshot.js.md)
+* [Gnosis Safe](gnosis-safe.md)
 * [FAQs](faq.md)
 
 ## Guides
