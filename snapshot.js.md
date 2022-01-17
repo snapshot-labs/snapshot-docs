@@ -54,7 +54,7 @@ const receipt = await client.proposal(web3, account, {
   network: '1',
   strategies: JSON.stringify(space.strategies),
   plugins: JSON.stringify({}),
-  metadata: JSON.stringify({ app: 'snapshot.js' })
+  metadata: JSON.stringify({})
 });
 ```
 
