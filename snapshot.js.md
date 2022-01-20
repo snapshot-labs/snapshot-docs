@@ -52,7 +52,7 @@ const receipt = await client.proposal(web3, account, {
   end: 1637244000,
   snapshot: 13620822,
   network: '1',
-  strategies: JSON.stringify(space.strategies),
+  strategies: JSON.stringify({}),
   plugins: JSON.stringify({}),
   metadata: JSON.stringify({})
 });
