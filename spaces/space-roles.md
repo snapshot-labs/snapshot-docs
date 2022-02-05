@@ -8,5 +8,5 @@ On a space there can be 3 different roles:
 **Admins**\
 ****The admins can edit space settings (except the admins list) and archive proposals.
 
-**Members**\
-****Members can post proposals regardless of their voting power.
+**Authors**\
+****Authors can post proposals regardless of their voting power.
