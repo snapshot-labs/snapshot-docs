@@ -98,19 +98,18 @@ The admins will be able to edit the space settings and moderate proposals. You m
 
 ![Add admins' addresses](../.gitbook/assets/add-admins-addresses.png)
 
-#### Members
-
-Members will be able to create proposals without being constrained by filters. You must add one address per line.
-
-![Add members' addresses](../.gitbook/assets/add-members-addresses.png)
-
 #### Filters
 
 * **Proposal threshold** is the minimum number of tokens required to create a proposal.
 * **Proposal validation** is a custom function to validate if someone can post a proposal or not. You can use the basic validation by default which takes your voting power with space strategies and checks if you pass a defined threshold.
-* **Allow only members to submit a proposal** makes sure that only members specified in members field are allowed to submit a proposal.&#x20;
 
-![](../.gitbook/assets/screenshot-179-.png)
+![](<../.gitbook/assets/Capture d’écran 2022-02-22 à 12.33.34.png>)
+
+**Allow only authors to submit a proposal,** authors will be able to create proposals without being constrained by filters. You must add one address per line. Makes sure that only members specified in authors field are allowed to submit a proposal.&#x20;
+
+![Add authors' addresses](<../.gitbook/assets/Capture d’écran 2022-02-22 à 12.26.04.png>)
+
+####
 
 #### Plugins
 
