@@ -14,17 +14,17 @@ If you haven't already, follow this guide - [https://docs.snapshot.org/spaces/be
 
 ### 2a. Set ENS text-record
 
-Now that you have a ENS address you can go back to snapshot and set the space controller inside the ENS text-record.
+Now that you have a ENS address you can go back to snapshot and set the space controller inside the ENS text-record. Selecting the plus icon in the sidebar and then select the ENS address you just setup.
 
 ![Click the plus button in the sidebar and then click you ENS address you just setup](<../.gitbook/assets/image (1).png>)
 
-Enter the wallet address that you would like to set as the space controller and click "Set controller".&#x20;
+On the next step enter the wallet address that you would like to set as the space controller and click "Set controller".&#x20;
 
 {% hint style="info" %}
-You will need to sign an onchain transaction to set the ENS text-record on the Ethereum Mainnet.
+You will need to sign an transaction on the Ethereum Mainnet to set the ENS text-record.
 {% endhint %}
 
-After the transaction is confirmed the page will redirect you to the settings page of your space and you can go to step 3 of this tutorial.
+After the transaction is confirmed, the page will redirect you to the settings page of your space. You can now skip to Step 3.
 
 ### 2b. (optional) Manually set ENS text-record
 
