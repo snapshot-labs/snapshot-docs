@@ -11,6 +11,7 @@
   * [Add a skin](spaces/add-skin.md)
   * [Add a custom domain](spaces/add-custom-domain.md)
   * [Space roles](spaces/space-roles.md)
+  * [Delete a space](spaces/delete-a-space.md)
 * [Proposals](proposals/README.md)
   * [Create a proposal](proposals/create.md)
   * [Vote on a proposal](proposals/vote.md)
