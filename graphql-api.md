@@ -330,6 +330,10 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Proposals\&quer
 
 ### Get a single vote <a href="#vote" id="vote"></a>
 
+{% hint style="warning" %}
+Choices are indexed 1-based. The first choice has index 1.
+{% endhint %}
+
 #### Arguments <a href="#arguments" id="arguments"></a>
 
 id `string`‌
@@ -383,6 +387,10 @@ query {
 Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Vote\&query=query%20Vote%20%7B%0A%20%20vote%20\(%0A%20%20%20%20id%3A%20%22QmeU7ct9Y4KLrh6F6mbT1eJNMkeQKMSnSujEfMCfbRLCMp%22%0A%20%20\)%20%7B%0A%20%20%20%20id%0A%20%20%20%20voter%0A%20%20%20%20created%0A%20%20%20%20proposal%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%20%20choice%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D)
 
 ### Get votes <a href="#votes" id="votes"></a>
+
+{% hint style="warning" %}
+Choices are indexed 1-based. The first choice has index 1.
+{% endhint %}
 
 #### Arguments
 
