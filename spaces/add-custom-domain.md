@@ -49,7 +49,7 @@ To prevent conflicts, it is recommended to add your subdomain between two existi
 
 #### Configure your DNS&#x20;
 
-You will need to add this as CNAME in your domain DNS `snapshotpage.b-cdn.net`
+You will need to add this as CNAME in your domain DNS `cname.snapshot.org`
 
 After committing your PR, you will have to wait for the merge and the deployment of your PR to be able to get your domain live. This process can take a few hours.
 
