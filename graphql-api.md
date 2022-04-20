@@ -195,10 +195,15 @@ query {
     state
     author
     created
+    scores
+    scores_by_strategy
+    scores_total
+    scores_updated
     plugins
     network
     strategies {
       name
+      network
       params
     }
     space {
@@ -284,6 +289,10 @@ query {
     end
     snapshot
     state
+    scores
+    scores_by_strategy
+    scores_total
+    scores_updated
     author
     space {
       id
@@ -349,6 +358,9 @@ query {
   ) {
     id
     voter
+    vp
+    vp_by_strategy
+    vp_state
     created
     proposal {
       id
@@ -425,6 +437,9 @@ query {
   ) {
     id
     voter
+    vp
+    vp_by_strategy
+    vp_state
     created
     proposal {
       id
