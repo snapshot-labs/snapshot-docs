@@ -27,7 +27,8 @@ Here is a tutorial to setup POAP plugin on your Snapshot space:&#x20;
 * Link your POAP event ID to Snapshot proposal ID by contacting the POAP team via discord or telegram.
 * Once the event and Proposal is linked, each voter will be able to claim their special POAP. ****&#x20;
 
-You can also check out a tutorial guide to set up POAP plugin for your Snapshot space [https://tomso11.medium.com/how-to-set-up-poap-snapshot-plugin-f8006eb5ab88](https://tomso11.medium.com/how-to-set-up-poap-snapshot-plugin-f8006eb5ab88)
+You can also check out a tutorial guide to set up POAP plugin for your Snapshot space\
+[https://help.poap.xyz/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin](https://help.poap.xyz/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin)
 
 ### Support
 

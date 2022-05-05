@@ -15,7 +15,7 @@
 * [Proposals](proposals/README.md)
   * [Create a proposal](proposals/create.md)
   * [Vote on a proposal](proposals/vote.md)
-  * [Voting types](proposals/voting-types.md)
+  * [Voting Systems](proposals/voting-types.md)
 * [Strategies](strategies/README.md)
   * [Learn about the strategies](strategies/what-is-a-strategy.md)
   * [Create a new strategy](strategies/create.md)
