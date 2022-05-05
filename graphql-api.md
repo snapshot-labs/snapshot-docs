@@ -573,6 +573,55 @@ query {
 
 Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20follows\(%0A%20%20%20%20first%3A%2010%2C%0A%20%20%20%20where%3A%20%7B%0A%20%20%20%20%20%20follower%3A%20%220xeF8305E140ac520225DAf050e2f71d5fBcC543e7%22%0A%20%20%20%20%7D%0A%20%20\)%20%7B%0A%20%20%20%20follower%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%20%20created%0A%20%20%7D%0A%7D)
 
+### Get Users
+
+#### Arguments
+
+first `number`\
+skip `number`\
+where:\
+&#x20;   \- id:`string`\
+&#x20;   \- id\_in:`array`\
+orderBy `string`\
+orderDirection `asc` or `desc`
+
+#### Example
+
+{% tabs %}
+{% tab title="Request" %}
+```graphql
+query {
+  users(first: 10, where: { id_in: ["0xF78108c9BBaF466dd96BE41be728Fe3220b37119"] }) {
+    id
+    name
+    about
+    avatar
+  }
+}
+
+```
+{% endtab %}
+
+{% tab title="Untitled" %}
+```
+{
+  "data": {
+    "users": [
+      {
+        "id": "0xF78108c9BBaF466dd96BE41be728Fe3220b37119",
+        "name": "John Doe",
+        "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda asperiores a quis accusamus tenetur sed",
+        "avatar": "ipfs://QmNXTswsKJEHHEmGCgQKEAqbq3ib1eBCd4U8SRPgcuVJBX"
+      }
+    ]
+  }
+}
+```
+{% endtab %}
+{% endtabs %}
+
+Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20users\(first%3A%2010%2C%20where%3A%20%7B%20id\_in%3A%20%5B%220xF78108c9BBaF466dd96BE41be728Fe3220b37119%22%5D%20%7D\)%20%7B%0A%20%20%20%20id%0A%20%20%20%20name%0A%20%20%20%20about%0A%20%20%20%20avatar%0A%20%20%7D%0A%7D%0A)
+
 ### Aliases
 
 TBD
