@@ -4,6 +4,14 @@ description: Skins are optional.
 
 # Add a skin
 
+### What is a skin ?
+
+A skin allows you to define a color scheme for your space using a custom domain. It won't effect your space on Snapshot.org\
+\
+Prerequisite: [Add a custom domain](add-custom-domain.md)
+
+### Create a pull request
+
 To create your own skin you need to do a pull request on this repository:
 
 {% embed url="https://github.com/snapshot-labs/snapshot-spaces" %}
@@ -43,6 +51,5 @@ Select then your skin in the Skin field in your space settings.
 ![Snapshot skin selector.](../.gitbook/assets/capture-de-cran-2020-12-30-a-09.33.58.png)
 
 {% hint style="info" %}
-After committing your PR, you will have to wait for the merge and the deployment of your PR to be able to select your skin available. This process can take a few hours.
+After committing your PR, you will have to wait for the merge and the deployment of your PR to be able to select your skin available. This process can take up to a couple of days.
 {% endhint %}
-

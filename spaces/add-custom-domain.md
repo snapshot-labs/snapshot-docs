@@ -4,7 +4,11 @@ description: Custom domain is optional.
 
 # Add a custom domain
 
+### What is a custom domain ?
+
 As you already have a domain with ENS, adding a custom domain is optional. Custom domain allows you to display your space (and only your space) on a custom domain. E.g., **** [https://vote.balancer.fi/#/](https://vote.balancer.fi/#/)
+
+### Create a pull request
 
 To add a custom domain you need to do a pull request on this repository:
 
@@ -51,8 +55,16 @@ To prevent conflicts, it is recommended to add your subdomain between two existi
 
 You will need to add this as CNAME in your domain DNS `cname.snapshot.org`
 
-After committing your PR, you will have to wait for the merge and the deployment of your PR to be able to get your domain live. This process can take a few hours.
+After committing your PR, you will have to wait for the merge. This process can take a few hours.
+
+### Activate your custom domain
 
 Once the PR is merged you can go here to activate the domain:\
 [https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com](https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com)\
-(Replace "example.com" with your custom domain).
+(Replace "example.com" with your custom domain).&#x20;
+
+{% hint style="info" %}
+Note that at this step the returned message could contain warnings, this could happen if the domain DNS zone is not fully resolved yet or if you've already successfully activated your domain. Bottom line is if you've setup the CNAME record correctly you should not worry at all.
+{% endhint %}
+
+Under the current flow we still have to merge a commit from our side to finalize the deployment of your PR to be able to get your domain live. This process can take up to a couple of days\
