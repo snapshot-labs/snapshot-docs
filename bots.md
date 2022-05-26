@@ -37,5 +37,5 @@ Here are the different existing solutions to received notifications for new prop
 
 **For:** Email\
 **Status:** Ready\
-**Install:** [https://snapshot.events](https://snapshot.events)
+**Install:** [https://snapshot.events](https://snapshot.events/)
 

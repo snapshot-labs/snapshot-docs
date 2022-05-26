@@ -148,7 +148,7 @@ The actual strings needs to be added in `src/locales/default.json` to be availab
 }
 ```
 
-Learn more about localization in Vue [here](https://vue-i18n.intlify.dev).
+Learn more about localization in Vue [here](https://vue-i18n.intlify.dev/).
 
 #### Numbers and relative time
 

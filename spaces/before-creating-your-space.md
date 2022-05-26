@@ -10,7 +10,7 @@ If you already have an ENS domain, feel free to skip this and follow the guide b
 
 ### **Creating an ENS Domain**
 
-**1.**  Search for the availability of your name on ENS by going to the following link  [https://app.ens.domains/](https://app.ens.domains)&#x20;
+**1.**  Search for the availability of your name on ENS by going to the following link  [https://app.ens.domains/](https://app.ens.domains/)&#x20;
 
 **2.**  If the name is available, you would be able to see the 3 steps and fee for registration. Please note that the names with 3 or 4 characters cost considerably more than the names with 5+ characters. \
 ****

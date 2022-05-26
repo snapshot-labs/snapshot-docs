@@ -10,42 +10,31 @@ If you already have a space without ENS domain (legacy), you need to [Migrate yo
 
 ### 1. Get an ENS domain for your space
 
-If you haven't already, follow this guide - [https://docs.snapshot.org/spaces/before-creating-your-space](https://docs.snapshot.org/spaces/before-creating-your-space) to get your ENS domain.&#x20;
+If you haven't already, follow this guide - [https://docs.snapshot.org/spaces/before-creating-your-space](https://docs.snapshot.org/spaces/before-creating-your-space) to get your ENS domain.
 
-### 2a. Set ENS text-record
+Now that you have a ENS address go ahead and setup your space on [snapshot.org](https://snapshot.org/#/setup)
 
-Now that you have a ENS address you can go back to snapshot and set the space controller inside the ENS text-record. Selecting the plus icon in the sidebar and then select the ENS address you just setup.
+![Click the plus button in the sidebar and then click you ENS address you just setup](<../.gitbook/assets/image (1) (1).png>)
 
-![Click the plus button in the sidebar and then click you ENS address you just setup](<../.gitbook/assets/image (1).png>)
+### 2. Set ENS text-record
 
-On the next step enter the wallet address that you would like to set as the space controller and click "Set controller".&#x20;
+![Set the ENS text-record to determine the space controller](<../.gitbook/assets/image (7).png>)
+
+Enter the wallet address that you would like to set as the space controller and click "Set controller".&#x20;
 
 {% hint style="info" %}
-You will need to sign an transaction on the Ethereum Mainnet to set the ENS text-record.
+You will need to sign a transaction on the Ethereum Mainnet to set the ENS text-record.
 {% endhint %}
 
-After the transaction is confirmed, the page will redirect you to the settings page of your space. You can now skip to Step 3.
+### 3. Create space
 
-### 2b. (optional) Manually set ENS text-record
+![](<../.gitbook/assets/image (6).png>)
 
-Once you have created your ENS domain, you can manually set the ENS text-record for your space. The ENS text-record needs to look like the following:
+To create your space you will need to enter a name, symbol and selected a network. These settings can be changed in your space settings.
 
-`ipns://storage.snapshot.page/registry/`**`<Controller Address>`**`/`**`<ENS Address>`**
+### **4. Customize your space settings**
 
-Replace the "Controller Address" and "ENS Address" with your details.
-
-* On the ENS page, click on **ADD/EDIT RECORD**.
-* Select **TEXT** and type the key **"snapshot"** in lowercase.
-* Paste the **IPNS link** in the field.
-* Click **Save**.
-* Scroll down and click **Confirm**.
-* Sign the transaction with your wallet.
-
-![](<../.gitbook/assets/snapshot (2).gif>)
-
-### **3. Setup your space settings**
-
-You should now be on the settings page, if you have trouble finding the settings page you can manually navigate to it with the following URL:&#x20;
+If you have trouble finding the settings page you can manually navigate to it with the following URL:&#x20;
 
 `https://snapshot.org/#/`**`<ENS DOMAIN>`**`/settings`
 
@@ -119,7 +108,7 @@ Plugins give extra features for your space. More information here:
 [plugins](../plugins/)
 {% endcontent-ref %}
 
-### 4. Save your settings
+### 5. Save your settings
 
 Click "**Save**" then confirm the action in your wallet.
 

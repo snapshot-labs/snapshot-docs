@@ -30,7 +30,7 @@ Example? - TBD
 
 ### Quadratic voting
 
-Each voter may spread voting power across any number of choices. The results are calculated quadratically, you can test out these calculations here [https://wtfisqf.com/](https://wtfisqf.com)
+Each voter may spread voting power across any number of choices. The results are calculated quadratically, you can test out these calculations here [https://wtfisqf.com/](https://wtfisqf.com/)
 
 Example? - TBD
 
@@ -42,6 +42,6 @@ Example? - TBD
 
 ### Weighted voting
 
-Each voter may spread voting power across any number of choices. This voting method was first introduced by Float Protocol with [https://scattershot.page](https://scattershot.page) (a fork of Snapshot).
+Each voter may spread voting power across any number of choices. This voting method was first introduced by Float Protocol with [https://scattershot.page](https://scattershot.page/) (a fork of Snapshot).
 
 Example? - TBD

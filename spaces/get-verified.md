@@ -1,6 +1,6 @@
 # Get verified
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (2).png>)
 
 To get your space verified on the official Snapshot list you need:
 
