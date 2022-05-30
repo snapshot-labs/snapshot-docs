@@ -19,11 +19,16 @@ Here is a tutorial to setup POAP plugin on your Snapshot space:&#x20;
 
 ![](https://lh3.googleusercontent.com/X1BF1pwn6cyPu0g7j0UJpq9Ys44PlleccP9Pf-U4PNHU1cVVstF6ldQunrTLY97o88\_8Vi\_RbnDiLSmHCelGSm3-iZP05G8Mr2Qy1r5bjfJypPIpkdO2PnfdycNcyQ=s0)
 
+* Create a POAP event by going to the link [https://app.poap.xyz/admin/events](https://app.poap.xyz/admin/events). Click on ‘Create new POAP’. Make sure you comply with all the image requirements. In the amount of POAP enter "0".\
+  ****
 * Create a POAP event by going to the link [https://app.poap.xyz/admin/events](https://app.poap.xyz/admin/events). Click on ‘Create new POAP’. Make sure you comply with all the image requirements. After creating the POAP event, you will receive a confirmation email which will indicate that you reply with the amount of codes you need for the attendees of your event. This is not necessary for the plugin to work.\
   ****
 
 ![](https://lh6.googleusercontent.com/jcfVETtJQps-PoHVJNJw3gyz6A7\_0b6wKY6aJnK4YsXJWza9-IC2oXY736ZFptTgu8IWPLjEqdHQZXuKNQwahNe2jt9jMAdJb92oj2I0ioH35iJyiU0IrR-8Jp4lRw=s0)
 
+* Link your POAP event ID to Snapshot proposal ID by following this guide:\
+  [https://intercom.help/poap/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin](https://intercom.help/poap/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin)
+* Once the event and Proposal is linked, each voter will be able to claim their special POAP. ****&#x20;
 * Link your POAP event ID to Snapshot proposal ID by contacting the POAP team via discord or telegram.
 * Once the event and Proposal is linked, each voter will be able to claim their special POAP. ****&#x20;
 

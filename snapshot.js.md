@@ -116,4 +116,11 @@ const network = '1';
 const provider = snapshot.utils.getProvider(network);
 ```
 
-****
+**Integrators shortlist**
+
+Integration: \
+Boardroom, Decentraland, Pancake, Synthetix, Commonwealth, Guild.xyz\
+\
+Data aggregation: \
+Messari, DeepDAO.
+

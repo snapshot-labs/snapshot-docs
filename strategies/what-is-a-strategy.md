@@ -12,7 +12,7 @@ If you want coin-voting (1 token = 1 vote) you can use "erc20-balance-of", howev
 * Only allow certain members to vote using whitelist strategy
 * Calculate voting power from multiple chains with multichain strategy
 
-You can combine up to 8 strategies on a single proposal (combination work as OR not AND opperator)
+You can combine up to 8 strategies on a single proposal (voting power is cumulative)
 
 At the time of writing snapshot has over 150 voting strategies. Explore them here [https://snapshot.org/#/strategies](https://snapshot.org/#/strategies)\
 You can even preview actions using the playground button.
