@@ -83,7 +83,7 @@ Strategies can be used to create a score from on-chain data, the data does not n
 ### **Other Common strategies**
 
 * **erc20-with-balance** is an example of strategy that checks whether the participant has a minimum amount of token required to vote and assigns all the votes to 1. You need to add the parameter “minBalance” and set it equal to the minimum balance required to vote on a proposal. This value is set to 0 by default.&#x20;
-* **erc20-balance-of-delegate** is used if you want to use a delegation contract along with erc20-balance-of.&#x20;
+* **erc20-balance-of-delegation** is used if you want to use a delegation contract along with erc20-balance-of.&#x20;
 
 ### Find more strategies here: <a href="#find-more-strategies-here" id="find-more-strategies-here"></a>
 
