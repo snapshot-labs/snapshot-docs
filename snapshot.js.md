@@ -41,21 +41,26 @@ import { Web3Provider } from '@ethersproject/providers';
 
 const web3 = new Web3Provider(window.ethereum);
 const [account] = await web3.listAccounts();
+const now = Math.floor(Date.now() / 1000);
 
-const receipt = await client.proposal(web3, account, {
-  space: 'yam.eth',
-  type: 'single-choice',
-  title: 'Test proposal using Snapshot.js',
-  body: '',
-  choices: ['Alice', 'Bob', 'Carol'],
-  start: 1636984800,
-  end: 1637244000,
-  snapshot: 13620822,
-  network: '1',
-  strategies: JSON.stringify({}),
-  plugins: JSON.stringify({}),
-  metadata: JSON.stringify({})
-});
+const sendProposal = async () => {
+
+    const receipt = await client.proposal(signer, getAddress(account), {
+      space: "yam.eth",
+      type: "single-choice",
+      title: "Test proposal using Snapshot",
+      body: "body",
+      discussion: "",
+      choices: ['Alice', 'Bob', 'Carol'],
+      start: now,
+      end: now + 10000,
+      snapshot: 11022534,
+      plugins: "{}",
+    });
+    console.log(receipt)
+};
+
+sendProposal()
 ```
 
 #### **Create or edit a space**
