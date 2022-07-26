@@ -493,6 +493,52 @@ query {
 
 Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Votes\&query=query%20Votes%20%7B%0A%20%20votes%20\(%0A%20%20%20%20first%3A%201000%0A%20%20%20%20skip%3A%200%0A%20%20%20%20where%3A%20%7B%0A%20%20%20%20%20%20proposal%3A%20%22QmPvbwguLfcVryzBRrbY4Pb9bCtxURagdv1XjhtFLf3wHj%22%0A%20%20%20%20%7D%0A%20%20%20%20orderBy%3A%20%22created%22%2C%0A%20%20%20%20orderDirection%3A%20desc%0A%20%20\)%20%7B%0A%20%20%20%20id%0A%20%20%20%20voter%0A%20%20%20%20created%0A%20%20%20%20proposal%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%20%20choice%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A)
 
+### Get voting power
+
+#### Arguments
+
+voter `string`\
+space `string`\
+proposal `string`
+
+#### Example
+
+{% tabs %}
+{% tab title="Request" %}
+```graphql
+query {
+  vp (
+    voter: "0xeF8305E140ac520225DAf050e2f71d5fBcC543e7"
+    space: "fabien.eth"
+    proposal: "0x4903dd16990de740b7dc7effe1a0bc8bd49a510a04992bc30596c9a0d0f69455"
+  ) {
+    vp
+    vp_by_strategy
+    vp_state
+  } 
+}
+```
+{% endtab %}
+
+{% tab title="Response" %}
+```
+{
+  "data": {
+    "vp": {
+      "vp": 1,
+      "vp_by_strategy": [
+        1
+      ],
+      "vp_state": "final"
+    }
+  }
+}
+```
+{% endtab %}
+{% endtabs %}
+
+Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20vp%20\(%0A%20%20%20%20voter%3A%20%220xeF8305E140ac520225DAf050e2f71d5fBcC543e7%22%0A%20%20%20%20space%3A%20%22fabien.eth%22%0A%20%20%20%20proposal%3A%20%220x4903dd16990de740b7dc7effe1a0bc8bd49a510a04992bc30596c9a0d0f69455%22%0A%20%20\)%20%7B%0A%20%20%20%20vp%0A%20%20%20%20vp\_by\_strategy%0A%20%20%20%20vp\_state%0A%20%20%7D%20%0A%7D%0A)
+
 ### Get follows <a href="#follows" id="follows"></a>
 
 #### Arguments
@@ -573,7 +619,7 @@ query {
 
 Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20follows\(%0A%20%20%20%20first%3A%2010%2C%0A%20%20%20%20where%3A%20%7B%0A%20%20%20%20%20%20follower%3A%20%220xeF8305E140ac520225DAf050e2f71d5fBcC543e7%22%0A%20%20%20%20%7D%0A%20%20\)%20%7B%0A%20%20%20%20follower%0A%20%20%20%20space%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%7D%0A%20%20%20%20created%0A%20%20%7D%0A%7D)
 
-### Get Users
+### Get users
 
 #### Arguments
 
@@ -598,11 +644,10 @@ query {
     avatar
   }
 }
-
 ```
 {% endtab %}
 
-{% tab title="Untitled" %}
+{% tab title="Response" %}
 ```
 {
   "data": {
