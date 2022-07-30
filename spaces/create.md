@@ -14,11 +14,11 @@ If you haven't already, follow this guide - [https://docs.snapshot.org/spaces/be
 
 Now that you have a ENS address go ahead and setup your space on [snapshot.org](https://snapshot.org/#/setup)
 
-![Click the plus button in the sidebar and then click you ENS address you just setup](<../.gitbook/assets/image (1) (1).png>)
+![Click the plus button in the sidebar and then click you ENS address you just setup](<../.gitbook/assets/image (1) (2).png>)
 
 ### 2. Set ENS text-record
 
-![Set the ENS text-record to determine the space controller](<../.gitbook/assets/image (7).png>)
+![Set the ENS text-record to determine the space controller](<../.gitbook/assets/image (7) (1).png>)
 
 Enter the wallet address that you would like to set as the space controller and click "Set controller".&#x20;
 
