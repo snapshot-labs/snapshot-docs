@@ -1,9 +1,17 @@
-# Sub-Spaces
+---
+description: Create a link between multiple spaces of your organization
+---
 
-Organizations have the option to create additional spaces and link between them. On the settings page you can define "Sub-spaces". Enter either a main space or multiple sub-spaces.
+# Sub-spaces
 
-![](<../.gitbook/assets/image (18).png>)
+Organizations can create multiple spaces and link them together. This is useful for enforcing different space settings for proposal creation, voting, and execution. For example, instead of having to change the space settings each time you create a proposal, you could create additional spaces with some of your most frequently used settings.
 
-Do this for both, your main space and all sub-spaces you want to link to (and from). Only when both sides match, links will be displayed in the sidebar of your spaces.
+### Setup
+
+In the Sub-spaces section of the space settings you can define a main space or multiple subspaces.
+
+![](<../.gitbook/assets/image (1).png>)
+
+Do this for both your main space and all subspaces to link them to each other. If you have setup everything correctly they will be displayed on the space page.
 
 ![](<../.gitbook/assets/image (12).png>)
