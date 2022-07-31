@@ -1,4 +1,15 @@
 # What is a space?
 
-TBD
+A space is your organization's page on Snapshot. Voters can access it by searching for your project name or through a link. It is also possible to define a custom domain name for it.
 
+On Snapshot home page you can find Snapshot spaces ordered by popularity.
+
+![Browse spaces](<../.gitbook/assets/Capture d’écran 2022-07-31 à 12.43.41.png>)
+
+You can perform a search through all spaces using the name of the project you are looking for, it also searchable by the ENS name used to create that space.
+
+![Search spaces](<../.gitbook/assets/Capture d’écran 2022-07-31 à 12.54.47.png>)
+
+This is how a particular space looks like.
+
+![Pistachio DAO is a dummy space for training purpose](<../.gitbook/assets/Capture d’écran 2022-07-31 à 12.55.02.png>)
