@@ -33,9 +33,3 @@ Here are the different existing solutions to received notifications for new prop
 **Status:** Ready\
 **Install:** [https://medium.com/boto-corp/telegram-bot-for-snapshot-no-code-353e7f3e2dc8](https://medium.com/boto-corp/telegram-bot-for-snapshot-no-code-353e7f3e2dc8)
 
-### Snapshot Events
-
-**For:** Email\
-**Status:** Ready\
-**Install:** [https://snapshot.events](https://snapshot.events/)
-
