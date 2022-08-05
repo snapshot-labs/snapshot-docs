@@ -30,7 +30,7 @@ const receipt = await client.vote(web3, account, {
   proposal: '0x21ea31e896ec5b5a49a3653e51e787ee834aaf953263144ab936ed756f36609f',
   type: 'single-choice',
   choice: 1,
-  metadata: JSON.stringify({})
+  app: 'my-app'
 });
 ```
 
@@ -46,15 +46,14 @@ const receipt = await client.proposal(web3, account, {
   space: 'yam.eth',
   type: 'single-choice',
   title: 'Test proposal using Snapshot.js',
-  body: '',
+  body: 'This is the content of the proposal',
   choices: ['Alice', 'Bob', 'Carol'],
   start: 1636984800,
   end: 1637244000,
   snapshot: 13620822,
   network: '1',
-  strategies: JSON.stringify({}),
   plugins: JSON.stringify({}),
-  metadata: JSON.stringify({})
+  app: 'my-app'
 });
 ```
 
