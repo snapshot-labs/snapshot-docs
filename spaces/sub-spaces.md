@@ -8,7 +8,7 @@ Organizations can create multiple spaces and link them together. This is useful 
 
 ### Setup
 
-In the Sub-spaces section of the space settings you can define a main space or multiple subspaces.
+You can define a main space, or multiple subspaces, in the Sub-spaces section of the space settings.
 
 ![](<../.gitbook/assets/image (1).png>)
 
