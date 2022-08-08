@@ -29,4 +29,4 @@ Depending on the settings of the space, either everyone holding a sufficient amo
 ### Proposals limitations
 
 * There is a character limit of 6400 for the description of a proposal.
-* Strategies are limited to 8. You should also respect this limitation when you use the multi-chain strategy.
+* Strategies are limited to 8. You should also respect this limitation when you use the multichain strategy.
