@@ -12,7 +12,7 @@ If you already have an ENS domain, feel free to skip this and follow the guide b
 
 **1.**  Search for the availability of your name on ENS by going to the following link  [https://app.ens.domains/](https://app.ens.domains/)&#x20;
 
-**2.**  If the name is available, you would be able to see the 3 steps and the registration fee. Please note that the names with 3 or 4 characters cost considerably more than the names with 5+ characters. \
+**2.**  If the name is available, you would be able to see the 3 steps and fee for registration. Please note that the names with 3 or 4 characters cost considerably more than the names with 5+ characters. \
 ****
 
 ![](https://lh6.googleusercontent.com/iE8w0jmuNrDV7jtpFPUYxB0rgSF6SKpU8OTNdVlvMaYaem1MzHglWQ9S99h2Ub-PWVJTDvOBbxGKA\_7OuNHe6-YIt003oEdvudCZG37xAuUXSmJP5PXl-1By7s8betevYzuID3c=s0)
