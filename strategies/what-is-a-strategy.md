@@ -1,20 +1,19 @@
 # Learn about the strategies
 
-
-
 ## How to use strategies:
 
-If you want coin-voting (1 token = 1 vote) you can use "erc20-balance-of", however you may want:
+If you want coin-voting (1 token = 1 vote) you can use "erc20-balance-of", however you want:
 
-* Delegate voting power using a delegation strategy
-* Weighting voting power using a quadratic strategy
-* NFT voting with an ERC-721 or ERC-1155 based strategies
-* Only allow certain members to vote using whitelist strategy
-* Calculate voting power from multiple chains with multichain strategy
+* Delegate voting power using a delegation strategy.
+* Weighting voting power using a quadratic strategy.
+* NFT voting with an ERC-721 or ERC-1155 based strategies.
+* Only allow certain members to vote using a whitelist strategy.
+* Calculate voting power from multiple chains with a multichain strategy.
 
-You can combine up to 8 strategies on a single proposal (voting power is cumulative)
+You can combine up to 8 strategies on a single proposal (voting power is cumulative).
 
-At the time of writing snapshot has over 150 voting strategies. Explore them here [https://snapshot.org/#/strategies](https://snapshot.org/#/strategies)\
+At the time of writing, Snapshot has over 150 voting strategies. Explore them here [https://snapshot.org/#/strategies](https://snapshot.org/#/strategies)
+
 You can even preview actions using the playground button.
 
 ## What is a strategy
@@ -78,12 +77,12 @@ The `balancer` strategy setting:
 }
 ```
 
-Strategies can be used to create a score from on-chain data, the data does not necessary need to be monetary, you can imagine a strategy that calculate how many POAP you own or use any other data available on-chain to issue a score.
+Strategies can be used to create a score from on-chain data, the data does not necessarily need to be monetary, you can imagine a strategy that calculates how many POAP you own or use any other data available on-chain to issue a score.
 
 ### **Other Common strategies**
 
-* **erc20-with-balance** is an example of strategy that checks whether the participant has a minimum amount of token required to vote and assigns all the votes to 1. You need to add the parameter “minBalance” and set it equal to the minimum balance required to vote on a proposal. This value is set to 0 by default.&#x20;
-* **erc20-balance-of-delegation** is used if you want to use a delegation contract along with erc20-balance-of.&#x20;
+* **erc20-with-balance** is an example of a strategy that checks whether the participant has a minimum amount of token required to vote and assigns all the votes to 1. You need to add the parameter “minBalance” and set it equal to the minimum balance required to vote on a proposal. This value is set to 0 by default.
+* **erc20-balance-of-delegation** is used if you want to use a delegation contract along with erc20-balance-of.
 
 ### Find more strategies here: <a href="#find-more-strategies-here" id="find-more-strategies-here"></a>
 
