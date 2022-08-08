@@ -12,7 +12,7 @@ If you already have a space without ENS domain (legacy), you need to [Migrate yo
 
 If you haven't already, follow this guide - [https://docs.snapshot.org/spaces/before-creating-your-space](https://docs.snapshot.org/spaces/before-creating-your-space) to get your ENS domain.
 
-Now that you have a ENS address go ahead and setup your space on [snapshot.org](https://snapshot.org/#/setup)
+Now that you have an ENS address go ahead and setup your space on [snapshot.org](https://snapshot.org/#/setup)
 
 ![Click the plus button in the sidebar and then click you ENS address you just setup](<../.gitbook/assets/image (1) (2).png>)
 
@@ -30,7 +30,7 @@ You will need to sign a transaction on the Ethereum Mainnet to set the ENS text-
 
 ![](<../.gitbook/assets/image (6).png>)
 
-To create your space you will need to enter a name, symbol and selected a network. These settings can be changed in your space settings.
+To create your space you will need to enter a name, symbol and select a network. These settings can be changed in your space settings.
 
 ### **4. Customize your space settings**
 
@@ -112,7 +112,7 @@ Plugins give extra features for your space. More information here:
 
 Click "**Save**" then confirm the action in your wallet.
 
-You are all set! You can go on `https://snapshot.org/#/<ENS_DOMAIN>` to see your space.
+You are all set! Visit `https://snapshot.org/#/<ENS_DOMAIN>` to see your space.
 
 ### What you can do now**?**
 
