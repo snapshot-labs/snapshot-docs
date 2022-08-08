@@ -4,7 +4,7 @@ description: Skins are optional.
 
 # Add a skin
 
-### What is a skin ?
+### What is a skin?
 
 A skin allows you to define a color scheme for your space using a custom domain. It won't effect your space on Snapshot.org\
 \
@@ -12,7 +12,7 @@ Prerequisite: [Add a custom domain](add-custom-domain.md)
 
 ### Create a pull request
 
-To create your own skin you need to do a pull request on this repository:
+To create your own skin you need to do a pull request on the following repository:
 
 {% embed url="https://github.com/snapshot-labs/snapshot-spaces" %}
 
@@ -25,7 +25,7 @@ To create your own skin you need to do a pull request on this repository:
 
 ### Add your skin
 
-To add your skin you will need to create a "my-space.scss" file in the "skins" directory.
+To add your skin you will need to create a "my-space.scss" file in the `skins` directory.
 
 ```css
 .my-space {
@@ -44,7 +44,7 @@ To add your skin you will need to create a "my-space.scss" file in the "skins" d
 Change the file name **my-space.scss** and css selector **.my-space** with your space name.
 {% endhint %}
 
-Then you will also need to list your skin on this file: [https://github.com/snapshot-labs/snapshot-spaces/blob/master/skins/index.js](https://github.com/snapshot-labs/snapshot-spaces/blob/master/skins/index.js)
+Then you will also need to list your skin in this file: [https://github.com/snapshot-labs/snapshot-spaces/blob/master/skins/index.js](https://github.com/snapshot-labs/snapshot-spaces/blob/master/skins/index.js)
 
 Select then your skin in the Skin field in your space settings.
 
