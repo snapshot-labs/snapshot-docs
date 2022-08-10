@@ -4,16 +4,17 @@ description: Notifications bots
 
 # Bots
 
-Here are the different existing solutions to received notifications for new proposals.
+Here are the different existing solutions to receive notifications for new proposals.
 
 ### Snapshot Discord bot
 
 **For:** Discord\
 **Status:** Ready\
-**Install:** \
-&#x20;**** - Invite the Discord bot with this link: [https://discord.com/oauth2/authorize?client\_id=892847850780762122\&permissions=83968\&scope=bot](https://discord.com/oauth2/authorize?client\_id=892847850780762122\&permissions=83968\&scope=bot) \
-&#x20;\- Type `!snapshot` to see the commands (require administrator role)\
-&#x20;\- Need help? Ask on [Discord](https://discord.snapshot.org)  &#x20;
+**Install:**  Invite the Discord bot with this link: [https://discord.com/oauth2/authorize?client\_id=892847850780762122\&permissions=83968\&scope=bot](https://discord.com/oauth2/authorize?client\_id=892847850780762122\&permissions=83968\&scope=bot)&#x20;
+
+Type `!snapshot` to see the commands (require administrator role)
+
+Need help? Ask on [Discord](https://discord.snapshot.org)  &#x20;
 
 ### HAL
 
