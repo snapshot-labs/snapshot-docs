@@ -8,14 +8,15 @@ description: Learn how to create a proposal.
 
 TBD
 
-### How to create a proposal?
+### How to create a proposal
 
-* Go to a project space and click on connect wallet in the top right corner
-* Connect with wallet provider where you hold relevant tokens and click on “New Proposal”
-* Fill out the Title and summary of your proposal.
-* Go to the “Actions” box and select the [Voting type](https://docs.snapshot.org/proposals/voting-types), start date and end date of your proposal. Make sure you allow enough time for voting.
-* Use the default Snapshot block number or you can change it according to your needs. The block number is the snapshot where the balance of voters will be counted.
-* Click on “Publish” and your proposal is created!&#x20;
+* Go to a project space and tap on the "Connect wallet" button in the top right corner.
+* Connect with the wallet provider where you hold relevant tokens and tap on “New proposal.”
+* Fill out the Title, Description (optional,) and Discussion (optional) link of your proposal.
+* Tap on the “Continue” button and select the desired [voting system](https://docs.snapshot.org/proposals/voting-types) and add your voting options.
+* Enter the start date and end date of your proposal to determine the proposal voting period. Make sure you allow enough time for voting.
+* Use the default [Snapshot block number](create.md#add-a-snapshot-block-number) or you can change it according to your needs. The block number is the snapshot where the balance of voters will be counted.&#x20;
+* Tap on “Publish” and your proposal is created!&#x20;
 
 ### **Add a Snapshot block number**
 
@@ -27,6 +28,5 @@ Depending on the settings of the space, either everyone holding a sufficient amo
 
 ### Proposals limitations
 
-There is a limit of 6400 chars for the content of the proposal\
-Strategies are limited to 8\
-You should also respect this limitation when you use the multi-chain strategy
+* There is a character limit of 6400 for the description of a proposal.
+* Strategies are limited to 8. You should also respect this limitation when you use the multichain strategy.

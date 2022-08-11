@@ -12,118 +12,75 @@ If you already have a space without ENS domain (legacy), you need to [Migrate yo
 
 Tap the plus (+) button in the left sidebar to start creating your space.
 
+![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 12.30.46.png>)
+
 If you already own an ENS domain, make sure you are connected to [snapshot.org](https://snapshot.org/#/setup) with the Ethereum address that is set as controller of your ENS name. Your ENS name will appear and you will be started by tapping on it.\
 \
 If you need to register an ENS domain, enter a name that suit the needs of your DAO in the `register a new domain` field and tap register, you can then follow [before-creating-your-space.md](before-creating-your-space.md "mention") and come back here for step 2 once registered.\
 \
 
 
-![Click the plus button in the sidebar and then click you ENS address you just setup](<../.gitbook/assets/image (1) (2).png>)
+### 2. Set space controller (ENS text-record)
 
-### 2. Set ENS text-record
-
-![Set the ENS text-record to determine the space controller](<../.gitbook/assets/image (7) (1).png>)
-
-Enter the wallet address that you would like to set as the space controller and click "Set controller".&#x20;
+By default the address of the currently logged account is pre-filled, you can customize it by tapping on the switcher then entering the wallet address that you would like to set as the space controller and click "Set controller". &#x20;
 
 {% hint style="info" %}
-You will need to sign a transaction on the Ethereum Mainnet to set the ENS text-record.
+You will need to sign a transaction on the Ethereum Mainnet to set the ENS text-record.&#x20;
 {% endhint %}
 
-### 3. Create space
+![Set the ENS text-record to determine the space controller](<../.gitbook/assets/Capture d’écran 2022-08-11 à 12.31.58.png>)
 
-![](<../.gitbook/assets/image (6).png>)
+### 3. Create your profile
 
-To create your space you will need to enter a name, symbol and select a network. These settings can be changed in your space settings.
+To complete your profile, you can upload an avatar/logo, enter a name for your DAO (mandatory), a description, select a category and some other details. These settings can be changed later in your space settings.
 
-### **4. Customize your space settings**
+![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 12.53.39.png>)
 
-If you have trouble finding the settings page you can manually navigate to it with the following URL:&#x20;
+### **4. Set your very first strategy**
 
-`https://snapshot.org/#/`**`<ENS DOMAIN>`**`/settings`
+At this stage, you have to choose one the three following ways to implement the strategy that will define how the voting power of your voters is fetched.
 
-#### Profile
+![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 12.33.32.png>)
 
-![](../.gitbook/assets/profile-settings.png)
+### Let's see those three options in detail&#x20;
 
-* **Name** is the name that will be displayed in your space.
-* **About** is the description of your governance purposes.
-* **Avatar** is your project logo.
-* **Network** must be the network relative to your token.
+#### Token weighted voting
 
-![Select a network](../.gitbook/assets/select-a-network.png)
+Votes are weighted by a token. The token can be an ERC-20, ERC-721 or ERC-1155 token standard
 
-* **Symbol** is the main token symbol that will be displayed in your space.
-* **Skin** can be left as a default, used as an existing one or you can [create your own skin](add-skin.md).
+1. Select your token network
+2. Select your token standard
+3. Enter your token contract address
 
-![Select a skin](../.gitbook/assets/select-a-skin.png)
+![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 12.37.27.png>)
 
-* **Twitter** and **Github** just add a username to link to your different accounts.
-* **Domain name** is optional but you can [add a custom domain](add-custom-domain.md).
-* **Terms** links to your website's terms and conditions.
-* **Hide space from homepage** if you want to keep your space "private".
+#### One person, one vote
 
-#### **Strategies**
+This option can be used in two different ways:
 
-A strategy is a JavaScript function that defines how the voting power is calculated. You need to add a voting strategy for your proposals. erc20-balance-of is the most used strategy.  You can have multiple strategies and can have your custom strategies as well.&#x20;
+* Whitelist voting let you specify a list of addresses that will be able to vote
+* Ticket voting will let any wallet vote (mostly for testing purpose)
 
-You need to add a voting strategy for your proposals. `erc20-balance-of` is the most common strategy.
+![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 13.24.40.png>)
 
-![Add a strategy](../.gitbook/assets/add-a-strategy.png)
+#### Custom setup
 
-{% hint style="info" %}
-You can add up to 5 strategies in your space.
-{% endhint %}
+If you feel ready to deep dive in the custom setup here are a few hints that you may find useful:\
+\
+\- You can select up to 8 strategies, voting power is cumulative.\
+\- Network can be selected independently for each strategy to achieve multi-chain.\
+\- You can set a different symbol for each strategy, it will be displayed on the details of a vote.\
+\
+At the time of writing this article Snapshot count around 350 strategies and this number keep increasing. [Learn more about the strategies. ](../strategies/what-is-a-strategy.md)
 
-Once selected, you can edit the strategy by clicking on it if you want to add your own token.
+![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 13.25.04 (1).png>)
 
-![](../.gitbook/assets/edit-a-strategy.png)
-
-More information here:
-
-{% content-ref url="../strategies/" %}
-[strategies](../strategies/)
-{% endcontent-ref %}
-
-#### Admins
-
-The admins will be able to edit the space settings and moderate proposals. You must add one address per line.
-
-![Add admins' addresses](../.gitbook/assets/add-admins-addresses.png)
-
-#### Filters
-
-* **Proposal threshold** is the minimum number of tokens required to create a proposal.
-* **Proposal validation** is a custom function to validate if someone can post a proposal or not. You can use the basic validation by default which takes your voting power with space strategies and checks if you pass a defined threshold.
-
-![](<../.gitbook/assets/Capture d’écran 2022-02-22 à 12.33.34.png>)
-
-**Allow only authors to submit a proposal,** authors will be able to create proposals without being constrained by filters. You must add one address per line. Makes sure that only members specified in authors field are allowed to submit a proposal.&#x20;
-
-![Add authors' addresses](<../.gitbook/assets/Capture d’écran 2022-02-22 à 12.26.04.png>)
-
-####
-
-#### Plugins
-
-Plugins give extra features for your space. More information here:
-
-{% content-ref url="../plugins/" %}
-[plugins](../plugins/)
-{% endcontent-ref %}
-
-### 5. Save your settings
-
-Click "**Save**" then confirm the action in your wallet.
-
-You are all set! Visit `https://snapshot.org/#/<ENS_DOMAIN>` to see your space.
-
-### What you can do now**?**
-
-{% content-ref url="add-skin.md" %}
-[add-skin.md](add-skin.md)
-{% endcontent-ref %}
+### What can I do now**?**
 
 {% content-ref url="add-custom-domain.md" %}
 [add-custom-domain.md](add-custom-domain.md)
+{% endcontent-ref %}
+
+{% content-ref url="add-skin.md" %}
+[add-skin.md](add-skin.md)
 {% endcontent-ref %}
