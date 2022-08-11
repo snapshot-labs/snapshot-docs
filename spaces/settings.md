@@ -86,7 +86,7 @@ Skin require a custom domain and will not effect the UI on snapshot.org
 
 ## Treasuries
 
-Choose a network, enter an Ethereum address and naming that treasury. You can add multiple treasuries. &#x20;
+Choose a network, enter an Ethereum address and name that treasury. You can add multiple treasuries. &#x20;
 
 ![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 14.32.50.png>)
 
