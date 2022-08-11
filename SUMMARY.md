@@ -4,7 +4,7 @@
 * [Spaces](spaces/README.md)
   * [What is a space?](spaces/what-is-a-space.md)
   * [Create a space](spaces/create.md)
-  * [Creating an ENS domain](spaces/before-creating-your-space.md)
+  * [Create an ENS domain](spaces/before-creating-your-space.md)
   * [Alternative way to create a space](spaces/alternative-way-to-create-a-space.md)
   * [Get verified](spaces/get-verified.md)
   * [Migrate your space to ENS](spaces/migrate.md)
