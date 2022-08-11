@@ -74,7 +74,7 @@ To validate if someone can post a proposal or not you can use the basic validati
 
 The voting delay is a value in time for which the proposal is in pending state, before the active state of the proposal when voters are able to cast a vote. The voting period is the duration of the active state before the proposal get closed.
 
-Quorum is the amount of voting power collectively achieved by voters for a proposal to pass, if the quorum is not met, proposal is invalid.
+Quorum is the amount of voting power collectively achieved by voters for a proposal to pass.
 
 ![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 14.32.03.png>)
 
