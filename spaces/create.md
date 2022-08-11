@@ -8,11 +8,15 @@ description: To create a space in Snapshot follow these steps.
 If you already have a space without ENS domain (legacy), you need to [Migrate your space to ENS](https://docs.snapshot.page/spaces/migrate).
 {% endhint %}
 
-### 1. Get an ENS domain for your space
+### 1. Set or get an ENS domain for your space
 
-If you haven't already, follow this guide - [https://docs.snapshot.org/spaces/before-creating-your-space](https://docs.snapshot.org/spaces/before-creating-your-space) to get your ENS domain.
+Tap the plus (+) button in the left sidebar to start creating your space.
 
-Now that you have a ENS address go ahead and setup your space on [snapshot.org](https://snapshot.org/#/setup)
+If you already own an ENS domain, make sure you are connected to [snapshot.org](https://snapshot.org/#/setup) with the Ethereum address that is set as controller of your ENS name. Your ENS name will appear and you will be started by tapping on it.\
+\
+If you need to register an ENS domain, enter a name that suit the needs of your DAO in the `register a new domain` field and tap register, you can then follow [before-creating-your-space.md](before-creating-your-space.md "mention") and come back here for step 2 once registered.\
+\
+
 
 ![Click the plus button in the sidebar and then click you ENS address you just setup](<../.gitbook/assets/image (1) (2).png>)
 
@@ -30,7 +34,7 @@ You will need to sign a transaction on the Ethereum Mainnet to set the ENS text-
 
 ![](<../.gitbook/assets/image (6).png>)
 
-To create your space you will need to enter a name, symbol and selected a network. These settings can be changed in your space settings.
+To create your space you will need to enter a name, symbol and select a network. These settings can be changed in your space settings.
 
 ### **4. Customize your space settings**
 
@@ -112,7 +116,7 @@ Plugins give extra features for your space. More information here:
 
 Click "**Save**" then confirm the action in your wallet.
 
-You are all set! You can go on `https://snapshot.org/#/<ENS_DOMAIN>` to see your space.
+You are all set! Visit `https://snapshot.org/#/<ENS_DOMAIN>` to see your space.
 
 ### What you can do now**?**
 
