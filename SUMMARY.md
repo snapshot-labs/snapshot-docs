@@ -6,6 +6,7 @@
   * [Create a space](spaces/create.md)
   * [Create an ENS domain](spaces/before-creating-your-space.md)
   * [Alternative way to create a space](spaces/alternative-way-to-create-a-space.md)
+  * [Settings](spaces/settings.md)
   * [Get verified](spaces/get-verified.md)
   * [Migrate your space to ENS](spaces/migrate.md)
   * [Add a custom domain](spaces/add-custom-domain.md)
