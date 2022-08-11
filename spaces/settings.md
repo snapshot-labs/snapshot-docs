@@ -36,6 +36,8 @@ Just add a username to link to your different accounts
 
 If you are editing the settings of your main space, add your sub-spaces. If you are editing the settings of your sub-space, add your main space.&#x20;
 
+[Find out more about sub-spaces](sub-spaces.md)
+
 ![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 14.30.37.png>)
 
 ## Voting strategies
