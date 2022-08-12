@@ -75,6 +75,22 @@ At the time of writing this article Snapshot count around 350 strategies and thi
 
 ![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 13.25.04 (1).png>)
 
+## Moderation
+
+**Admins** will be able to edit the space settings and moderate proposals.&#x20;
+
+**Authors** will be able to create proposals without being constrained by filters. Make sure that members specified in authors field are allowed to submit a proposal.
+
+{% hint style="info" %}
+You must add one address per line.
+{% endhint %}
+
+![](<../.gitbook/assets/Capture d’écran 2022-08-12 à 13.53.21.png>)
+
+## Your space is live !
+
+![](<../.gitbook/assets/Capture d’écran 2022-08-12 à 13.53.39.png>)
+
 ### What can I do now**?**
 
 {% content-ref url="add-custom-domain.md" %}
