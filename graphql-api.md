@@ -671,7 +671,7 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20use
 
 TBD
 
-### Get messages <a href="#follows" id="follows"></a>
+### Get messages <a href="#messages" id="messages"></a>
 
 #### Arguments
 
