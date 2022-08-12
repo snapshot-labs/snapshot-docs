@@ -12,7 +12,7 @@ If you already have a space without ENS domain (legacy), you need to [Migrate yo
 
 Tap the plus (+) button in the left sidebar to start creating your space.
 
-![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 12.30.46.png>)
+![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 12.30.46.png>)
 
 If you already own an ENS domain, make sure you are connected to [snapshot.org](https://snapshot.org/#/setup) with the Ethereum address that is set as controller of your ENS name. Your ENS name will appear and you will be started by tapping on it.\
 \
@@ -28,19 +28,19 @@ By default the address of the currently logged account is pre-filled, you can cu
 You will need to sign a transaction on the Ethereum Mainnet to set the ENS text-record.&#x20;
 {% endhint %}
 
-![Set the ENS text-record to determine the space controller](<../.gitbook/assets/Capture d’écran 2022-08-11 à 12.31.58.png>)
+![Set the ENS text-record to determine the space controller](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 12.31.58.png>)
 
 ### 3. Create your profile
 
 To complete your profile, you can upload an avatar/logo, enter a name for your DAO (mandatory), a description, select a category and some other details. These settings can be changed later in your space settings.
 
-![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 12.53.39.png>)
+![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 12.53.39.png>)
 
 ### **4. Set your very first strategy**
 
 At this stage, you have to choose one the three following ways to implement the strategy that will define how the voting power of your voters is fetched.
 
-![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 12.33.32.png>)
+![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 12.33.32.png>)
 
 ### Let's see those three options in detail&#x20;
 
@@ -52,7 +52,7 @@ Votes are weighted by a token. The token can be an ERC-20, ERC-721 or ERC-1155 t
 2. Select your token standard
 3. Enter your token contract address
 
-![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 12.37.27.png>)
+![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 12.37.27.png>)
 
 #### One person, one vote
 
@@ -61,7 +61,7 @@ This option can be used in two different ways:
 * Whitelist voting let you specify a list of addresses that will be able to vote
 * Ticket voting will let any wallet vote (mostly for testing purpose)
 
-![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 13.24.40.png>)
+![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 13.24.40.png>)
 
 #### Custom setup
 
@@ -71,9 +71,9 @@ If you feel ready to deep dive in the custom setup here are a few hints that you
 \- Network can be selected independently for each strategy to achieve multi-chain.\
 \- You can set a different symbol for each strategy, it will be displayed on the details of a vote.\
 \
-At the time of writing this article Snapshot count around 350 strategies and this number keep increasing. [Learn more about the strategies. ](../strategies/what-is-a-strategy.md)
+At the time of writing this article Snapshot count around 350 strategies and this number keep increasing. [Learn more about the strategies. ](../../strategies/what-is-a-strategy.md)
 
-![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 13.25.04 (1).png>)
+![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 13.25.04 (1).png>)
 
 ## Moderation
 
@@ -85,18 +85,18 @@ At the time of writing this article Snapshot count around 350 strategies and thi
 You must add one address per line.
 {% endhint %}
 
-![](<../.gitbook/assets/Capture d’écran 2022-08-12 à 13.53.21.png>)
+![](<../../.gitbook/assets/Capture d’écran 2022-08-12 à 13.53.21.png>)
 
 ## Your space is live !
 
-![](<../.gitbook/assets/Capture d’écran 2022-08-12 à 13.53.39.png>)
+![](<../../.gitbook/assets/Capture d’écran 2022-08-12 à 13.53.39.png>)
 
 ### What can I do now**?**
 
-{% content-ref url="add-custom-domain.md" %}
-[add-custom-domain.md](add-custom-domain.md)
+{% content-ref url="../add-custom-domain.md" %}
+[add-custom-domain.md](../add-custom-domain.md)
 {% endcontent-ref %}
 
-{% content-ref url="add-skin.md" %}
-[add-skin.md](add-skin.md)
+{% content-ref url="../add-skin.md" %}
+[add-skin.md](../add-skin.md)
 {% endcontent-ref %}

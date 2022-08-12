@@ -1,4 +1,4 @@
-# Creating an ENS domain
+# Create an ENS domain
 
 To create your space on Snapshot, you will need to have an ENS domain. This page will take you through the steps to create an ENS domain.&#x20;
 
@@ -8,7 +8,7 @@ You need an ENS domain on **Ethereum mainnet** even if you want to use Ethereum 
 However you can use https://demo.snapshot.org using an ENS on Rinkeby&#x20;
 {% endhint %}
 
-If you already have an ENS domain, feel free to skip this and follow the [create.md](create.md "mention") guide.
+If you already have an ENS domain, feel free to skip this and follow the [.](./ "mention") guide.
 
 ### **Creating an ENS Domain**
 

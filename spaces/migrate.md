@@ -11,8 +11,8 @@ You can use this URL to get your previous space settings populated in the form: 
 ****\
 ****Example: https://snapshot.page/#/**yam.eth**/settings/**yam**
 
-{% content-ref url="create.md" %}
-[create.md](create.md)
+{% content-ref url="create/" %}
+[create](create/)
 {% endcontent-ref %}
 
 ### 2. Declare your new space alias
