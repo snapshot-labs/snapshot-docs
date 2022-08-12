@@ -6,7 +6,7 @@ description: Learn how to create a proposal.
 
 ### What is a proposal?&#x20;
 
-TBD
+A proposal has a content that describes the issue of a vote. It also has a voting system that determines how voters can select choices and how its results will be calculated.&#x20;
 
 ### How to create a proposal
 
@@ -15,7 +15,7 @@ TBD
 * Fill out the Title, Description (optional,) and Discussion (optional) link of your proposal.
 * Tap on the “Continue” button and select the desired [voting system](https://docs.snapshot.org/proposals/voting-types) and add your voting options.
 * Enter the start date and end date of your proposal to determine the proposal voting period. Make sure you allow enough time for voting.
-* Use the default [Snapshot block number](create.md#add-a-snapshot-block-number) or you can change it according to your needs. The block number is the snapshot where the balance of voters will be counted.&#x20;
+* The [Snapshot block number](create.md#add-a-snapshot-block-number) is the block which is the closer to the creation of the proposal. The block number is the snapshot where the balance of voters will be counted.&#x20;
 * Tap on “Publish” and your proposal is created!&#x20;
 
 ### **Add a Snapshot block number**
