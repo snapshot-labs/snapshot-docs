@@ -670,3 +670,63 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20use
 ### Aliases
 
 TBD
+
+### Get messages <a href="#follows" id="follows"></a>
+
+#### Arguments
+
+first `number`\
+skip `number`\
+where:\
+&#x20;   \- timestamp`string`\
+&#x20;   \- space`array`\
+&#x20;   \- space\_in:`array`\
+&#x20;   \- type:`string`\
+&#x20;   \- type\_in:`string`\
+orderBy `string`\
+orderDirection `asc` or `desc`
+
+#### Example
+
+{% tabs %}
+{% tab title="Request" %}
+```graphql
+query {
+  messages (
+    first: 20
+    where: { space: "ens.eth" }
+    orderBy: "timestamp"
+    orderDirection: desc
+  ) {
+    id
+    address
+    ipfs
+    receipt
+    type
+  }
+}
+
+```
+{% endtab %}
+
+{% tab title="Response" %}
+```javascript
+{
+  "data": {
+     "messages": [
+      {
+        "id": "0x7d99e11ffe3a333229bdcda59866bc5b66b0b7e5c4b5353862a3b8ccbfa26c83",
+        "address": "0xdbB1740e424C41E935599634828f5E5c4dF23D43",
+        "ipfs": "bafkreiduchkd35btpv3uttrg3f2kx3g52uh44tiruawip6xlgvjbcuo4w4",
+        "receipt": "0xaa4d557085872ed82b8bfba5af4247650395eda46ed61672d940eabc74bcde67415db974361f4b24361565d2f9ee6ee636ae935a1dc830c207204ea29ad498741b",
+        "type": "follow"
+      },
+      ...
+    ]
+  }
+}
+```
+{% endtab %}
+{% endtabs %}
+
+Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20messages%20\(%0A%20%20%20%20first%3A%2020%0A%20%20%20%20where%3A%20%7B%20space%3A%20%22ens.eth%22%20%7D%0A%20%20%20%20orderBy%3A%20%22timestamp%22%0A%20%20%20%20orderDirection%3A%20desc%0A%20%20\)%20%7B%0A%20%20%20%20id%0A%20%20%20%20address%0A%20%20%20%20ipfs%0A%20%20%20%20receipt%0A%20%20%20%20type%0A%20%20%7D%0A%7D%0A)
