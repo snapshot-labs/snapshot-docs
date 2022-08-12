@@ -1,24 +1,25 @@
 # Learn about the strategies
 
+## What is a strategy
+
+A strategy is a JavaScript function that returns a score for a set of addresses. Strategies are being used on Snapshot to calculate the result for a proposal. A proposal can have multiple strategies. The default strategy is to calculate the balance of an ERC20 for each voter. A strategy can send a call to a node or subgraph.
+
 ## How to use strategies:
 
-If you want coin-voting (1 token = 1 vote) you can use "erc20-balance-of", however you want:
+If you want coin-voting (1 token = 1 vote) you can use "erc20-balance-of", however you may want:
 
 * Delegate voting power using a delegation strategy.
 * Weighting voting power using a quadratic strategy.
 * NFT voting with an ERC-721 or ERC-1155 based strategies.
 * Only allow certain members to vote using a whitelist strategy.
-* Calculate voting power from multiple chains with a multichain strategy.
 
+{% hint style="info" %}
 You can combine up to 8 strategies on a single proposal (voting power is cumulative).
+{% endhint %}
 
-At the time of writing, Snapshot has over 150 voting strategies. Explore them here [https://snapshot.org/#/strategies](https://snapshot.org/#/strategies)
+At the time of writing, Snapshot has over 350 voting strategies. Explore them here [https://snapshot.org/#/strategies](https://snapshot.org/#/strategies)
 
 You can even preview actions using the playground button.
-
-## What is a strategy
-
-A strategy is a JavaScript function that returns a score for a set of addresses. Strategies are being used on Snapshot to calculate the result for a proposal. A proposal can have multiple strategies. The default strategy is to calculate the balance of an ERC20 for each voter. A strategy can send a call to a node or subgraph.
 
 ## Example strategy
 
