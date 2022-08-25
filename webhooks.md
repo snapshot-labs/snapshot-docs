@@ -19,9 +19,6 @@ The webhook server sends a request for any new event, the request is sent to the
 }
 ```
 
-**Test webhook:**\
-****You can use this url [https://webhook.snapshot.org/api/test?url=https://example.com](https://webhook.snapshot.org/api/test?url=https://example.com) and change example.com with your own endpoint to trigger a test callback.
-
 **Here are the possible events:**
 
 `proposal/created` \
@@ -39,3 +36,7 @@ When a proposal is deleted by the author or an admin of the space.
 ### Subscribe to events
 
 If you want to subscribe to webhooks please contact us on Discord or Telegram in the #helpdesk channel. You will need to provide a URL to receive the webhook request.
+
+### Test webhook
+
+You can use this url [https://webhook.snapshot.org/api/test?url=https://example.com](https://webhook.snapshot.org/api/test?url=https://example.com) and change example.com with your own endpoint to trigger a test callback.
