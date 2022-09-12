@@ -17,7 +17,7 @@ If you want coin-voting (1 token = 1 vote) you can use "erc20-balance-of", howev
 You can combine up to 8 strategies on a single proposal (voting power is cumulative).
 {% endhint %}
 
-At the time of writing, Snapshot has over 350 voting strategies. Explore them here [https://snapshot.org/#/strategies](https://snapshot.org/#/strategies)
+At the time of writing, Snapshot has over 350 voting strategies. Explore them here [https://snapshot.org/#/?type=strategies](https://snapshot.org/#/?type=strategies)
 
 You can even preview actions using the playground button.
 
