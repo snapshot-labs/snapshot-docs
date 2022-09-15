@@ -22,7 +22,18 @@ https://gnosis.github.io/zodiac/docs/tutorial-module-reality/get-started/\
 
 {% embed url="https://github.com/gnosis/dao-module/blob/main/docs/setup_guide.md" %}
 
-Learn more about SafeSnap in this video:
+## Security recommendations
+
+
+
+Set a few parameters on the module to increase the safety:
+
+* Minimum bond for an answer
+* Select an arbitrator
+* Select a long cooldown
+* Set up monitoring infrastructure for questions
+
+## Learn more about SafeSnap in this video
 
 {% embed url="https://www.youtube.com/watch?v=ncDeEuJfVkg" %}
 
