@@ -673,6 +673,8 @@ TBD
 
 ### Get messages <a href="#messages" id="messages"></a>
 
+Messages are all the actions (votes, proposals, space settings etc..) that was confirmed on Snapshot, it also include the order on which these actions were confirmed with the field "mci". These messages can be used to replay the whole Snapshot hub API.
+
 #### Arguments
 
 first `number`\
@@ -695,7 +697,7 @@ query {
   messages (
     first: 20
     where: { space: "ens.eth" }
-    orderBy: "timestamp"
+    orderBy: "mci"
     orderDirection: desc
   ) {
     id
@@ -703,6 +705,7 @@ query {
     ipfs
     receipt
     type
+    mci
   }
 }
 
@@ -720,6 +723,7 @@ query {
         "ipfs": "bafkreiduchkd35btpv3uttrg3f2kx3g52uh44tiruawip6xlgvjbcuo4w4",
         "receipt": "0xaa4d557085872ed82b8bfba5af4247650395eda46ed61672d940eabc74bcde67415db974361f4b24361565d2f9ee6ee636ae935a1dc830c207204ea29ad498741b",
         "type": "follow"
+        "mci": 1345000
       },
       ...
     ]
