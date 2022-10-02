@@ -26,12 +26,13 @@ https://gnosis.github.io/zodiac/docs/tutorial-module-reality/get-started/\
 
 
 
-Set a few parameters on the module to increase the safety:
+Set a few parameters on the module to ensure the safety:
 
-* Minimum bond for an answer
+* Set a substantial bond for an answer
 * Select an arbitrator
 * Select a long cooldown
-* Set up monitoring infrastructure for questions
+* Set up a monitoring infrastructure for questions\
+  [https://gnosis.github.io/zodiac/docs/tutorial-module-reality/monitor-module/](https://gnosis.github.io/zodiac/docs/tutorial-module-reality/monitor-module/)
 
 ## Learn more about SafeSnap in this video
 
