@@ -15,14 +15,11 @@ A proposal has a content that describes the issue of a vote. It also has a votin
 * Fill out the Title, Description (optional,) and Discussion (optional) link of your proposal.
 * Tap on the “Continue” button and select the desired [voting system](https://docs.snapshot.org/proposals/voting-types) and add your voting options.
 * Enter the start date and end date of your proposal to determine the proposal voting period. Make sure you allow enough time for voting.
-* The [Snapshot block number](create.md#add-a-snapshot-block-number) is the block which is the closer to the creation of the proposal. The block number is the snapshot where the balance of voters will be counted.&#x20;
 * Tap on “Publish” and your proposal is created!&#x20;
 
-### **Add a Snapshot block number**
+### **Snapshot block number**
 
-This number is important to lock the state of community members who are able to vote. Note that only the community members who hold relevant amounts of tokens at the time of the creation of the **Snapshot block number** would be able to vote on the proposal. ****&#x20;
-
-When you create a proposal, by default the "snapshot block number" will be populated with the latest block sync from our node. You can use this default number while creating a proposal or just look at [etherscan.io/blocks](https://etherscan.io/blocks) and use the last block number.
+When you create a proposal, by default the "snapshot block number" will be populated with the latest block sync from our node.
 
 Depending on the settings of the space, either everyone holding a sufficient amount of tokens can vote or only members holding a sufficient amount of tokens can submit a proposal.
 
