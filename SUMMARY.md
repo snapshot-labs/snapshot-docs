@@ -14,6 +14,7 @@
   * [Space roles](spaces/space-roles.md)
   * [Migrate your space to ENS](spaces/migrate.md)
   * [Migrate or delete or a space](spaces/delete-a-space.md)
+  * [Badges and warnings](spaces/badges-and-warnings.md)
 * [Proposals](proposals/README.md)
   * [Create a proposal](proposals/create.md)
   * [Vote on a proposal](proposals/vote.md)
