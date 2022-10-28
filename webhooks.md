@@ -22,7 +22,7 @@ The webhook server sends a request for any new event, the request is sent to the
 **Here are the possible events:**
 
 `proposal/created` \
-When a new proposal is created
+When a new proposal is created.
 
 `proposal/start` \
 When the voting period for a proposal starts.

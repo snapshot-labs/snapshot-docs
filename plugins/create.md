@@ -86,7 +86,7 @@ Here are all properties, that will be passed down to the plugin's main component
 | **votes**         | -               | list of individual votes                |
 | **strategies**    | -               | used strategies                         |
 
-Only the main components (Create.vue, Proposal.vue, ProposalSidebar.vue) in your plugin's root directory will receive those properties automatically. You can of course pass those properties further down, to you other components as needed.
+Only the main components (Create.vue, Proposal.vue, ProposalSidebar.vue) in your plugin's root directory will receive those properties automatically. You can of course pass those properties further down, to your other components as needed.
 
 ### Existing components/composables
 
@@ -170,7 +170,7 @@ const {
 <template>
   <div>
     {{ formatRelativeTime(1643350286) }} <!-- "5 minutes ago" -->
-    {{ formatDuration(654) }}            <!-- "11 minutes" --> 
+    {{ formatDuration(654) }}            <!-- "11 minutes" -->
     {{ formatNumber(1643350) }}          <!-- "1,643,350" -->
     {{ formatCompactNumber(1643350) }}   <!-- "1.6M" -->
     {{ formatPercentNumber(0.86543) }}   <!-- "86.54%" -->
