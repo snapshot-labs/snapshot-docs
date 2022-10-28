@@ -76,7 +76,9 @@ The voting delay is a value in time for which the proposal is in pending state, 
 
 Quorum is the amount of voting power collectively achieved by voters for a proposal to pass.
 
-![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 14.32.03.png>)
+You can enable voting with session keys thanks to which the user won't be asked for a signature if they have already connected their wallet. This setting also affects creating and deleting proposals.
+
+![](<../.gitbook/assets/settings_voting.png>)
 
 ## Custom domain
 
