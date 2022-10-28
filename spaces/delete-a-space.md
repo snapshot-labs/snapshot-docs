@@ -8,7 +8,7 @@ To ensure that the request to delete a space is legitimate, please create a prop
 
 ### One last step
 
-Get in touch with @space-lead on our [Discord server](https://discord.snapshot.org/)\
+Get in touch with @space-lead on our [Discord server](https://discord.snapshot.org/).\
 Please allow a couple of days for the workflow to be processed.
 
 In the future, there will be an option in the settings, to delete a space.
@@ -19,5 +19,5 @@ Create a proposal on the source space as well as on the target space with the ti
 
 ### One last step
 
-Get in touch with @space-lead on our [Discord server](https://discord.snapshot.org/)\
+Get in touch with @space-lead on our [Discord server](https://discord.snapshot.org/).\
 Please allow a couple of days for the workflow to be processed.

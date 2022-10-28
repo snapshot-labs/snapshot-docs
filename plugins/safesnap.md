@@ -15,7 +15,7 @@ Here is the official guide on how to setup a SafeSnap for your project:\
 
 **Zodiac App / UI setup**
 
-https://gnosis.github.io/zodiac/docs/tutorial-module-reality/get-started/\
+{% embed url="https://gnosis.github.io/zodiac/docs/tutorial-module-reality/get-started/ %}\
 
 
 **Command line setup**
