@@ -2,7 +2,7 @@
 
 **Do you want to contribute to Snapshot? There are many ways you can help, and you don't need to be a developer for that.**
 
-1. Join our Discord Channel [https://discord.snapshot.org/](https://discord.snapshot.org/)
+1. Join our Discord Channel [https://discord.gg/snapshot](https://discord.gg/snapshot)
 2. Go to the #contribute channel and pick an appropriate role.&#x20;
 
 **Support**\
