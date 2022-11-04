@@ -14,7 +14,7 @@ Here are the different existing solutions to receive notifications for new propo
 
 Type `/` to see the commands (require administrator role)
 
-Need help? Ask on [Discord](https://discord.snapshot.org)  &#x20;
+Need help? Ask on [Discord](https://discord.gg/snapshot)  &#x20;
 
 ### HAL
 
