@@ -13,8 +13,6 @@ Subgraph information is serviced by a decentralized group of server operators ca
 
 ## Ethereum Mainnet
 
-[Creating an API Key Video Tutorial](https://www.youtube.com/watch?v=UrfIpm-Vlgs)
-
 - [Explorer Page](https://thegraph.com/explorer/subgraph?id=FVmuv3TndQDNd2BWARV8Y27yuKKukryKXPzvAS5E7htC&view=Overview)
 - Graphql Endpoint: https://gateway.thegraph.com/api/[api-key]/subgraphs/id/3Q4vnuSqemXnSNHoiLD7wdBbGCXszUYnUbTz191kDMNn
 - [Code Repo](https://github.com/snapshot-labs/snapshot-subgraph)
@@ -24,3 +22,8 @@ Subgraph information is serviced by a decentralized group of server operators ca
 [Querying from an Application](https://thegraph.com/docs/en/developer/querying-from-your-app/)
 
 [Managing your API Key & Setting your indexer preferences](https://thegraph.com/docs/en/studio/managing-api-keys/)
+
+[Creating an API Key Video Tutorial](https://www.youtube.com/watch?v=UrfIpm-Vlgs)
+
+[How to use the explorer and playground to query on-chain data](https://medium.com/@chidubem_/how-to-query-on-chain-data-with-the-graph-f8507488215)
+
