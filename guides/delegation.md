@@ -39,8 +39,10 @@ Here is an example of integration in a Solidity contract: [https://github.com/co
 ### Supported Networks
 
 * Mainnet
-* Rinkeby,&#x20;
-* Matic (Polygon)
+* Goerli
+* Optimism
 * Binance Smart Chain
-* Kovan
 * Gnosis Chain
+* Matic (Polygon)
+* Fantom
+* Arbitrum
