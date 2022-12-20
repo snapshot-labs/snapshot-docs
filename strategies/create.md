@@ -1,8 +1,8 @@
 ---
-description: Create a strategy and use it on your own space
+description: Create a voting strategy and use it on your own space
 ---
 
-# Create a new voting strategy
+# Create a voting strategy
 
 To add your own voting strategy on Snapshot you need to fork the **snapshot-strategies** repository and create a pull request.
 

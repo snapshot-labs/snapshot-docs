@@ -1,8 +1,8 @@
 ---
-description: Create a voting validation strategy and use it in your own space
+description: Create a validation strategy and use it in your own space
 ---
 
-# Create a new voting validation
+# Create a validation strategy
 
 To add your own voting validation strategy on Snapshot you need to fork the **snapshot-strategies** repository and create a pull request.
 

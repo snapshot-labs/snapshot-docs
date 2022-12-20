@@ -1,4 +1,4 @@
-# Voting validation
+# Validation strategies
 
 ## What is a validation strategy?
 
@@ -15,7 +15,7 @@ Validation strategies can be used for two purposes:
 
 If you want to allow addresses with any voting power to create a proposal or vote you can use the default voting validation.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 ## Validation strategy example - Gitcoin Passport
 
@@ -23,7 +23,7 @@ Validation strategy built together with **Gitcoin Passport.** You can select ind
 
 
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (17).png>)
 
 
 
