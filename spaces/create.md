@@ -73,7 +73,7 @@ If you feel ready to deep dive in the custom setup here are a few hints that you
 \
 At the time of writing this article Snapshot count around 350 strategies and this number keep increasing. [Learn more about the strategies. ](../strategies/what-is-a-strategy.md)
 
-![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 13.25.04 (1).png>)
+![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 13.25.04.png>)
 
 ## Moderation
 
