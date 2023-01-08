@@ -11,7 +11,7 @@ The block “Quorum” on the right side of Yam is an example of plugin [https:/
 Another example of plugin is a block "Gnosis Impact" [on Gnosis https://snapshot.org/#/gnosis.eth/proposal/QmdjWuBnBnPUafW9jBNNsJJvaeQAVExGcFZ7zB38VtNuu4](https://snapshot.org/#/gnosis.eth/proposal/QmdjWuBnBnPUafW9jBNNsJJvaeQAVExGcFZ7zB38VtNuu4)
 
 You can find existing plugin implementations here:\
-[https://github.com/snapshot-labs/snapshot/tree/mkt/migrate-safesnap/src/plugins](https://github.com/snapshot-labs/snapshot/tree/mkt/migrate-safesnap/src/plugins)
+[https://github.com/snapshot-labs/snapshot/tree/develop/src/plugins](https://github.com/snapshot-labs/snapshot/tree/develop/src/plugins)
 
 > To avoid confusion, it is worth mentioning here that the plugin system is not meant to support and make available any arbitrary plugin out of the box. Rather, it is a curated list of optional core functionalities, following a common pattern. Development of new plugins should be coordinated with the snapshot team.
 

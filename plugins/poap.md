@@ -37,6 +37,6 @@ You can also check out a tutorial guide to set up POAP plugin for your Snapshot 
 ### Support
 
 Join POAP Discord: [http://poap.xyz/discord](http://poap.xyz/discord)\
-Join Snapshot Discord: [https://discord.snapshot.org](https://discord.snapshot.org/)
+Join Snapshot Discord: [https://discord.gg/snapshot](https://discord.gg/snapshot)
 
 \

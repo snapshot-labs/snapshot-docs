@@ -21,7 +21,7 @@ A delegation voting strategy must be added to the Snapshot space before delegate
 
 ### From Snapshot interface
 
-1. Go to [https://snapshot.page/#/delegate](https://snapshot.page/#/delegate).
+1. Go to [https://snapshot.org/#/delegate](https://snapshot.org/#/delegate)
 2. Enter the address you want to delegate to.
 3. To limit delegation to a specific space, tap the on switch button and enter the space key (example: `balancer.eth`) you want your delegation to take effect on. If no space is selected, the effect will take place for all spaces.
 4. Click confirm to save your delegation.
@@ -39,8 +39,10 @@ Here is an example of integration in a Solidity contract: [https://github.com/co
 ### Supported Networks
 
 * Mainnet
-* Rinkeby,&#x20;
-* Matic (Polygon)
+* Goerli
+* Optimism
 * Binance Smart Chain
-* Kovan
 * Gnosis Chain
+* Matic (Polygon)
+* Fantom
+* Arbitrum
