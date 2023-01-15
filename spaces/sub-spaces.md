@@ -14,4 +14,4 @@ You can define a main space, or multiple subspaces, in the Sub-spaces section of
 
 Do this for both your main space and all subspaces to link them to each other. If you have setup everything correctly they will be displayed on the space page.
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (12) (1).png>)
