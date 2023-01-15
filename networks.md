@@ -58,7 +58,7 @@ Head to **** [**https://snapshot-networks.on.fleek.co/**](https://snapshot-netwo
 
 a. Click the first network from the left sidebar and click `Edit networks.json` on the right side:
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 b. Add the JSON object with your network details (be careful with typos!) and click `Apply`. **Do not refresh the page!**
 
