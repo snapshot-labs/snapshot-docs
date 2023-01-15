@@ -8,7 +8,7 @@
     * [Alternative way to create a space](spaces/alternative-way-to-create-a-space.md)
   * [Settings](spaces/settings.md)
   * [Sub-spaces](spaces/sub-spaces.md)
-  * [Get verified](spaces/get-verified.md)
+  * [Space verification](spaces/get-verified.md)
   * [Add a custom domain](spaces/add-custom-domain.md)
   * [Add a skin](spaces/add-skin.md)
   * [Space roles](spaces/space-roles.md)
