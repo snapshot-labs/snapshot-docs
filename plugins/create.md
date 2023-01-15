@@ -6,14 +6,13 @@ Plugins in Snapshot extend proposal functionality, like adding extra information
 
 **Examples**
 
-The block “Quorum” on the right side of Yam is an example of plugin [https://snapshot.org/#/yam.eth/proposal/QmRLiSZdXJLNaejrgpAL5bqzYefMxc4JJJ1GZSg9GtiCSW](https://snapshot.org/#/yam.eth/proposal/QmRLiSZdXJLNaejrgpAL5bqzYefMxc4JJJ1GZSg9GtiCSW) ****&#x20;
-
-Another example of plugin is a block "Gnosis Impact" [on Gnosis https://snapshot.org/#/gnosis.eth/proposal/QmdjWuBnBnPUafW9jBNNsJJvaeQAVExGcFZ7zB38VtNuu4](https://snapshot.org/#/gnosis.eth/proposal/QmdjWuBnBnPUafW9jBNNsJJvaeQAVExGcFZ7zB38VtNuu4)
+* The “Quorum” block on the right side of the following Yam's propsoal: [https://snapshot.org/#/yam.eth/proposal/QmRLiSZdXJLNaejrgpAL5bqzYefMxc4JJJ1GZSg9GtiCSW](https://snapshot.org/#/yam.eth/proposal/QmRLiSZdXJLNaejrgpAL5bqzYefMxc4JJJ1GZSg9GtiCSW) ****&#x20;
+* &#x20;"Gnosis Impact" block the following Gnosis proposal: [https://snapshot.org/#/gnosis.eth/proposal/QmdjWuBnBnPUafW9jBNNsJJvaeQAVExGcFZ7zB38VtNuu4](https://snapshot.org/#/gnosis.eth/proposal/QmdjWuBnBnPUafW9jBNNsJJvaeQAVExGcFZ7zB38VtNuu4)
 
 You can find existing plugin implementations here:\
 [https://github.com/snapshot-labs/snapshot/tree/develop/src/plugins](https://github.com/snapshot-labs/snapshot/tree/develop/src/plugins)
 
-> To avoid confusion, it is worth mentioning here that the plugin system is not meant to support and make available any arbitrary plugin out of the box. Rather, it is a curated list of optional core functionalities, following a common pattern. Development of new plugins should be coordinated with the snapshot team.
+> To avoid confusion, it is worth mentioning here that the plugin system is not meant to support and make available any arbitrary plugin out of the box. Rather, it is a curated list of optional core functionalities, following a common pattern. The development of new plugins should be coordinated with the Snapshot team.
 
 **Creating a new plugin**
 
@@ -26,7 +25,7 @@ mkdir src/plugins/myPlugin && echo '{
 }' > src/plugins/myPlugin/plugin.json
 ```
 
-The plugin is now available in the space settings and can be enabled. But so far, it doesn't do anything. Next we will add a component for the proposal page.
+The plugin is now available in the space settings and can be enabled. But so far, it doesn't do anything. Next, add a component for the proposal page.
 
 ### Components
 
@@ -53,7 +52,7 @@ Here's the current list of available plugin components:
 | `myPlugin/ProposalSidebar.vue` | proposal sidebar                |
 | `myPlugin/Create.vue`          | proposal creation, plugins step |
 
-In those components you can do everything you can do in any other Vue 3 component. You can split the code across multiple components and import them in one of the above, as well as create your own composables or other helper files to structure your code as you like.
+In those components, you can do everything you can do in any other Vue 3 component. You can split the code across multiple components and import them in one of the above, as well as create your own composables or other helper files to structure your code as you like.
 
 It's technically not required but recommended to use Vue 3's composition API and the `<script setup>` syntax.
 
@@ -86,7 +85,7 @@ Here are all properties, that will be passed down to the plugin's main component
 | **votes**         | -               | list of individual votes                |
 | **strategies**    | -               | used strategies                         |
 
-Only the main components (Create.vue, Proposal.vue, ProposalSidebar.vue) in your plugin's root directory will receive those properties automatically. You can of course pass those properties further down, to you other components as needed.
+Only the main components (Create.vue, Proposal.vue, ProposalSidebar.vue) in your plugin's root directory will receive those properties automatically. You can of course pass those properties further down to other components as needed.
 
 ### Existing components/composables
 
@@ -107,7 +106,7 @@ const { web3Account } = useWeb3();
 
 ### Config defaults
 
-Most plugins will require some configuration options, so that the a space admin can enter their token address, API endpoints and so on. Defaults can be defined in the `plugin.json` as follows:
+Most plugins will require some configuration options so that a space admin can enter their token address, API endpoints and so on. Defaults can be defined in the `plugin.json` as follows:
 
 ```json
 {
@@ -138,7 +137,7 @@ The snapshot.org interface supports multiple languages and new plugins should be
 </template>
 ```
 
-The actual strings needs to be added in `src/locales/default.json` to be available for translators, in order to update the language specific files, like `de-DE.json`. You can add your strings on the highest level in `default.json`, under a unique key, e.g. your plugin's directory name.
+The actual strings need to be added in `src/locales/default.json` to be available for translators, in order to update the language specific files, like `de-DE.json`. You can add your strings on the highest level in `default.json`, under a unique key, e.g. your plugin's directory name.
 
 ```json
 {

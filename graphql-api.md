@@ -14,7 +14,7 @@ We have exposed an integrated development environment in the browser that includ
 
 {% embed url="https://hub.snapshot.org/graphql" %}
 
-![](<.gitbook/assets/image (3) (3).png>)
+![](<.gitbook/assets/image (3) (1).png>)
 
 ## Endpoints
 
