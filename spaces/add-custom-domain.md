@@ -1,43 +1,45 @@
 ---
-description: Custom domain is optional.
+description: Learn what a custom domain is and how to set it up for your space.
 ---
 
 # Add a custom domain
 
-### What is a custom domain?
+## What is a custom domain?
 
-As you already have a domain with ENS, adding a custom domain is optional. A custom domain allows you to display your space (and only your space) on a custom domain.&#x20;
+Custom domain is a unique branded domain name which you can use for your space instead of using the default Snapshot's URL. The displayed website is exatly the same, the only difference being the address you can see in the browser. Have a look at the example below:
 
-Example: [https://vote.balancer.fi/#/](https://vote.balancer.fi/#/)
+Snapshot URL: [https://snapshot.org/#/balancer.eth](https://snapshot.org/#/balancer.eth)
 
-### Create a pull request
+Custom domain: [https://vote.balancer.fi/#/](https://vote.balancer.fi/#/)
 
-To add a custom domain you need to do a pull request on this repository:
+As you already have a domain with ENS, adding a custom domain **is optional.**&#x20;
+
+## Add a custom domain to your space
+
+{% hint style="info" %}
+You cannot create a custom domain through Snapshot. Make sure that you own the custom domain before setting it up.
+{% endhint %}
+
+### 1. Fork the snapshot-spaces repository
+
+Create a fork of the snapshot-spaces Github repository:
 
 {% embed url="https://github.com/snapshot-labs/snapshot-spaces" %}
 
-#### Follow the Snapshot spaces directory tree
+### 2. Add your custom domain to domains.json
+
+Follow the Snapshot spaces directory tree and open the [domains.json](https://github.com/snapshot-labs/snapshot-spaces/blob/master/spaces/domains.json) file.
 
 ```bash
 └── spaces
     └── domains.json
 ```
 
-### Add a custom domain
+Add the mapping for your custom domain and Snapshot space in the following format:
 
-#### Set it in the Domain name field
-
-To add a custom domain, fill in the Domain name field in your settings.
-
-![The domain name field in Snapshot settings.](../.gitbook/assets/capture-de-cran-2020-12-30-a-09.34.49.png)
-
-#### Insert it in the domains**.json file** list
-
-To add your subdomain to Snapshot, you need to **edit the** **domains.json** file below.
-
-{% embed url="https://github.com/snapshot-labs/snapshot-spaces/blob/master/spaces/domains.json" %}
-Add your custom domain in the domains.json file
-{% endembed %}
+```
+"my.custom.url": "my-space.eth"
+```
 
 {% hint style="warning" %}
 To prevent conflicts, it is recommended to add your subdomain between two existing domains rather than at the end or beginning of the list, as in the example below.
@@ -53,20 +55,40 @@ To prevent conflicts, it is recommended to add your subdomain between two existi
 }
 ```
 
-#### Configure your DNS&#x20;
+### 3. Create a pull request
 
-You will need to add this as CNAME in your domain DNS `cname.snapshot.org`
+Create a Pull Request on the original [snapshot-spaces](https://github.com/snapshot-labs/snapshot-spaces/) repository with the above changes.
 
-After committing your PR, you will have to wait for the merge. This process can take a few hours.
+It can take the team around **72 hours** to merge your Pull Request, so please be patient :pray:
 
-### Activate your custom domain
+Once the PR is merged you will have to wait for the release of a new version on [https://snapshot.org](https://snapshot.org). It can take up to a **couple of days**. Once the new version is released you can move on to the next step.
 
-Once the PR is merged you can go here to activate the domain:\
+### 4. Update space settings
+
+Head to your space settings on Snapshot and fill in the custom domain name field. It must match the one you added in the Pull Request.
+
+![The domain name field in Snapshot settings.](../.gitbook/assets/capture-de-cran-2020-12-30-a-09.34.49.png)
+
+### 5. Configure your DNS&#x20;
+
+Update your DNS settings on the custom domain provider dashboard and set CNAME to:
+
+`cname.snapshot.org`
+
+### 6. Activate your domain
+
+Once the PR is merged use the below link to activate the domain:
+
+\
 [https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com](https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com)\
-(Replace "example.com" with your custom domain).&#x20;
+
+
+**Replace "example.com" with your custom domain.**&#x20;
 
 {% hint style="info" %}
 Note that at this step the returned message could contain warnings, this could happen if the domain DNS zone is not fully resolved yet or if you've already successfully activated your domain. The bottom line is if you've setup the CNAME record correctly you should not worry at all.
 {% endhint %}
 
-Under the current flow, we still have to merge a commit from our side to finalize the deployment of your PR to be able to get your domain live. This process can take up to a couple of days\
+
+
+That's all! You should now be able to use the custom domain for your space :tada:\

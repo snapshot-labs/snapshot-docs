@@ -72,7 +72,7 @@ d. Scroll up to the top of the page and check if:
 * the last block is fetched correctly (click on it to see its timestamp)
 * there are no errors
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Create a Pull Request
 
