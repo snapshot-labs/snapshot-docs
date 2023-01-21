@@ -10,7 +10,7 @@ Organizations can create multiple spaces and link them together. This is useful 
 
 You can define a main space, or multiple subspaces, in the Sub-spaces section of the space settings.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
 
 Do this for both your main space and all subspaces to link them to each other. If you have setup everything correctly they will be displayed on the space page.
 
