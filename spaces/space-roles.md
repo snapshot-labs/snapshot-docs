@@ -42,7 +42,7 @@ In order to update the admins and authors lists head to the space settings on Sn
 
 You can add up to 100 addresses in each field. Make sure each address is written in a **separate line** as suggested in the example below.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Do not list all addresses in one line separated by a delimiter like a comma, semicolon or a dot.

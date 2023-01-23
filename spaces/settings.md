@@ -65,7 +65,7 @@ To learn more about what they are and how they work head to [what-is-a-strategy.
 
 ## Admins and authors
 
-In order to specify who can manage the space or create proposals, fill in the apriopriate field with addresses for:
+In order to specify who can manage the space or create proposals, fill in the apropriate field with addresses for:
 
 * **Admins** - able to edit the space settings and moderate proposals.&#x20;
 * **Authors** - able to create proposals without any constraints Make sure that members specified in authors field are allowed to submit a proposal.
@@ -76,9 +76,19 @@ Each line should be populated with one address only. Do not add multiple addrese
 You can add up to 100 addresses in each field.
 {% endhint %}
 
+Head to [space-roles.md](space-roles.md "mention") to learn more about each role.
+
 ![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 14.31.29.png>)
 
-## Proposal validation
+##
+
+## Proposals
+
+You can provide guidelines and a template which will be displayed during the proposal creation:
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+### Proposal validation
 
 To validate if someone can post a proposal or not you can use the basic validation by default which takes your voting power with space strategies and checks if you pass a defined threshold.
 
@@ -99,7 +109,7 @@ The **voting period** is the duration that the proposal is active and votes can 
 
 You can add a custom domain to your space by following the [add-custom-domain.md](add-custom-domain.md "mention") guide.
 
-If you want to apply a different design (skin) to your space, you have to set a custom domain first. Without it the selected skin will not be visible on snapshot.org.
+If you want to apply a different design (skin) to your space, you have to set a custom domain first. Head to [add-skin.md](add-skin.md "mention") to learn how to add a custom skin for your custom domain.
 
 ![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 14.32.30.png>)
 
