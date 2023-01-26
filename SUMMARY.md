@@ -25,6 +25,7 @@
   * [Validation strategies](strategies/what-is-a-strategy-1.md)
   * [Create a validation strategy](strategies/create-1.md)
 * [Plugins](plugins/README.md)
+  * [What is a plugin and how to use it?](plugins/what-is-a-plugin-and-how-to-use-it.md)
   * [Create a plugin](plugins/create.md)
   * [SafeSnap](plugins/safesnap.md)
   * [POAP](plugins/poap.md)
