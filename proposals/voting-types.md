@@ -38,7 +38,7 @@ Ideal for choosing one option from many.\
 
 👉 [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x02c3fcd64e86157d07c88e5a715ac08f57655917f8bfd5be30a99092136511ec)****
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Weighted voting
 
@@ -51,7 +51,7 @@ This voting method was first introduced by Float Protocol with [Scattershot](htt
 
 ****:point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0xf93f1ac80e22cc930b1eef1d20bd34671ccc33b88b04695479c9de364451d77f)****
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Approval voting
 
@@ -98,7 +98,7 @@ Some options will show up as if they had **not received any votes** because they
 
 :point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x5003da0f03e718b461e53fe10a998b60172e2e108472153282fcef781c300f23)****
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### Basic voting
 

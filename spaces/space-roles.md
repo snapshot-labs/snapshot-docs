@@ -32,7 +32,7 @@ There can be only **one controller** per space and can be updated **only by the 
 
 In order to update the controller role head to the space settings on Snapshot. Click the `Edit Controller` button on the right-hand side:
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Paste the address of the account you want to set as space controller in the pop-up window and click `Set`. It will trigger your wallet browser extension and ask you to sign a **transaction with a gas fee.**&#x20;
 
@@ -42,7 +42,7 @@ In order to update the admins and authors lists head to the space settings on Sn
 
 You can add up to 100 addresses in each field. Make sure each address is written in a **separate line** as suggested in the example below.
 
-<figure><img src="../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Do not list all addresses in one line separated by a delimiter like a comma, semicolon or a dot.
