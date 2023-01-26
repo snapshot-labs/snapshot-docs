@@ -1,40 +1,75 @@
+---
+description: Learn what the POAP plugin is and how to add it to your space.
+---
+
 # POAP
 
-POAP are badges which are non-fungible tokens (NFT). Each time you participate in an event, POAP collectors get a unique badge that is supported by a cryptographic record. **** With the POAP plugin, you can reward voters in your space with a unique POAP for each of your Proposals on Snapshot.
+POAP is a badge which can be acquired by attending events or experiences. In technical terms - a Proof Of Attendance Protocol NFT (non-fungible asset).
 
-### **Getting started**
+With the POAP plugin you can **reward voters** in your space with a unique POAP for each vote they cast on a Snapshot proposal and as a result grow the overall governance participation of your community.&#x20;
 
-Here is a tutorial to setup the POAP plugin on your Snapshot space:&#x20;
+## Setup
 
-1\. Go to your settings page on Snapshot [https://snapshot.org/#/domain.eth/setting](https://snapshot.org/#/domain.eth/settings) and tap on "Add plugin".&#x20;
+### 1. Open your space settings on Snapshot <a href="#h_48e007c7d3" id="h_48e007c7d3"></a>
 
-![](https://lh4.googleusercontent.com/zT0wtgjrvCywo\_uHOKv7SESCPbhg0omPhj13TyrDVeSPQapMplSG-BNGzDTJ-QzuP9NgD71BWUy19njeJTFsJw0obYFK2-wgSln7TTTOUqIbu2tXyvZRPDIvwItd4g=s0)
+Ensure that you have the permissions required to add new plugins, or reach out to the admins of the space you'd like to add the plugin to.
 
-2\. Search for "POAP" and select the "POAP module". You do not need to change anything inside the POAP Module and can leave it as is. Tap the “Add” button.
+Scroll down to **Plugins** and click the **Add plugin** button.&#x20;
 
-![](https://lh6.googleusercontent.com/Rx2KPaG5rx\_jfwWmjherO2YJTMjJtdkU35biQEJlPUZXEfaaB6SG\_qdw2G8BMZYywrfEaHtjxDamAYbReEJ214Zo4XodgGoYwTbLXo9-rpf1\_edPSl2xitCPAHY2YA=s0)
+### &#x20;2. Select the POAP module
 
-3\. On the space settings page, tap the "Save" button and sign the transaction via your wallet provider to save your settings. The POAP plugin has now been successfully added and A POAP will automatically be added to all new proposals.&#x20;
+A new popup window will show up where you can search for and select the **POAP Module** by simply clicking on it.
 
-4\. Whenever you create a new proposal, you must save your Snapshot proposal ID  from the URL of the proposal.
+![](https://poap.intercom-attachments-1.com/i/o/443038277/66366d4057ae67afb39c575a/1-AkXU0CT4GHBemGl8Qq5z2Q.png)
 
-![](https://lh3.googleusercontent.com/X1BF1pwn6cyPu0g7j0UJpq9Ys44PlleccP9Pf-U4PNHU1cVVstF6ldQunrTLY97o88\_8Vi\_RbnDiLSmHCelGSm3-iZP05G8Mr2Qy1r5bjfJypPIpkdO2PnfdycNcyQ=s0)
+No need for additional settings on this step; leave it as-is and click "**Add.**"
 
-5\. Create a POAP drop by completing the following form: [https://app.poap.xyz/admin/events/new](https://app.poap.xyz/admin/events/new). Make sure to request \`0\` mint links.\
-****
+![](https://poap.intercom-attachments-1.com/i/o/443038294/b8903cd4670d1c40d980c707/1-F5jbklz3\_c0Ue-GkbOP0-g.png)
 
-![](https://lh6.googleusercontent.com/jcfVETtJQps-PoHVJNJw3gyz6A7\_0b6wKY6aJnK4YsXJWza9-IC2oXY736ZFptTgu8IWPLjEqdHQZXuKNQwahNe2jt9jMAdJb92oj2I0ioH35iJyiU0IrR-8Jp4lRw=s0)
+&#x20;
 
-* Link your POAP event ID to your Snapshot proposal ID by following this guide:\
-  [https://intercom.help/poap/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin](https://intercom.help/poap/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin)
-* Once the event and Proposal are linked, each voter will be able to claim their special POAP. ****&#x20;
-* Link your POAP event ID to your Snapshot proposal ID by contacting the POAP team via discord or telegram.
-* Once the event and Proposal are linked, each voter will be able to claim their POAP. ****&#x20;
+Don't forget to save your settings! Go to the top of the page and click **Save.** Confirm the changes by signing the message in your wallet.&#x20;
 
-You can also check out a tutorial guide to set up POAP plugin for your Snapshot space: \
-[https://help.poap.xyz/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin](https://help.poap.xyz/en/articles/5857145-how-do-i-set-up-the-poap-snapshot-plugin)
+### 3. Create a new proposal <a href="#h_87ff015410" id="h_87ff015410"></a>
 
-### Support
+Now when you create a new proposal, the POAP plugin will be automatically added. There is no need to manually add it to each new proposal.
+
+![](https://poap.intercom-attachments-1.com/i/o/443038298/11c9a8aef60edefa98dca0d8/1-2vZVDaDkHXrg5LsF0di7IQ.png)
+
+Once the proposal has been created, you can get your **Snapshot proposal ID** from the URL of the proposal. Copy all characters following the `proposal/` in the address box in the browser and save them somewhere - you will need it to link the proposal to your POAP drop.
+
+&#x20;
+
+<figure><img src="https://poap.intercom-attachments-1.com/i/o/443038303/ba9a6a391b318a7854d11416/1-dwgU5p639Np9QVsdIHGEtQ.png" alt=""><figcaption></figcaption></figure>
+
+### 4. Create a POAP drop <a href="#h_0f06ce9fe9" id="h_0f06ce9fe9"></a>
+
+Follow the instructions in POAP's guide [**How Do I Set Up a POAP Drop?** ](https://poap.zendesk.com/hc/en-us/articles/9702718846989)but be sure to request "0" mint links.
+
+Take note of your **Drop ID,** as you will need this for the next steps.
+
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+### 5. Link your proposal to your POAP drop
+
+Reach out to the POAP team by filling out the required fields in the [**POAP Snapshot Proposal Request form**](https://forms.gle/t7Cwd7TjqmNanhwb6). **Do not post your request anywhere else.**&#x20;
+
+{% hint style="info" %}
+Your petition will be reviewed by the POAP Curation Body after the vote is finished. If the petition is approved, every voter will be able to mint their special POAP.
+{% endhint %}
+
+#### How to check the status of your request?
+
+If you want to check on the status of your request, you should do so by using the chat bubble:
+
+* Click the chat bubble in the lower-right corner of the [POAP website](https://poap.xyz/).
+* Type “check on my petition”
+* Enter your **drop ID**.
+* Get a response!
+
+If curation needs to contact you, they will do so via the email curation@poap.io. If customer support needs to contact you, they will do so via the email support@poap.io. **Beware of scams and never reply to other email addresses.**&#x20;
+
+## Support
 
 Join POAP Discord: [http://poap.xyz/discord](http://poap.xyz/discord)\
 Join Snapshot Discord: [https://discord.gg/snapshot](https://discord.gg/snapshot)

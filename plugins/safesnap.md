@@ -11,7 +11,7 @@ Combining the Gnosis Safe with Snapshot, SafeSnap enables decentralized executio
 
 SafeSnap plugin is an oracle-based solution which works together with Gnosis Safe and Snapshot in the following way:
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * A Gnosis Safe module, where anyone can create a new proposal: an array of multisend transaction payloads.
 * Each proposal is a `Reality.eth` question asking if (1) the linked Snapshot proposal passed, (2) did the proposal include the payload, and (3) does the payload do what the proposal describes.
