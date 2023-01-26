@@ -58,7 +58,7 @@ Head to **** [**https://snapshot-networks.on.fleek.co/**](https://snapshot-netwo
 
 a. Click the first network from the left sidebar and click `Edit networks.json` on the right side:
 
-<figure><img src=".gitbook/assets/image (1) (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 b. Add the JSON object with your network details (be careful with typos!) and click `Apply`. **Do not refresh the page!**
 
@@ -72,7 +72,7 @@ d. Scroll up to the top of the page and check if:
 * the last block is fetched correctly (click on it to see its timestamp)
 * there are no errors
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Create a Pull Request
 

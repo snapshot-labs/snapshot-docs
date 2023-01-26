@@ -1,22 +1,27 @@
+---
+description: Learn how to create a new plugin for Snapshot.
+---
+
 # Create a plugin
 
-**What is a plugin?**
+If the existing plugins do not fulfill the needs of your space it is possible to create a new one. Keep in mind though that at this moment we have a curated list of plugins that extend the core funcitonality of Snapshot and we want to make sure that their logic is written in line with Snapshot's values.
 
-Plugins in Snapshot extend proposal functionality, like adding extra information or on-chain settling. In essence, a plugin can add additional, custom data to a proposal, which can be used when rendering it or processing the results.
+{% hint style="info" %}
+The development of new plugins should be coordinated with the Snapshot team.&#x20;
+{% endhint %}
 
-**Examples**
+## 1. Fork the snapshot repository
 
-* The “Quorum” block on the right side of the following Yam's propsoal: [https://snapshot.org/#/yam.eth/proposal/QmRLiSZdXJLNaejrgpAL5bqzYefMxc4JJJ1GZSg9GtiCSW](https://snapshot.org/#/yam.eth/proposal/QmRLiSZdXJLNaejrgpAL5bqzYefMxc4JJJ1GZSg9GtiCSW) ****&#x20;
-* &#x20;"Gnosis Impact" block the following Gnosis proposal: [https://snapshot.org/#/gnosis.eth/proposal/QmdjWuBnBnPUafW9jBNNsJJvaeQAVExGcFZ7zB38VtNuu4](https://snapshot.org/#/gnosis.eth/proposal/QmdjWuBnBnPUafW9jBNNsJJvaeQAVExGcFZ7zB38VtNuu4)
+Create a fork of the **snapshot** repository:
 
-You can find existing plugin implementations here:\
-[https://github.com/snapshot-labs/snapshot/tree/develop/src/plugins](https://github.com/snapshot-labs/snapshot/tree/develop/src/plugins)
+{% embed url="https://github.com/snapshot-labs/snapshot/tree/" %}
 
-> To avoid confusion, it is worth mentioning here that the plugin system is not meant to support and make available any arbitrary plugin out of the box. Rather, it is a curated list of optional core functionalities, following a common pattern. The development of new plugins should be coordinated with the Snapshot team.
+## 2. Create a new directory and the plugin.json
 
-**Creating a new plugin**
+Position yourself at the root of the project repository and run the below command to create a new directory for your plugin and provide basic details about it.
 
-To create a plugin, start by creating a `plugin.json` inside of a new (camelCased) directory in `src/plugins`.
+\
+Make sure to update `myPlugin` with the name of your plugin (using `camelCase` naming convention), `name` and `description` to briefly describe what it does:
 
 ```shell
 mkdir src/plugins/myPlugin && echo '{
@@ -25,11 +30,31 @@ mkdir src/plugins/myPlugin && echo '{
 }' > src/plugins/myPlugin/plugin.json
 ```
 
-The plugin is now available in the space settings and can be enabled. But so far, it doesn't do anything. Next, add a component for the proposal page.
+Thanks to the `plugin.json` file the plugin will be visible in the space settings.
 
-### Components
+You can check that by running the local server and heading to any space's settings.
 
-In the plugin directory add a `Proposal.vue` and start with a basic single file component.
+Now it's time to add the logic to it!
+
+## 3. Create plugin structure and logic&#x20;
+
+In order to display the plugin on Snapshot, you need to create its structure by using components. The below table is listing the available components with their render location:&#x20;
+
+| Plugin component               | will be rendered here:          |
+| ------------------------------ | ------------------------------- |
+| `myPlugin/Proposal.vue`        | below proposal content          |
+| `myPlugin/ProposalSidebar.vue` | proposal sidebar                |
+| `myPlugin/Create.vue`          | proposal creation, plugins step |
+
+Within those components you can do everything you can do in any other Vue 3 component. You can split the code across multiple components and import them in one of the above, as well as create your own **composables** or other **helper** files to structure your code as you like.
+
+It's technically not required but recommended to use Vue 3's composition API and the `<script setup>` syntax.
+
+Let's have a look at the **Proposal** component example.
+
+### Proposal
+
+In order to display your plugin below the proposal content you have to create a **Proposal** component. Navigate to the plugin directory you have just created in the previous step and create a `Proposal.vue` file. You can start with a basic Vue.js single file component.
 
 ```
 <script setup>
@@ -42,23 +67,9 @@ const msg = 'Hello world!'
 </template>
 ```
 
-For spaces that enable the plugin, the component is now automatically being rendered below the proposal content.
+### Properties
 
-Here's the current list of available plugin components:
-
-| Plugin component               | will be rendered here:          |
-| ------------------------------ | ------------------------------- |
-| `myPlugin/Proposal.vue`        | below proposal content          |
-| `myPlugin/ProposalSidebar.vue` | proposal sidebar                |
-| `myPlugin/Create.vue`          | proposal creation, plugins step |
-
-In those components, you can do everything you can do in any other Vue 3 component. You can split the code across multiple components and import them in one of the above, as well as create your own composables or other helper files to structure your code as you like.
-
-It's technically not required but recommended to use Vue 3's composition API and the `<script setup>` syntax.
-
-#### Properties
-
-To do something meaningful, a plugin will probably need some awareness of the current context (space, proposal, etc). This information is passed down to the plugin components as properties. A component on the proposal page, that needs the proposal's id can receive it like this:
+To do something meaningful, a plugin will probably need some awareness of the current context (space, proposal, etc). **This information is passed down to the plugin components as properties**. A component on the proposal page, that needs the proposal's id can receive it in the following way:
 
 ```
 <script setup>
@@ -85,7 +96,7 @@ Here are all properties, that will be passed down to the plugin's main component
 | **votes**         | -               | list of individual votes                |
 | **strategies**    | -               | used strategies                         |
 
-Only the main components (Create.vue, Proposal.vue, ProposalSidebar.vue) in your plugin's root directory will receive those properties automatically. You can of course pass those properties further down to other components as needed.
+Only the main components (`Create.vue`, `Proposal.vue`, `ProposalSidebar.vue`) in your plugin's root directory will receive those properties automatically. You can of course pass those properties further down to other components as needed.
 
 ### Existing components/composables
 
@@ -106,7 +117,7 @@ const { web3Account } = useWeb3();
 
 ### Config defaults
 
-Most plugins will require some configuration options so that a space admin can enter their token address, API endpoints and so on. Defaults can be defined in the `plugin.json` as follows:
+Most plugins will require some configuration options so that a space admin can enter information like their token address, API endpoints and others. Defaults can be defined in the `plugin.json` as follows:
 
 ```json
 {
@@ -123,7 +134,10 @@ Most plugins will require some configuration options so that a space admin can e
 }
 ```
 
-Under the `"space"` key you can define global config options. They can then be set in the plugin section on a space's settings page.
+Under the `"space"` key you can define global config options. They can then be set in the plugin section on a space's settings like so:\
+
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 The `"proposal"` key let's you define options specific to a single proposal. This key must be set in order for the `Create.vue` component to be shown in the proposal creation process.
 
@@ -137,7 +151,7 @@ The snapshot.org interface supports multiple languages and new plugins should be
 </template>
 ```
 
-The actual strings need to be added in `src/locales/default.json` to be available for translators, in order to update the language specific files, like `de-DE.json`. You can add your strings on the highest level in `default.json`, under a unique key, e.g. your plugin's directory name.
+The actual strings need to be added in `src/locales/default.json` to be available for translators, in order to update the language specific files, like `de-DE.json`. You can add your strings on the highest level in `default.json`, under a unique key, e.g. your plugin's directory name and the translation will be done automatically.
 
 ```json
 {
@@ -149,7 +163,7 @@ The actual strings need to be added in `src/locales/default.json` to be availabl
 
 Learn more about localization in Vue [here](https://vue-i18n.intlify.dev/).
 
-#### Numbers and relative time
+### Numbers and relative time
 
 Apart from `vue-i18n`, there are custom number and time formatters available in the `useIntl` composable.
 
@@ -176,3 +190,14 @@ const {
   </div>
 </template>
 ```
+
+## 4. Create a Pull Request
+
+Once your plugin is tested and ready to deploy, create a new Pull Request on the original[ **snapshot repository**](https://github.com/snapshot-labs/snapshot)**.**\
+****The review can take the team up to 72 hours, so please be patient 🙏
+
+After the PR has been merged, you will need to wait for the release of a new version of [Snapshot](https://snapshot.org) which can take a couple of days.
+
+## 5. Test the plugin in production
+
+Your plugin is now available on Snapshot! :tada: Make sure to **test it thoroughly in production** before communicating to your community.
