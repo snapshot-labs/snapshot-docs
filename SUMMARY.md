@@ -33,7 +33,7 @@
   * [Quorum](plugins/quorum.md)
   * [HAL Notifications](plugins/hal.md)
   * [Gnosis Impact](plugins/gnosis-impact.md)
-  * [Project Galaxy](plugins/project-galaxy.md)
+  * [Galxe](plugins/project-galaxy.md)
 * [Networks](networks.md)
 * [GraphQL API](graphql-api.md)
 * [Webhooks](webhooks.md)
