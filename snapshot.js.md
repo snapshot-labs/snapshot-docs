@@ -1,12 +1,54 @@
 ---
-description: The official JavaScript client for build Snapshot apps.
+description: >-
+  The official JavaScript client for implementing Snapshot's functionality in
+  other apps.
 ---
 
 # Snapshot.js
 
-### **Overview**
+## **Overview**
+
+**`Snapshot.js`** is an open source JavaScript client which comes with the core functions of the Snapshot's off-chain voting system. It was designed to work both in the browser and with `Node.js`.
 
 {% embed url="https://github.com/snapshot-labs/snapshot.js" %}
+
+## Get started
+
+### **Installation**
+
+**Node.js**
+
+To install Snapshot.js on Node.js, open your terminal and run:
+
+```shell
+npm i @snapshot-labs/snapshot.js
+```
+
+**Browser**
+
+You can create an index.html file and include Snapshot.js with:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@snapshot-labs/snapshot.js"></script>
+```
+
+### Development
+
+**Install dependencies**
+
+```shell
+yarn
+```
+
+**Build package**
+
+```shell
+yarn build
+```
+
+## Usage
+
+#### Base features
 
 #### Init client
 
@@ -60,11 +102,66 @@ const receipt = await client.proposal(web3, account, {
 
 #### **Create or edit a space**
 
-...
+```javascript
+import { Web3Provider } from '@ethersproject/providers';
+
+const web3 = new Web3Provider(window.ethereum);
+const [account] = await web3.listAccounts();
+
+const receipt = await client.space(web3, account, {
+  "space":"pistachiodao.eth",
+  "settings":{
+    "name":"pistachiodao.eth",
+    "network":"1",
+    "symbol":"XYZ",
+    "private":false,
+    "members":[],
+    "admins":[],
+    "categories":[
+      "social",
+      "media"
+    ],
+    "plugins":{
+      "hal":{}
+    },
+    "children":[],
+    "voting":{
+      "hideAbstain":false
+    },
+    "strategies":[{
+      "name":"ticket",
+      "network":"1",
+      "params":{"symbol":"TICKET"}
+    }],
+    "validation":{
+      "name":"basic",
+      "params":{}
+    },
+    "voteValidation":{
+      "name":"any",
+      "params":{}
+    },
+    "filters":{
+      "minScore":0,
+      "onlyMembers":false
+    },
+    "treasuries":[]
+    }
+});
+```
 
 #### Join a space
 
-...
+```javascript
+import { Web3Provider } from '@ethersproject/providers';
+
+const web3 = new Web3Provider(window.ethereum);
+const [account] = await web3.listAccounts();
+
+const receipt = await client.follow(web3, account, {
+  "name":"pistachiodao.eth"
+});
+```
 
 ### **Utils**
 
@@ -115,12 +212,4 @@ import snapshot from '@snapshot-labs/snapshot.js';
 const network = '1';
 const provider = snapshot.utils.getProvider(network);
 ```
-
-**Integrators shortlist**
-
-Integration: \
-Boardroom, Decentraland, Pancake, Synthetix, Commonwealth, Guild.xyz\
-\
-Data aggregation: \
-Messari, DeepDAO.
 
