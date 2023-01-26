@@ -1,5 +1,5 @@
 ---
-description: Receive event notifications with webhooks
+description: Receive event notifications with webhooks.
 ---
 
 # Webhooks
@@ -35,8 +35,8 @@ When a proposal is deleted by the author or an admin of the space.
 
 ### Subscribe to events
 
-If you want to subscribe to webhooks please contact us on Discord or Telegram in the #helpdesk channel. You will need to provide a URL to receive the webhook request.
+If you want to subscribe to webhooks please contact us on [Discord](https://discord.snapshot.org) in this [#helpdesk thread](https://discord.com/channels/707079246388133940/1061160799407702029/1061160799407702029). You will need to provide an **URL** to receive the webhook request.
 
-### Test webhook
+### Test a webhook
 
-You can use this url [https://webhook.snapshot.org/api/test?url=https://example.com](https://webhook.snapshot.org/api/test?url=https://example.com) and change example.com with your own endpoint to trigger a test callback.
+You can use this URL [https://webhook.snapshot.org/api/test?url=https://example.com](https://webhook.snapshot.org/api/test?url=https://example.com) and change example.com with your own endpoint to trigger a test callback.

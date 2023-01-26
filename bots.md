@@ -1,10 +1,12 @@
 ---
-description: Notifications bots
+description: Setup a bot to receive Snapshot notifications.
 ---
 
 # Bots
 
-Here are the different existing solutions to receive notifications for new proposals.
+Snapshot has several bot integrations which can be set up for your organization in order to receive Snapshot specific notifications.
+
+Have a look at the list below to see what is currently possible:
 
 ### Snapshot Discord bot
 
@@ -34,3 +36,6 @@ Need help? Ask on [Discord](https://discord.gg/snapshot)  &#x20;
 **Status:** Ready\
 **Install:** [https://medium.com/boto-corp/telegram-bot-for-snapshot-no-code-353e7f3e2dc8](https://medium.com/boto-corp/telegram-bot-for-snapshot-no-code-353e7f3e2dc8)
 
+{% hint style="info" %}
+If you would like to set up another bot integration contact us on [Discord](https://discord.snapshot.org) with the details!
+{% endhint %}

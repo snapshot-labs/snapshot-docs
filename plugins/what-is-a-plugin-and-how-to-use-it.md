@@ -8,7 +8,7 @@ Plugin is an extension which enriches Snapshot by additional functionalities wit
 
 You can browse through all plugins by heading to [https://snapshot.org](https://snapshot.org) and selecting the **Plugins** filter in the search bar:
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Add a plugin to your space&#x20;
 
@@ -16,17 +16,17 @@ You can extend your space's functionality by adding plugin(s) to it. They will b
 
 1. In order to add a plugin head to your space settings by clicking **Settings** on your space's page:
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 2\. Scroll down to the **Plugins** section and click **Add plugin**. Select the plugin you want to add in the pop-up window:
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 3\. Configure the plugin according to your needs. \
 \
 Each plugin requires different setup so before you add it to your space make sure which parameters do you need to provide. As an example, the Gnosis SafeSnap plugin requires a `CHAIN_ID` of the network your safe is using and the `realityAddress` . Check out the [gnosis-safe.md](../gnosis-safe.md "mention") setup steps if you want to learn more about this specific plugin.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 4\. Click **Add** and don't forget to **Save** your new settings.&#x20;
 

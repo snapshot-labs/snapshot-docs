@@ -23,7 +23,7 @@ Validation strategy built together with **Gitcoin Passport.** You can select ind
 
 
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (2).png>)
 
 
 

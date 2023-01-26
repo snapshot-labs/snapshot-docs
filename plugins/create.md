@@ -137,7 +137,7 @@ Most plugins will require some configuration options so that a space admin can e
 Under the `"space"` key you can define global config options. They can then be set in the plugin section on a space's settings like so:\
 
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 The `"proposal"` key let's you define options specific to a single proposal. This key must be set in order for the `Create.vue` component to be shown in the proposal creation process.
 
