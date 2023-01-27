@@ -53,7 +53,7 @@ For those who want to understand how to work with proposals we recommend reading
 
 ✅ **I want to vote on a proposal**
 
-&#x20;Check out the [vote.md](proposals/vote.md "mention") section to see how you can cast a vote.
+&#x20;Check out the [vote](proposals/vote/ "mention") section to see how you can cast a vote.
 
 ### Contributing
 

@@ -1,29 +1,59 @@
 ---
-description: Learn how to create a proposal.
+description: Learn what a proposal is and how to create one.
 ---
 
 # Create a proposal
 
-### What is a proposal?&#x20;
+## What is a proposal?&#x20;
 
-A proposal has a content that describes the issue of a vote. It also has a voting system that determines how voters can select choices and how its results will be calculated.&#x20;
+Proposal is the key element of the voting system. It presents a change suggestion related to a specific organization and enables eligible users to cast their vote.&#x20;
 
-### How to create a proposal
+A specific [voting system](voting-types.md) (single choice, weighted, quadratic, and others) can be selected individually for each proposal.
 
-* Go to a project space and tap on the "Connect wallet" button in the top right corner.
-* Connect with the wallet provider where you hold relevant tokens and tap on “New proposal.”
-* Fill out the Title, Description (optional,) and Discussion (optional) link of your proposal.
-* Tap on the “Continue” button and select the desired [voting system](https://docs.snapshot.org/proposals/voting-types) and add your voting options.
-* Enter the start date and end date of your proposal to determine the proposal voting period. Make sure you allow enough time for voting.
-* Tap on “Publish” and your proposal is created!&#x20;
+Voting power for each user is calculated on the basis of the voting strategies selected in the [space settings](../strategies/what-is-a-strategy.md).
 
-### **Snapshot block number**
 
-When you create a proposal, by default the "snapshot block number" will be populated with the latest block sync from our node.
 
-Depending on the settings of the space, either everyone holding a sufficient amount of tokens can vote or only members holding a sufficient amount of tokens can submit a proposal.
+## Who can create a proposal?
+
+Space [controller](../spaces/space-roles.md),[ admins](../spaces/space-roles.md), [authors](../spaces/space-roles.md) and users who are eligible according to the [proposal validation](../strategies/what-is-a-strategy-1.md) strategies defined in the space settings.
+
+## Create a proposal
+
+1. Head to the space which you wish to create your proposal for.
+2. Connect with the wallet provider - make sure the connected wallet is **where you hold the tokens relevant** to the specific space.
+3.  Click `New proposal`  in space sidebar:\
+
+
+    <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+4.  Fill in the following fields:\
+    \- Title\
+    \- Description (optional)\
+    \- Discussion link (optional)\
+
+
+    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+5.  Select the desired voting system, specify the possible vote options and define the duration of your proposal. Make sure you allow enough time for users to vote.\
+
+
+    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+6. Click `Publish` - and that's it! You can see your proposal in the proposals list on the space page.
+
+
+
+## **Snapshot block number**
+
+When you create a proposal by default the **snapshot block number** will be populated with the latest block synced from our node.
+
+{% hint style="warning" %}
+The voting power of each user will be calculated for the **state of the blockchain at this specific snapshot**. \
+\
+It means that if user acquires required tokens **after** the proposal has been created, they will not be taken into account for their voting power calculation.
+{% endhint %}
+
+
 
 ### Proposals limitations
 
 * There is a character limit of 6400 for the description of a proposal.
-* Strategies are limited to 8. You should also respect this limitation when you use the multichain strategy.
+* You can combine up to 8 [voting strategies](../strategies/what-is-a-strategy.md). The limit also applies to multi-chain strategies.

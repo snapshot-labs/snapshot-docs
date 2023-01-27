@@ -101,7 +101,7 @@ If you feel ready to dive deeper into the custom setup here are a few hints that
 \
 At the time of writing this article there are around 415 Snapshot voting strategies and this number keeps growing. [Learn more about the strategies. ](../strategies/what-is-a-strategy.md)
 
-![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 13.25.04 (1).png>)
+![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 13.25.04.png>)
 
 ## Moderation
 

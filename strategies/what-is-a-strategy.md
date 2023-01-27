@@ -16,7 +16,7 @@ Voting strategies can be used to create a score from on-chain data, the data how
 
 You can browse through 400+ strategies by selecting the **Strategies** filter on the main page of [https://snapshot.org](https://snapshot.org). If you can't find a strategy that fulfills your needs you can create a new one. To learn more about creating custom voting strategies head to [create.md](create.md "mention").
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## How to set up a strategy?
 
@@ -31,7 +31,7 @@ _total voting power = voting power from strategy A + voting power from strategy 
 \
 In order to set up a voting strategy head to your space settings and scroll down to **Strategies** section. You should see the below pop-up after clicking **Add strategy** and selecting a strategy from the list:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Example of setting up an erc20-balance-of strategy.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Example of setting up an erc20-balance-of strategy.</p></figcaption></figure>
 
 You will see that there is information that you need to provide in order to make the strategy work, for example the **network** where the token is deployed, its **symbol** and **address** of the token's contract.&#x20;
 
@@ -48,12 +48,12 @@ The best solution would be to (1) delete the proposal, (2) update the settings w
 
 You can access it from the strategy's detail page by clicking the **Playground** on the right-hand side:
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Your browser will load a Playground page where you can test the custom setup for the chosen strategy. As you can see on the below screenshot you can set the required parameters and provide a list of addresses which in this case are or are not holding a the `PUNK` ERC721 token.&#x20;
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 If everything is set up correctly you should see the calculated voting power for each address after clicking the :arrow\_forward: button:
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
