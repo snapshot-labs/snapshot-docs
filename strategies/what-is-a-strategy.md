@@ -1,90 +1,59 @@
+---
+description: Learn what a voting strategy is and how to set it up.
+---
+
 # Voting strategies
 
-## What is a voting strategy
+## What is a voting strategy?
 
-A strategy is a JavaScript function that returns a score for a set of addresses. Strategies are being used on Snapshot to calculate the result of voting for a proposal. A proposal can have multiple strategies. The default strategy is to calculate the balance of an ERC20 for each voter. A strategy can send a call to a node or subgraph.
+Voting strategy is a set of conditions used to calculate user's voting power. Strategies enable Snapshot to calculate the final result of voting on a given proposal.
 
-## How to use strategies:
+> &#x20;In technical terms a strategy is a JavaScript function that returns a score for a set of addresses.&#x20;
 
-If you want coin-voting (1 token = 1 vote) you can use "erc20-balance-of", however you may want:
+Strategy/-ies are defined in the space settings in [#voting-strategies](../spaces/settings.md#voting-strategies "mention") section. Each space can select from one up to eight voting strategies. The default strategy is `erc20-balance-of` - it calculates the balance of a predefined ERC20 token for each user.
 
-* Delegate voting power using a delegation strategy.
-* Weighting voting power using a quadratic strategy.
-* NFT voting with an ERC-721 or ERC-1155 based strategies.
-* Only allow certain members to vote using a whitelist strategy.
+Voting strategies can be used to create a score from on-chain data, the data however does not necessarily need to be monetary. As an example a strategy can calculate how many POAPs or specific NFTs a user owns.
+
+You can browse through 400+ strategies by selecting the **Strategies** filter on the main page of [https://snapshot.org](https://snapshot.org). If you can't find a strategy that fulfills your needs you can create a new one. To learn more about creating custom voting strategies head to [create.md](create.md "mention").
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+## How to set up a strategy?
+
+Majority of spaces on Snapshot is using a single strategy however if you need a more complex calculation, you can combine up to 8 strategies. They will be applied to all proposals created for your space (created _after_ the update of the settings) and the voting power will be calculated cumulatively.&#x20;
 
 {% hint style="info" %}
-You can combine up to 8 strategies on a single proposal (voting power is cumulative).
+**Multiple voting strategies**\
+****If you combine several voting strategies the voting power will be calculated in the following way:\
+_total voting power = voting power from strategy A + voting power from strategy B + ..._
 {% endhint %}
 
-At the time of writing, Snapshot has over 350 voting strategies. Explore them here [https://snapshot.org/#/?type=strategies](https://snapshot.org/#/?type=strategies)
+\
+In order to set up a voting strategy head to your space settings and scroll down to **Strategies** section. You should see the below pop-up after clicking **Add strategy** and selecting a strategy from the list:
 
-You can even preview actions using the playground button.
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Example of setting up an erc20-balance-of strategy.</p></figcaption></figure>
 
-## Example strategy
+You will see that there is information that you need to provide in order to make the strategy work, for example the **network** where the token is deployed, its **symbol** and **address** of the token's contract.&#x20;
 
-Here is an example with the most common strategy called `erc20-balance-of`.
+Each strategy will require a different setup and you can read the full description and see the required parameters in the strategy's page, for example [erc20-balance-of](https://snapshot.org/#/strategy/erc20-balance-of). You can find each strategy's details through using the search bar and **Strategies** filter.
 
-{% embed url="https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/strategies/erc20-balance-of/index.ts" %}
+## Testing a voting strategy
 
-```javascript
-import { formatUnits } from "@ethersproject/units";
-import { multicall } from "../../utils";
-import { abi } from "./TestToken.json";
+Before you add the strategy to your space's settings we highly recommend to test it in the **Playground** in order to avoid any potential issues with the voting process.
 
-export async function strategy(
-  space,
-  network,
-  provider,
-  addresses,
-  options,
-  snapshot
-) {
-  const blockTag = typeof snapshot === "number" ? snapshot : "latest";
-  const response = await multicall(
-    network,
-    provider,
-    abi,
-    addresses.map((address: any) => [options.address, "balanceOf", [address]]),
-    { blockTag }
-  );
-  return Object.fromEntries(
-    response.map((value, i) => [
-      addresses[i],
-      parseFloat(formatUnits(value.toString(), options.decimals)),
-    ])
-  );
-}
-```
+{% hint style="danger" %}
+If you made a mistake in your space settings and votes have already been cast **it is not possible to revert them.** \
+The best solution would be to (1) delete the proposal, (2) update the settings with correct **** strategies **** and (3) recreate the proposal from scratch after the settings have been updated.
+{% endhint %}
 
-Strategies are defined in your space settings at `https://snapshot.page/#/<SPACE ADDRESS>/settings`. This is an example of how to add a strategy to calculate the voting power in BAL and BAL that is in Balancer pools, where they are providing liquidity.
+You can access it from the strategy's detail page by clicking the **Playground** on the right-hand side:
 
-The `erc20-balance-of` strategy setting:
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-```javascript
-{
-  "address": "0xba100000625a3754423978a60c9317c58a424e3D",
-  "symbol": "BAL",
-  "decimals": 18
-}
-```
+Your browser will load a Playground page where you can test the custom setup for the chosen strategy. As you can see on the below screenshot you can set the required parameters and provide a list of addresses which in this case are or are not holding a the `PUNK` ERC721 token.&#x20;
 
-The `balancer` strategy setting:
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-```javascript
-{
-  "address": "0xba100000625a3754423978a60c9317c58a424e3D",
-  "symbol": "BAL BPT"
-}
-```
+If everything is set up correctly you should see the calculated voting power for each address after clicking the :arrow\_forward: button:
 
-Strategies can be used to create a score from on-chain data, the data does not necessarily need to be monetary, you can imagine a strategy that calculates how many POAP you own or use any other data available on-chain to issue a score.
-
-### **Other Common strategies**
-
-* **erc20-with-balance** is an example of a strategy that checks whether the participant has a minimum amount of token required to vote and assigns all the votes to 1. You need to add the parameter “minBalance” and set it equal to the minimum balance required to vote on a proposal. This value is set to 0 by default.
-* **erc20-balance-of-delegation** is used if you want to use a delegation contract along with erc20-balance-of.
-
-### Find more strategies here: <a href="#find-more-strategies-here" id="find-more-strategies-here"></a>
-
-{% embed url="https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/strategies" %}
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>

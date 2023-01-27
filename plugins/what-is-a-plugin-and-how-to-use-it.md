@@ -8,7 +8,7 @@ Plugin is an extension which enriches Snapshot by additional functionalities wit
 
 You can browse through all plugins by heading to [https://snapshot.org](https://snapshot.org) and selecting the **Plugins** filter in the search bar:
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Add a plugin to your space&#x20;
 

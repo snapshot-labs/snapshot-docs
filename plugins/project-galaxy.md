@@ -14,7 +14,7 @@ With the Galxy plugin users can easily create a campaign and integrate it into [
 
 In order to add a plugin head to your space settings by clicking **Settings** on your space's page:
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Create a new proposal
 
@@ -22,13 +22,13 @@ Create a new proposal which you would like to link to the Galxe plugin. You don'
 
 Once the proposal is created, copy the proposal ID from the address bar in your browser as you will need it in the next step.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Add the plugin
 
 2\. Scroll down to the **Plugins** section and click **Add plugin**. Select the plugin you want to add in the pop-up window:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 Add the proposal ID and the Galxe Campaign information which you would like to link with the proposal.
 

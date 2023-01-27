@@ -10,7 +10,7 @@ description: >-
 
 Snapshot supports EVM-based networks. You can explore them at **** [**https://snapshot.org**](https://snapshot.org) by selecting the `Networks` filter:
 
-<figure><img src=".gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 You can also follow this link directly: [**https://snapshot.org/#/?type=networks**](https://snapshot.org/#/?type=networks).
 
@@ -62,7 +62,7 @@ a. Click the first network from the left sidebar and click `Edit networks.json` 
 
 b. Add the JSON object with your network details (be careful with typos!) and click `Apply`. **Do not refresh the page!**
 
-<figure><img src=".gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 c. Search for your network in the left sidebar. You can look for the `chainId` or the network's `name`
 

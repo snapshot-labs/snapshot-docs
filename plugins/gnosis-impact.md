@@ -12,7 +12,7 @@ The [Gnosis Impact app](https://impact.gnosis.io/) is a tool for projecting into
 
 In order to add a plugin head to your space settings by clicking **Settings** on your space's page:
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **2. Add the plugin**
 
@@ -32,7 +32,7 @@ During the proposal creation process you will be able to specify the following d
 
 
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 For the final step in creating a GnosisDAO Snapshot poll, make sure you’re in touch with a [GnosisDAO Admin forum moderator](https://forum.gnosis.io/u/gnosisdao/) to obtain the Gnosis Impact **conditionID**. In the future, this step will be more user friendly, so that participants can easily do this on their own.

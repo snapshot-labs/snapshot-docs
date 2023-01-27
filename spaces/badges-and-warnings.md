@@ -10,5 +10,5 @@ The red exclamation mark flag mean that we either identified that space as imper
 
 | Badge                                                                         | Label    | Criterias                                                                                                                            |
 | ----------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](<../.gitbook/assets/Capture d’écran 2022-10-24 à 22.01.25 (1) (1).png>) | Verified | Manually curated by Snapshot Labs to identify spaces that passed the verification criteria.                                          |
-| ![](<../.gitbook/assets/Capture d’écran 2022-10-24 à 22.02.40 (1).png>)     | Warning  | Manually curated by Snapshot Labs to identify spaces that impersonate a project, infringe IP, or spaces that are proven to be scams. |
+| ![](<../.gitbook/assets/Capture d’écran 2022-10-24 à 22.01.25 (1) (2).png>) | Verified | Manually curated by Snapshot Labs to identify spaces that passed the verification criteria.                                          |
+| ![](<../.gitbook/assets/Capture d’écran 2022-10-24 à 22.02.40.png>)         | Warning  | Manually curated by Snapshot Labs to identify spaces that impersonate a project, infringe IP, or spaces that are proven to be scams. |
