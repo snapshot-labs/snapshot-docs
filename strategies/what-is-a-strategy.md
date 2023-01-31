@@ -14,7 +14,7 @@ Strategy/-ies are defined in the space settings in [#voting-strategies](../space
 
 Voting strategies can be used to create a score from on-chain data, the data however does not necessarily need to be monetary. As an example a strategy can calculate how many POAPs or specific NFTs a user owns.
 
-You can browse through 400+ strategies by selecting the **Strategies** filter on the main page of [https://snapshot.org](https://snapshot.org). If you can't find a strategy that fulfills your needs you can create a new one. To learn more about creating custom voting strategies head to [create.md](create.md "mention").
+You can browse through 400+ strategies by selecting the **Strategies** filter on the main page of [https://snapshot.org](https://snapshot.org). If you can't find a strategy that fulfills your needs you can create a new one. To learn more about creating custom voting strategies head to [create-1.md](../guides/create-1.md "mention").
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 

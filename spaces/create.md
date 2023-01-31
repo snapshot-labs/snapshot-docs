@@ -96,7 +96,7 @@ If you feel ready to dive deeper into the custom setup here are a few hints that
 * You can select up to 8 different strategies. Voting power is cumulative.
 * Network can be selected individually for each strategy. This way you can leverage multi-chain voting power calculation.
 * It is possible to set a different symbol for each strategy. They will be displayed on the proposal page.
-* You can write a custom voting strategy if the existing ones are the sufficient for your needs. Have a look at [create.md](../strategies/create.md "mention") to learn more.
+* You can write a custom voting strategy if the existing ones are the sufficient for your needs. Have a look at [create-1.md](../guides/create-1.md "mention") to learn more.
 
 \
 At the time of writing this article there are around 415 Snapshot voting strategies and this number keeps growing. [Learn more about the strategies. ](../strategies/what-is-a-strategy.md)

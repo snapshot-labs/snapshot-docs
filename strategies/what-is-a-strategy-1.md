@@ -89,7 +89,7 @@ Voting validation can be specified in your space settings at `https://snapshot.p
 
 ## Create a custom validation&#x20;
 
-The possibilities are endless! You can build a custom validation strategy for your space. Please have a look at [create-1.md](create-1.md "mention")for more details.
+The possibilities are endless! You can build a custom validation strategy for your space. Please have a look at [create-1-1.md](../guides/create-1-1.md "mention")for more details.
 
 ## Find more voting validations here: <a href="#find-more-strategies-here" id="find-more-strategies-here"></a>
 
