@@ -48,7 +48,7 @@ Follow the instructions in POAP's guide [**How Do I Set Up a POAP Drop?** ](http
 
 Take note of your **Drop ID,** as you will need this for the next steps.
 
-<figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ### 5. Link your proposal to your POAP drop
 

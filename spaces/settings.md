@@ -86,7 +86,7 @@ Head to [space-roles.md](space-roles.md "mention") to learn more about each role
 
 You can provide guidelines and a template which will be displayed during the proposal creation:
 
-<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Proposal validation
 
