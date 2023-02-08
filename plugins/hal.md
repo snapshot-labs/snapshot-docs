@@ -12,7 +12,7 @@ HAL is a crypto notification system which makes it simple for DAOs to monitor an
 
 In order to add a plugin head to your space settings by clicking **Settings** on your space's page:
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (18) (1).png>)
 
 ### 2. Add the HAL plugin <a href="#bfec" id="bfec"></a>
 
@@ -36,7 +36,7 @@ Create a new proposal for your space. You don't need to set anything up for the 
 
 Users can now head to the proposal's page and click **Be notified** to receive notifications about the proposal.
 
-<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
 
 As a next step users will be redirected to HAL's webpage in order to set up their custom notification rules:
 

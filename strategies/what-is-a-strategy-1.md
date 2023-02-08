@@ -17,13 +17,21 @@ If you want to allow addresses with any voting power to create a proposal or vot
 
 ![](<../.gitbook/assets/image (1) (1) (2).png>)
 
+## Validation strategy example - Basic
+
+The Basic validation strategy allows you to specify multiple voting strategies to determine if a user is eligible to create a proposal or cast a vote.&#x20;
+
+You can see an example implementation below. This setup is using the[ erc20-with-balance](https://snapshot.org/#/strategy/erc20-with-balance) strategy which requires the user to have at least 10 DIA:
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 ## Validation strategy example - Gitcoin Passport
 
 Validation strategy built together with **Gitcoin Passport.** You can select individual or multiple stamps that matter for your space. You can also decide if they need to meet all of these criteria or only one. The more criteria you select, the more sybil resistant your space is.
 
 
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (2).png>)
 
 
 
