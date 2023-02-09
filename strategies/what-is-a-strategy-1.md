@@ -23,7 +23,7 @@ The Basic validation strategy allows you to specify multiple voting strategies t
 
 You can see an example implementation below. This setup is using the[ erc20-with-balance](https://snapshot.org/#/strategy/erc20-with-balance) strategy which requires the user to have at least 10 DIA:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Validation strategy example - Gitcoin Passport
 
@@ -31,7 +31,7 @@ Validation strategy built together with **Gitcoin Passport.** You can select ind
 
 
 
-![](<../.gitbook/assets/image (17) (2).png>)
+![](<../.gitbook/assets/image (17).png>)
 
 
 

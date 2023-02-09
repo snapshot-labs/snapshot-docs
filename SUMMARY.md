@@ -25,7 +25,7 @@
   * [Voting strategies](strategies/what-is-a-strategy.md)
   * [Validation strategies](strategies/what-is-a-strategy-1.md)
 * [Plugins](plugins/README.md)
-  * [What is a plugin and how to use it?](plugins/what-is-a-plugin-and-how-to-use-it.md)
+  * [What is a plugin and how to use it?](strategies/what-is-a-plugin-and-how-to-use-it.md)
   * [SafeSnap](plugins/safesnap.md)
   * [POAP](plugins/poap.md)
   * [Comment Box](plugins/comment-box.md)
