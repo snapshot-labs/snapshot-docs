@@ -55,6 +55,10 @@ For those who want to understand how to work with proposals we recommend reading
 
 &#x20;Check out the [vote.md](voting/vote.md "mention") section to see how you can cast a vote.
 
+{% hint style="success" %}
+**We also highly recommend visiting our** [faq.md](faq.md "mention") **page where you can find answers to the most common questions!**
+{% endhint %}
+
 ### Contributing
 
 We want to create a product which is easy to use by anyone - technical and non-technical, Web3-native or completely new to the space.&#x20;

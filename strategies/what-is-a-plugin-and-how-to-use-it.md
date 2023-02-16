@@ -20,7 +20,7 @@ You can extend your space's functionality by adding plugin(s) to it. They will b
 
 2\. Scroll down to the **Plugins** section and click **Add plugin**. Select the plugin you want to add in the pop-up window:
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (2).png" alt=""><figcaption></figcaption></figure>
 
 3\. Configure the plugin according to your needs. \
 \

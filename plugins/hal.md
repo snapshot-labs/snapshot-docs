@@ -18,7 +18,7 @@ In order to add a plugin head to your space settings by clicking **Settings** on
 
 Scroll down to the **Plugins** section and click **Add plugin**. Select the plugin you want to add in the pop-up window:
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 There is no need for additional setup, you can leave the input box empty and lick on **Add:**
 
