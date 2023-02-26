@@ -87,7 +87,7 @@ const [account] = await web3.listAccounts();
 
 const receipt = await client.proposal(web3, account, {
   space: 'yam.eth',
-  type: 'single-choice',
+  type: 'single-choice', // define the voting system
   title: 'Test proposal using Snapshot.js',
   body: 'This is the content of the proposal',
   choices: ['Alice', 'Bob', 'Carol'],
@@ -96,7 +96,7 @@ const receipt = await client.proposal(web3, account, {
   snapshot: 13620822,
   network: '1',
   plugins: JSON.stringify({}),
-  app: 'my-app'
+  app: 'my-app' // provide the name of your project which is using this snapshot.js integration
 });
 ```
 
@@ -132,7 +132,7 @@ const receipt = await client.space(web3, account, {
       "name":"ticket",
       "network":"1",
       "params":{"symbol":"TICKET"}
-    }],
+    }], // provide up to 8 strategies with their configuration
     "validation":{
       "name":"basic",
       "params":{}
@@ -145,7 +145,7 @@ const receipt = await client.space(web3, account, {
       "minScore":0,
       "onlyMembers":false
     },
-    "treasuries":[]
+    "treasuries":[] // provide the organization's treasury account(s)
     }
 });
 ```
