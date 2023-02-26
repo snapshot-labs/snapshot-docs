@@ -33,7 +33,7 @@
   * [HAL Notifications](plugins/hal.md)
   * [Gnosis Impact](plugins/gnosis-impact.md)
   * [Galxe](plugins/project-galaxy.md)
-* [Gnosis Safe - spaces, proposals and voting](gnosis-safe.md)
+* [Using Safe multi-sig](gnosis-safe.md)
 * [Webhooks](webhooks.md)
 * [Bots](bots.md)
 * [FAQs](faq.md)
