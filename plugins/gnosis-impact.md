@@ -12,7 +12,7 @@ The [Gnosis Impact app](https://impact.gnosis.io/) is a tool for projecting into
 
 In order to add a plugin head to your space settings by clicking **Settings** on your space's page:
 
-<figure><img src="../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **2. Add the plugin**
 

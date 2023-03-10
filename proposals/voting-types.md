@@ -98,7 +98,7 @@ Some options will show up as if they had **not received any votes** because they
 
 :point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x5003da0f03e718b461e53fe10a998b60172e2e108472153282fcef781c300f23)****
 
-<figure><img src="../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Basic voting
 

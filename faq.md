@@ -62,7 +62,7 @@ Proposals are key elements of the voting system. It presents a change suggestion
 
 You need to connect to Snapshot with your wallet and fulfil the requirements defined by the voting strategies used by a specific space. For example, you might be required to hold a specific amount of the organization’s token. You can see the voting strategies directly on a proposal’s page in the **Information** section:
 
-![](<.gitbook/assets/image (36).png>)
+![](<.gitbook/assets/image (17) (2).png>)
 
 If you don’t understand why your voting power is `0` or how the strategies work in detail, we recommend reaching out to the organization directly. In most cases you don’t have the voting power because you did not hold the required tokens at the time of proposal creation. Tokens which were acquired after the proposal has been create are not taken into account for the voting power calculation.
 
@@ -165,7 +165,7 @@ Make a screenshot of the panel and post a message on the [helpdesk forum on Disc
 
 You can remove your delegations by going to[https://demo.snapshot.org/#/delegate](https://demo.snapshot.org/#/delegate) and clicking the ❌ for the delegations you wish to remove.
 
-![](<.gitbook/assets/image (27).png>)
+![](<.gitbook/assets/image (22).png>)
 
 Moreover, if you want to override your delegate’s vote on a proposal using [the delegation strategy](https://snapshot.org/#/strategy/delegation) you can simply cast your own vote and it will override the delegate’s vote. If the delegation happened on-chain, then head to the delegation portal of the project you’re looking for and redelegate there.
 
@@ -179,7 +179,7 @@ Yes, apart from the proposals using shielded voting.
 
 You can add a short explanation when casting a vote:
 
-![](<.gitbook/assets/image (16).png>)
+![](<.gitbook/assets/image (34).png>)
 
 </details>
 
@@ -293,7 +293,7 @@ You cannot invalidate existing votes. However you can delete the proposal.
 
 If you are an admin of the space or proposal’s creator you can delete the current proposal by clicking `Delete` on the proposal’s page:
 
-![](<.gitbook/assets/image (6).png>)
+![](<.gitbook/assets/image (25).png>)
 
 Then change the space settings and make sure to persist the changes.
 

@@ -36,7 +36,7 @@ Space [controller](../spaces/space-roles.md),[ admins](../spaces/space-roles.md)
 5.  Select the desired voting system, specify the possible vote options and define the duration of your proposal. Make sure you allow enough time for users to vote.\
 
 
-    <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 6. Click `Publish` - and that's it! You can see your proposal in the proposals list on the space page.
 
 
