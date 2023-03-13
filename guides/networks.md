@@ -62,7 +62,7 @@ a. Click the first network from the left sidebar and click `Edit networks.json` 
 
 b. Add the JSON object with your network details (be careful with typos!) and click `Apply`. **Do not refresh the page!**
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 c. Search for your network in the left sidebar. You can look for the `chainId` or the network's `name`
 
@@ -72,7 +72,7 @@ d. Scroll up to the top of the page and check if:
 * the last block is fetched correctly (click on it to see its timestamp)
 * there are no errors
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Create a Pull Request
 

@@ -371,6 +371,43 @@ You can use the [ticket](https://snapshot.org/#/strategy/ticket) strategy.
 
 <details>
 
+<summary>How can I give 1 voting power to all voters holding a specific token regardless of its amount?</summary>
+
+It's a two step process - you have to define a [validation strategy](strategies/what-is-a-strategy-1.md) and a [voting strategy](faq.md#voting-strategies) for your space.\
+\
+**1. Voting validation** \
+In order to allow users to participate in voting, setup a `Basic` voting validation in the space settings. You can find it in the voting section in space settings:\
+\
+![](.gitbook/assets/image.png)\
+\
+When defining the voting validation parameters, you have the option to specify the `strategies` for the tokens and the `minScore` required for voters to be eligible to vote:
+
+Here is an example of the basic strategy setup for voters holding DAI tokens:
+
+```
+{
+  "minScore": 1, # define the minimum required amount of token
+  "strategies": [
+   {
+      "name": "erc20-balance-of",
+      "params": { # define the specific token details
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "symbol": "DAI",
+        "decimals": 18
+      }
+  ]
+}
+```
+
+**2. Voting strategy**&#x20;
+
+Use the [Ticket](https://snapshot.org/#/strategy/ticket) strategy to give voting power equal to `1` to any user eligible to vote - users that passed the voting validation described in step 1.\
+![](<.gitbook/assets/image (5).png>)
+
+</details>
+
+<details>
+
 <summary>I am not a developer, can someone work on my strategy for money? </summary>
 
 Yes. You can create an issue on [https://github.com/snapshot-labs/snapshot-strategies/issues](https://github.com/snapshot-labs/snapshot-strategies/issues) and then post in on the [#contributor](https://discord.com/channels/707079246388133940/865557228702662667) channel on Discord.

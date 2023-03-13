@@ -22,7 +22,7 @@ Scroll down to the **Plugins** section and click **Add plugin**. Select the plug
 
 There is no need for additional setup, you can leave the input box empty and lick on **Add:**
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **3. Save your settings**
 
