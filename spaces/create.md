@@ -32,16 +32,6 @@ If you **don't own an ENS domain** you will have to register one. \
 Enter a name that suits the needs of your DAO in the `register a new domain` field and click `Register.` You can then follow [before-creating-your-space.md](before-creating-your-space.md "mention") and come back here for step 2 once domain has been registered.
 {% endhint %}
 
-### 2. Set the space controller (ENS text-record)
-
-Space controller is the main account that will be able to manage the space settings and assign other addresses as admins of the space. By default it's set as the ENS Controller address however you can change it to another address.&#x20;
-
-{% hint style="info" %}
-You will need to **sign a transaction** on the Ethereum Mainnet to set the ENS text-record.&#x20;
-{% endhint %}
-
-![Set the ENS text-record to determine the space controller](<../.gitbook/assets/Capture d’écran 2022-08-11 à 12.31.58.png>)
-
 ### 3. Create your profile
 
 To complete the profile of your space you have to enter a name for your DAO (mandatory) and can add further optional information like a description, avatar, categories describing the field that your DAO is operating in and more.&#x20;

@@ -18,12 +18,14 @@ If you have trouble finding the settings page you can manually navigate to it wi
 
 ## Edit the controller of your space
 
+Space controller is the main account that is able to manage the space settings and assign other addresses as admins of the space. By default it's set as the ENS Controller address however you can change it to another address.&#x20;
+
 To replace the current space controller by a new controller click the `Edit controller` button.
 
 ![](<../.gitbook/assets/Capture d’écran 2022-08-11 à 14.14.17.png>)
 
 {% hint style="info" %}
-You will need to sign a transaction on the Ethereum Mainnet to edit the ENS text-record.&#x20;
+You will need to **sign a transaction** on the Ethereum Mainnet to set the ENS text-record.&#x20;
 {% endhint %}
 
 ## Edit your profile information
