@@ -25,7 +25,7 @@ In short, Snapshot is an off-chain gasless multi-governance client which results
 * **Custom branding** - spaces can use their own branding, color schemes and domain name
 * **Fully open-source** with MIT license - our code can be viewed on Github at [https://github.com/snapshot-labs/](https://github.com/snapshot-labs/)
 
-### How it works?
+### How does it work?
 
 There are three key elements that are involved in the voting process: **spaces**, **proposals** and **votes**. Proposals and votes are associated with a space, while each space is an account (profile) of an organization.&#x20;
 
@@ -39,25 +39,13 @@ For more details about the voting process and customization have a look at the d
 
 This guide is meant for all existing and future Snapshot users. Therefore regardless whether you are new to Web3, want to create a Space for your organization or are a contributor working on custom voting strategies, you will be able to find resources for your own use case within our documentation.
 
-⚙ **I want to manage my organization's account on Snapshot**
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h3><strong>Spaces</strong></h3></td><td>I want to manage my organization's account on Snapshot.</td><td></td><td><a href="user-guides/spaces/">spaces</a></td></tr><tr><td><h3>Proposals</h3></td><td>I want to create a proposal.</td><td></td><td><a href="user-guides/proposals/">proposals</a></td></tr><tr><td><h3>Voting</h3></td><td>I want to vote on a proposal.</td><td></td><td></td></tr><tr><td><h3>Contribute</h3></td><td>I want to create a new strategy, a plugin or contribute to the codebase.</td><td></td><td><a href="developer-guides/contribute/">contribute</a></td></tr><tr><td><h3>Tools</h3></td><td>I want to integrate Snapshot in my product, use API or get notifications about new proposals.</td><td></td><td><a href="tools/tools-overview.md">tools-overview.md</a></td></tr></tbody></table>
 
-If you would like to create a Space for your organization, dive straight into the [spaces](spaces/ "mention") section.
+If you don't know where to start or have a specific question, head to the FAQ section!
 
-If you want to understand how voting strategies work, or how to create one for your own organization, have a look at the [strategies](strategies/ "mention").
-
-We also provide various plugins that can extend the setup of your Space. To learn more about plugins or how to create your own plugin head to [plugins](plugins/ "mention").
-
-✍ **I want to create a proposal**
-
-For those who want to understand how to work with proposals we recommend reading through the [proposals](proposals/ "mention")section
-
-✅ **I want to vote on a proposal**
-
-&#x20;Check out the [vote.md](voting/vote.md "mention") section to see how you can cast a vote.
-
-{% hint style="success" %}
-**We also highly recommend visiting our** [faq.md](faq.md "mention") **page where you can find answers to the most common questions!**
-{% endhint %}
+{% content-ref url="faq.md" %}
+[faq.md](faq.md)
+{% endcontent-ref %}
 
 ### Contributing
 
