@@ -72,24 +72,6 @@ If you are eligible to vote, you can cast your vote directly from the proposal�
 
 <details>
 
-<summary><strong>Can I vote on any proposal?</strong></summary>
-
-No. Your eligibility to vote depends on the voting strategies defined by the space and usually requires holding the organization’s token. Some spaces allow anyone to vote, however this is a rare case.&#x20;
-
-You can read more about the voting strategies in our documentation: [what-is-a-strategy.md](user-guides/strategies/what-is-a-strategy.md "mention")
-
-</details>
-
-<details>
-
-<summary><strong>Can I create a proposal?</strong></summary>
-
-It depends on the space settings. Spaces can set up a validation strategy which defines who is eligible to create a proposal, for example you need to hold at least 1ETH in your wallet in order to do so. Moreover, spaces can specify a list of users who can create proposals by listing their wallet addresses in the space settings. You can read more about [space settings](https://docs.snapshot.org/spaces/settings)  and [proposal validation](https://docs.snapshot.org/strategies/what-is-a-strategy-1).
-
-</details>
-
-<details>
-
 <summary><strong>Is voting on Snapshot safe?</strong></summary>
 
 Yes. The message you sign in your wallet to cast the vote doesn’t affect your holdings or web3 identity. There are some spaces which are flagged with a warning badge if we suspect them to be fake but you don’t need to worry if you have cast a vote on their proposal. There is no risk to your funds associated with signing a Snapshot vote. You can read more about the badges in our documentation: [badges-and-warnings.md](user-guides/spaces/badges-and-warnings.md "mention")
@@ -233,6 +215,42 @@ This issue is related to either space settings or the failure of the external in
 
 </details>
 
+<details>
+
+<summary><strong>Can I vote on any proposal?</strong></summary>
+
+No. Your eligibility to vote depends on the voting strategies defined by the space and usually requires holding the organization’s token. Some spaces allow anyone to vote, however this is a rare case.&#x20;
+
+You can read more about the voting strategies in our documentation: [what-is-a-strategy.md](user-guides/strategies/what-is-a-strategy.md "mention")
+
+</details>
+
+<details>
+
+<summary>Can I change my vote?</summary>
+
+Yes, you can change your vote as long as the voting period is still active. Simply cast a new vote on the same proposal, and it will overwrite your previous vote.
+
+</details>
+
+### Proposals
+
+<details>
+
+<summary><strong>Can I create a proposal?</strong></summary>
+
+It depends on the space settings. Spaces can set up a validation strategy which defines who is eligible to create a proposal, for example you need to hold at least 1ETH in your wallet in order to do so. Moreover, spaces can specify a list of users who can create proposals by listing their wallet addresses in the space settings. You can read more about [space settings](https://docs.snapshot.org/spaces/settings)  and [proposal validation](https://docs.snapshot.org/strategies/what-is-a-strategy-1).
+
+</details>
+
+<details>
+
+<summary>What happens if a proposal doesn't reach quorum?</summary>
+
+If a proposal does not reach the required quorum, it is considered as not passed. However, the outcome of a proposal depends on the governance rules of the specific project. Some projects might still consider the proposal for further discussion, while others might require resubmission with modifications.
+
+</details>
+
 ### Space settings&#x20;
 
 <details>
@@ -298,6 +316,14 @@ If you are an admin of the space or proposal’s creator you can delete the curr
 Then change the space settings and make sure to persist the changes.
 
 Once the settings have been updated you can recreate the proposal from scratch.
+
+</details>
+
+<details>
+
+<summary>Can I customize the appearance of my Snapshot space?</summary>
+
+Yes, you can customize the appearance of your Snapshot space to some extent by setting a custom skin, which allows you to change the colors of your space. This customization feature is available for spaces using the custom domains setting.
 
 </details>
 
