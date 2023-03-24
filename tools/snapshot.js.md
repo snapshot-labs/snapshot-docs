@@ -202,6 +202,58 @@ snapshot.utils.getScores(
 });
 ```
 
+#### getVp
+
+Retrieve voting power for a specific address using given strategies.
+
+```javascript
+import snapshot from '@snapshot-labs/snapshot.js';
+
+const address = '0xa478c2975ab1ea89e8196811f51a7b7ade33eb11';
+const network = '1';
+const strategies = [
+  {
+    name: 'erc20-balance-of',
+    params: {
+      address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
+      symbol: 'DAI',
+      decimals: 18
+    }
+  }
+];
+const snapshot = 11437846;
+const space = 'yam.eth';
+const delegation = false;
+
+snapshot.utils.getVp(address, network, strategies, snapshot, space, delegation).then(vp => {
+  console.log('Voting Power', vp);
+});
+js
+```
+
+#### validate
+
+Validate an address using a given validation strategy.
+
+```javascript
+import snapshot from '@snapshot-labs/snapshot.js';
+
+const validationName = 'basic';
+const author = '0xa478c2975ab1ea89e8196811f51a7b7ade33eb11';
+const spaceId = 'yam.eth';
+const networkId = '1';
+const snapshot = 11437846;
+const validationParams = {
+  minScore: 100
+};
+const options = {};
+
+snapshot.utils.validate(validationStrategyName, author, spaceId, networkId, snapshot, validationParams, options).then(result => {
+  console.log('Validation Result', result);
+});
+
+```
+
 #### **getProvider**
 
 Return a Ethers.js JsonRPCProvider connected to an archive node.
