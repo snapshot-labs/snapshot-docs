@@ -98,7 +98,6 @@ Here are all properties, that will be passed down to the plugin's main component
 | **id**            | -               | proposal id route parameter             |
 | **results**       | -               | current voting results                  |
 | **loadedResults** | -               | whether voting results finished loading |
-| **votes**         | -               | list of individual votes                |
 | **strategies**    | -               | used strategies                         |
 
 Only the main components (`Create.vue`, `Proposal.vue`, `ProposalSidebar.vue`) in your plugin's root directory will receive those properties automatically. You can of course pass those properties further down to other components as needed.
