@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Home](README.md)
+* [Welcome to Snapshot docs!](README.md)
+* [Home](<README (1).md>)
 * [FAQs](faq.md)
 
 ## User guides
