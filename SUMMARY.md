@@ -38,7 +38,7 @@
   * [Quorum](user-guides/plugins/quorum.md)
   * [HAL Notifications](user-guides/plugins/hal.md)
   * [Gnosis Impact](user-guides/plugins/gnosis-impact.md)
-  * [Galxe](user-guides/plugins/project-galaxy.md)
+  * [Galxe](user-guides/plugins/galxe.md)
 * [Using Safe multi-sig](user-guides/gnosis-safe.md)
 * [Delegation](user-guides/delegation.md)
 
