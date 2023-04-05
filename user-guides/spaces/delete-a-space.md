@@ -1,17 +1,28 @@
 # Migrate or delete or a space
 
-Currently, migrating and deleting spaces still requires some manual effort.&#x20;
+{% hint style="info" %}
+Currently, migrating spaces still requires some manual effort.&#x20;
+{% endhint %}
 
 ## Delete a space
 
-To ensure that the request to delete a space is legitimate, please create a proposal with the title "Delete this space" from the controller of the space (the Ethereum address that is registered in the `snapshot` ENS text record.
+If you are a space controller you can delete the space through Snapshot's interface directly.
 
-### One last step
+{% hint style="danger" %}
+Deleting a space **cannot be reversed** and you will **not be able to create a new space** with the same ENS domain name.
+{% endhint %}
 
-Get in touch with @space-lead on our [Discord server](https://discord.gg/snapshot)\
-Please allow a couple of days for the workflow to be processed.
+Head to your space settings and click **Advanced** tab in the sidebar on the left:
 
-In the future, there will be an option in the settings, to delete a space.
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Scroll down to the bottom to the Danger Zone and click **Delete space:**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-04-05 at 10.05.05.png" alt=""><figcaption></figcaption></figure>
+
+Confirm the space deletion with the **space ID** and sign a message in your wallet.
+
+That's it!&#x20;
 
 ## Migrate a space
 
@@ -19,5 +30,5 @@ Create a proposal on the source space as well as on the target space with the ti
 
 ### One last step
 
-Get in touch with @space-lead on our [Discord server](https://discord.gg/snapshot)\
+Get in touch with @space-lead on our [Discord server](https://discord.gg/snapshot).\
 Please allow a couple of days for the workflow to be processed.

@@ -404,7 +404,7 @@ It's a two step process - you have to define a [validation strategy](user-guides
 **1. Voting validation** \
 In order to allow users to participate in voting, setup a `Basic` voting validation in the space settings. You can find it in the voting section in space settings:\
 \
-![](.gitbook/assets/image.png)\
+![](<.gitbook/assets/image (1).png>)\
 \
 When defining the voting validation parameters, you have the option to specify the `strategies` for the tokens and the `minScore` required for voters to be eligible to vote:
 
