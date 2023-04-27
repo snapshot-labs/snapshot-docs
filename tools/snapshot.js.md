@@ -112,10 +112,21 @@ const receipt = await client.space(web3, account, {
   "space":"pistachiodao.eth",
   "settings":{
     "name":"pistachiodao.eth",
+    "avatar":"", // IPFS address of space avatar
+    "about":"",
     "network":"1",
     "symbol":"XYZ",
-    "private":false,
-    "members":[],
+    "website": "",
+    "twitter": "",
+    "github": "",
+    "coingecko": "",
+    "domain":"", // custom domain address
+    "skin":"", // custom skin when custom domain is set
+    "guidelines":"", // guidelines for proposal creation
+    "template":"", // template for new proposals
+    "private": false, // visibility in the space list
+    "moderators":[], //  list of space Moderators
+    "members": [], // list of Authors
     "admins":[],
     "categories":[
       "social",
@@ -124,9 +135,15 @@ const receipt = await client.space(web3, account, {
     "plugins":{
       "hal":{}
     },
-    "children":[],
-    "voting":{
-      "hideAbstain":false
+    "parent":"", // main space ID
+    "children":[], // list of sub-spaces
+    "voting": {
+      "delay":0, // voting delay in seconds
+      "hideAbstain":false,
+      "period":0, // voting duration in seconds
+      "quorum":0,
+      "type":"", // define the default voting system
+      "privacy":"" // pass "shutter" for shielded voting
     },
     "strategies":[{
       "name":"ticket",
@@ -136,15 +153,14 @@ const receipt = await client.space(web3, account, {
     "validation":{
       "name":"basic",
       "params":{}
-    },
+    }, // provide one proposal validation strategy
+    "filters":{
+      "onlyMembers": false // enable Authors only to create proposals
+    }, 
     "voteValidation":{
       "name":"any",
       "params":{}
-    },
-    "filters":{
-      "minScore":0,
-      "onlyMembers":false
-    },
+    }, // provide one voting validation strategy
     "treasuries":[] // provide the organization's treasury account(s)
     }
 });
