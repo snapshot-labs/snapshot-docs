@@ -198,7 +198,7 @@ const {
 ## 4. Create a Pull Request
 
 Once your plugin is tested and ready to deploy, create a new Pull Request on the original[ **snapshot repository**](https://github.com/snapshot-labs/snapshot)**.**\
-****The review can take the team up to 72 hours, so please be patient 🙏
+The review can take the team up to 72 hours, so please be patient 🙏
 
 After the PR has been merged, you will need to wait for the release of a new version of [Snapshot](https://snapshot.org) which can take a couple of days.
 

@@ -12,7 +12,7 @@ Snapshot supports a number of different voting systems and we plan to support ma
 
 Voting system defines how users can cast their votes and how the final result is calculated.
 
-Do not mistake it with the voting strategy though - a [voting strategy](../strategies/what-is-a-strategy.md) is used to calculate the **individual voting power** of a user while the voting system calculates the **outcome of the proposal**.
+Do not mistake it with the voting strategy though - a [voting strategy](../strategies/voting-strategies.md) is used to calculate the **individual voting power** of a user while the voting system calculates the **outcome of the proposal**.
 
 Voting system is defined in the space settings or at the level of an individual proposal (unless it has been already defined in the space settings) and can allow the users to:&#x20;
 
@@ -36,7 +36,7 @@ Ideal for choosing one option from many.\
 **Pros**: Most simple and common voting system which is easy to set up and use.\
 **Cons**: Voters can pick only one option.
 
-👉 [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x02c3fcd64e86157d07c88e5a715ac08f57655917f8bfd5be30a99092136511ec)****
+👉 [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x02c3fcd64e86157d07c88e5a715ac08f57655917f8bfd5be30a99092136511ec)
 
 <figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -49,7 +49,7 @@ Each user can spread their voting power across any number of choices, from one t
 
 This voting method was first introduced by Float Protocol with [Scattershot](https://github.com/FloatProtocol/scattershot) (a fork of Snapshot).
 
-****:point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0xf93f1ac80e22cc930b1eef1d20bd34671ccc33b88b04695479c9de364451d77f)****
+:point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0xf93f1ac80e22cc930b1eef1d20bd34671ccc33b88b04695479c9de364451d77f)
 
 <figure><img src="../../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -60,7 +60,7 @@ Each user can select (_approve_) any number of choices, each selected choice wil
 **Pros**: Ask for approval of several decisions in a single proposal.\
 **Cons**: There is no way to manifest _how much_ you support each choice. It’s a simple yes or no.
 
-:point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x08c3bd2960700525770a1d634f8599ba967e55fcc05b6c1649d984d88253769d)****
+:point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x08c3bd2960700525770a1d634f8599ba967e55fcc05b6c1649d984d88253769d)
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -71,9 +71,9 @@ Each user can spread voting power across any number of choices. The results are 
 For more information on quadratic voting refer to [this article](https://en.wikipedia.org/wiki/Quadratic\_voting).
 
 **Pros**: Dilutes the whales' voting power in favor of smaller holders. Individuals will matter more than the amount of tokens. \
-**Cons**: This voting type needs to be accompanied by a [Sybil-resistance mechanism](../strategies/what-is-a-strategy-1.md) that prevents whales from splitting funds across different wallets.&#x20;
+**Cons**: This voting type needs to be accompanied by a [Sybil-resistance mechanism](../strategies/validation-strategies.md) that prevents whales from splitting funds across different wallets.&#x20;
 
-:point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x21f64875abbca71762a980efae43ab62b546d54f19a208d0e61a5d7cee571a35)****
+:point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x21f64875abbca71762a980efae43ab62b546d54f19a208d0e61a5d7cee571a35)
 
 <figure><img src="../../.gitbook/assets/image (6) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -96,7 +96,7 @@ Some options will show up as if they had **not received any votes** because they
 **Pros**: Favors the option with the strongest support and reduces wasted votes. \
 **Cons**: Complex to understand. Will only determine one winner, doesn’t work well to select 2 or more winning options.
 
-:point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x5003da0f03e718b461e53fe10a998b60172e2e108472153282fcef781c300f23)****
+:point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x5003da0f03e718b461e53fe10a998b60172e2e108472153282fcef781c300f23)
 
 <figure><img src="../../.gitbook/assets/image (16) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -109,6 +109,6 @@ The votes cast on the `Abstain` choice are counted in calculating if the necessa
 **Pros**: Results are easy to interpret and hard to contest.\
 **Cons**: Choices are predefined and cannot be edited.&#x20;
 
-:point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x38c654c0f81b63ea1839ec3b221fad6ecba474aa0c4e8b4e8bc957f70100e753)****
+:point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x38c654c0f81b63ea1839ec3b221fad6ecba474aa0c4e8b4e8bc957f70100e753)
 
 <figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>

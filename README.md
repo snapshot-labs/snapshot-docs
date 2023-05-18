@@ -1,12 +1,11 @@
 ---
 cover: .gitbook/assets/Snapshot_infra.jpg
 coverY: 0
-layout: landing
 ---
 
 # Welcome to Snapshot docs!
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h2>What is Snapshot? ⚡️</h2></td><td></td><td></td><td><a href="README (1).md">README (1).md</a></td></tr><tr><td><h2>FAQ ❓</h2></td><td></td><td></td><td><a href="faq.md">faq.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h2>What is Snapshot? ⚡️</h2></td><td></td><td></td><td><a href="introduction.md">introduction.md</a></td></tr><tr><td><h2>FAQ ❓</h2></td><td></td><td></td><td><a href="faq.md">faq.md</a></td></tr></tbody></table>
 
 ### What are you looking for?
 

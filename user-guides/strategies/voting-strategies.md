@@ -14,7 +14,7 @@ Strategy/-ies are defined in the space settings in [#voting-strategies](../space
 
 Voting strategies can be used to create a score from on-chain data, the data however does not necessarily need to be monetary. As an example a strategy can calculate how many POAPs or specific NFTs a user owns.
 
-You can browse through 400+ strategies by selecting the **Strategies** filter on the main page of [https://snapshot.org](https://snapshot.org). If you can't find a strategy that fulfills your needs you can create a new one. To learn more about creating custom voting strategies head to [create-1.md](../../developer-guides/create-a-strategy/create-1.md "mention").
+You can browse through 400+ strategies by selecting the **Strategies** filter on the main page of [https://snapshot.org](https://snapshot.org). If you can't find a strategy that fulfills your needs you can create a new one. To learn more about creating custom voting strategies head to [voting-strategy.md](../../developer-guides/create-a-strategy/voting-strategy.md "mention").
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
@@ -24,7 +24,7 @@ Majority of spaces on Snapshot is using a single strategy however if you need a 
 
 {% hint style="info" %}
 **Multiple voting strategies**\
-****If you combine several voting strategies the voting power will be calculated in the following way:\
+If you combine several voting strategies the voting power will be calculated in the following way:\
 _total voting power = voting power from strategy A + voting power from strategy B + ..._
 {% endhint %}
 
@@ -43,7 +43,7 @@ Before you add the strategy to your space's settings we highly recommend to test
 
 {% hint style="danger" %}
 If you made a mistake in your space settings and votes have already been cast **it is not possible to revert them.** \
-The best solution would be to (1) delete the proposal, (2) update the settings with correct **** strategies **** and (3) recreate the proposal from scratch after the settings have been updated.
+The best solution would be to (1) delete the proposal, (2) update the settings with correct strategies and (3) recreate the proposal from scratch after the settings have been updated.
 {% endhint %}
 
 You can access it from the strategy's detail page by clicking the **Playground** on the right-hand side:

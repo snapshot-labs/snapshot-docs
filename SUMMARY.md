@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome to Snapshot docs!](README.md)
-* [Home](<README (1).md>)
+* [Introduction to Snapshot](introduction.md)
 * [FAQs](faq.md)
 
 ## User guides
@@ -9,7 +9,7 @@
 * [Spaces](user-guides/spaces/README.md)
   * [What is a space?](user-guides/spaces/what-is-a-space.md)
   * [Create a space](user-guides/spaces/create/README.md)
-    * [Register an ENS domain](user-guides/spaces/create/before-creating-your-space.md)
+    * [Register an ENS domain](user-guides/spaces/create/ens-domain.md)
     * [Alternative way to create a space](user-guides/spaces/create/alternative-way-to-create-a-space.md)
   * [Settings](user-guides/spaces/settings.md)
   * [Sub-spaces](user-guides/spaces/sub-spaces.md)
@@ -17,8 +17,8 @@
   * [Add a custom domain](user-guides/spaces/add-custom-domain.md)
   * [Add a skin](user-guides/spaces/add-skin.md)
   * [Space roles](user-guides/spaces/space-roles.md)
-  * [Migrate your space to ENS](user-guides/spaces/migrate.md)
-  * [Migrate or delete or a space](user-guides/spaces/delete-a-space.md)
+  * [Migrate your space to ENS](user-guides/spaces/migrate-to-ens.md)
+  * [Migrate or delete or a space](user-guides/spaces/migrate-or-delete.md)
   * [Space badges](user-guides/spaces/badges-and-warnings.md)
 * [Proposals](user-guides/proposals/README.md)
   * [Create a proposal](user-guides/proposals/create.md)
@@ -27,8 +27,8 @@
   * [Vote on a proposal](user-guides/voting/vote.md)
   * [Delegate your voting power](user-guides/voting/delegate-your-voting-power.md)
 * [Strategies](user-guides/strategies/README.md)
-  * [Voting strategies](user-guides/strategies/what-is-a-strategy.md)
-  * [Validation strategies](user-guides/strategies/what-is-a-strategy-1.md)
+  * [Voting strategies](user-guides/strategies/voting-strategies.md)
+  * [Validation strategies](user-guides/strategies/validation-strategies.md)
 * [Plugins](user-guides/plugins/README.md)
   * [What is a plugin?](user-guides/plugins/what-is-a-plugin-and-how-to-use-it.md)
   * [SafeSnap: oSnap](user-guides/plugins/safesnap-osnap.md)
@@ -39,7 +39,7 @@
   * [HAL Notifications](user-guides/plugins/hal.md)
   * [Gnosis Impact](user-guides/plugins/gnosis-impact.md)
   * [Galxe](user-guides/plugins/galxe.md)
-* [Using Safe multi-sig](user-guides/gnosis-safe.md)
+* [Using Safe multi-sig](user-guides/using-safe-multi-sig.md)
 * [Delegation](user-guides/delegation.md)
 
 ## Developer Guides
@@ -47,10 +47,10 @@
 * [Contribute](developer-guides/contribute/README.md)
   * [🙋‍♂️ Support](developer-guides/contribute/support.md)
 * [Add a network](developer-guides/networks.md)
-* [Create a plugin](developer-guides/create.md)
+* [Create a plugin](developer-guides/create-a-plugin.md)
 * [Create a strategy](developer-guides/create-a-strategy/README.md)
-  * [Create a voting strategy](developer-guides/create-a-strategy/create-1.md)
-  * [Create a validation strategy](developer-guides/create-a-strategy/create-1-1.md)
+  * [Create a voting strategy](developer-guides/create-a-strategy/voting-strategy.md)
+  * [Create a validation strategy](developer-guides/create-a-strategy/validation-strategy.md)
 
 ## Tools
 

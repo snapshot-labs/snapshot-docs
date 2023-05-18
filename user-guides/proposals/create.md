@@ -10,13 +10,13 @@ Proposal is the key element of the voting system. It presents a change suggestio
 
 A specific [voting system](voting-types.md) (single choice, weighted, quadratic, and others) can be selected individually for each proposal.
 
-Voting power for each user is calculated on the basis of the voting strategies selected in the [space settings](../strategies/what-is-a-strategy.md).
+Voting power for each user is calculated on the basis of the voting strategies selected in the [space settings](../strategies/voting-strategies.md).
 
 
 
 ## Who can create a proposal?
 
-Space [controller](../spaces/space-roles.md),[ admins](../spaces/space-roles.md), [authors](../spaces/space-roles.md) and users who are eligible according to the [proposal validation](../strategies/what-is-a-strategy-1.md) strategies defined in the space settings.
+Space [controller](../spaces/space-roles.md),[ admins](../spaces/space-roles.md), [authors](../spaces/space-roles.md) and users who are eligible according to the [proposal validation](../strategies/validation-strategies.md) strategies defined in the space settings.
 
 ## Create a proposal
 
@@ -56,4 +56,4 @@ It means that if user acquires required tokens **after** the proposal has been c
 ### Proposals limitations
 
 * There is a character limit of 6400 for the description of a proposal.
-* You can combine up to 8 [voting strategies](../strategies/what-is-a-strategy.md). The limit also applies to multi-chain strategies.
+* You can combine up to 8 [voting strategies](../strategies/voting-strategies.md). The limit also applies to multi-chain strategies.

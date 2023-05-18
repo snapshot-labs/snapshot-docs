@@ -48,7 +48,7 @@ If you don't know what a sub-space is head to [sub-spaces.md](sub-spaces.md "men
 
 In order to connect the space with sub-spaces you need to set them up for both main- and the sub-space.
 
-1. First **create the sub-space** as you would create a normal space. Once the sub-space is set up, type it's linked ENS domain name in the Sub-spaces input field. If everything went well, you will be able to click the **`+` ** on the right.
+1. First **create the sub-space** as you would create a normal space. Once the sub-space is set up, type it's linked ENS domain name in the Sub-spaces input field. If everything went well, you will be able to click the **`+`** on the right.
 2. Head to the sub-space settings and type in the linked ENS domain name of the **voting** in the correct input field.
 
 ![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 14.30.37.png>)
@@ -61,7 +61,7 @@ If you see a  ❌  after typing the sub-space name it means that it cannot be fo
 
 Specify how the voting power should be calculated by adding one or up to 8 strategies.
 
-To learn more about what they are and how they work head to [what-is-a-strategy.md](../strategies/what-is-a-strategy.md "mention").
+To learn more about what they are and how they work head to [voting-strategies.md](../strategies/voting-strategies.md "mention").
 
 ![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 14.31.08.png>)
 
@@ -94,7 +94,7 @@ You can provide guidelines and a template which will be displayed during the pro
 
 To validate if someone can post a proposal or not you can use the basic validation by default which takes your voting power with space strategies and checks if you pass a defined threshold.
 
-To learn what a validation is head to [what-is-a-strategy-1.md](../strategies/what-is-a-strategy-1.md "mention").
+To learn what a validation is head to [validation-strategies.md](../strategies/validation-strategies.md "mention").
 
 ![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 14.31.47.png>)
 

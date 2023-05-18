@@ -191,7 +191,7 @@ Go to the proposals page and click the download icon to get a CSV file. You can 
 
 <summary>Can I vote with a Safe/Multisig?</summary>
 
-Yes. You can find more details in our documentation here: [gnosis-safe.md](user-guides/gnosis-safe.md "mention")
+Yes. You can find more details in our documentation here: [using-safe-multi-sig.md](user-guides/using-safe-multi-sig.md "mention")
 
 </details>
 
@@ -221,7 +221,7 @@ This issue is related to either space settings or the failure of the external in
 
 No. Your eligibility to vote depends on the voting strategies defined by the space and usually requires holding the organization’s token. Some spaces allow anyone to vote, however this is a rare case.&#x20;
 
-You can read more about the voting strategies in our documentation: [what-is-a-strategy.md](user-guides/strategies/what-is-a-strategy.md "mention")
+You can read more about the voting strategies in our documentation: [voting-strategies.md](user-guides/strategies/voting-strategies.md "mention")
 
 </details>
 
@@ -265,7 +265,7 @@ Yes. In order to do so navigate to [https://app.safe.global](https://app.safe.gl
 
 <summary>I lost access to my ENS domain which was used to register a space on Snapshot. What should I do?</summary>
 
-If you are still a controller of the space you can apply to delete your space or migrate the current space to another one with different ENS. Have a look at our documentation for more details: [delete-a-space.md](user-guides/spaces/delete-a-space.md "mention")
+If you are still a controller of the space you can apply to delete your space or migrate the current space to another one with different ENS. Have a look at our documentation for more details: [migrate-or-delete.md](user-guides/spaces/migrate-or-delete.md "mention")
 
 </details>
 
@@ -283,7 +283,7 @@ You can use sub-spaces on Snapshot. This solution allows you to link multiple sp
 
 Yes. You can do it in the space settings.&#x20;
 
-Do not confuse it with changing the `ID` or the ENS domain for your space. To do that, you need to migrate the space. You can read more about changing the ENS domain in our documentation: [delete-a-space.md](user-guides/spaces/delete-a-space.md "mention")
+Do not confuse it with changing the `ID` or the ENS domain for your space. To do that, you need to migrate the space. You can read more about changing the ENS domain in our documentation: [migrate-or-delete.md](user-guides/spaces/migrate-or-delete.md "mention")
 
 </details>
 
@@ -333,7 +333,7 @@ Yes, you can customize the appearance of your Snapshot space to some extent by s
 
 <summary>What is a strategy?</summary>
 
-Voting strategy is a set of conditions used to calculate user's voting power. Strategies enable Snapshot to calculate the final result of voting on a given proposal. You can read more about them in our documentation: [what-is-a-strategy.md](user-guides/strategies/what-is-a-strategy.md "mention")
+Voting strategy is a set of conditions used to calculate user's voting power. Strategies enable Snapshot to calculate the final result of voting on a given proposal. You can read more about them in our documentation: [voting-strategies.md](user-guides/strategies/voting-strategies.md "mention")
 
 </details>
 
@@ -351,7 +351,7 @@ You can use the playground on Snapshot available from the strategy’s page:
 
 <summary>How to limit voting to only those users who own a specific amount of the token(s)?</summary>
 
-You need to setup a basic voting validation which allows you to select a specific strategy and define the minimum threshold required for the user to vote. Have a look at our documentation here to learn more: [what-is-a-strategy-1.md](user-guides/strategies/what-is-a-strategy-1.md "mention")
+You need to setup a basic voting validation which allows you to select a specific strategy and define the minimum threshold required for the user to vote. Have a look at our documentation here to learn more: [validation-strategies.md](user-guides/strategies/validation-strategies.md "mention")
 
 </details>
 
@@ -399,7 +399,7 @@ You can use the [ticket](https://snapshot.org/#/strategy/ticket) strategy.
 
 <summary>How can I give 1 voting power to all voters holding a specific token regardless of its amount?</summary>
 
-It's a two step process - you have to define a [validation strategy](user-guides/strategies/what-is-a-strategy-1.md) and a [voting strategy](faq.md#voting-strategies) for your space.\
+It's a two step process - you have to define a [validation strategy](user-guides/strategies/validation-strategies.md) and a [voting strategy](faq.md#voting-strategies) for your space.\
 \
 **1. Voting validation** \
 In order to allow users to participate in voting, setup a `Basic` voting validation in the space settings. You can find it in the voting section in space settings:\
@@ -586,7 +586,7 @@ Yes. If it’s not supported yet you can create a custom voting strategy to enab
 
 
 
-To learn more have a look at our documentation: [create-1.md](developer-guides/create-a-strategy/create-1.md "mention")
+To learn more have a look at our documentation: [voting-strategy.md](developer-guides/create-a-strategy/voting-strategy.md "mention")
 
 </details>
 
@@ -602,7 +602,7 @@ Most probably you are missing the `delegationSpace` parameter. Make sure to prov
 
 <summary>How to use our token from our network for voting?</summary>
 
-If it doesn’t exist yet, you can create a new voting strategy. Have a look at our documentation to learn more: [create-1.md](developer-guides/create-a-strategy/create-1.md "mention")
+If it doesn’t exist yet, you can create a new voting strategy. Have a look at our documentation to learn more: [voting-strategy.md](developer-guides/create-a-strategy/voting-strategy.md "mention")
 
 </details>
 

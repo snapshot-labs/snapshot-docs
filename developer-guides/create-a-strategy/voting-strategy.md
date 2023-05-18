@@ -195,6 +195,6 @@ After the PR has been merged, you will need to wait for the release of a new ver
 
 ### 7. Try it out!
 
-Head to the strategy's details page and click **Playground** button. Follow the instructions from [#testing-a-voting-strategy](../../user-guides/strategies/what-is-a-strategy.md#testing-a-voting-strategy "mention")to see if it works as you intended.
+Head to the strategy's details page and click **Playground** button. Follow the instructions from [#testing-a-voting-strategy](../../user-guides/strategies/voting-strategies.md#testing-a-voting-strategy "mention")to see if it works as you intended.
 
 Congrats, you've just added a new custom voting strategy! :tada:

@@ -6,10 +6,10 @@ description: >-
 
 # Create a strategy
 
-{% content-ref url="create-1.md" %}
-[create-1.md](create-1.md)
+{% content-ref url="voting-strategy.md" %}
+[voting-strategy.md](voting-strategy.md)
 {% endcontent-ref %}
 
-{% content-ref url="create-1-1.md" %}
-[create-1-1.md](create-1-1.md)
+{% content-ref url="validation-strategy.md" %}
+[validation-strategy.md](validation-strategy.md)
 {% endcontent-ref %}

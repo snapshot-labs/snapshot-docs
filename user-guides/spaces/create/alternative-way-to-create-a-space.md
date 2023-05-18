@@ -9,9 +9,9 @@ If you do not want to have the wallet control your settings, you can follow the 
 
 ### **How to Create Space**
 
-* Create a JSON file for your settings on Snapshot. The format of the JSON file could be as follows: **** [https://github.com/snapshot-labs/snapshot.js/blob/master/test/examples/space.json](https://github.com/snapshot-labs/snapshot.js/blob/master/test/examples/space.json)
+* Create a JSON file for your settings on Snapshot. The format of the JSON file could be as follows: [https://github.com/snapshot-labs/snapshot.js/blob/master/test/examples/space.json](https://github.com/snapshot-labs/snapshot.js/blob/master/test/examples/space.json)
 * Store the JSON file on IPFS
-* Use the IPFS link on the ENS text record. This will make the ENS owner the only controller of the settings. ****&#x20;
+* Use the IPFS link on the ENS text record. This will make the ENS owner the only controller of the settings.&#x20;
 
 ![](https://lh6.googleusercontent.com/qfA-Pj7o2Fvld76V2gZIJm9U1V0uRBgNdedfxU4iKjGDfE3cHH7KLMx26eawZPD0Zl8j3H7AAfFsToDdl9ViQ5Y7WyI8FACqVlkc5JG9zwcyZg877KmnH6cf2vleHnn-icWLGTg=s0)
 

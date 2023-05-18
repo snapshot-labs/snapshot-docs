@@ -5,7 +5,7 @@ description: >-
   started.
 ---
 
-# Home
+# Introduction to Snapshot
 
 ## Welcome to Snapshot!
 
@@ -53,7 +53,7 @@ We want to create a product which is easy to use by anyone - technical and non-t
 
 As open-source mindset and community are at the heart of Snapshot we are inviting you to contribute with general feedback, code, code review, design, bug reports, advice, documentation, or anything else you can think of.
 
-Head to [#contributing](<README (1).md#contributing> "mention") to learn how you can help us enhance Snapshot!
+Head to [#contributing](introduction.md#contributing "mention") to learn how you can help us enhance Snapshot!
 
 ### **What’s next?**
 

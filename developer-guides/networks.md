@@ -4,11 +4,11 @@ description: >-
   new one.
 ---
 
-# Networks
+# Add a network
 
 ## EVM-based networks
 
-Snapshot supports EVM-based networks. You can explore them at **** [**https://snapshot.org**](https://snapshot.org) by selecting the `Networks` filter:
+Snapshot supports EVM-based networks. You can explore them at [**https://snapshot.org**](https://snapshot.org) by selecting the `Networks` filter:
 
 <figure><img src="../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -22,7 +22,7 @@ If you can't see the network you are looking for on the list or you want to add 
 
 * New network must be **EVM**-based
 * RPC node must be an **archive node**
-* RPC node's url must use ** `https` **&#x20;
+* RPC node's url must use **`https`**&#x20;
 * Multicall contract must be **verified and published**&#x20;
 * Logo has to be stored on **IPFS**
 
@@ -32,7 +32,7 @@ Create a fork of the [**snapshot.js**](https://github.com/snapshot-labs/snapshot
 
 ### 2. Prepare the network details
 
-Update the **** [**network.json**](https://github.com/snapshot-labs/snapshot.js/blob/master/src/networks.json) file with a new JSON object storing information about the new network, following the example below:
+Update the [**network.json**](https://github.com/snapshot-labs/snapshot.js/blob/master/src/networks.json) file with a new JSON object storing information about the new network, following the example below:
 
 ```json
   "30": {
@@ -54,7 +54,7 @@ Update the **** [**network.json**](https://github.com/snapshot-labs/snapshot.js/
 
 ### 3. Check if the network is set correctly
 
-Head to **** [**https://snapshot-networks.on.fleek.co/**](https://snapshot-networks.on.fleek.co/) **** to test if your network is reachable:
+Head to [**https://snapshot-networks.on.fleek.co/**](https://snapshot-networks.on.fleek.co/) to test if your network is reachable:
 
 a. Click the first network from the left sidebar and click `Edit networks.json` on the right side:
 

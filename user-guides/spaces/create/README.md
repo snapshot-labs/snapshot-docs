@@ -29,7 +29,7 @@ If the above condition is met, your ENS name will appear. To confirm it's correc
 {% hint style="info" %}
 If you **don't own an ENS domain** you will have to register one. \
 \
-Enter a name that suits the needs of your DAO in the `register a new domain` field and click `Register.` You can then follow [before-creating-your-space.md](before-creating-your-space.md "mention") and come back here for step 2 once domain has been registered.
+Enter a name that suits the needs of your DAO in the `register a new domain` field and click `Register.` You can then follow [ens-domain.md](ens-domain.md "mention") and come back here for step 2 once domain has been registered.
 {% endhint %}
 
 ### 3. Create your profile
@@ -68,7 +68,11 @@ Voting power is weighted by the amount of the token held by the user. The token 
 2. Select your token standard
 3. Enter your token contract address
 
-![](<../../../.gitbook/assets/Capture d’écran 2022-08-11 à 12.37.27.png>)
+<div align="center">
+
+<img src="../../../.gitbook/assets/Capture d’écran 2022-08-11 à 12.37.27.png" alt="">
+
+</div>
 
 #### One person, one vote
 
@@ -86,10 +90,10 @@ If you feel ready to dive deeper into the custom setup here are a few hints that
 * You can select up to 8 different strategies. Voting power is cumulative.
 * Network can be selected individually for each strategy. This way you can leverage multi-chain voting power calculation.
 * It is possible to set a different symbol for each strategy. They will be displayed on the proposal page.
-* You can write a custom voting strategy if the existing ones are the sufficient for your needs. Have a look at [create-1.md](../../../developer-guides/create-a-strategy/create-1.md "mention") to learn more.
+* You can write a custom voting strategy if the existing ones are the sufficient for your needs. Have a look at [voting-strategy.md](../../../developer-guides/create-a-strategy/voting-strategy.md "mention") to learn more.
 
 \
-At the time of writing this article there are around 415 Snapshot voting strategies and this number keeps growing. [Learn more about the strategies. ](../../strategies/what-is-a-strategy.md)
+At the time of writing this article there are around 415 Snapshot voting strategies and this number keeps growing. [Learn more about the strategies. ](../../strategies/voting-strategies.md)
 
 ![](<../../../.gitbook/assets/Capture d’écran 2022-08-11 à 13.25.04 (1).png>)
 
