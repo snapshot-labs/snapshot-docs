@@ -1,10 +1,34 @@
 # Validation strategies
 
+{% hint style="info" %}
+Due to many spam attacks on Snapshot all Spaces are now required to use **Proposal Validation**.\
+\
+Learn how to set it up on this page or read [**our article**](https://snapshot.mirror.xyz/-uSylOUP82hGAyWUlVn4lCg9ESzKX9QCvsUgvv-ng84)**.**\
+\
+If you see this error it means your space doesn't have any Proposal Validation:
+
+\
+<img src="../../.gitbook/assets/image (5).png" alt="" data-size="original">
+{% endhint %}
+
+{% hint style="info" %}
+Spaces using only a [ticket strategy](https://snapshot.org/#/strategy/ticket) are required to set a Gitcoin Passport Voting Validation to secure their spaces and ensure a fair voting process preventing spam.\
+\
+Learn here how to set it up: [#validation-strategy-example-gitcoin-passport](validation-strategies.md#validation-strategy-example-gitcoin-passport "mention")\
+\
+If you see this error it means your space has to setup the Validation:\
+![](<../../.gitbook/assets/image (7).png>)
+{% endhint %}
+
 ## What is a validation strategy?
 
 A voting validation is a JavaScript function that returns a boolean (`true` or `false`) for the connected account. Voting validations are being used on Snapshot to decide if an **account can vote** or **create a proposal** in a specific space**.** Each space can use one voting validation for all of its proposals at a time. While voting strategies calculate the Voting Power mainly on the basis of the monetary assets, the validation strategy can serve as a protection against **Sybil attacks**. It can take into consideration how many POAPs an account owns or track the account activity to assess if the account is a bot or a **real human**.
 
 The **default** validation is checking if the address has **any voting power.** If the voting power is higher than `0` the connected account is validated. A validation strategy can send a call to a node or subgraph.
+
+When setting the Validation Strategy up it’s important to keep in mind that it is **meant to make it difficult for users outside of your community to post scam proposals or post spam votes.**
+
+Therefore for Proposal Validation make sure to use a **high threshold**, for example $100 worth of your organization’s token. A good idea would be to check the holdings of previous proposal creators, both legitimate and scammers, to assess a reasonable value.
 
 ## How to use validation strategies:
 
@@ -13,17 +37,43 @@ Validation strategies can be used for two purposes:
 * proposal validation - determine if the account can create a new proposal,
 * voting validation - determine if the account can take part in the voting process.
 
-If you want to allow addresses with any voting power to create a proposal or vote you can use the default voting validation.
+#### Proposal Validation in Space Settings
 
-![](<../../.gitbook/assets/image (1) (1) (2).png>)
+Head to **Proposals** tab in the sidebar to update the configuration:&#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-06-01 at 12.44.17.png" alt=""><figcaption></figcaption></figure>
+
+#### Voting Validation in Space Settings
+
+Head to **Voting** tab in the sidebar to update the configuration:&#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-06-01 at 12.44.57.png" alt=""><figcaption></figcaption></figure>
+
+If you want to allow addresses with any voting power to vote you can use the default voting validation.
+
+<figure><img src="../../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+If you are using only a [ticket](https://snapshot.org/#/strategy/ticket) Voting Strategy for your space you are required to use a [Gitcoin Passport Validation](validation-strategies.md#validation-strategy-example-gitcoin-passport) for Voting to protect your space from spam votes.
+{% endhint %}
+
+## Authors only mode
+
+If you wish to limit proposal creators to Admins, Moderators and Authors only, you can do so by enabling the **Authors only** setting in the **Proposal** tab in the space settings. Make sure to give the Author role to the users you trust!
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-06-01 at 12.22.46.png" alt=""><figcaption></figcaption></figure>
 
 ## Validation strategy example - Basic
 
-The Basic validation strategy allows you to specify multiple voting strategies to determine if a user is eligible to create a proposal or cast a vote.&#x20;
+The Basic validation strategy allows you to use existing Voting Strategies configured for your space or define a custom setup to determine if a user is eligible to create a proposal or cast a vote.&#x20;
 
-You can see an example implementation below. This setup is using the[ erc20-with-balance](https://snapshot.org/#/strategy/erc20-with-balance) strategy which requires the user to have at least 10 DIA:
+In order to use existing setup of Voting Strategies you can simply chose **Basic Validation** and define a required threshold as on the screenshot below. `100` corresponds to user's Voting Power calculated on the basis of the Voting Strategies.
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-06-01 at 12.16.21.png" alt=""><figcaption><p>Use current setup and define a strong threshold to avoid spam in your space.</p></figcaption></figure>
+
+If you wish to use a different configuration, toggle the **Use custom strategies** button and define the strategies for your use case:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-06-01 at 12.18.16.png" alt=""><figcaption><p>Use a custom setup using various Voting Strategies to calculate if a user is eligible to create a proposal or vote.</p></figcaption></figure>
 
 ## Validation strategy example - Gitcoin Passport
 
@@ -31,7 +81,7 @@ Validation strategy built together with **Gitcoin Passport.** You can select ind
 
 
 
-![](<../../.gitbook/assets/image (17) (2) (1).png>)
+<figure><img src="../../.gitbook/assets/image (17) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

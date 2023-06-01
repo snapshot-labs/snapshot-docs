@@ -63,6 +63,12 @@ Specify how the voting power should be calculated by adding one or up to 8 strat
 
 To learn more about what they are and how they work head to [voting-strategies.md](../strategies/voting-strategies.md "mention").
 
+{% hint style="danger" %}
+If you are using a [ticket](https://snapshot.org/#/strategy/ticket) strategy which gives everyone 1 vote regardless of their holdings, you are required to set up a Gitcoin Passport Voting Validation. \
+\
+Head here to learn how to do it: [#validation-strategy-example-gitcoin-passport](../strategies/validation-strategies.md#validation-strategy-example-gitcoin-passport "mention")
+{% endhint %}
+
 ![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 14.31.08.png>)
 
 ## Admins and authors
@@ -88,9 +94,15 @@ Head to [space-roles.md](space-roles.md "mention") to learn more about each role
 
 You can provide guidelines and a template which will be displayed during the proposal creation:
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Proposal validation
+
+{% hint style="danger" %}
+Due to multiple spam attacks on Snapshot each space is now required to set up a **Proposal Validation**.\
+\
+Learn how to do it in [#how-to-use-validation-strategies](../strategies/validation-strategies.md#how-to-use-validation-strategies "mention")
+{% endhint %}
 
 To validate if someone can post a proposal or not you can use the basic validation by default which takes your voting power with space strategies and checks if you pass a defined threshold.
 
