@@ -245,6 +245,14 @@ It depends on the space settings. Spaces can set up a validation strategy which 
 
 <details>
 
+<summary>How many proposals can I create per day?</summary>
+
+Each user can create maximum 128 proposals per day.
+
+</details>
+
+<details>
+
 <summary>What happens if a proposal doesn't reach quorum?</summary>
 
 If a proposal does not reach the required quorum, it is considered as not passed. However, the outcome of a proposal depends on the governance rules of the specific project. Some projects might still consider the proposal for further discussion, while others might require resubmission with modifications.

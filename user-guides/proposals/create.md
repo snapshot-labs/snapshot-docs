@@ -18,6 +18,10 @@ Voting power for each user is calculated on the basis of the voting strategies s
 
 Space [controller](../spaces/space-roles.md),[ admins](../spaces/space-roles.md), [authors](../spaces/space-roles.md) and users who are eligible according to the [proposal validation](../strategies/validation-strategies.md) strategies defined in the space settings.
 
+{% hint style="info" %}
+Due to spam overload we introduced a daily limit for proposal creation. Each user can create a **maximum of 128 proposals** per day.
+{% endhint %}
+
 ## Create a proposal
 
 1. Head to the space which you wish to create your proposal for.
