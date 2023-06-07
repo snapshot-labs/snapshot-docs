@@ -24,6 +24,11 @@ Make sure to follow all steps from the below checklist:
 * Space has a minimum threshold for **proposal validation** (or limited to authors)
 * There are at least **5 closed proposals**
 * A **link** from the official website, the **GitHub** organization or a **tweet** to confirm the ownership of the Snapshot space
-* **Ask to get verified** by an admin in [`#helpdesk`](https://discord.com/channels/707079246388133940/1055816513677967401) channel on [Discord](https://discord.snapshot.org)
+* Space is not using a testnet or network that has no recognition
+* **Ask to get verified** by an admin in [#helpdesk-tickets](https://discord.com/channels/707079246388133940/1090290400943677440) channel on [Discord](https://discord.snapshot.org)
 
 Verification process can last up to 72 hours.
+
+{% hint style="info" %}
+Verification status is valid as long as the space **meets all requirements.**
+{% endhint %}

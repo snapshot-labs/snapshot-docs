@@ -263,7 +263,7 @@ If a proposal does not reach the required quorum, it is considered as not passed
 
 <summary>Your proposal cannot be submitted due to a missing proposal validation rule. What does it mean?</summary>
 
-![](<.gitbook/assets/image (9) (3).png>)
+![](<.gitbook/assets/image (9).png>)
 
 Due to multiple spam attacks on Snapshot all Spaces are now required to set up a Proposal Validation. \
 Head here to learn how to do it: [#how-to-use-validation-strategies](user-guides/strategies/validation-strategies.md#how-to-use-validation-strategies "mention")
@@ -358,10 +358,18 @@ Yes, you can customize the appearance of your Snapshot space to some extent by s
 
 <summary>Your proposal cannot be submitted due to a missing Gitcoin Passport voting validation rule required with the "ticket" strategy. What does it mean?</summary>
 
-![](<.gitbook/assets/image (2) (2).png>)
+![](<.gitbook/assets/image (2).png>)
 
 If your space is using only a [ticket](https://snapshot.org/#/strategy/ticket) Voting Strategy you are required to set a Gitcoin Passport Voting Validation to minimize the risk of spam votes on your proposals. \
 Without it hackers can easily create multiple accounts (each getting 1 Voting Power) and take the voting process over.
+
+</details>
+
+<details>
+
+<summary>My space is no longer verified. Why is that?</summary>
+
+Verification status is valid as long as the space meets all requirements. Make sure you meet all the requirements defined [here](user-guides/spaces/get-verified.md#how-to-get-your-space-verified) and reach out to our team on the Discord through [#helpdesk-tickets](https://discord.com/channels/707079246388133940/1090290400943677440) to regain the space verification.
 
 </details>
 
@@ -442,7 +450,7 @@ It's a two step process - you have to define a [validation strategy](user-guides
 **1. Voting validation** \
 In order to allow users to participate in voting, setup a `Basic` voting validation in the space settings. You can find it in the voting section in space settings:\
 \
-![](<.gitbook/assets/image (1) (6).png>)\
+![](<.gitbook/assets/image (1) (1).png>)\
 \
 When defining the voting validation parameters, you have the option to specify the `strategies` for the tokens and the `minScore` required for voters to be eligible to vote:
 
@@ -466,7 +474,7 @@ Here is an example of the basic strategy setup for voters holding DAI tokens:
 **2. Voting strategy**&#x20;
 
 Use the [Ticket](https://snapshot.org/#/strategy/ticket) strategy to give voting power equal to `1` to any user eligible to vote - users that passed the voting validation described in step 1.\
-![](<.gitbook/assets/image (5) (3).png>)
+![](<.gitbook/assets/image (5) (2).png>)
 
 </details>
 
