@@ -39,6 +39,7 @@
   * [HAL Notifications](user-guides/plugins/hal.md)
   * [Gnosis Impact](user-guides/plugins/gnosis-impact.md)
   * [Galxe](user-guides/plugins/galxe.md)
+* [Token verification](user-guides/token-verification.md)
 * [Using Safe multi-sig](user-guides/using-safe-multi-sig.md)
 * [Delegation](user-guides/delegation.md)
 

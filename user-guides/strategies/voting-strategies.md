@@ -16,7 +16,7 @@ Voting strategies can be used to create a score from on-chain data, the data how
 
 You can browse through 400+ strategies by selecting the **Strategies** filter on the main page of [https://snapshot.org](https://snapshot.org). If you can't find a strategy that fulfills your needs you can create a new one. To learn more about creating custom voting strategies head to [voting-strategy.md](../../developer-guides/create-a-strategy/voting-strategy.md "mention").
 
-<figure><img src="../../.gitbook/assets/image (8) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## How to set up a strategy?
 

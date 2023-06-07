@@ -14,7 +14,7 @@ Deleting a space **cannot be reversed** and you will **not be able to create a n
 
 Head to your space settings and click **Advanced** tab in the sidebar on the left:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Scroll down to the bottom to the Danger Zone and click **Delete space:**
 

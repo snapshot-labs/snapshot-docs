@@ -28,7 +28,7 @@ Once the proposal is created, copy the proposal ID from the address bar in your 
 
 2\. Scroll down to the **Plugins** section and click **Add plugin**. Select the plugin you want to add in the pop-up window:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Add the proposal ID and the Galxe Campaign information which you would like to link with the proposal.
 
