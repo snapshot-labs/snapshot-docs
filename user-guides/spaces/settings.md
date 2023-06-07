@@ -119,6 +119,16 @@ The **voting period** is the duration that the proposal is active and votes can 
 
 ![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 14.32.03.png>)
 
+### Shielded Voting
+
+You can enable Shielded Voting within your space if you want to enable partial privacy and reduce voter apathy. Shielded Voting designed by Shutter is enabling that by using threshold encryption. You can learn more about it in the [technical overview.](https://blog.shutter.network/shutter-brings-shielded-voting-to-snapshot/)
+
+In short, Shielded Voting is a voting setting in which the voters choices are private during the voting period and get revealed when the proposal closes.
+
+To enable it head to **Voting** tab and select Shutter within the **Privacy** setting.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
 ## Custom domain and skin
 
 You can add a custom domain to your space by following the [add-custom-domain.md](add-custom-domain.md "mention") guide.
