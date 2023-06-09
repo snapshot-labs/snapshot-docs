@@ -54,7 +54,7 @@ Make sure to keep structure of the file intact and add necessary commas before o
 
 ### 3. Create a Pull Request
 
-If all the details are correct create a new PR on the original [snapshot](https://github.com/snapshot-labs/snapshot.js/)[-sidekick](https://github.com/snapshot-labs/snapshot-sidekick) repo.
+If all the details are correct create a new PR on the original [snapshot-sidekick](https://github.com/snapshot-labs/snapshot-sidekick) repo.
 
 ### 4. Wait for the team to approve the PR
 
