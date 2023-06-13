@@ -6,6 +6,10 @@ description: >-
 
 # GraphQL API
 
+{% hint style="info" %}
+On July 30th we will change the limits for the API usage for users without the API Keys. To ensure you don't lose the continuous access to the service please apply for an API Key by following this guide: [api-keys.md](api-keys.md "mention")
+{% endhint %}
+
 ## Explorer
 
 You can run queries on Snapshot data using a GraphQL Explorer.&#x20;
@@ -14,7 +18,7 @@ We have exposed an integrated development environment in the browser that includ
 
 {% embed url="https://hub.snapshot.org/graphql" %}
 
-![](<../.gitbook/assets/image (3) (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (3) (1).png>)
 
 ## Endpoints
 

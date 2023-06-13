@@ -57,6 +57,7 @@
 
 * [Tools overview](tools/tools-overview.md)
 * [Snapshot.js](tools/snapshot.js.md)
-* [GraphQL API](tools/graphql-api.md)
+* [GraphQL API](tools/graphql-api/README.md)
+  * [API Keys](tools/graphql-api/api-keys.md)
 * [Webhooks](tools/webhooks.md)
 * [Bots](tools/bots.md)

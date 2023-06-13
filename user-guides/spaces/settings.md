@@ -127,7 +127,7 @@ In short, Shielded Voting is a voting setting in which the voters choices are pr
 
 To enable it head to **Voting** tab and select Shutter within the **Privacy** setting.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Custom domain and skin
 
