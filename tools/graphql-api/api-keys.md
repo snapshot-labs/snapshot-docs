@@ -34,11 +34,11 @@ If you haven’t already please **fill in the below form** or submit it via [the
 
 {% embed url="https://tally.so/r/3laKWp" %}
 
-### 2. Wait for our response
+### 2. Wait 72 hours
 
 We will review your submission and **whitelist the address** you provided in the form.
 
-Once whitelisted, we will **reach out to you directly** to inform you that you can continue with the next steps.
+**After 72 hours** have passed you can continue with the next steps. If you get any errors while generating the key, please create a ticket in the [#helpdesk-tickets](https://discord.com/channels/707079246388133940/1090290400943677440) channel.
 
 ### 3. Generate the API Key
 
