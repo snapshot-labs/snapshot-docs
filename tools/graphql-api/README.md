@@ -7,7 +7,9 @@ description: >-
 # GraphQL API
 
 {% hint style="info" %}
-On July 30th we will change the limits for the API usage for users without the API Keys. To ensure you don't lose the continuous access to the service please apply for an API Key by following this guide: [api-keys.md](api-keys.md "mention")
+On **September 12th** we will change the **limits for the API usage** for users without the API Keys. \
+\
+To ensure you don't lose continuous access to the service please apply for an API Key by following this guide: [api-keys.md](api-keys.md "mention")
 {% endhint %}
 
 ## Explorer
