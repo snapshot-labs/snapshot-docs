@@ -46,7 +46,7 @@ After your address has been whitelisted go to [https://app.mycrypto.com/sign-mes
 
 #### a) Sign the message with keyword `generateKey:`
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9538a791-a2af-4c1d-889b-3b95a25f070e/Untitled.jpeg)
 

@@ -245,9 +245,11 @@ It depends on the space settings. Spaces can set up a validation strategy which 
 
 <details>
 
-<summary>How many proposals can I create per day?</summary>
+<summary>Proposal limit: How many proposals can I create per day?</summary>
 
-Each user can create maximum 128 proposals per day.
+Users are restricted in the proposal creation by the limits imposed on Spaces.
+
+Each Space can have a maximum of **32 proposals** created per day and **320 proposals** created per month.
 
 </details>
 
@@ -450,7 +452,7 @@ It's a two step process - you have to define a [validation strategy](user-guides
 **1. Voting validation** \
 In order to allow users to participate in voting, setup a `Basic` voting validation in the space settings. You can find it in the voting section in space settings:\
 \
-![](<.gitbook/assets/image (1) (1).png>)\
+![](<.gitbook/assets/image (1) (1) (4).png>)\
 \
 When defining the voting validation parameters, you have the option to specify the `strategies` for the tokens and the `minScore` required for voters to be eligible to vote:
 
