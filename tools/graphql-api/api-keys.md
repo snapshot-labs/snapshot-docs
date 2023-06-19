@@ -81,7 +81,17 @@ You will receive the API Key as a response of the `curl` request. Make sure to s
 
 ## How to structure the query with my key?
 
-The only change you need to make is to add the `apiKey` param in the query string with your key as a value:
+The only change you need to make is to add the API Key in the headers of your request:
+
+```bash
+curl 'https://hub.snapshot.org/graphql?' \
+  -H 'accept: application/json' \
+  -H 'x-api-key: <YOUR-API-KEY>' \
+  --data-raw '{"query":"\n{\n space(id:\"snapshot.dcl.eth\"){\n  id\n  name\n  members\n}\n}","variables":null}' \
+  --compressed
+```
+
+Alternatively, you can use the `apiKey` param in the query string with your key as a value:
 
 ```bash
 curl 'https://hub.snapshot.org/graphql?apiKey=<YOUR_API_KEY>' \
