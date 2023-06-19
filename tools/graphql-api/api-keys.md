@@ -53,9 +53,9 @@ After your address has been whitelisted go to [https://app.mycrypto.com/sign-mes
 b) Copy the signature and run the below `curl` command.&#x20;
 
 ```javascript
-curl --location '<https://keycard.snapshot.org/>' \\
---header 'accept: application/json' \\
---header 'content-type: application/json' \\
+curl --location 'https://keycard.snapshot.org' \
+--header 'accept: application/json' \
+--header 'content-type: application/json' \
 --data '{
     "jsonrpc": "2.0",
     "method": "generate_key",
