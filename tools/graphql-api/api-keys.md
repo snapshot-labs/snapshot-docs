@@ -85,7 +85,7 @@ The only change you need to make is to add the API Key in the headers of your re
 
 ```bash
 curl 'https://hub.snapshot.org/graphql?' \
-  -H 'accept: application/json' \
+  -H 'content-type: application/json' \
   -H 'x-api-key: <YOUR-API-KEY>' \
   --data-raw '{"query":"\n{\n space(id:\"snapshot.dcl.eth\"){\n  id\n  name\n  members\n}\n}","variables":null}' \
   --compressed
@@ -95,7 +95,7 @@ Alternatively, you can use the `apiKey` param in the query string with your key 
 
 ```bash
 curl 'https://hub.snapshot.org/graphql?apiKey=<YOUR_API_KEY>' \
-  -H 'accept: application/json' \
+  -H 'content-type: application/json' \
   --data-raw '{"query":"\n{\n space(id:\"snapshot.dcl.eth\"){\n  id\n  name\n  members\n}\n}","variables":null}' \
   --compressed
 ```
