@@ -360,7 +360,7 @@ Yes, you can customize the appearance of your Snapshot space to some extent by s
 
 <summary>Your proposal cannot be submitted due to a missing Gitcoin Passport voting validation rule required with the "ticket" strategy. What does it mean?</summary>
 
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (2) (1).png>)
 
 If your space is using only a [ticket](https://snapshot.org/#/strategy/ticket) Voting Strategy you are required to set a Gitcoin Passport Voting Validation to minimize the risk of spam votes on your proposals. \
 Without it hackers can easily create multiple accounts (each getting 1 Voting Power) and take the voting process over.

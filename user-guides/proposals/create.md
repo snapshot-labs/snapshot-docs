@@ -38,7 +38,7 @@ Due to spam overload, we introduced a daily limit for proposal creation. Each sp
     \- Discussion link (optional)\
 
 
-    <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 5.  Select the desired voting system, specify the possible vote options, and define the duration of your proposal. Make sure you allow enough time for users to vote.\
 
 

@@ -10,7 +10,7 @@ We want to make sure that we limit the risk of the API downtime and provide a re
 
 Currently we are in a transition period. During the next two months until July 30th the limits for keyless access to the API will not change:
 
-**🔓 No API Key:** 120 requests per 20 seconds.
+**🔓 No API Key:** 60 requests per 20 seconds.
 
 **🔑 With the API Key:** 2 million requests per month.
 
