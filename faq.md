@@ -265,7 +265,7 @@ If a proposal does not reach the required quorum, it is considered as not passed
 
 <summary>Your proposal cannot be submitted due to a missing proposal validation rule. What does it mean?</summary>
 
-![](<.gitbook/assets/image (9).png>)
+![](<.gitbook/assets/image (9) (4).png>)
 
 Due to multiple spam attacks on Snapshot all Spaces are now required to set up a Proposal Validation. \
 Head here to learn how to do it: [#how-to-use-validation-strategies](user-guides/strategies/validation-strategies.md#how-to-use-validation-strategies "mention")

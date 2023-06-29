@@ -34,12 +34,12 @@ Due to spam overload, we introduced a daily limit for proposal creation. Each sp
     <figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 4.  Fill in the following fields:\
     \- Title\
-    \- Description (optional)\
+    \- Description (optional, 20K character limit)\
     \- Discussion link (optional)\
 
 
-    <figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
-5.  Select the desired voting system, specify the possible vote options and define the duration of your proposal. Make sure you allow enough time for users to vote.\
+    <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+5.  Select the desired voting system, specify the possible vote options, and define the duration of your proposal. Make sure you allow enough time for users to vote.\
 
 
     <figure><img src="../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
@@ -54,12 +54,13 @@ When you create a proposal by default the **snapshot block number** will be popu
 {% hint style="warning" %}
 The voting power of each user will be calculated for the **state of the blockchain at this specific snapshot**. \
 \
-It means that if user acquires required tokens **after** the proposal has been created, they will not be taken into account for their voting power calculation.
+It means that if the user acquires required tokens **after** the proposal has been created, they will not be taken into account for their voting power calculation.
 {% endhint %}
 
 
 
 ### Proposals limitations
 
-* There is a character limit of 6400 for the description of a proposal.
-* You can combine up to 8 [voting strategies](../strategies/voting-strategies.md). The limit also applies to multi-chain strategies.
+* There is a character limit of **20,000** for the description of a proposal.
+* Each space can have a **maximum of 32 proposals** created per day and **320 proposals** per month.
+* You can combine up to **8** [voting strategies](../strategies/voting-strategies.md). The limit also applies to multi-chain strategies.
