@@ -129,6 +129,16 @@ To enable it head to **Voting** tab and select Shutter within the **Privacy** se
 
 <figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
+## Delegation
+
+In the **Delegation** tab you can set a custom delegation contract to enable delegate discovery for your space:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-06-30 at 13.17.08.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Once set, the delegates registry will be visible in the **Delegates** tab in the Space page.
+{% endhint %}
+
 ## Custom domain and skin
 
 You can add a custom domain to your space by following the [add-custom-domain.md](add-custom-domain.md "mention") guide.
