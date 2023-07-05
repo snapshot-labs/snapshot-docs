@@ -249,7 +249,7 @@ It depends on the space settings. Spaces can set up a validation strategy which 
 
 Users are restricted in the proposal creation by the limits imposed on Spaces.
 
-Each Space can have a maximum of **32 proposals** created per day and **320 proposals** created per month.
+Have a look at [proposals](user-guides/proposals/ "mention") to learn the limits specific for different Space types.
 
 </details>
 

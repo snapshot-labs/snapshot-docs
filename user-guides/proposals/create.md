@@ -21,7 +21,7 @@ Space [controller](../spaces/space-roles.md),[ admins](../spaces/space-roles.md)
 {% hint style="danger" %}
 **Proposal limit**\
 \
-Due to spam overload, we introduced a daily limit for proposal creation. Each space can have a **maximum of 32 proposals** created per day and **320 proposals** per month.
+Each space has a limit on the number of proposals that can be created daily and monthly. For more details have a look at [#proposals-limitations](create.md#proposals-limitations "mention")
 {% endhint %}
 
 ## Create a proposal
@@ -62,5 +62,16 @@ It means that if the user acquires required tokens **after** the proposal has be
 ### Proposals limitations
 
 * There is a character limit of **20,000** for the description of a proposal.
-* Each space can have a **maximum of 32 proposals** created per day and **320 proposals** per month.
+* Each space has a limit on the number of proposals created daily and monthly:
+
+| Space status | Daily proposal limit | Monthly proposal limit |
+| ------------ | -------------------- | ---------------------- |
+| Verified     | 30                   | 300                    |
+| Unverified   | 10                   | 100                    |
+| Flagged      | 5                    | 50                     |
+
+{% hint style="info" %}
+Learn more about Space verification and flagging in [badges-and-warnings.md](../spaces/badges-and-warnings.md "mention").
+{% endhint %}
+
 * You can combine up to **8** [voting strategies](../strategies/voting-strategies.md). The limit also applies to multi-chain strategies.
