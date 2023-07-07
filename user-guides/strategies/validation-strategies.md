@@ -12,11 +12,11 @@ If you see this error it means your space doesn't have any Proposal Validation:
 {% endhint %}
 
 {% hint style="info" %}
-Spaces using only a [ticket strategy](https://snapshot.org/#/strategy/ticket) are required to set a Gitcoin Passport Voting Validation to secure their spaces and ensure a fair voting process preventing spam.\
+Spaces using only a [ticket strategy](https://snapshot.org/#/strategy/ticket) are required to set a Voting Validation to secure their spaces and ensure a fair voting process preventing spam.\
 \
-Learn here how to set it up: [#validation-strategy-example-gitcoin-passport](validation-strategies.md#validation-strategy-example-gitcoin-passport "mention")\
+Learn here how to set it up: [#voting-validation-in-space-settings](validation-strategies.md#voting-validation-in-space-settings "mention")\
 \
-If you see this error it means your space has to setup the Validation:\
+If you see this error it means your space has to set up the Validation:\
 ![](<../../.gitbook/assets/image (7).png>)
 {% endhint %}
 
