@@ -64,7 +64,7 @@ Specify how the voting power should be calculated by adding one or up to 8 strat
 To learn more about what they are and how they work head to [voting-strategies.md](../strategies/voting-strategies.md "mention").
 
 {% hint style="danger" %}
-If you are using a [ticket](https://snapshot.org/#/strategy/ticket) strategy which gives everyone 1 vote regardless of their holdings, you are required to set up a Gitcoin Passport Voting Validation. \
+If you are using a [ticket](https://snapshot.org/#/strategy/ticket) strategy which gives everyone 1 vote regardless of their holdings, you are required to set up a Voting Validation. \
 \
 Head here to learn how to do it: [#validation-strategy-example-gitcoin-passport](../strategies/validation-strategies.md#validation-strategy-example-gitcoin-passport "mention")
 {% endhint %}
