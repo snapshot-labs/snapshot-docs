@@ -66,15 +66,13 @@ Each user can select (_approve_) any number of choices, each selected choice wil
 
 ### Quadratic voting
 
-Snapshot's Quadratic Voting system is more than a simplistic square root calculation of each voter's voting power.
+Snapshot's Quadratic Voting (QV) system transcends beyond the conventional approach of simply calculating the square root of each voter's voting power. It presents a more nuanced and democratic framework for decision-making.
 
-Firstly, simple square root calculations would only decrease the relative power of large votes without accounting for the diversity and quantity of voters involved. The strength of Quadratic Voting, similar to Quadratic Funding, is that it **prioritizes the number of individual voters**, meaning that collective decision-making is bolstered and smaller votes gain relatively more weight.
+One of the main features of our QV system is its emphasis on the number of individual voters rather than the size of their voting power. By doing so, it ensures that every voice counts, thereby enhancing collective decision-making and preventing power concentration.
 
-Secondly, by using a quadratic formula rather than a simple square root, our implementation ensures that the **cost of influence increases significantly** the more votes a voter applies to a single decision. This deters an over-concentration of power and incentivizes participants to vote more thoughtfully, spreading their votes across multiple options.
+Additionally, Snapshot's QV system provides voters with the flexibility to distribute their voting power across multiple choices. This feature allows for a more precise representation of a voter's diverse opinions, all without any additional cost.
 
-Lastly, Quadratic Voting's strategic voting considerations align better with real-world preferences. People typically have varying degrees of preference for different options. Quadratic Voting, unlike the square root method, encourages voters to express these differences. Voters with strong preferences for specific choices are allowed to **vote multiple times** for these options but at an increasing personal cost.
-
-Overall, our Quadratic Voting system, borrowing principles from Quadratic Funding, balances influence in decision-making and promotes wider participation and diversity of opinion, which simple square root calculations of voting power cannot achieve.
+Drawing key principles from the Quadratic Funding model, our QV system fosters greater participation and effectively balances influence. It represents a significant advancement over simpler voting mechanisms that rely on basic square root calculations of voting power.
 
 #### **Let's have a look at an example:**
 
