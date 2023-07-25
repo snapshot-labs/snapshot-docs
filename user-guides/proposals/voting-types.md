@@ -66,9 +66,67 @@ Each user can select (_approve_) any number of choices, each selected choice wil
 
 ### Quadratic voting
 
+Snapshot's Quadratic Voting system is based on the [Quadratic Funding](https://www.gitcoin.co/blog/quadratic-funding) model created by Gitcoin and was developed to target shortcomings of the traditional quadratic calculation taking the root square of a value, in our case - Voting Power. Unlike the traditional quadratic calculation, it can handle values as tiny as 0.000001 and include them in the voting process.
+
 Each user can spread voting power across any number of choices. The results are calculated quadratically, thanks to which the **number of individual voters** matters more than the sum of voting power contributed.&#x20;
 
-For more information on quadratic voting refer to [this article](https://en.wikipedia.org/wiki/Quadratic\_voting).
+#### **Let's have a look at an example:**
+
+There are 11 voters and three choices, A,B, and C:
+
+* John with 100 SMS tokens
+* Bob with 98 SMS tokens
+* 9 Marias with 3 SMS tokens each
+
+\-> John allocates all his 95 tokens to A and 5 tokens to B&#x20;
+
+\-> Bob allocates half his 90 tokens to B and 8 tokens to C&#x20;
+
+\-> All 9 Marias allocate their 3 tokens to C
+
+This results in:
+
+* A having 37 SMS or 16.44%&#x20;
+* B having 56 SMS or 24.87%&#x20;
+* C having 132 SMS or 58.69%
+
+#### **How was it calculated?**
+
+1. First, we need to calculate the **individual square root contributions** for each choice:&#x20;
+
+* A: the square root of John's 95 tokens is √95 ≈ **9.75.**
+* B: the square root of John's 5 tokens is √5 ≈ **2.24**, and the square root of Bob's 90 tokens is √95 ≈ **9.75.**
+* C: the square root of Bob's 8 tokens is √8 ≈ **2.83**, and each Maria contributes √3 ≈ 1.73, so 9 Marias contribute **15.59** in total
+
+2. Now, we **add up the square root** contributions for each choice and **square the result**:
+
+* A: we square the 9.75, so A gets 9.75^2 = **95.06 SMS.**
+* B: we add 2.24 and 9.75, giving us 11.99, and square it, so B gets 11.99^2 = **143.76 SMS.**
+* C, we add 2.83 and 15.59, giving us 18.42, and square it, so C gets 18.42^2 = **339.29 SMS.**
+
+The total amount of SMS is 95.06 + 143.76 + 339.29 = **578.11.**
+
+So the percentages for each choice is:&#x20;
+
+* A: 95.06 / 578.11 = 16.44%
+* B: 143.76 / 578.11 = 24.87%
+* C: 339.29 / 578.11 = 58.69%
+
+3. As a last step, we **match these percentages with the total voting power** of 225 SMS:&#x20;
+
+* A: 16.44% of 225 = **37 SMS**
+* B: 24.87% of 225 = **56 SMS**
+* C: 58.69% of 225 = **132 SMS**
+
+{% hint style="info" %}
+All in all, you don't have to understand each step of the calculation, yet it should give you an idea of how John with 100 SMS tokens was not able to push through his choice despite having the majority of Voting Power in the group as Quadratic Funding model emphasizes the **number of individual contributors** rather than the amount contributed.
+{% endhint %}
+
+{% hint style="danger" %}
+This Voting System may encourage the whales to create multiple wallets and split their holdings among them. Therefore it's important to also implement a mechanism providing Sybil Resistance. \
+\
+**Read more** [**here**](broken-reference)**!**
+{% endhint %}
 
 **Pros**: Dilutes the whales' voting power in favor of smaller holders. Individuals will matter more than the amount of tokens. \
 **Cons**: This voting type needs to be accompanied by a [Sybil-resistance mechanism](../strategies/validation-strategies.md) that prevents whales from splitting funds across different wallets.&#x20;
