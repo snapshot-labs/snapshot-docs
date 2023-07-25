@@ -66,13 +66,19 @@ Each user can select (_approve_) any number of choices, each selected choice wil
 
 ### Quadratic voting
 
-Snapshot's Quadratic Voting system is based on the [Quadratic Funding](https://www.gitcoin.co/blog/quadratic-funding) model created by Gitcoin and was developed to target shortcomings of the traditional quadratic calculation taking the root square of a value, in our case - Voting Power. Unlike the traditional quadratic calculation, it can handle values as tiny as 0.000001 and include them in the voting process.
+Snapshot's Quadratic Voting system is more than a simplistic square root calculation of each voter's voting power.
 
-Each user can spread voting power across any number of choices. The results are calculated quadratically, thanks to which the **number of individual voters** matters more than the sum of voting power contributed.&#x20;
+Firstly, simple square root calculations would only decrease the relative power of large votes without accounting for the diversity and quantity of voters involved. The strength of Quadratic Voting, similar to Quadratic Funding, is that it **prioritizes the number of individual voters**, meaning that collective decision-making is bolstered and smaller votes gain relatively more weight.
+
+Secondly, by using a quadratic formula rather than a simple square root, our implementation ensures that the **cost of influence increases significantly** the more votes a voter applies to a single decision. This deters an over-concentration of power and incentivizes participants to vote more thoughtfully, spreading their votes across multiple options.
+
+Lastly, Quadratic Voting's strategic voting considerations align better with real-world preferences. People typically have varying degrees of preference for different options. Quadratic Voting, unlike the square root method, encourages voters to express these differences. Voters with strong preferences for specific choices are allowed to **vote multiple times** for these options but at an increasing personal cost.
+
+Overall, our Quadratic Voting system, borrowing principles from Quadratic Funding, balances influence in decision-making and promotes wider participation and diversity of opinion, which simple square root calculations of voting power cannot achieve.
 
 #### **Let's have a look at an example:**
 
-There are 11 voters and three choices, A,B, and C:
+There are 11 voters and three choices, A, B, and C:
 
 * John with 100 SMS tokens
 * Bob with 98 SMS tokens
