@@ -280,6 +280,14 @@ You can submit your request by following the process described in the [token-ver
 
 </details>
 
+<details>
+
+<summary>Are there any solutions available to minimize whales' power in the voting process?</summary>
+
+Absolutely! Have a look at the Quaratic Voting system (bear in mind that it should be parie
+
+</details>
+
 ### Space settings&#x20;
 
 <details>
