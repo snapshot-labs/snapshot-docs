@@ -62,6 +62,7 @@ It means that if the user acquires required tokens **after** the proposal has be
 ### Proposals limitations
 
 * There is a character limit of **20,000** for the description of a proposal.
+* One address can have a maximum of **10 active proposals at a time**, across multiple spaces.
 * Each space has a limit on the number of proposals created daily and monthly:
 
 | Space status | Daily proposal limit | Monthly proposal limit |
