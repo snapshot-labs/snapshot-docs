@@ -81,39 +81,41 @@ Let's consider there are 3 voters and two choices, A and B:
 * Alice with 9 tokens
 * Bob with 4 tokens
 * Maria with 1 token
+* John with 1 token
 
 Here's how they allocate their tokens:
 
 * Alice allocates all her 9 tokens to A
 * Bob allocates all his 4 tokens to B
 * Maria allocates her 1 token to B
+* John allocates his 1 token to B
 
 This results in:
 
 * A having 9 tokens
-* B having 5 tokens
+* B having 6 tokens
 
 Now, let's calculate the individual square root contributions for each choice:
 
 * A: the square root of Alice's 9 tokens is √9 = 3.
-* B: the square root of Bob's 4 tokens is √4 = 2, and the square root of Maria's 1 token is √1 = 1.
+* B: the square root of Bob's 4 tokens is √4 = 2, the square root of Maria's 1 token is √1 = 1, and the square root of John's 1 token is √1 = 1.
 
 Next, we add up the square root contributions for each choice and square the result:
 
 * A: we square the 3, so A gets 3^2 = 9.
-* B: we add 2 and 1, giving us 3, and square it, so B gets 3^2 = 9.
+* B: we add 2, 1, and 1, giving us 4, and square it, so B gets 4^2 = 16.
 
-The total amount of tokens is 9 + 9 = 18.
+The total amount of tokens is 9 + 16 = 25.
 
 So the percentages for each choice is:
 
-* A: 9 / 18 = 50%
-* B: 9 / 18 = 50%
+* A: 9 / 25 = 36%
+* B: 16 / 25 = 64%
 
 As a last step, we match these percentages with the total voting power of 14 tokens:
 
-* A: 50% of 14 = 7 tokens
-* B: 50% of 14 = 7 tokens
+* A: 36% of 15 = 5.4 tokens
+* B: 64% of 15 = 9.6 tokens
 
 {% hint style="info" %}
 All in all, you don't have to understand each step of the calculation, yet it should give you an idea of how Alice with 9 tokens was not able to push through his choice despite having the majority of Voting Power in the group as our QV model emphasizes the **number of individual contributors** rather than the amount contributed.
