@@ -14,6 +14,18 @@ Spaces are listed upon arrival on [https://snapshot.org](https://snapshot.org) a
 
 ![Browse spaces](<../../.gitbook/assets/Capture d’écran 2022-07-31 à 12.43.41.png>)
 
+### Proposal search & filtering
+
+You can browse through all of Space's proposals and apply specific filters to them, including active, pending, and closed proposals, as well as those created by core members, and flagged proposals.
+
+{% hint style="info" %}
+Flagged (potentially dangerous) proposals are hidden by default.&#x20;
+
+If you'd like to display them, you need to apply the **Show flagged proposals** filter. This is not recommended due to potentially malicious content.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ### Joining a space
 
 If you want to have a quick access to a chosen space you can join it from the directory of all spaces or through the space's individual page by clicking the **Join** button. It will create a shortcut for the space on the left sidebar and keep you updated with the number of new proposals displayed on top of the space's avatar.

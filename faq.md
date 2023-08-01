@@ -486,7 +486,7 @@ Here is an example of the basic strategy setup for voters holding DAI tokens:
 **2. Voting strategy**&#x20;
 
 Use the [Ticket](https://snapshot.org/#/strategy/ticket) strategy to give voting power equal to `1` to any user eligible to vote - users that passed the voting validation described in step 1.\
-![](<.gitbook/assets/image (5) (2).png>)
+![](<.gitbook/assets/image (5) (2) (3).png>)
 
 </details>
 

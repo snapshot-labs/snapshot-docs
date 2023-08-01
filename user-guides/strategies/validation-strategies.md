@@ -8,7 +8,7 @@ Learn how to set it up on this page or read [**our article**](https://snapshot.m
 If you see this error it means your space doesn't have any Proposal Validation:
 
 \
-<img src="../../.gitbook/assets/image (5).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (5) (2).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="info" %}

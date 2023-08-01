@@ -38,7 +38,7 @@ Each space has a limit on the number of proposals that can be created daily and 
     \- Discussion link (optional)\
 
 
-    <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 5.  Select the desired voting system, specify the possible vote options, and define the duration of your proposal. Make sure you allow enough time for users to vote.\
 
 
