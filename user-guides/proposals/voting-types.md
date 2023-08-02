@@ -2,19 +2,19 @@
 description: Learn more about the different voting schemes on Snapshot.
 ---
 
-# Voting systems
+# Voting types
 
 {% hint style="info" %}
-Snapshot supports a number of different voting systems and we plan to support many more in the future. If you would like to request a new voting type, please open a feature request [here](https://features.snapshot.org/feature-requests) :pray:&#x20;
+Snapshot supports a number of different voting types and we plan to support many more in the future. If you would like to request a new voting type, please open a feature request [here](https://features.snapshot.org/feature-requests) :pray:&#x20;
 {% endhint %}
 
-## What is a voting system?
+## What is a voting type?
 
-Voting system defines how users can cast their votes and how the final result is calculated.
+Voting type defines how users can cast their votes and how the final result is calculated.
 
-Do not mistake it with the voting strategy though - a [voting strategy](../strategies/voting-strategies.md) is used to calculate the **individual voting power** of a user while the voting system calculates the **outcome of the proposal**.
+Do not mistake it with the voting strategy though - a [voting strategy](../strategies/voting-strategies.md) is used to calculate the **individual voting power** of a user while the voting type calculates the **outcome of the proposal**.
 
-Voting system is defined in the space settings or at the level of an individual proposal (unless it has been already defined in the space settings) and can allow the users to:&#x20;
+Voting type is defined in the space settings or at the level of an individual proposal (unless it has been already defined in the space settings) and can allow the users to:&#x20;
 
 * Choose only **one option** - [#single-choice-voting](voting-types.md#single-choice-voting "mention")
 * Spread their votes over **multiple options** - [#weighted-voting](voting-types.md#weighted-voting "mention")
@@ -23,9 +23,9 @@ Voting system is defined in the space settings or at the level of an individual 
 * Rank the different choices in their **order of preference** - [#ranked-choice-voting-instant-runoff-voting](voting-types.md#ranked-choice-voting-instant-runoff-voting "mention")
 * **Abstain** from voting while still participating in quorum - [#basic-voting](voting-types.md#basic-voting "mention")
 
-Let's have a look at each voting system in the next section.
+Let's have a look at each voting type in the next section.
 
-## Voting systems types
+## Voting types
 
 ### Single choice voting
 
@@ -33,12 +33,12 @@ Each user can select only one option. The results will reflect these votes as pe
 
 Ideal for choosing one option from many.\
 \
-**Pros**: Most simple and common voting system which is easy to set up and use.\
+**Pros**: Most simple and common voting type which is easy to set up and use.\
 **Cons**: Voters can pick only one option.
 
 👉 [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x02c3fcd64e86157d07c88e5a715ac08f57655917f8bfd5be30a99092136511ec)
 
-<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Weighted voting
 
@@ -62,17 +62,17 @@ Each user can select (_approve_) any number of choices, each selected choice wil
 
 :point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x08c3bd2960700525770a1d634f8599ba967e55fcc05b6c1649d984d88253769d)
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Quadratic voting
 
-Snapshot's Quadratic Voting (QV) system goes beyond the conventional approach of simply calculating the square root of each voter's voting power. It presents a more nuanced and democratic framework for decision-making.
+Snapshot's Quadratic Voting (QV) type goes beyond the conventional approach of simply calculating the square root of each voter's voting power. It presents a more nuanced and democratic framework for decision-making.
 
-One of the main features of our QV system is its **emphasis on the number of individual voters** rather than the size of their voting power. By doing so, it ensures that every voice counts, thereby enhancing collective decision-making and preventing power concentration.
+One of the main features of our QV type is its **emphasis on the number of individual voters** rather than the size of their voting power. By doing so, it ensures that every voice counts, thereby enhancing collective decision-making and preventing power concentration.
 
-Additionally, Snapshot's QV system provides voters with the flexibility to **distribute their voting power across multiple choices**. This feature allows for a more precise representation of a voter's diverse opinions, all without any additional cost.
+Additionally, Snapshot's QV type provides voters with the flexibility to **distribute their voting power across multiple choices**. This feature allows for a more precise representation of a voter's diverse opinions, all without any additional cost.
 
-Drawing key principles from the Quadratic Funding model, our QV system **fosters greater participation and effectively balances influence**. It represents a significant advancement over simpler voting mechanisms that rely on basic square root calculations of voting power.
+Drawing key principles from the Quadratic Funding model, our QV type **fosters greater participation and effectively balances influence**. It represents a significant advancement over simpler voting mechanisms that rely on basic square root calculations of voting power.
 
 #### **Let's have a look at an example:**
 
@@ -107,7 +107,7 @@ Next, we add up the square root contributions for each choice and square the res
 
 The total amount of tokens is 9 + 16 = 25.
 
-So the percentages for each choice is:
+So the percentages for each choice are:
 
 * A: 9 / 25 = 36%
 * B: 16 / 25 = 64%
@@ -118,16 +118,16 @@ As a last step, we match these percentages with the total voting power of 14 tok
 * B: 64% of 15 = 9.6 tokens
 
 {% hint style="info" %}
-All in all, you don't have to understand each step of the calculation, yet it should give you an idea of how Alice with 9 tokens was not able to push through his choice despite having the majority of Voting Power in the group as our QV model emphasizes the **number of individual contributors** rather than the amount contributed.
+All in all, you don't have to understand each step of the calculation. Yet, it should give you an idea of how Alice with 9 tokens was not able to push through his choice despite having the majority of Voting Power in the group as our QV model emphasizes the **number of individual contributors** rather than the amount contributed.
 {% endhint %}
 
 {% hint style="danger" %}
-This Voting System may encourage the whales to create multiple wallets and split their holdings among them. Therefore it's important to also implement a mechanism providing Sybil Resistance. \
+This Voting type may encourage the whales to create multiple wallets and split their holdings among them. Therefore it's important to also implement a mechanism providing Sybil Resistance. \
 \
-**Read more** [**here**](broken-reference)**!**
+**Read more** [**here**](../../space-handbook/sybil-resistance-scam-and-spam-prevention.md)**!**
 {% endhint %}
 
-**Pros**: Dilutes the whales' voting power in favor of smaller holders. Individuals will matter more than the amount of tokens. \
+**Pros**: Dilutes the whales' voting power in favor of smaller holders. Individuals will matter more than the number of tokens. \
 **Cons**: This voting type needs to be accompanied by a [Sybil-resistance mechanism](../strategies/validation-strategies.md) that prevents whales from splitting funds across different wallets.&#x20;
 
 :point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x21f64875abbca71762a980efae43ab62b546d54f19a208d0e61a5d7cee571a35)

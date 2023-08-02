@@ -16,7 +16,7 @@ By default tokens that are on the list are marked as verified with a green badge
 
 To see unverified tokens you can select the filter option:
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Adding a verified token to Snapshot's list
 

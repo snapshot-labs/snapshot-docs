@@ -2,6 +2,18 @@
 
 * [Welcome to Snapshot docs!](README.md)
 * [Introduction to Snapshot](introduction.md)
+* [Space handbook](space-handbook/README.md)
+  * [Most common](space-handbook/most-common.md)
+  * [Voting threshold](space-handbook/voting-threshold.md)
+  * [Anti-whale](space-handbook/anti-whale.md)
+  * [Sybil resistance, scam & spam prevention](space-handbook/sybil-resistance-scam-and-spam-prevention.md)
+  * [Liquidity / staking pool](space-handbook/liquidity-staking-pool.md)
+  * [Delegation](space-handbook/delegation.md)
+  * [NFT voting](space-handbook/nft-voting/README.md)
+    * [Most common: ERC-721](space-handbook/nft-voting/most-common-erc-721.md)
+    * [Multi-token: ERC-1155](space-handbook/nft-voting/multi-token-erc-1155.md)
+    * [POAP - Proof of Attendance](space-handbook/nft-voting/poap-proof-of-attendance.md)
+  * [Custom calculations](space-handbook/custom-calculations.md)
 * [FAQs](faq.md)
 
 ## User guides
@@ -22,7 +34,7 @@
   * [Space badges](user-guides/spaces/badges-and-warnings.md)
 * [Proposals](user-guides/proposals/README.md)
   * [Create a proposal](user-guides/proposals/create.md)
-  * [Voting systems](user-guides/proposals/voting-types.md)
+  * [Voting types](user-guides/proposals/voting-types.md)
 * [Voting](user-guides/voting/README.md)
   * [Vote on a proposal](user-guides/voting/vote.md)
   * [Delegate your voting power](user-guides/voting/delegate-your-voting-power.md)
