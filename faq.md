@@ -288,6 +288,16 @@ Absolutely! Have a look at the Quaratic Voting system (bear in mind that it shou
 
 </details>
 
+<details>
+
+<summary>I can't create a proposal with a shortened URL in the description. Why?</summary>
+
+Due to an increased amount of scam attacks on Snapshot, we do not allow shortened URLs in the proposal description. \
+\
+Make sure you provide a full URL to create a new proposal.
+
+</details>
+
 ### Space settings&#x20;
 
 <details>
