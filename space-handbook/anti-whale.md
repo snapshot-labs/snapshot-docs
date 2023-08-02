@@ -22,7 +22,13 @@ You can predefine the [Voting type](#user-content-fn-1)[^1] that all proposals i
 
 ### 1. Quadratic voting
 
-Snapshot's Quadratic Voting type is based on the Quadratic Funding model and was developed to target shortcomings of the traditional quadratic calculation taking the root square of a value, in our case - Voting Power. Unlike the traditional quadratic calculation, it can handle values as tiny as 0.000001 and include them in the voting process.
+Snapshot's Quadratic Voting (QV) type goes beyond the conventional approach of simply calculating the square root of each voter's voting power. It presents a more nuanced and democratic framework for decision-making.
+
+One of the main features of our QV type is its **emphasis on the number of individual voters** rather than the size of their voting power. By doing so, it ensures that every voice counts, thereby enhancing collective decision-making and preventing power concentration.
+
+Additionally, Snapshot's QV type provides voters with the flexibility to **distribute their voting power across multiple choices**. This feature allows for a more precise representation of a voter's diverse opinions, all without any additional cost.
+
+Drawing key principles from the Quadratic Funding model, our QV type **fosters greater participation and effectively balances influence**. It represents a significant advancement over simpler voting mechanisms that rely on basic square root calculations of voting power.
 
 You can set it up for all proposals in your Space by heading to the **Voting** tab in the Space settings and selecting the desired Voting System in the **Type** field:
 
@@ -30,51 +36,46 @@ You can set it up for all proposals in your Space by heading to the **Voting** t
 
 #### **Let's have a look at an example:**
 
-There are 11 voters and three choices, A,B and C:
+Let's consider there are 3 voters and two choices, A and B:
 
-* John with 100 SMS tokens
-* Bob with 98 SMS tokens
-* 9 Marias with 3 SMS tokens each
+* Alice with 9 tokens
+* Bob with 4 tokens
+* Maria with 1 token
+* John with 1 token
 
-\-> John allocates all his 95 tokens to A and 5 tokens to B&#x20;
+Here's how they allocate their tokens:
 
-\-> Bob allocates half his 90 tokens to B and 8 tokens to C&#x20;
-
-\-> All the 9 Marias allocate their 3 tokens to C
+* Alice allocates all her 9 tokens to A
+* Bob allocates all his 4 tokens to B
+* Maria allocates her 1 token to B
+* John allocates his 1 token to B
 
 This results in:
 
-* A having 37 SMS or 16.44%&#x20;
-* B having 56 SMS or 24.87%&#x20;
-* C having 132 SMS or 58.69%
+* A having 9 tokens
+* B having 6 tokens
 
-#### **How was it calculated?**
+Now, let's calculate the individual square root contributions for each choice:
 
-1. First, we need to calculate the **individual square root contributions** for each choice:&#x20;
+* A: the square root of Alice's 9 tokens is √9 = 3.
+* B: the square root of Bob's 4 tokens is √4 = 2, the square root of Maria's 1 token is √1 = 1, and the square root of John's 1 token is √1 = 1.
 
-* A: the square root of John's 95 tokens is √95 ≈ **9.75.**
-* B: the square root of John's 5 tokens is √5 ≈ **2.24**, and the square root of Bob's 90 tokens is √95 ≈ **9.75.**
-* C: the square root of Bob's 8 tokens is √8 ≈ **2.83**, and each Maria contributes √3 ≈ 1.73, so 9 Marias contribute **15.59** in total
+Next, we add up the square root contributions for each choice and square the result:
 
-2. Now, we **add up the square root** contributions for each choice and **square the result**:
+* A: we square the 3, so A gets 3^2 = 9.
+* B: we add 2, 1, and 1, giving us 4, and square it, so B gets 4^2 = 16.
 
-* A: we square the 9.75, so A gets 9.75^2 = **95.06 SMS.**
-* B: we add 2.24 and 9.75, giving us 11.99, and square it, so B gets 11.99^2 = **143.76 SMS.**
-* C, we add 2.83 and 15.59, giving us 18.42, and square it, so C gets 18.42^2 = **339.29 SMS.**
+The total amount of tokens is 9 + 16 = 25.
 
-The total amount of SMS is 95.06 + 143.76 + 339.29 = **578.11.**
+So the percentages for each choice are:
 
-So the percentages for each choice is:&#x20;
+* A: 9 / 25 = 36%
+* B: 16 / 25 = 64%
 
-* A: 95.06 / 578.11 = 16.44%
-* B: 143.76 / 578.11 = 24.87%
-* C: 339.29 / 578.11 = 58.69%
+As a last step, we match these percentages with the total voting power of 14 tokens:
 
-3. As a last step we **match these percentages with the total voting power** of 225 SMS:&#x20;
-
-* A: 16.44% of 225 = **37 SMS**
-* B: 24.87% of 225 = **56 SMS**
-* C: 58.69% of 225 = **132 SMS**
+* A: 36% of 15 = 5.4 tokens
+* B: 64% of 15 = 9.6 tokens
 
 {% hint style="info" %}
 All in all you don't have to understand each step of the calculation, yet it should give you an idea how John with 100 SMS tokens was not able to push through his choice despite having the majority of Voting Power in the group as Quadratic Funding model emphasises the **number of individual contributors** rather than the amount contributed.
