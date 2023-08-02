@@ -64,7 +64,7 @@ Specify how the voting power should be calculated by adding one or up to 8 strat
 To learn more about what they are and how they work head to [voting-strategies.md](../strategies/voting-strategies.md "mention").
 
 {% hint style="danger" %}
-If you are using a [ticket](https://snapshot.org/#/strategy/ticket) strategy which gives everyone 1 vote regardless of their holdings, you are required to set up a Voting Validation. \
+If you are using a [ticket](https://snapshot.org/#/strategy/ticket) strategy which gives everyone 1 vote regardless of their holdings, you are required to set up a Voting validation. \
 \
 Head here to learn how to do it: [#validation-strategy-example-gitcoin-passport](../strategies/validation-strategies.md#validation-strategy-example-gitcoin-passport "mention")
 {% endhint %}
@@ -99,7 +99,7 @@ You can provide guidelines and a template which will be displayed during the pro
 ### Proposal validation
 
 {% hint style="danger" %}
-Due to multiple spam attacks on Snapshot each space is now required to set up a **Proposal Validation**.\
+Due to multiple spam attacks on Snapshot each space is now required to set up a **Proposal validation**.\
 \
 Learn how to do it in [#how-to-use-validation-strategies](../strategies/validation-strategies.md#how-to-use-validation-strategies "mention")
 {% endhint %}

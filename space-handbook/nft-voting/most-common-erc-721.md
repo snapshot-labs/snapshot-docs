@@ -1,5 +1,5 @@
 ---
-description: Learn which strategies to use to allow users holding NFTs to get Voting Power.
+description: Learn which strategies to use to allow users holding NFTs to get Voting power.
 ---
 
 # Most common: ERC-721
@@ -11,7 +11,7 @@ ADD SOME JOYFUL TEXT HERE
 In Snapshot, the `balanceOf` method is applied to both the **erc721** and **erc20** strategies. The main difference in their implementation is that the decimal of an NFT should always be set to **0**.&#x20;
 
 {% hint style="info" %}
-All NFTs strategies can be combined with other Voting Strategies, like for example `erc20-balance-of` or `whitelist`. The results of each Strategy are summed up to result in the final Voting Power of each user.
+All NFTs strategies can be combined with other Voting strategies, like for example `erc20-balance-of` or `whitelist`. The results of each Strategy are summed up to result in the final Voting power of each user.
 {% endhint %}
 
 ### [erc721](https://snapshot.org/#/strategy/erc721)
@@ -27,7 +27,7 @@ One who owned the specified NFT at the snapshot of proposal creation will be abl
 {% hint style="info" %}
 If your project is releasing the NFT collection in batches with a limited amount of NFT minted on the deployment of the contract, then don't worry.&#x20;
 
-It won't affect the calculation of the Voting Power. Feel free to implement it in your space and engage your community in the governance process! ⚡️
+It won't affect the calculation of the Voting power. Feel free to implement it in your space and engage your community in the governance process! ⚡️
 {% endhint %}
 
 **Strategy setup:**
@@ -91,7 +91,7 @@ This strategy is a modification of [erc721-with-tokenid](most-common-erc-721.md#
 
 It allows **1 vote per whitelisted tokenID** specified in the parameter.
 
-So in contrary to the previous strategy, the user who holds **three NFTs**, each included in the strategy setup, will have **3 Voting Power**.
+So in contrary to the previous strategy, the user who holds **three NFTs**, each included in the strategy setup, will have **3 Voting power**.
 
 **Strategy setup:**
 
@@ -122,7 +122,7 @@ The NFT can be assigned a **different weight** based on the range its token ID f
 If it doesn't fit into any range, it'll still be counted as 1 by `defaultWeight` setting. However, If you don't want to include the NFT that's **outside of the range** into voting power, simply set that `defaultWeight` to 0. &#x20;
 {% endhint %}
 
-For example, a user who owns 3 NFTs with the tokenIds: `1000`, `6000` and `8000` respectively will have **3** Voting Power. \[(1\*2)+(1\*1)+(1\*0)]
+For example, a user who owns 3 NFTs with the tokenIds: `1000`, `6000` and `8000` respectively will have **3** Voting power. \[(1\*2)+(1\*1)+(1\*0)]
 
 **Strategy setup:**
 

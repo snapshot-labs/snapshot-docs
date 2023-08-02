@@ -242,7 +242,7 @@ const space = 'yam.eth';
 const delegation = false;
 
 snapshot.utils.getVp(address, network, strategies, snapshot, space, delegation).then(vp => {
-  console.log('Voting Power', vp);
+  console.log('Voting power', vp);
 });
 js
 ```

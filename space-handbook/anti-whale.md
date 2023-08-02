@@ -12,7 +12,7 @@ description: >-
 > \
 > [_https://www.investopedia.com/terms/b/bitcoin-whale.asp_](https://www.investopedia.com/terms/b/bitcoin-whale.asp)
 
-Whales can influence not only currency markets but also the governance process of web3 communities. With the large holdings, their sheer Voting Power can oftentimes swing a proposal for their advantage. This leads to outcomes that are not welcomed by the community, poses a threat to taking the Treasury over, and also to lowering community participation in the vote as its members don't see the point in voting knowing that one wallet can decide on its outcome.
+Whales can influence not only currency markets but also the governance process of web3 communities. With the large holdings, their sheer Voting power can oftentimes swing a proposal for their advantage. This leads to outcomes that are not welcomed by the community, poses a threat to taking the Treasury over, and also to lowering community participation in the vote as its members don't see the point in voting knowing that one wallet can decide on its outcome.
 
 Let's have a look at different setups that will allow your space to minimize the power of whales.
 
@@ -22,9 +22,9 @@ You can predefine the [Voting type](#user-content-fn-1)[^1] that all proposals i
 
 ### 1. Quadratic voting
 
-Snapshot's Quadratic Voting type is based on the Quadratic Funding model and was developed to target shortcomings of the traditional quadratic calculation taking the root square of a value, in our case - Voting Power. Unlike the traditional quadratic calculation, it can handle values as tiny as 0.000001 and include them in the voting process.
+Snapshot's Quadratic Voting type is based on the Quadratic Funding model and was developed to target shortcomings of the traditional quadratic calculation taking the root square of a value, in our case - Voting power. Unlike the traditional quadratic calculation, it can handle values as tiny as 0.000001 and include them in the voting process.
 
-You can set it up for all proposals in your Space by heading to the **Voting** tab in the Space settings and selecting the desired Voting System in the **Type** field:
+You can set it up for all proposals in your Space by heading to the **Voting** tab in the Space settings and selecting the desired Voting type in the **Type** field:
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-06-12 at 15.26.16.png" alt=""><figcaption></figcaption></figure>
 
@@ -77,11 +77,11 @@ So the percentages for each choice is:&#x20;
 * C: 58.69% of 225 = **132 SMS**
 
 {% hint style="info" %}
-All in all you don't have to understand each step of the calculation, yet it should give you an idea how John with 100 SMS tokens was not able to push through his choice despite having the majority of Voting Power in the group as Quadratic Funding model emphasises the **number of individual contributors** rather than the amount contributed.
+All in all you don't have to understand each step of the calculation, yet it should give you an idea how John with 100 SMS tokens was not able to push through his choice despite having the majority of Voting power in the group as Quadratic Funding model emphasises the **number of individual contributors** rather than the amount contributed.
 {% endhint %}
 
 {% hint style="danger" %}
-This Voting System may encourage the whales to create multiple wallets and split their holdings among them. Therefore it's important to also implement a mechanism providing Sybil Resistance. \
+This Voting type may encourage the whales to create multiple wallets and split their holdings among them. Therefore it's important to also implement a mechanism providing Sybil Resistance. \
 \
 **Read more** [**here**](sybil-resistance-scam-and-spam-prevention.md)**!**
 {% endhint %}
@@ -90,14 +90,14 @@ This Voting System may encourage the whales to create multiple wallets and split
 
 ### 1. [balance-of-with-thresholds](https://snapshot.org/#/strategy/balance-of-with-thresholds)
 
-You can think of it as creating multiple buckets which will determine the Voting Power of an individual address. To put it in the simplest way, imagine that:
+You can think of it as creating multiple buckets which will determine the Voting power of an individual address. To put it in the simplest way, imagine that:
 
-* users who hold less than 5 tokens will have **0** Voting Power
-* users who hold from 5 to 10 tokens will have **1** Voting Power
-* users who hold from 10 to 20 tokens will have **2** Voting Power
-* users who hold more than 20 tokens will have **5** Voting Power
+* users who hold less than 5 tokens will have **0** Voting power
+* users who hold from 5 to 10 tokens will have **1** Voting power
+* users who hold from 10 to 20 tokens will have **2** Voting power
+* users who hold more than 20 tokens will have **5** Voting power
 
-As you can see, you are able to set various thresholds which will fix user's Voting Power at a specific level. This way whales who may have large holdings, for example 1000 tokens, will not get more than **5** Voting Power.&#x20;
+As you can see, you are able to set various thresholds which will fix user's Voting power at a specific level. This way whales who may have large holdings, for example 1000 tokens, will not get more than **5** Voting power.&#x20;
 
 This way the voting can be more reflective of the public opinion.
 
@@ -122,7 +122,7 @@ You can test it out in the **Playground on Snapshot**:
 
 ### 2.[ anti-whale](https://snapshot.org/#/strategy/anti-whale)
 
-This strategy executes a chosen Voting Strategy and applies algorithms to its result to reduce the impact of big wallets on the vote.&#x20;
+This strategy executes a chosen Voting strategy and applies algorithms to its result to reduce the impact of big wallets on the vote.&#x20;
 
 {% hint style="info" %}
 This strategy requires understanding some of the calculations shown below. If you have issues with setting it up don't hesitate to [create a ticket on Discord](https://discord.com/channels/707079246388133940/1090290400943677440)!
@@ -132,10 +132,10 @@ In practice, the strategy sets a **soft restriction on the voting threshold** by
 
 As an example, assuming our threshold is **5**:
 
-* if user's Voting Power is below or equal to 5, their final Voting Power will be moderately increased
-* if user's Voting Power is above 5, their final Voting Power will be reduced (the higher the Voting Power, the more increased it will be)
+* if user's Voting power is below or equal to 5, their final Voting power will be moderately increased
+* if user's Voting power is above 5, their final Voting power will be reduced (the higher the Voting power, the more increased it will be)
 
-The following algorithm is applied to the result of the configured Voting Strategy:
+The following algorithm is applied to the result of the configured Voting strategy:
 
 ```
 If result > antiWhale.threshold

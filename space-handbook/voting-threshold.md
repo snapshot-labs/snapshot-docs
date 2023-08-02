@@ -4,33 +4,33 @@ description: Define criteria that users have to meet in order to be eligible to 
 
 # Voting threshold
 
-Suppose you want to restrict the ability to vote within your community for example to prevent bots from affecting the results or to prioritize members with higher stakes in your organization. In that case, you can do so by setting up Voting Strategies or a combination of Voting and Validation Strategies for your space.
+Suppose you want to restrict the ability to vote within your community for example to prevent bots from affecting the results or to prioritize members with higher stakes in your organization. In that case, you can do so by setting up Voting strategies or a combination of Voting and Validation strategies for your space.
 
-To recap what Voting and Validation Strategies are:
+To recap what Voting and Validation strategies are:
 
-[Validation Strategies](../user-guides/strategies/validation-strategies.md) are a way to define who is allowed to vote on a proposal or create a new one.&#x20;
+[Validation strategies](../user-guides/strategies/validation-strategies.md) are a way to define who is allowed to vote on a proposal or create a new one.&#x20;
 
-[Voting Strategies](../user-guides/strategies/voting-strategies.md) calculate how much Voting Power each user has.
+[Voting strategies](../user-guides/strategies/voting-strategies.md) calculate how much Voting power each user has.
 
-## Voting Validation&#x20;
+## Voting validation&#x20;
 
-This solution is a combination of any Voting Strategy/-ies and Voting Validation.
+This solution is a combination of any Voting strategy/-ies and Voting validation.
 
-Defining the required threshold of the user's Voting Power can be set up simply and leverage the Voting Strategies used in the Space.
+Defining the required threshold of the user's Voting power can be set up simply and leverage the Voting strategies used in the Space.
 
-Go to Space Settings and open the **Voting** tab. At the bottom you can find the Validation section:
+Go to Space settings and open the **Voting** tab. At the bottom you can find the Validation section:
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-05-24 at 15.53.41.png" alt=""><figcaption></figcaption></figure>
 
-### Basic Voting Validation
+### Basic Voting validation
 
-Select the [**Basic Voting Validation**](../user-guides/strategies/validation-strategies.md#validation-strategy-example-basic)**.**
+Select the [**Basic Voting validation**](../user-guides/strategies/validation-strategies.md#validation-strategy-example-basic)**.**
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-06-20 at 11.39.23.png" alt=""><figcaption></figcaption></figure>
 
-This way you can easily define how much Voting Power is required for the users to cast votes on Proposals in your Space. Voting Power is calculated on the basis of the Voting Strategies set for your Space.
+This way you can easily define how much Voting power is required for the users to cast votes on Proposals in your Space. Voting power is calculated on the basis of the Voting strategies set for your Space.
 
-For example, if your Voting Strategy is [`erc20-balance-of`](https://snapshot.org/#/strategy/erc20-balance-of) and a user holds 20 tokens, their Voting Power will be 20 and they will be eligible to vote with the Basic Validation set at 10.&#x20;
+For example, if your Voting strategy is [`erc20-balance-of`](https://snapshot.org/#/strategy/erc20-balance-of) and a user holds 20 tokens, their Voting power will be 20 and they will be eligible to vote with the Basic Validation set at 10.&#x20;
 
 If they hold 5 tokens, they won't be able to cast a vote as it's < 10 VP.
 
@@ -44,12 +44,12 @@ This Validation allows you to set requirements by checking the [Gitcoin Passport
 
 
 
-## Voting Strategies
+## Voting strategies
 
-It is also possible to set a required threshold directly through a Voting Strategy.
+It is also possible to set a required threshold directly through a Voting strategy.
 
 {% hint style="warning" %}
-We highly recommend the first approach of using a Validation Strategy as it allows **higher flexibility and is easier to maintain** if the Voting Strategies are changed in the Space Settings.
+We highly recommend the first approach of using a Validation strategy as it allows **higher flexibility and is easier to maintain** if the Voting strategies are changed in the Space settings.
 {% endhint %}
 
 ### [b**alance-of-with-min**](https://snapshot.org/#/strategy/balance-of-with-min)&#x20;
@@ -87,13 +87,13 @@ You can test it out in the **Playground on Snapshot**:
 You can use it with ERC-20 and ERC-721 tokens.
 {% endhint %}
 
-This strategy allows you to define multiple thresholds and allocate Voting Power at each level.&#x20;
+This strategy allows you to define multiple thresholds and allocate Voting power at each level.&#x20;
 
-In the example below, whoever holds less than 1 unit of the token will have **0** Voting Power.
+In the example below, whoever holds less than 1 unit of the token will have **0** Voting power.
 
-Users holding more than 1 but less than 4 units of the token will have **1** Voting Power.
+Users holding more than 1 but less than 4 units of the token will have **1** Voting power.
 
-The maximum Voting Power per user will be fixed at 4 no matter how much of the token they own.&#x20;
+The maximum Voting power per user will be fixed at 4 no matter how much of the token they own.&#x20;
 
 **Strategy setup:**
 
@@ -131,7 +131,7 @@ You can use it with ERC-20 and ERC-721 tokens.
 This allows you to poll your community without referencing the number of tokens or NFTs they hold, **each address will have 1VP**.
 {% endhint %}
 
-Now, to use this strategy to set a voting threshold you can add an optional parameter `minBalance` and define the minimum required balance which will give the user the **eligibility to vote** and **1 Voting Power**. The parameter value is set to 0 by default.&#x20;
+Now, to use this strategy to set a voting threshold you can add an optional parameter `minBalance` and define the minimum required balance which will give the user the **eligibility to vote** and **1 Voting power**. The parameter value is set to 0 by default.&#x20;
 
 **Strategy setup:**
 
@@ -154,13 +154,13 @@ You can test it out in the **Playground on Snapshot**:
 You can use the `math` strategy flexibly with various tokens and networks. This example demonstrates how to set a threshold taking into account tokens on different chains.
 {% endhint %}
 
-`Math` strategy is powerful in its composability. It allows you to apply common mathematical operations to the outputs of Voting Strategies.
+`Math` strategy is powerful in its composability. It allows you to apply common mathematical operations to the outputs of Voting strategies.
 
-As an example, you can take a square root of the Voting Power calculated by [erc20-balance-of](https://snapshot.org/#/strategy/erc20-balance-of), or the lower (`min`) value out of two different Voting Strategies. You can see all possibilities on the [strategy page](https://snapshot.org/#/strategy/math).
+As an example, you can take a square root of the Voting power calculated by [erc20-balance-of](https://snapshot.org/#/strategy/erc20-balance-of), or the lower (`min`) value out of two different Voting strategies. You can see all possibilities on the [strategy page](https://snapshot.org/#/strategy/math).
 
 #### How to set it up for a multichain scenario?
 
-If the Voting Power calculated for your space is based on tokens on different chains and you want to set a minimum threshold defining if a user is eligible to vote, you can use the `a-if-lt-b` operand. Don't worry if it sounds cryptic, we will go through it step by step.&#x20;
+If the Voting power calculated for your space is based on tokens on different chains and you want to set a minimum threshold defining if a user is eligible to vote, you can use the `a-if-lt-b` operand. Don't worry if it sounds cryptic, we will go through it step by step.&#x20;
 
 | Operation   | Operand count | Description               |
 | ----------- | ------------- | ------------------------- |
@@ -168,7 +168,7 @@ If the Voting Power calculated for your space is based on tokens on different ch
 
 Let's look at the formula first: `(x, a, b) = x < b ? a : x`, where:&#x20;
 
-* **x** - sum of Voting Power calculated by the two Voting Strategies on chains `137` and `1` (as per the example below)
+* **x** - sum of Voting power calculated by the two Voting strategies on chains `137` and `1` (as per the example below)
 * **a** - first constant, in our case it's **0**
 * **b** - first constant, in our case it's **100**
 
@@ -219,10 +219,10 @@ Let's look at the formula first: `(x, a, b) = x < b ? a : x`, where:&#x20;
 
 The algorithm will check if **x** is smaller than **b**, the second constant:
 
-* if it's below **b**, the final Voting Power will be set to **a,** first constant -> **0**
-* if it's equal to and higher than **b**, the final Voting Power will be set to **x**, the sum of result from the Voting Strategies
+* if it's below **b**, the final Voting power will be set to **a,** first constant -> **0**
+* if it's equal to and higher than **b**, the final Voting power will be set to **x**, the sum of result from the Voting strategies
 
-**As you can see we can easily define what is the minimum Voting Power (our example: 100) coming from different chains that is required for the user to vote!**&#x20;
+**As you can see we can easily define what is the minimum Voting power (our example: 100) coming from different chains that is required for the user to vote!**&#x20;
 
 You can test it out in the **Playground on Snapshot**:
 
@@ -238,7 +238,7 @@ If you want to require users to hold specific tokens in order to be eligible to 
 
 The minimum balance for each token can be customized.
 
-Users who meet the criteria will receive **1 Voting Power** regardless of the total value of the tokens they hold.
+Users who meet the criteria will receive **1 Voting power** regardless of the total value of the tokens they hold.
 
 {% hint style="warning" %}
 Note, that the `minBalance` parameter is exclusive. It means that when set to **1**, the user has to hold more than **1** of the specified token in order to vote.

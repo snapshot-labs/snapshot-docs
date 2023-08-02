@@ -1,6 +1,6 @@
 ---
 description: >-
-  Discover the delegates of specific spaces and delegate your Voting Power
+  Discover the delegates of specific spaces and delegate your Voting power
   directly through Snapshot,
 ---
 
@@ -8,9 +8,9 @@ description: >-
 
 ## How to delegate?
 
-Snapshot enables a couple of ways to delegate your Voting Power to another address (a delegate[^1]).
+Snapshot enables a couple of ways to delegate your Voting power to another address (a delegate[^1]).
 
-You can delegate your Voting Power via:
+You can delegate your Voting power via:
 
 👉 [Delegates Registry per Space](delegation.md#delegates-registry) (if the Space has set up their custom delegation contract)
 
@@ -21,7 +21,7 @@ This is a great solution for those who are **not sure who to delegate** their VP
 👉 [General Snapshot's delegation page](delegation.md#from-snapshot-interface)&#x20;
 
 {% hint style="info" %}
-The quickest solution to delegate the Voting Power to a **known address.**
+The quickest solution to delegate the Voting power to a **known address.**
 {% endhint %}
 
 👉 [Smart Contract](delegation.md#with-a-smart-contract)
@@ -42,11 +42,11 @@ Head to the Space page and click **Delegates** in the left sidebar**:**
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-06-30 at 13.10.59.png" alt=""><figcaption></figcaption></figure>
 
-You will then see a list of delegates for the Space with the number of their delegators[^2] and their total Voting Power within the Space.
+You will then see a list of delegates for the Space with the number of their delegators[^2] and their total Voting power within the Space.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-06-30 at 13.16.55.png" alt=""><figcaption></figcaption></figure>
 
-You can delegate your Voting Power to one of the delegates directly by clicking the **`Delegate`** button:
+You can delegate your Voting power to one of the delegates directly by clicking the **`Delegate`** button:
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-06-30 at 13.27.40.png" alt=""><figcaption></figcaption></figure>
 
@@ -90,9 +90,9 @@ Delegations are stored on this subgraph:\
 [https://thegraph.com/explorer/subgraph/snapshot-labs/snapshot](https://thegraph.com/explorer/subgraph/snapshot-labs/snapshot)
 
 {% hint style="info" %}
-A **delegation Voting Strategy must be added** to the Snapshot space before delegated votes will be counted. You can use the [**with-delegation**](https://snapshot.org/#/strategy/with-delegation) strategy.
+A **delegation Voting strategy must be added** to the Snapshot space before delegated votes will be counted. You can use the [**with-delegation**](https://snapshot.org/#/strategy/with-delegation) strategy.
 {% endhint %}
 
 [^1]: By _delegate_ we mean the address which receives the delegation from another user, the _delegator._
 
-[^2]: By _delegators_ we mean the address which has delegated their Voting Power to the _delegate_.
+[^2]: By _delegators_ we mean the address which has delegated their Voting power to the _delegate_.

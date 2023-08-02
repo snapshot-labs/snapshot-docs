@@ -1,5 +1,5 @@
 ---
-description: Take POAPs into account when calculating the individual Voting Power.
+description: Take POAPs into account when calculating the individual Voting power.
 ---
 
 # POAP - Proof of Attendance
@@ -16,13 +16,13 @@ Its **contract** can be found here: [0x22C1f6050E56d2876009903609a2cC3fEf83B415]
 Every single POAP has a unique **tokenID**.&#x20;
 {% endhint %}
 
-Now, how can you reward your community for their attendance by giving them Voting Power?
+Now, how can you reward your community for their attendance by giving them Voting power?
 
 There are several strategies that you can use for your Space:
 
 ### [poap](https://snapshot.org/#/strategy/poap)
 
-The `poap` strategy returns the **balance** of POAP for a certain event as Voting Power. However, when the `eventIds` is skipped, it will return the number of all POAP tokens owned by the address.
+The `poap` strategy returns the **balance** of POAP for a certain event as Voting power. However, when the `eventIds` is skipped, it will return the number of all POAP tokens owned by the address.
 
 **Strategy setup:**
 

@@ -267,7 +267,7 @@ If a proposal does not reach the required quorum, it is considered as not passed
 
 ![](<.gitbook/assets/image (9) (3).png>)
 
-Due to multiple spam attacks on Snapshot all Spaces are now required to set up a Proposal Validation. \
+Due to multiple spam attacks on Snapshot all Spaces are now required to set up a Proposal validation. \
 Head here to learn how to do it: [#how-to-use-validation-strategies](user-guides/strategies/validation-strategies.md#how-to-use-validation-strategies "mention")
 
 </details>
@@ -284,7 +284,7 @@ You can submit your request by following the process described in the [token-ver
 
 <summary>Are there any solutions available to minimize whales' power in the voting process?</summary>
 
-Absolutely! Have a look at the Quaratic Voting system (bear in mind that it should be parie
+Absolutely! Have a look at the Quaratic Voting type (bear in mind that it should be parie
 
 </details>
 
@@ -376,12 +376,12 @@ Yes, you can customize the appearance of your Snapshot space to some extent by s
 
 <details>
 
-<summary>Your proposal cannot be submitted due to a missing Voting Validation rule required with the "ticket" strategy. What does it mean?</summary>
+<summary>Your proposal cannot be submitted due to a missing Voting validation rule required with the "ticket" strategy. What does it mean?</summary>
 
 ![](<.gitbook/assets/image (2) (2).png>)
 
-If your space is using only a [ticket](https://snapshot.org/#/strategy/ticket) Voting Strategy you are required to set a Voting Validation to minimize the risk of spam votes on your proposals. \
-Without it, hackers can easily create multiple accounts (each getting 1 Voting Power) and take the voting process over.\
+If your space is using only a [ticket](https://snapshot.org/#/strategy/ticket) Voting strategy you are required to set a Voting validation to minimize the risk of spam votes on your proposals. \
+Without it, hackers can easily create multiple accounts (each getting 1 Voting power) and take the voting process over.\
 \
 Have a read here to learn how to set it up: [#voting-validation-in-space-settings](user-guides/strategies/validation-strategies.md#voting-validation-in-space-settings "mention")
 
