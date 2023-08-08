@@ -284,7 +284,7 @@ You can submit your request by following the process described in the [token-ver
 
 <summary>Are there any solutions available to minimize whales' power in the voting process?</summary>
 
-Absolutely! Have a look at the Quaratic Voting type (bear in mind that it should be parie
+Absolutely! Have a look at the Quadratic voting type (bear in mind that it should be parie
 
 </details>
 
