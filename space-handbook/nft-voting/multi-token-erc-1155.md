@@ -11,7 +11,7 @@ Let's start with a quick overview of the [ERC721](https://eips.ethereum.org/EIPS
 | **ERC-721**  | **Most widely recognized**, golden NFT standard                                 | Inability to conduct **batch** transfers                                       |
 | **ERC-1155** | Supports **different token types in a single contract**, allows batch transfers | Stores **less robust information** in order to save time and transaction costs |
 
-Let's have a look at what Voting Strategies you can use in your space:
+Let's have a look at what Voting strategies you can use in your space:
 
 ### [erc1155-balance-of](https://snapshot.org/#/strategy/erc1155-balance-of)
 
@@ -61,7 +61,7 @@ You can test it out in the **Playground on Snapshot:**
 
 ### [erc1155-balance-of-ids](https://snapshot.org/#/strategy/erc1155-balance-of-ids)
 
-Use this strategy if you want to calculate the Voting Power taking into account **multiple tokenIDs.**
+Use this strategy if you want to calculate the Voting power taking into account **multiple tokenIDs.**
 
 {% hint style="danger" %}
 Try using this strategy with only a few tokenIDs passed in the parameter for the Score API server is likely to have difficulty handling a large number of requests.
@@ -86,9 +86,9 @@ You can test it out in the **Playground on Snapshot:**
 
 ### [erc1155-with-multiplier](https://snapshot.org/#/strategy/erc1155-with-multiplier)
 
-The equivalent of the [#erc721-with-multiplier](most-common-erc-721.md#erc721-with-multiplier "mention")Voting Strategy.
+The equivalent of the [#erc721-with-multiplier](most-common-erc-721.md#erc721-with-multiplier "mention")Voting strategy.
 
-By adjusting the `multiplier` to 5, if a user owns 1 DAWN in his wallet, they will get **5 Voting Power** (1\*5).
+By adjusting the `multiplier` to 5, if a user owns 1 DAWN in his wallet, they will get **5 Voting power** (1\*5).
 
 **Strategy setup:**
 

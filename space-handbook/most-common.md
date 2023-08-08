@@ -14,7 +14,7 @@ The minimum setup required to run your governance on Snapshot consists of:
 * choosing a Validation strategy for proposal creation
 
 {% hint style="info" %}
-To recap what Voting and Validation Strategies are:
+To recap what Voting and Validation strategies are:
 
 :zap: [**Validation strategies**](../user-guides/strategies/validation-strategies.md) are a way to define who is allowed to vote on a proposal or create a new one.&#x20;
 
@@ -65,7 +65,7 @@ You can test it out in the **Playground on Snapshot**:
 This strategy is designed for NFT holdings and is similar to [erc20-balance-of](most-common.md#erc20-balance-of).
 {% endhint %}
 
-This strategy returns the balance for a specific ERC721 NFT as the user's Voting Power.
+This strategy returns the balance for a specific ERC721 NFT as the user's Voting power.
 
 **Strategy setup:**
 
@@ -85,7 +85,7 @@ This allows you to poll your community without referencing the number of ETH the
 If you want to use this approach for another token, have a look at the [**erc20-with-balance**](https://snapshot.org/#/strategy/erc20-with-balance) strategy.
 {% endhint %}
 
-You can also use this strategy to set a voting threshold by adding an optional parameter `minBalance` and defining the minimum required balance which will give the user the **eligibility to vote** and **1 Voting Power**. The parameter value is set to 0 by default.&#x20;
+You can also use this strategy to set a voting threshold by adding an optional parameter `minBalance` and defining the minimum required balance which will give the user the **eligibility to vote** and **1 Voting power**. The parameter value is set to 0 by default.&#x20;
 
 {% hint style="info" %}
 Using a low minimum balance, this strategy can be used as a proxy for "active Ethereum address", based on the assumption that active addresses will always have some ETH to pay the fees.
@@ -108,7 +108,7 @@ You can test it out in the **Playground on Snapshot**:
 
 #### [whitelist](https://snapshot.org/#/strategy/whitelist)
 
-Another very popular strategy that gives you control over who can cast the votes. All you need to do is to provide the addresses which should be eligible to vote, and each will have 1 Voting Power.
+Another very popular strategy that gives you control over who can cast the votes. All you need to do is to provide the addresses which should be eligible to vote, and each will have 1 Voting power.
 
 {% hint style="info" %}
 The wallet address can also be its corresponding **ENS domain.**
@@ -145,30 +145,30 @@ You can test it out in the **Playground on Snapshot**:
 :zap: [**Validation strategies**](../user-guides/strategies/validation-strategies.md) are a way to define who is allowed to vote on a proposal or create a new one.&#x20;
 
 {% hint style="info" %}
-All spaces are now **required to use Proposal Validation** in order to minimise the risk of malicious proposals. You can read more about this requirement [here](../user-guides/spaces/settings.md#proposal-validation).
+All spaces are now **required to use Proposal validation** in order to minimise the risk of malicious proposals. You can read more about this requirement [here](../user-guides/spaces/settings.md#proposal-validation).
 {% endhint %}
 
-You can also configure a Validation strategy for voting. The combination of Voting Strategies and Voting validation allows you to achieve high customization of your governance process. How? Let's go through a couple of possible scenarios:
+You can also configure a Validation strategy for voting. The combination of Voting strategies and Voting validation allows you to achieve high customization of your governance process. How? Let's go through a couple of possible scenarios:
 
-* You are using several Voting strategies for the Voting Power calculation, and at the same time, you want to require each user to have at least 10 VP to be able to cast a vote. You can then use [Basic Validation](../user-guides/strategies/validation-strategies.md#validation-strategy-example-basic) with a minimum score of 10.
-* Only specific users should be able to vote, and their Voting Power should depend on their holdings. You can use [`whitelist`](most-common.md#whitelist) strategy in the custom Basic Validation setup, and any combination of Voting Strategies for the calculation of the individual Voting power.
-* Your space is attacked by bots and you want only genuine humans to cast votes. You can use the [Gitcoin Validation](../user-guides/strategies/validation-strategies.md#validation-strategy-example-gitcoin-passport) for Sybil resistance, and select a combination of Voting Strategies for VP calculation.
+* You are using several Voting strategies for the Voting power calculation, and at the same time, you want to require each user to have at least 10 VP to be able to cast a vote. You can then use [Basic Validation](../user-guides/strategies/validation-strategies.md#validation-strategy-example-basic) with a minimum score of 10.
+* Only specific users should be able to vote, and their Voting power should depend on their holdings. You can use [`whitelist`](most-common.md#whitelist) strategy in the custom Basic Validation setup, and any combination of Voting strategies for the calculation of the individual Voting power.
+* Your space is attacked by bots and you want only genuine humans to cast votes. You can use the [Gitcoin Validation](../user-guides/strategies/validation-strategies.md#validation-strategy-example-gitcoin-passport) for Sybil resistance, and select a combination of Voting strategies for VP calculation.
 
 Let's have a look at the currently available strategies:
 
 ### Basic Validation
 
-The[ Basic Validation Strategy](../user-guides/strategies/validation-strategies.md#validation-strategy-example-basic) allows you to specify multiple **Voting strategies** to determine if a user is eligible to create a proposal.
+The[ Basic Validation strategy](../user-guides/strategies/validation-strategies.md#validation-strategy-example-basic) allows you to specify multiple **Voting strategies** to determine if a user is eligible to create a proposal.
 
-> [Voting Strategy](https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy) is a set of conditions used to calculate user's voting power. Strategies enable Snapshot to calculate the final result of voting on a given proposal.
+> [Voting strategy](https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy) is a set of conditions used to calculate user's voting power. Strategies enable Snapshot to calculate the final result of voting on a given proposal.
 
 When setting the Validation strategy up it’s important to keep in mind that it is **meant to make it difficult for users outside of your community to post scam proposals**.
 
 Therefore make sure to use a **high threshold**, for example, $100 worth of your organization’s token. A good idea would be to check the holdings of previous proposal creators, both legitimate and scammers, to assess a reasonable value.
 
-> In case the threshold you’ve set is too high for some of your community members, don’t forget that you can always add the trusted addresses as Authors, thanks to which they will surpass the Proposal Validation stage.
+> In case the threshold you’ve set is too high for some of your community members, don’t forget that you can always add the trusted addresses as Authors, thanks to which they will surpass the Proposal validation stage.
 
-Below you can see an example of the **Basic Proposal Validation** using Voting Strategies set for the space:
+Below you can see an example of the **Basic Proposal validation** using Voting strategies set for the space:
 
 
 

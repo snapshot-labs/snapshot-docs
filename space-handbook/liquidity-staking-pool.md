@@ -1,18 +1,18 @@
 ---
 description: >-
-  Include tokens added in liquidity pools or staking contracts into Voting Power
+  Include tokens added in liquidity pools or staking contracts into Voting power
   calculation besides those held in users' wallets.
 ---
 
 # Liquidity / staking pool
 
-At the moment, Snapshot already supports calculating the Voting Power of the underlying token in the LP/staking contract from the most popular AMMs[^1] like Uniswap v2 and v3, Balancer, or SushiSwap.
+At the moment, Snapshot already supports calculating the Voting power of the underlying token in the LP/staking contract from the most popular AMMs[^1] like Uniswap v2 and v3, Balancer, or SushiSwap.
 
 This page only goes through popular strategies as projects may have a different method to call deposited balance in their contracts, which is often customized for a specific use case.
 
 By enabling such a strategy in your space, you can allow the proposal to capture more users interested in your governance.&#x20;
 
-Some spaces allow only users holding tokens in liquidity/staking pools to have Voting Power.
+Some spaces allow only users holding tokens in liquidity/staking pools to have Voting power.
 
 ### [uniswap](https://snapshot.org/#/strategy/uniswap)
 
@@ -21,7 +21,7 @@ The strategy fetches the balance of the input token address in all **Uniswap-v2*
 This allows uni-v2 LP token holders to vote based on the underlying token cumulated in each pool.
 
 {% hint style="info" %}
-For instance, users who have 1 DAI in the DAI-USDC pool, and 2 DAI in the DAI-ETH pool, will have **3 Voting Power**.
+For instance, users who have 1 DAI in the DAI-USDC pool, and 2 DAI in the DAI-ETH pool, will have **3 Voting power**.
 {% endhint %}
 
 **Strategy setup:**
@@ -51,7 +51,7 @@ The `staked-uniswap` strategy allows you to get token balance of an LP in a stak
 
 **Strategy setup:**
 
-* `tokenAddress`: the underlying token you want to use to calculate Voting Power
+* `tokenAddress`: the underlying token you want to use to calculate Voting power
 * `uniswapAddress`: the Uniswap LP address where users can deposit their token
 * `stakingAddress`: the staking contract address where users stake their LP token
 

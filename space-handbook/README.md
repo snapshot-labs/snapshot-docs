@@ -5,7 +5,7 @@ description: Find the best solution for your use case!
 # Space handbook
 
 {% hint style="info" %}
-**This handbook uses terms like** [**Voting**](#user-content-fn-1)[^1] **and** [**Validation Strategies**](#user-content-fn-2)[^2]**,** [**Voting types**](#user-content-fn-3)[^3]**.** \
+**This handbook uses terms like** [**Voting**](#user-content-fn-1)[^1] **and** [**Validation strategies**](#user-content-fn-2)[^2]**,** [**Voting types**](#user-content-fn-3)[^3]**.** \
 \
 Make sure to learn about those concepts before diving into this chapter! \
 \
@@ -33,8 +33,8 @@ If none of the above are a good fit for your Space, we encourage you to use the 
 
 Feel free to reach out to us on [Discord](https://discord.com/channels/707079246388133940/1090290400943677440) to suggest use cases that we did not cover!
 
-[^1]: Voting Strategies are used to calculated user's Voting Power. [Read more here](../user-guides/strategies/voting-strategies.md).
+[^1]: Voting strategies are used to calculated user's Voting power. [Read more here](../user-guides/strategies/voting-strategies.md).
 
-[^2]: Validation Strategies are used to define if a user is eligible to vote or create a proposal. [Read more here](../user-guides/strategies/validation-strategies.md).
+[^2]: Validation strategies are used to define if a user is eligible to vote or create a proposal. [Read more here](../user-guides/strategies/validation-strategies.md).
 
-[^3]: Voting Systems relate to how users can cast their votes and how the final results of a proposal is calculated. [Read more here.](../user-guides/proposals/voting-types.md)
+[^3]: Voting types relate to how users can cast their votes and how the final results of a proposal is calculated. [Read more here.](../user-guides/proposals/voting-types.md)

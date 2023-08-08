@@ -7,19 +7,19 @@ description: >-
 
 # Custom calculations
 
-Snapshot provides several Voting Strategies that allow you to use your own API to return user's Voting Power or for example perform mathematical calculations on the results from existing Strategies.
+Snapshot provides several Voting strategies that allow you to use your own API to return user's Voting power or for example perform mathematical calculations on the results from existing Strategies.
 
 {% hint style="info" %}
-You can also create a new custom Voting or Validation Strategy if none of the available solutions meet your needs. \
+You can also create a new custom Voting or Validation strategy if none of the available solutions meet your needs. \
 \
 Have a look at the [create-a-strategy](../developer-guides/create-a-strategy/ "mention") section of this documentation to learn more!
 {% endhint %}
 
 ### [api-v2](https://snapshot.org/#/strategy/api-v2)
 
-This strategy allows off-chain data to be used as Voting Power through calling a custom API endpoint to request the score for a set of addresses.
+This strategy allows off-chain data to be used as Voting power through calling a custom API endpoint to request the score for a set of addresses.
 
-It's useful to use this strategy if your API can return the Voting Power directly. It's network agnostic. &#x20;
+It's useful to use this strategy if your API can return the Voting power directly. It's network agnostic. &#x20;
 
 **Strategy setup:**
 
@@ -75,13 +75,13 @@ You can test it out in the **Playground on Snapshot:**
 You can use the `math` strategy flexibly with various tokens and networks. This example demonstrates how to set a threshold taking into account tokens on different chains.
 {% endhint %}
 
-`Math` strategy is powerful in its composability. It allows you to apply common mathematical operations to the outputs of Voting Strategies.
+`Math` strategy is powerful in its composability. It allows you to apply common mathematical operations to the outputs of Voting strategies.
 
-As an example, you can take a square root of the Voting Power calculated by [erc20-balance-of](https://snapshot.org/#/strategy/erc20-balance-of), or the lower (`min`) value out of two different Voting Strategies. You can see all possibilities on the [strategy page](https://snapshot.org/#/strategy/math).
+As an example, you can take a square root of the Voting power calculated by [erc20-balance-of](https://snapshot.org/#/strategy/erc20-balance-of), or the lower (`min`) value out of two different Voting strategies. You can see all possibilities on the [strategy page](https://snapshot.org/#/strategy/math).
 
 #### How to set it up for a multichain scenario?
 
-If the Voting Power calculated for your space is based on tokens on different chains and you want to set a minimum threshold defining if a user is eligible to vote, you can use the `a-if-lt-b` operand. Don't worry if it sounds cryptic, we will go through it step by step.&#x20;
+If the Voting power calculated for your space is based on tokens on different chains and you want to set a minimum threshold defining if a user is eligible to vote, you can use the `a-if-lt-b` operand. Don't worry if it sounds cryptic, we will go through it step by step.&#x20;
 
 | Operation   | Operand count | Description               |
 | ----------- | ------------- | ------------------------- |
@@ -89,7 +89,7 @@ If the Voting Power calculated for your space is based on tokens on different ch
 
 Let's look at the formula first: `(x, a, b) = x < b ? a : x`, where:&#x20;
 
-* **x** - sum of Voting Power calculated by the two Voting Strategies on chains `137` and `1` (as per the example below)
+* **x** - sum of Voting power calculated by the two Voting strategies on chains `137` and `1` (as per the example below)
 * **a** - first constant, in our case it's **0**
 * **b** - first constant, in our case it's **100**
 
@@ -140,10 +140,10 @@ Let's look at the formula first: `(x, a, b) = x < b ? a : x`, where:&#x20;
 
 The algorithm will check if **x** is smaller than **b**, the second constant:
 
-* if it's below **b**, the final Voting Power will be set to **a,** first constant -> **0**
-* if it's equal to and higher than **b**, the final Voting Power will be set to **x**, the sum of result from the Voting Strategies
+* if it's below **b**, the final Voting power will be set to **a,** first constant -> **0**
+* if it's equal to and higher than **b**, the final Voting power will be set to **x**, the sum of result from the Voting strategies
 
-**As you can see we can easily define what is the minimum Voting Power (our example: 100) coming from different chains that is required for the user to vote!**&#x20;
+**As you can see we can easily define what is the minimum Voting power (our example: 100) coming from different chains that is required for the user to vote!**&#x20;
 
 You can test it out in the **Playground on Snapshot**:
 

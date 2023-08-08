@@ -19,8 +19,8 @@ In the crypto world, attacks, hacks, and scams are unfortunately all too common.
 There are multiple ways which can help you minimise the risk of scams, bots and spam behaviors within your space. We will look into:
 
 * [Space roles](sybil-resistance-scam-and-spam-prevention.md#1.-space-roles)
-* [Validation Strategies](sybil-resistance-scam-and-spam-prevention.md#2.-validation-strategies) (use for Proposal Creation and Voting)
-* [Voting Strategies ](sybil-resistance-scam-and-spam-prevention.md#3.-voting-strategies)(use for Voting Validation)
+* [Validation strategies](sybil-resistance-scam-and-spam-prevention.md#2.-validation-strategies) (use for Proposal Creation and Voting)
+* [Voting strategies ](sybil-resistance-scam-and-spam-prevention.md#3.-voting-strategies)(use for Voting validation)
 
 ## 1. Space roles
 
@@ -51,7 +51,7 @@ Voilà! Now you and your Moderators can keep an eye on the notifications and rea
 
 ### Authors
 
-It is also possible to whitelist accounts which will be allowed to create new proposals regardless of the chosen Validation Strategy (more on the strategies in the next section).
+It is also possible to whitelist accounts which will be allowed to create new proposals regardless of the chosen Validation strategy (more on the strategies in the next section).
 
 Once added as **Authors** in the **Members** tab in the space settings they will surpass the validation process and will be able to create new proposals in the space.
 
@@ -63,31 +63,31 @@ If you wish to limit proposal creators to Admins, Moderators and Authors only, y
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-## 2. Validation Strategies
+## 2. Validation strategies
 
-In technical terms a [Validation Strategy](https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy-1) is a JavaScript function that returns a boolean (`true` or `false`) for the connected account to define if someone is eligible to create a new proposal or cast a vote.
+In technical terms a [Validation strategy](https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy-1) is a JavaScript function that returns a boolean (`true` or `false`) for the connected account to define if someone is eligible to create a new proposal or cast a vote.
 
-> **Each space can use one Proposal and one Voting Validation for all of its proposals at a time**.
+> **Each space can use one Proposal and one Voting validation for all of its proposals at a time**.
 
 Validation strategy can check both for monetary and non-financial assets of the user like POAPs, Gitcoin Passport stamps.
 
 {% hint style="info" %}
-All spaces are now **required to use Proposal Validation** in order to minimise the risk of malicious proposals.
+All spaces are now **required to use Proposal validation** in order to minimise the risk of malicious proposals.
 {% endhint %}
 
 ### Basic Validation
 
-The[ Basic Validation Strategy](../user-guides/strategies/validation-strategies.md#validation-strategy-example-basic) allows you to specify multiple **Voting Strategies** to determine if a user is eligible to create a proposal.
+The[ Basic Validation strategy](../user-guides/strategies/validation-strategies.md#validation-strategy-example-basic) allows you to specify multiple **Voting strategies** to determine if a user is eligible to create a proposal.
 
-> [Voting Strategy](https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy) is a set of conditions used to calculate user's voting power. Strategies enable Snapshot to calculate the final result of voting on a given proposal.
+> [Voting strategy](https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy) is a set of conditions used to calculate user's voting power. Strategies enable Snapshot to calculate the final result of voting on a given proposal.
 
-When setting the Validation Strategy up it’s important to keep in mind that it is **meant to make it difficult for users outside of your community to post scam proposals**.
+When setting the Validation strategy up it’s important to keep in mind that it is **meant to make it difficult for users outside of your community to post scam proposals**.
 
 Therefore make sure to use a **high threshold**, for example $100 worth of your organization’s token. A good idea would be to check the holdings of previous proposal creators, both legitimate and scammers, to assess a reasonable value.
 
-> In case the threshold you’ve set is too high for some of your community members, don’t forget that you can always add the trusted addresses as Authors, thanks to which they will surpass the Proposal Validation stage.
+> In case the threshold you’ve set is too high for some of your community members, don’t forget that you can always add the trusted addresses as Authors, thanks to which they will surpass the Proposal validation stage.
 
-Below you can see an example of the **Basic Proposal Validation** using Voting Strategies set for the space:
+Below you can see an example of the **Basic Proposal validation** using Voting strategies set for the space:
 
 <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
@@ -103,15 +103,15 @@ You can select individual or multiple stamps that matter for your space. You can
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
-## 3. Voting Strategies
+## 3. Voting strategies
 
 ### [membership](https://snapshot.org/#/strategy/membership)
 
 Useful when combined with Quadratic Voting, which provides a certain level of Sybil resistance.
 
-The strategy combines any arbitrary Voting Strategy defining a membership with any Voting Strategy calculating the Voting Power of a user. In the idea **one can only vote if he passes the membership strategy**, the membership here can be an identity symbol like possessing a [UID](https://etherscan.io/address/0xba0439088dc1e75F58e0A7C107627942C15cbb41) or a [PUNK](https://etherscan.io/token/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb) (with an `erc721` strategy) or any other custom verification strategy based on on-chain behavior.
+The strategy combines any arbitrary Voting strategy defining a membership with any Voting strategy calculating the Voting power of a user. In the idea **one can only vote if he passes the membership strategy**, the membership here can be an identity symbol like possessing a [UID](https://etherscan.io/address/0xba0439088dc1e75F58e0A7C107627942C15cbb41) or a [PUNK](https://etherscan.io/token/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb) (with an `erc721` strategy) or any other custom verification strategy based on on-chain behavior.
 
-The membership portion is binary. If the membership strategy returns any number > 0 for an address, then user is considered a member and their Voting Power will be the result of the `votingPowerStrategy`.&#x20;
+The membership portion is binary. If the membership strategy returns any number > 0 for an address, then user is considered a member and their Voting power will be the result of the `votingPowerStrategy`.&#x20;
 
 Otherwise voting power for that address will be 0.&#x20;
 

@@ -1,6 +1,6 @@
 ---
 description: >-
-  Which Voting Strategy to choose to enable enable users to vote on behalf of
+  Which Voting strategy to choose to enable enable users to vote on behalf of
   their delegators?
 ---
 
@@ -10,22 +10,22 @@ description: >-
 Delegation enables you to delegate your voting power to another wallet. Unlike other actions in Snapshot, the delegation itself is an **on-chain behavior**, requiring some gas fees to execute a delegation transaction.\
 \
 Within this page we will be using two terms:\
-\- _delegator_ - user who delegated their Voting Power to another address\
-\- _delegate_ - the user who was delegated the Voting Power and can vote on behalf of others
+\- _delegator_ - user who delegated their Voting power to another address\
+\- _delegate_ - the user who was delegated the Voting power and can vote on behalf of others
 {% endhint %}
 
-## How can users delegate their Voting Power?
+## How can users delegate their Voting power?
 
-Before we jump straight into the Voting Strategies setup, let's first understand how users can delegate their Voting Power to others through Snapshot.
+Before we jump straight into the Voting strategies setup, let's first understand how users can delegate their Voting power to others through Snapshot.
 
 \<UPDATE FOR NEW DELEGATION UI>
 
-## Voting Strategies
+## Voting strategies
 
-In order to take the delegated Voting Power into account, your space **has to use one of the delegation** Voting Strategies.&#x20;
+In order to take the delegated Voting power into account, your space **has to use one of the delegation** Voting strategies.&#x20;
 
 {% hint style="warning" %}
-If the delegation-based Voting Strategies are not set for your space, even if users have delegated their VP or are delegates themselves, their Voting Power will be calculated only on the basis of their own assets.\
+If the delegation-based Voting strategies are not set for your space, even if users have delegated their VP or are delegates themselves, their Voting power will be calculated only on the basis of their own assets.\
 \
 **This means  👉  Delegation will not work.**
 {% endhint %}
@@ -34,13 +34,13 @@ If the delegation-based Voting Strategies are not set for your space, even if us
 In Snapshot, based on whether the delegated power can be taken back by the delegators when they vote, there are **two main** delegation strategies:
 
 * `with-delegation` -  the delegator cannot vote, only the delegate can participate in voting
-* `delegation` - allows the delegator to vote despite having delegated their Voting Power
+* `delegation` - allows the delegator to vote despite having delegated their Voting power
 
 Let's have a look at both in detail:
 
 ### [with-delegation](https://snapshot.org/#/strategy/with-delegation)
 
-This strategy is a combination of **delegation** + **own Voting Power** (if not delegated to anyone), moreover, it **prevents the delegators from taking back their delegated VP**.&#x20;
+This strategy is a combination of **delegation** + **own Voting power** (if not delegated to anyone), moreover, it **prevents the delegators from taking back their delegated VP**.&#x20;
 
 By using this strategy, one can no longer vote if he delegated to another one, and the delegatee's voting power will be his own VP + delegated VP.
 
@@ -55,7 +55,7 @@ The sub-strategies are used to define the source of own VP and delegation.
 **Strategy setup**
 
 {% hint style="info" %}
-Note that you can pass the **`delegationNetwork`**as the optional parameter so that the strategy can **read delegation from one network** and **Voting Power from other networks**.
+Note that you can pass the **`delegationNetwork`**as the optional parameter so that the strategy can **read delegation from one network** and **Voting power from other networks**.
 
 This is useful when the space has multiple strategies across chains and wants to enable delegation for all the relevant tokens.&#x20;
 
@@ -85,10 +85,10 @@ You can test it out in the **Playground on Snapshot**:
 
 ### [delegation](https://snapshot.org/#/strategy/delegation)
 
-This strategy returns the **delegated Voting Power only.**&#x20;
+This strategy returns the **delegated Voting power only.**&#x20;
 
 {% hint style="info" %}
-In order to count delegate's full Voting Power including their own holdings and the delegation, you need to set up regular strategies for the space, like for example `erc20-balance-of` or `balance-of-woth-thresholds`.
+In order to count delegate's full Voting power including their own holdings and the delegation, you need to set up regular strategies for the space, like for example `erc20-balance-of` or `balance-of-woth-thresholds`.
 {% endhint %}
 
 Now, what's the deal with both delegate and delegator casting a vote?
@@ -97,7 +97,7 @@ Now, what's the deal with both delegate and delegator casting a vote?
 
 **The vote of B will be counted if A does not vote.**
 
-It can include a list of sub-strategies (`erc20-...`, `erc1155-...`, `whitelist`, etc) to calculate the user's Voting Power based on the delegation.
+It can include a list of sub-strategies (`erc20-...`, `erc1155-...`, `whitelist`, etc) to calculate the user's Voting power based on the delegation.
 
 **Strategy setup**
 
@@ -130,4 +130,4 @@ You can test it out in the **Playground on Snapshot**:
 
 {% embed url="https://snapshot.org/#/playground/delegation?query=eyJwYXJhbXMiOnsic3ltYm9sIjoiUE9IIChkZWxlZ2F0ZWQpIiwic3RyYXRlZ2llcyI6W3sibmFtZSI6ImVyYzIwLWJhbGFuY2Utb2YiLCJwYXJhbXMiOnsiYWRkcmVzcyI6IjB4MWRBRDg2MjA5NWQ0MGQ0M2MyMTA5MzcwMTIxY2YwODc2MzI4NzRkQiIsImRlY2ltYWxzIjowfX1dfSwibmV0d29yayI6IjEiLCJzbmFwc2hvdCI6IiIsImFkZHJlc3NlcyI6WyIweDNjMTNmMkI1NkFGNjE0YUM2MzgxMjY1RWNCM0I2MTliQTI2Q0M2NDEiLCIweDA0OGZlZTdjMzI3OWEyNGFmMDc5MGI2YjAwMmRlZDQyYmUwMjFkMmIiLCIweDEzOWE5MDMyYTQ2YzNhZmUzNDU2ZWI1ZjBhMzUxODNiNWYxODljYWUiXX0." %}
 
-[^1]: By _delegators_ we mean users who have delegated their Voting Power to other address, the _delegate._
+[^1]: By _delegators_ we mean users who have delegated their Voting power to other address, the _delegate._

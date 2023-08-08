@@ -118,7 +118,7 @@ As a last step, we match these percentages with the total voting power of 14 tok
 * B: 64% of 15 = 9.6 tokens
 
 {% hint style="info" %}
-All in all, you don't have to understand each step of the calculation. Yet, it should give you an idea of how Alice with 9 tokens was not able to push through his choice despite having the majority of Voting Power in the group as our QV model emphasizes the **number of individual contributors** rather than the amount contributed.
+All in all, you don't have to understand each step of the calculation. Yet, it should give you an idea of how Alice with 9 tokens was not able to push through his choice despite having the majority of Voting power in the group as our QV model emphasizes the **number of individual contributors** rather than the amount contributed.
 {% endhint %}
 
 {% hint style="danger" %}
