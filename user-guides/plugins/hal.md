@@ -36,7 +36,7 @@ Create a new proposal for your space. You don't need to set anything up for the 
 
 Users can now head to the proposal's page and click **Be notified** to receive notifications about the proposal.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As a next step users will be redirected to HAL's webpage in order to set up their custom notification rules:
 

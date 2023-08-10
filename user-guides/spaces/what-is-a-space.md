@@ -24,7 +24,7 @@ Flagged (potentially dangerous) proposals are hidden by default.&#x20;
 If you'd like to display them, you need to apply the **Show flagged proposals** filter. This is not recommended due to potentially malicious content.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Joining a space
 

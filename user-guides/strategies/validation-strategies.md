@@ -17,7 +17,7 @@ Spaces using only a [ticket strategy](https://snapshot.org/#/strategy/ticket) ar
 Learn here how to set it up: [#voting-validation-in-space-settings](validation-strategies.md#voting-validation-in-space-settings "mention")\
 \
 If you see this error it means your space has to set up the Validation:\
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 {% endhint %}
 
 ## What is a validation strategy?
