@@ -10,7 +10,7 @@ Space verification is a process of checking if the space is real and can be trus
 
 Verified spaces have a special badge next to their name, as presented on the screenshot below.
 
-![](<../../.gitbook/assets/image (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 Don't worry if you voted on a proposal of a fake space - signing a message doesn't cause any implications for you.
