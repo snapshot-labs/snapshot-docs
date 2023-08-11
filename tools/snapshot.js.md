@@ -175,7 +175,7 @@ const web3 = new Web3Provider(window.ethereum);
 const [account] = await web3.listAccounts();
 
 const receipt = await client.follow(web3, account, {
-  "name":"pistachiodao.eth"
+  "space":"pistachiodao.eth"
 });
 ```
 
