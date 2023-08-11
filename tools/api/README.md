@@ -1,10 +1,10 @@
 ---
 description: >-
-  You can use the GraphQL API to create flexible queries for the data you need
-  to integrate with Snapshot.
+  You can use the Hub GraphQL API to create flexible queries for the data you
+  need to integrate with Snapshot.
 ---
 
-# GraphQL API
+# API
 
 {% hint style="info" %}
 On **September 12th** we will change the **limits for the API usage** for users without the API Keys. \
@@ -12,7 +12,7 @@ On **September 12th** we will change the **limits for the API usage** for users 
 To ensure you don't lose continuous access to the service please apply for an API Key by following this guide: [api-keys.md](api-keys.md "mention")
 {% endhint %}
 
-## Explorer
+## Hub GraphQL API - Explorer
 
 You can run queries on Snapshot data using a GraphQL Explorer.&#x20;
 

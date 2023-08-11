@@ -181,6 +181,13 @@ const receipt = await client.follow(web3, account, {
 
 ### **Utils**
 
+{% hint style="info" %}
+The below methods are sending a request to Score API. Same as [Hub API](api/) it requires an API Key for **higher usage limits**. You can see we require it for the **`apiKey`** variable.\
+\
+If you already have an API Key for Hub API, you can reuse it for Score. \
+In case you don't have an API Key, follow the instructions here: [api-keys.md](api/api-keys.md "mention")
+{% endhint %}
+
 #### **getScores**
 
 Calculate voting power for a list of voters.
@@ -206,13 +213,16 @@ const voters = [
   '0x1E1A51E25f2816335cA436D65e9Af7694BE232ad'
 ];
 const blockNumber = 11437846;
+const apiKey = 'your_api_key_here' // get an API Key for higher limits
+const url = `https://score.snapshot.org/?apiKey=${apiKey}`
 
 snapshot.utils.getScores(
   space,
   strategies,
   network,
   voters,
-  blockNumber
+  blockNumber,
+  url
 ).then(scores => {
   console.log('Scores', scores);
 });
@@ -240,8 +250,10 @@ const strategies = [
 const snapshot = 11437846;
 const space = 'yam.eth';
 const delegation = false;
+const apiKey = 'your_api_key_here' // get an API Key for higher limits
+const url = `https://score.snapshot.org/?apiKey=${apiKey}`
 
-snapshot.utils.getVp(address, network, strategies, snapshot, space, delegation).then(vp => {
+snapshot.utils.getVp(address, network, strategies, snapshot, space, delegation, url).then(vp => {
   console.log('Voting Power', vp);
 });
 js
@@ -263,8 +275,10 @@ const validationParams = {
   minScore: 100
 };
 const options = {};
+const apiKey = 'your_api_key_here' // get an API Key for higher limits
+const url = `https://score.snapshot.org/?apiKey=${apiKey}`
 
-snapshot.utils.validate(validationStrategyName, author, spaceId, networkId, snapshot, validationParams, options).then(result => {
+snapshot.utils.validate(validationStrategyName, author, spaceId, networkId, snapshot, validationParams, options, url).then(result => {
   console.log('Validation Result', result);
 });
 

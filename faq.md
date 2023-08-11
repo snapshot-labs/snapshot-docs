@@ -569,15 +569,15 @@ Have a look at our documentation: [webhooks.md](tools/webhooks.md "mention")
 
 Yes you can, however we encourage everyone to apply for a key to ensure a continuous access to the service as the limits for the keyless access are much lower than with an API Key.
 
-Learn more here: [api-keys.md](tools/graphql-api/api-keys.md "mention")
+Learn more here: [api-keys.md](tools/api/api-keys.md "mention")
 
 </details>
 
 <details>
 
-<summary>Where can I generate an API Key for Hub GraphQL?</summary>
+<summary>Where can I generate an API Key for Hub GraphQL or Score API?</summary>
 
-Head to [api-keys.md](tools/graphql-api/api-keys.md "mention") to apply for a key and generate it for your own usage.
+Head to [api-keys.md](tools/api/api-keys.md "mention") to apply for a key and generate it for your own usage.
 
 </details>
 
@@ -585,11 +585,11 @@ Head to [api-keys.md](tools/graphql-api/api-keys.md "mention") to apply for a ke
 
 <summary>I'm trying to generate an API Key but I get an error that my address in not whitelisted. What should I do?</summary>
 
-If you have filled in the [API Request Key Form](tools/graphql-api/api-keys.md#api-key-request-form) please have some patience and wait for our direct response to the contact you provided in it.
+If you have filled in the [API Request Key Form](tools/api/api-keys.md#api-key-request-form) please have some patience and wait for our direct response to the contact you provided in it.
 
 If you haven't filled in the form yet then please do so and we will reach out to you shortly.
 
-You can find more details about the process here: [api-keys.md](tools/graphql-api/api-keys.md "mention")
+You can find more details about the process here: [api-keys.md](tools/api/api-keys.md "mention")
 
 </details>
 
@@ -606,7 +606,17 @@ After September 12th the limits will be updated:
 **🔑 With the API Key:** 2 million requests per month.\
 
 
-Learn how to apply and generate your API Key here: [api-keys.md](tools/graphql-api/api-keys.md "mention")
+Learn how to apply and generate your API Key here: [api-keys.md](tools/api/api-keys.md "mention")
+
+</details>
+
+<details>
+
+<summary>Are there any limits for using snapshot.js or Score API?</summary>
+
+Yes, same as for Hub API. When it comes to snapshot.js, refer to [#utils](tools/snapshot.js.md#utils "mention")in Snapshot.js documentation.\
+\
+Make sure to generate your API Key to get higher usage limits. One key can be used for all API services and limits are counted individually per service.
 
 </details>
 

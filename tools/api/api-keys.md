@@ -6,9 +6,15 @@ description: In order to obtain higher limits on the Hub API use, apply for an A
 
 We want to make sure that we limit the risk of the API downtime and provide a reliable and continuous service and therefore we decided to implement API Keys to make sure that the requests are coming from genuine users.
 
+{% hint style="info" %}
+You can use **the same API key** for different Snapshot APIs.\
+\
+Limits are **counted individually** per each API Service.
+{% endhint %}
+
 ## Limits
 
-Currently we are in a transition period. During the next two months until July 30th the limits for keyless access to the API will not change:
+Currently, we are in a transition period. During the next two months until July 30th, the limits for keyless access to the API will not change:
 
 **🔓 No API Key:** 60 requests per 20 seconds.
 
