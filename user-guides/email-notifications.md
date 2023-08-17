@@ -4,7 +4,7 @@ description: >-
   you follow.
 ---
 
-# Email notification
+# Email notifications
 
 Snapshot allows you to subscribe to an e-mail notification system which helps you to stay up to date with spaces you follow.&#x20;
 
@@ -22,9 +22,9 @@ Connect your wallet to Snapshot by clicking the **Connect wallet** button in the
 
 ### 2. Open profile menu
 
-Click on your account displayed in the top bar and select ✉️ **Email subscriptions:**
+Click on your account displayed in the top bar and select ✉️ **Email notifications:**
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Subscribe with your e-mail address
 
@@ -52,11 +52,11 @@ You can unsubscribe from the notifications at any moment.
 
 ## Manage subscriptions
 
-You can easily opt in and out of the available notifications.
+You can easily opt-in and out of the available notifications.
 
-Click on your profile name in the top bar and select **Email subscriptions.**
+Click on your profile name in the top bar and select **Email notifications:**
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 A new pop-up window will open where you can toggle the different options:
 

@@ -54,7 +54,7 @@
 * [Token verification](user-guides/token-verification.md)
 * [Using Safe multi-sig](user-guides/using-safe-multi-sig.md)
 * [Delegation](user-guides/delegation.md)
-* [Email notification](user-guides/email-notification.md)
+* [Email notifications](user-guides/email-notifications.md)
 
 ## Developer Guides
 
