@@ -67,9 +67,9 @@ It means that if the user acquires required tokens **after** the proposal has be
 
 | Space status | Daily proposal limit | Monthly proposal limit |
 | ------------ | -------------------- | ---------------------- |
-| Verified     | 30                   | 300                    |
-| Unverified   | 10                   | 100                    |
-| Flagged      | 5                    | 50                     |
+| Verified     | 20                   | 200                    |
+| Unverified   | 5                    | 50                     |
+| Flagged      | 1                    | 10                     |
 
 {% hint style="info" %}
 Learn more about Space verification and flagging in [badges-and-warnings.md](../spaces/badges-and-warnings.md "mention").
