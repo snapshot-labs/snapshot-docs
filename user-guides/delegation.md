@@ -36,7 +36,7 @@ Let's look at each option in detail.
 
 ### Delegates registry
 
-It is possible to discover the delegate registry of Spaces that provided their custom delegation contract in settings.&#x20;
+It is possible to discover the Delegate registry of Spaces that provided their custom delegation contract in settings.&#x20;
 
 Head to the Space page and click **Delegates** in the left sidebar**:**
 
@@ -48,7 +48,7 @@ You will then see a list of delegates for the Space with the number of their del
 
 You can delegate your Voting Power to one of the delegates directly by clicking the **`Delegate`** button:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-06-30 at 13.27.40.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 
 
