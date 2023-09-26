@@ -34,8 +34,6 @@ Don't forget to save your settings! Go to the top of the page and click **Save.*
 
 Now when you create a new proposal, the POAP plugin will be automatically added. There is no need to manually add it to each new proposal.
 
-![](https://poap.intercom-attachments-1.com/i/o/443038298/11c9a8aef60edefa98dca0d8/1-2vZVDaDkHXrg5LsF0di7IQ.png)
-
 Once the proposal has been created, you can get your **Snapshot proposal ID** from the URL of the proposal. Copy all characters following the `proposal/` in the address box in the browser and save them somewhere - you will need it to link the proposal to your POAP drop.
 
 &#x20;
