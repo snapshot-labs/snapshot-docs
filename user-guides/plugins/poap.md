@@ -50,7 +50,7 @@ Take note of your **Drop ID,** as you will need this for the next steps.
 
 ### 5. Link your proposal to your POAP drop
 
-Reach out to the POAP team by filling out the required fields in the [**POAP Snapshot Proposal Request form**](https://forms.gle/t7Cwd7TjqmNanhwb6). **Do not post your request anywhere else.**&#x20;
+Reach out to the POAP team by filling out the required fields in the [**POAP Snapshot Proposal Request form**](https://poap.typeform.com/to/T9GbvOZD). **Do not post your request anywhere else.**&#x20;
 
 {% hint style="info" %}
 Your petition will be reviewed by the POAP Curation Body after the vote is finished. If the petition is approved, every voter will be able to mint their special POAP.
