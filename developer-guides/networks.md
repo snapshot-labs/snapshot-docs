@@ -24,6 +24,7 @@ If you can't see the network you are looking for on the list or you want to add 
 * RPC node must be an **archive node**
 * RPC node's url must use **`https`**&#x20;
 * Multicall contract must be **verified and published**&#x20;
+* The node should accept **minimum payload and have higher gas caps** (at least **500** addresses into a multicall)
 * Logo has to be stored on **IPFS**
 
 {% embed url="https://tally.so/r/31ApGb" %}
