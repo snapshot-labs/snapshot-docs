@@ -197,6 +197,14 @@ Yes. You can find more details in our documentation here: [using-safe-multi-sig.
 
 <details>
 
+<summary>I'm having issues when voting with Safe. What's wrong?</summary>
+
+Make sure that your wallet is on the same network as the Space. Go to Space page > Settings > Strategies to check what is the Space's network.
+
+</details>
+
+<details>
+
 <summary>There is a proposal that's open until tomorrow and I have a new token that was minted today, after the proposal’s creation. Can that token be used to vote?</summary>
 
 No. Snapshot calculates the voting power on the basis of proposal creation time. If the token has not been stored in the wallet before the proposal was created it will not be taken into account.
@@ -472,7 +480,7 @@ It's a two step process - you have to define a [validation strategy](user-guides
 **1. Voting validation** \
 In order to allow users to participate in voting, setup a `Basic` voting validation in the space settings. You can find it in the voting section in space settings:\
 \
-![](<.gitbook/assets/image (1) (1) (1).png>)\
+![](<.gitbook/assets/image (1) (1) (1) (1).png>)\
 \
 When defining the voting validation parameters, you have the option to specify the `strategies` for the tokens and the `minScore` required for voters to be eligible to vote:
 

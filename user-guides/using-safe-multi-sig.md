@@ -6,6 +6,10 @@ description: Learn how you can use Snapshot with a Gnosis Safe Multi-sig wallet.
 
 You can use a Gnosis Safe to vote, create a proposal or setup a space on Snapshot.&#x20;
 
+{% hint style="warning" %}
+Your Safe has to be on the same network as the Space is. Head to Space settings, **Strategies** tab to check the Space's network.
+{% endhint %}
+
 ### Gnosis Safe interface
 
 {% hint style="info" %}
