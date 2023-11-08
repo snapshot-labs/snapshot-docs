@@ -10,7 +10,9 @@ description: >-
 
 **`Snapshot.js`** is an open source JavaScript client which comes with the core functions of the Snapshot's off-chain voting system. It was designed to work both in the browser and with `Node.js`.
 
-{% @github-files/github-code-block %}
+:point\_right: [**Snapshot.js Repository**](https://github.com/snapshot-labs/snapshot.js)
+
+
 
 ## Get started
 
