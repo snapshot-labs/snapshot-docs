@@ -10,7 +10,7 @@ description: >-
 
 **`Snapshot.js`** is an open source JavaScript client which comes with the core functions of the Snapshot's off-chain voting system. It was designed to work both in the browser and with `Node.js`.
 
-{% embed url="https://github.com/snapshot-labs/snapshot.js" %}
+{% @github-files/github-code-block %}
 
 ## Get started
 
@@ -212,7 +212,7 @@ const voters = [
   '0xeF8305E140ac520225DAf050e2f71d5fBcC543e7',
   '0x1E1A51E25f2816335cA436D65e9Af7694BE232ad'
 ];
-const blockNumber = 11437846;
+const snapshot = 11437846;
 const apiKey = 'your_api_key_here' // get an API Key for higher limits
 const url = `https://score.snapshot.org/?apiKey=${apiKey}`
 
@@ -221,7 +221,7 @@ snapshot.utils.getScores(
   strategies,
   network,
   voters,
-  blockNumber,
+  snapshot,
   url
 ).then(scores => {
   console.log('Scores', scores);
@@ -251,9 +251,9 @@ const snapshot = 11437846;
 const space = 'yam.eth';
 const delegation = false;
 const apiKey = 'your_api_key_here' // get an API Key for higher limits
-const url = `https://score.snapshot.org/?apiKey=${apiKey}`
+const options = { url: `https://score.snapshot.org/?apiKey=${apiKey}` }
 
-snapshot.utils.getVp(address, network, strategies, snapshot, space, delegation, url).then(vp => {
+snapshot.utils.getVp(address, network, strategies, snapshot, space, delegation, options).then(vp => {
   console.log('Voting Power', vp);
 });
 js

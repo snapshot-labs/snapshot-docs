@@ -10,7 +10,7 @@ If you can't find a strategy that fits your the needs of your space you can crea
 
 Create a fork of the snapshot-strategies repository:
 
-{% embed url="https://github.com/snapshot-labs/snapshot-strategies" %}
+{% @github-files/github-code-block %}
 
 ### **2. Duplicate the `erc20-balance-of` strategy folder**&#x20;
 
@@ -108,9 +108,19 @@ Describe the structure of your strategy by editing the `properties`, `required` 
 }
 ```
 
+#### d.  `./snapshot-strategies/src/strategies/index.ts`
+
+Import and declare you new strategy in the [`index.ts`](https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/strategies/index.ts) file:
+
+```typescript
+import * as youStrategyName from './your-strategy-name';
+```
 
 
-#### c.  `examples.json`
+
+
+
+#### d.  `examples.json`
 
 Provide an example for the custom strategy setup which will be displayed on https://snapshot.org on the strategy's details page.&#x20;
 
@@ -155,7 +165,7 @@ Make sure to **include all the parameters you defined** above and a list of addr
 
 ```
 
-#### d. `README.md`
+#### e. `README.md`
 
 Write the description of how the strategy works and provide an example of the setup. It will be displayed on the strategy's details page.
 

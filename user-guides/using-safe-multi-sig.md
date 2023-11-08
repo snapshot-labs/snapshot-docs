@@ -37,7 +37,7 @@ If you'd like to enable asynchronous signing for all Safe's signers and not have
 1. Go to Safe Settings -> Safe Apps.
 2. Enable `Always user on-chain signatures`
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
 That's all :tada: Signers can now sign even if you you close the confirmation modal.
 

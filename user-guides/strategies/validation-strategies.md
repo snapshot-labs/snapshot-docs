@@ -8,7 +8,7 @@ Learn how to set it up on this page or read [**our article**](https://snapshot.m
 If you see this error it means your space doesn't have any Proposal Validation:
 
 \
-<img src="../../.gitbook/assets/image (5) (2).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (63).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="info" %}
@@ -17,7 +17,7 @@ Spaces using only a [ticket strategy](https://snapshot.org/#/strategy/ticket) ar
 Learn here how to set it up: [#voting-validation-in-space-settings](validation-strategies.md#voting-validation-in-space-settings "mention")\
 \
 If you see this error it means your space has to set up the Validation:\
-![](<../../.gitbook/assets/image (7) (1).png>)
+![](<../../.gitbook/assets/image (35).png>)
 {% endhint %}
 
 ## What is a validation strategy?
@@ -51,7 +51,7 @@ Head to **Voting** tab in the sidebar to update the configuration:&#x20;
 
 If you want to allow addresses with any voting power to vote you can use the default voting validation.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you are using only a [ticket](https://snapshot.org/#/strategy/ticket) Voting Strategy for your space you are required to use a [Gitcoin Passport Validation](validation-strategies.md#validation-strategy-example-gitcoin-passport) for Voting to protect your space from spam votes.
@@ -81,7 +81,7 @@ Validation strategy built together with **Gitcoin Passport.** You can select ind
 
 
 
-<figure><img src="../../.gitbook/assets/image (17) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 
 

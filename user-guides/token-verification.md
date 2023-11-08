@@ -12,11 +12,11 @@ Snapshot is using the [Uniswap](https://tokenlists.org/token-list?url=https://to
 
 By default tokens that are on the list are marked as verified with a green badge:
 
-<figure><img src="../.gitbook/assets/image (1) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 To see unverified tokens you can select the filter option:
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
 ## Adding a verified token to Snapshot's list
 

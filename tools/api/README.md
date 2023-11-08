@@ -20,7 +20,7 @@ We have exposed an integrated development environment in the browser that includ
 
 {% embed url="https://hub.snapshot.org/graphql" %}
 
-![](<../../.gitbook/assets/image (3) (3) (1).png>)
+![](<../../.gitbook/assets/image (53).png>)
 
 ## Endpoints
 
@@ -672,6 +672,55 @@ query {
 {% endtabs %}
 
 Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20users\(first%3A%2010%2C%20where%3A%20%7B%20id\_in%3A%20%5B%220xF78108c9BBaF466dd96BE41be728Fe3220b37119%22%5D%20%7D\)%20%7B%0A%20%20%20%20id%0A%20%20%20%20name%0A%20%20%20%20about%0A%20%20%20%20avatar%0A%20%20%7D%0A%7D%0A)
+
+### Get roles
+
+#### Arguments
+
+first `number`\
+skip `number`\
+where:\
+&#x20;   \- address:`string`\
+orderBy `string`\
+orderDirection `asc` or `desc`
+
+{% tabs %}
+{% tab title="Request" %}
+```graphql
+query {
+  roles(where:{address:"0xE029Ef62e47E394BC852EFf633eB5aa4A223ECa6"}) {
+    space
+    permissions
+  }
+}
+```
+{% endtab %}
+
+{% tab title="Response" %}
+```graphql
+{
+  "data": {
+    "roles": [
+      {
+        "space": "fabien.eth",
+        "permissions": [
+          "moderator"
+        ]
+      },
+      {
+        "space": "zuzazuber.eth",
+        "permissions": [
+          "moderator"
+        ]
+      }
+    ]
+  }
+}
+```
+{% endtab %}
+{% endtabs %}
+
+Try on GraphiQL
 
 ### Aliases
 

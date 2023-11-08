@@ -45,7 +45,7 @@ To do so, invite the bot with [this link](https://discord.com/oauth2/authorize?c
 
 Then type `/` to see the commands (require administrator role):
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 Voilà! Now you and your Moderators can keep an eye on the notifications and react much quicker when a scam proposal has hit your space.
 
@@ -55,13 +55,13 @@ It is also possible to whitelist accounts which will be allowed to create new pr
 
 Once added as **Authors** in the **Members** tab in the space settings they will surpass the validation process and will be able to create new proposals in the space.
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 #### Authors only mode
 
 If you wish to limit proposal creators to Admins, Moderators and Authors only, you can do so by enabling the **Authors only** setting in the **Proposal** tab in the space settings. Make sure to give the Author role to the users you trust!
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## 2. Validation Strategies
 
@@ -89,11 +89,11 @@ Therefore make sure to use a **high threshold**, for example $100 worth of your 
 
 Below you can see an example of the **Basic Proposal Validation** using Voting Strategies set for the space:
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 If you want to set up a more complex validation, you can use custom strategies as shown on the screenshot below:
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ### Gitcoin Passport Validation
 
@@ -101,7 +101,7 @@ While Basic Validation focuses on the monetary assets, [this validation](../user
 
 You can select individual or multiple stamps that matter for your space. You can also decide if they need to meet all of these criteria or only one. The more criteria you select, the more sybil resistant your space is.
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ## 3. Voting Strategies
 

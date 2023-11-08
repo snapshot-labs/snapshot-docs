@@ -94,7 +94,7 @@ Head to [space-roles.md](space-roles.md "mention") to learn more about each role
 
 You can provide guidelines and a template which will be displayed during the proposal creation:
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
 ### Proposal validation
 
@@ -127,7 +127,7 @@ In short, Shielded Voting is a voting setting in which the voters choices are pr
 
 To enable it head to **Voting** tab and select Shutter within the **Privacy** setting.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
 ## Delegation
 

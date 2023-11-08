@@ -67,7 +67,7 @@ Once the PR is merged you will have to wait for the release of a new version on 
 
 Head to your space settings on Snapshot and fill in the custom domain name field. It must match the one you added in the Pull Request.
 
-![The domain name field in Snapshot settings.](../../.gitbook/assets/capture-de-cran-2020-12-30-a-09.34.49.png)
+![The domain name field in Snapshot settings.](<../../.gitbook/assets/Capture d’écran 2020-12-30 à 09.34.49.png>)
 
 ### 5. Configure your DNS&#x20;
 

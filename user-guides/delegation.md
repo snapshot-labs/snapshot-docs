@@ -36,6 +36,14 @@ Let's look at each option in detail.
 
 ### Delegates registry
 
+{% hint style="danger" %}
+This page only applies to custom delegation contracts.\
+\
+To see the Snapshot native delegation, head to:
+
+**https://snapshot.org/#/delegate/space-name.eth**
+{% endhint %}
+
 It is possible to discover the Delegate registry of Spaces that provided their custom delegation contract in settings.&#x20;
 
 Head to the Space page and click **Delegates** in the left sidebar**:**
@@ -48,7 +56,7 @@ You will then see a list of delegates for the Space with the number of their del
 
 You can delegate your Voting Power to one of the delegates directly by clicking the **`Delegate`** button:
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -58,6 +66,20 @@ You can delegate your Voting Power to one of the delegates directly by clicking 
 2. Enter the address you want to delegate to.
 3. To limit the delegation to a specific space, tap the on switch button and enter the space key (example: `balancer.eth`) you want your delegation to take effect on. If no space is selected, the effect will take place for all spaces.
 4. Click confirm to save your delegation.
+
+
+
+{% hint style="warning" %}
+The **direct delegation** to a chosen space has priority over the **all spaces** delegation.\
+\
+What does it mean? \
+\
+:thumbsup: Address A delegates to B for all spaces, and A delegates to C for a chosen space.\
+:arrow\_backward: The chosen space uses overriding delegation strategy.\
+:raised\_back\_of\_hand: B votes first - their VP is taken into account.\
+:hand\_splayed: C votes - their vote has priority (direct single space delegation) and erases B's Voting power (all spaces delegation).\
+:raised\_hand:A votes - B and C's Voting Power decreased to 0.
+{% endhint %}
 
 ### Smart contract interaction
 

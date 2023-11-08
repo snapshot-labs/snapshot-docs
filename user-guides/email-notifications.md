@@ -24,7 +24,7 @@ Connect your wallet to Snapshot by clicking the **Connect wallet** button in the
 
 Click on your account displayed in the top bar and select ✉️ **Email notifications:**
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Subscribe with your e-mail address
 
@@ -56,13 +56,13 @@ You can easily opt-in and out of the available notifications.
 
 Click on your profile name in the top bar and select **Email notifications:**
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
 A new pop-up window will open where you can toggle the different options:
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ## How to unsubscribe?
 

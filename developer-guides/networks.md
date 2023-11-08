@@ -10,9 +10,9 @@ description: >-
 
 Snapshot supports EVM-based networks. You can explore them at [**https://snapshot.org**](https://snapshot.org) by selecting the `Networks` filter:
 
-<figure><img src="../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
-You can also follow this link directly: [**https://snapshot.org/#/?type=networks**](https://snapshot.org/#/?type=networks).
+You can also follow this link directly: [https://snapshot.org/#/?filter=networks](https://snapshot.org/#/?filter=networks).
 
 ## Add a new network
 

@@ -62,7 +62,7 @@ Proposals are key elements of the voting system. It presents a change suggestion
 
 You need to connect to Snapshot with your wallet and fulfil the requirements defined by the voting strategies used by a specific space. For example, you might be required to hold a specific amount of the organization’s token. You can see the voting strategies directly on a proposal’s page in the **Information** section:
 
-![](<.gitbook/assets/image (17) (2).png>)
+![](<.gitbook/assets/image (34).png>)
 
 If you don’t understand why your voting power is `0` or how the strategies work in detail, we recommend reaching out to the organization directly. In most cases you don’t have the voting power because you did not hold the required tokens at the time of proposal creation. Tokens which were acquired after the proposal has been create are not taken into account for the voting power calculation.
 
@@ -128,7 +128,7 @@ Before you report it make sure to browse through this FAQ, our documentation or 
 
 We recommend to wait for around 10 minutes and try again. If the error persist, open the console panel (right click with your mouse and click `Inspect` and open the `Console` tab):
 
-![](<.gitbook/assets/image (23).png>)
+![](<.gitbook/assets/image (36).png>)
 
 Make a screenshot of the panel and post a message on the [helpdesk forum on Discord](https://discord.com/channels/707079246388133940/1019725253519351838) with the following details:
 
@@ -136,6 +136,14 @@ Make a screenshot of the panel and post a message on the [helpdesk forum on Disc
 * What were you attempting to do? (i.e. vote on a proposal, create a proposal)
 * Did you wait for some time before trying again?
 * Paste the screenshot from the console panel.
+
+</details>
+
+<details>
+
+<summary>I can't follow more than 25 spaces, is that intended?</summary>
+
+Yes. Limiting the number of followed spaces to 25 is one of our anti-scam & -spam measures.
 
 </details>
 
@@ -147,7 +155,7 @@ Make a screenshot of the panel and post a message on the [helpdesk forum on Disc
 
 You can remove your delegations by going to[https://demo.snapshot.org/#/delegate](https://demo.snapshot.org/#/delegate) and clicking the ❌ for the delegations you wish to remove.
 
-![](<.gitbook/assets/image (22).png>)
+![](<.gitbook/assets/image (40).png>)
 
 Moreover, if you want to override your delegate’s vote on a proposal using [the delegation strategy](https://snapshot.org/#/strategy/delegation) you can simply cast your own vote and it will override the delegate’s vote. If the delegation happened on-chain, then head to the delegation portal of the project you’re looking for and redelegate there.
 
@@ -161,7 +169,7 @@ Yes, apart from the proposals using shielded voting.
 
 You can add a short explanation when casting a vote:
 
-![](<.gitbook/assets/image (34).png>)
+![](<.gitbook/assets/image (29).png>)
 
 </details>
 
@@ -183,7 +191,7 @@ This issue is related to either space settings or the failure of the external in
 
 Go to the proposals page and click the download icon to get a CSV file. You can open it directly in excel or import it in the Google Sheets.
 
-![](<.gitbook/assets/image (32).png>)
+![](<.gitbook/assets/image (74).png>)
 
 </details>
 
@@ -273,7 +281,7 @@ If a proposal does not reach the required quorum, it is considered as not passed
 
 <summary>Your proposal cannot be submitted due to a missing proposal validation rule. What does it mean?</summary>
 
-![](<.gitbook/assets/image (9).png>)
+![](<.gitbook/assets/image (76).png>)
 
 Due to multiple spam attacks on Snapshot all Spaces are now required to set up a Proposal Validation. \
 Head here to learn how to do it: [#how-to-use-validation-strategies](user-guides/strategies/validation-strategies.md#how-to-use-validation-strategies "mention")
@@ -366,7 +374,7 @@ You cannot invalidate existing votes. However you can delete the proposal.
 
 If you are an admin of the space or proposal’s creator you can delete the current proposal by clicking `Delete` on the proposal’s page:
 
-![](<.gitbook/assets/image (25).png>)
+![](<.gitbook/assets/image (46).png>)
 
 Then change the space settings and make sure to persist the changes.
 
@@ -386,7 +394,7 @@ Yes, you can customize the appearance of your Snapshot space to some extent by s
 
 <summary>Your proposal cannot be submitted due to a missing Voting Validation rule required with the "ticket" strategy. What does it mean?</summary>
 
-![](<.gitbook/assets/image (2) (1).png>)
+![](<.gitbook/assets/image (58).png>)
 
 If your space is using only a [ticket](https://snapshot.org/#/strategy/ticket) Voting Strategy you are required to set a Voting Validation to minimize the risk of spam votes on your proposals. \
 Without it, hackers can easily create multiple accounts (each getting 1 Voting Power) and take the voting process over.\
@@ -480,7 +488,7 @@ It's a two step process - you have to define a [validation strategy](user-guides
 **1. Voting validation** \
 In order to allow users to participate in voting, setup a `Basic` voting validation in the space settings. You can find it in the voting section in space settings:\
 \
-![](<.gitbook/assets/image (1) (1) (1) (1).png>)\
+![](<.gitbook/assets/image (65).png>)\
 \
 When defining the voting validation parameters, you have the option to specify the `strategies` for the tokens and the `minScore` required for voters to be eligible to vote:
 
@@ -504,7 +512,7 @@ Here is an example of the basic strategy setup for voters holding DAI tokens:
 **2. Voting strategy**&#x20;
 
 Use the [Ticket](https://snapshot.org/#/strategy/ticket) strategy to give voting power equal to `1` to any user eligible to vote - users that passed the voting validation described in step 1.\
-![](<.gitbook/assets/image (5) (2) (2).png>)
+![](<.gitbook/assets/image (73).png>)
 
 </details>
 
@@ -543,7 +551,7 @@ No, it’s not needed.
 
 Yes, we do. Please create report on the respective repository as showed below:
 
-![](<.gitbook/assets/image (33).png>)
+![](<.gitbook/assets/image (64).png>)
 
 </details>
 

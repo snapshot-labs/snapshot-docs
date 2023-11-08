@@ -34,6 +34,7 @@
   * [Space badges](user-guides/spaces/badges-and-warnings.md)
 * [Proposals](user-guides/proposals/README.md)
   * [Create a proposal](user-guides/proposals/create.md)
+  * [Edit a proposal](user-guides/proposals/edit-a-proposal.md)
   * [Voting types](user-guides/proposals/voting-types.md)
 * [Voting](user-guides/voting/README.md)
   * [Vote on a proposal](user-guides/voting/vote.md)
@@ -55,6 +56,7 @@
 * [Using Safe multi-sig](user-guides/using-safe-multi-sig.md)
 * [Delegation](user-guides/delegation.md)
 * [Email notifications](user-guides/email-notifications.md)
+* [Mobile notifications](user-guides/mobile-notifications.md)
 
 ## Developer Guides
 
