@@ -145,7 +145,7 @@ You can test it out in the **Playground on Snapshot**:
 :zap: [**Validation strategies**](../user-guides/strategies/validation-strategies.md) are a way to define who is allowed to vote on a proposal or create a new one.&#x20;
 
 {% hint style="info" %}
-All spaces are now **required to use Proposal Validation** in order to minimise the risk of malicious proposals. You can read more about this requirement [here](../user-guides/spaces/settings.md#proposal-validation).
+All spaces are now **required to use Proposal Validation** in order to minimize the risk of malicious proposals. You can read more about this requirement [here](../user-guides/spaces/settings.md#proposal-validation).
 {% endhint %}
 
 You can also configure a Validation strategy for voting. The combination of Voting Strategies and Voting validation allows you to achieve high customization of your governance process. How? Let's go through a couple of possible scenarios:
