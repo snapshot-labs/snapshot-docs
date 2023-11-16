@@ -112,7 +112,7 @@ const [account] = await web3.listAccounts();
 
 const receipt = await client.space(web3, account, {
   "space":"pistachiodao.eth",
-  "settings":{
+  "settings": `{
     "name":"pistachiodao.eth",
     "avatar":"", // IPFS address of space avatar
     "about":"",
@@ -164,7 +164,7 @@ const receipt = await client.space(web3, account, {
       "params":{}
     }, // provide one voting validation strategy
     "treasuries":[] // provide the organization's treasury account(s)
-    }
+    }`
 });
 ```
 
