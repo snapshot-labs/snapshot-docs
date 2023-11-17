@@ -33,7 +33,7 @@ https://hub.snapshot.org/graphql
 Demo hub
 
 ```
-https://testnet.snapshot.org/graphql
+https://testnet.hub.snapshot.org/graphql
 ```
 
 ## Queries
