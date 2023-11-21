@@ -147,6 +147,14 @@ Yes. Limiting the number of followed spaces to 25 is one of our anti-scam & -spa
 
 </details>
 
+<details>
+
+<summary>I'm receiving the error "The message timestamp is not valid. Please check the clock on your device, and make sure it is set to the correct date and time, and try again"?</summary>
+
+The reason behind this error is that the time configured on your device isn't accurate. [Refer here to troubleshoot](https://github.com/snapshot-labs/snapshot/discussions/769#discussioncomment-1400619).&#x20;
+
+</details>
+
 ### Voting
 
 <details>
