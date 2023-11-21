@@ -411,6 +411,22 @@ Verification status is valid as long as the space meets all requirements. Make s
 
 </details>
 
+<details>
+
+<summary>My space is hibernated. Why?</summary>
+
+Spaces are put in hibernation mode after 6 months of inactivity. To learn more head to [space-hibernation.md](user-guides/spaces/space-hibernation.md "mention")
+
+</details>
+
+<details>
+
+<summary>How can I get my space out of hibernation?</summary>
+
+As a space controller or an admin you can reactive the space through the space settings by clicking `Reactivate space` button. More information can be found in [space-hibernation.md](user-guides/spaces/space-hibernation.md "mention")
+
+</details>
+
 ### Voting strategies
 
 <details>

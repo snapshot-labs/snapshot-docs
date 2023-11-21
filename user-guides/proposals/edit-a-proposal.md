@@ -8,5 +8,5 @@ As a proposal **author** you are able to edit its details before the voting peri
 
 In order to edit the proposal click the three dots next to
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>The screenshot was taken on October 6th, 2023 - two days before the voting period has started.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>The screenshot was taken on October 6th, 2023 - two days before the voting period has started.</p></figcaption></figure>
 

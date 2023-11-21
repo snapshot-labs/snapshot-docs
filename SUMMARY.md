@@ -26,6 +26,7 @@
   * [Settings](user-guides/spaces/settings.md)
   * [Sub-spaces](user-guides/spaces/sub-spaces.md)
   * [Space verification](user-guides/spaces/get-verified.md)
+  * [Space hibernation](user-guides/spaces/space-hibernation.md)
   * [Add a custom domain](user-guides/spaces/add-custom-domain.md)
   * [Add a skin](user-guides/spaces/add-skin.md)
   * [Space roles](user-guides/spaces/space-roles.md)
