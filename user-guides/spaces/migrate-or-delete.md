@@ -30,5 +30,5 @@ Create a proposal on the source space as well as on the target space with the ti
 
 ### One last step
 
-Get in touch with @space-lead on our [Discord server](https://discord.gg/snapshot).\
+Create a ticket on our [Discord server](https://discord.com/channels/707079246388133940/1090290400943677440/1102898691947376691).\
 Please allow a couple of days for the workflow to be processed.
