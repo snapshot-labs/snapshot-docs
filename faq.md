@@ -423,7 +423,7 @@ Verification status is valid as long as the space meets all requirements. Make s
 
 <summary>My space is hibernated. Why?</summary>
 
-Spaces are put in hibernation mode after 6 months of inactivity. To learn more head to [space-hibernation.md](user-guides/spaces/space-hibernation.md "mention")
+Spaces are put in hibernation mode after 12 months of inactivity. To learn more head to [space-hibernation.md](user-guides/spaces/space-hibernation.md "mention")
 
 </details>
 

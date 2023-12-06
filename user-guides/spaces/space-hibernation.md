@@ -18,7 +18,7 @@ Space Controller and admins will see this warning message if space has gone into
 
 A space will automatically enter hibernation mode if it meets any of the following conditions:
 
-* Inactivity for the past **6 months**.
+* Inactivity for the past **12 months**.
 
 #### Implications of Hibernation
 
