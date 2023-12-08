@@ -11,7 +11,7 @@ If you already have a space without ENS domain (legacy), you need to [Migrate yo
 {% endhint %}
 
 {% hint style="info" %}
-If you want to use Snapshot in a demo mode to experiment with the platform head to [https://demo.snapshot.org](https://demo.snapshot.org) - our playground connected to the Goerli Testnet. Make sure to provide an ENS name registered on Goerli Testnet in the first step below.
+If you want to use Snapshot in a demo mode to experiment with the platform head to [https://testnet.snapshot.org](https://testnet.snapshot.org) - our playground connected to the Goerli Testnet. Make sure to provide an ENS name registered on Goerli Testnet in the first step below.
 {% endhint %}
 
 ### 1. Set or get an ENS domain for your space

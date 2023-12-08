@@ -161,7 +161,7 @@ The reason behind this error is that the time configured on your device isn't ac
 
 <summary><strong>I delegated my voting power but would like to take it back. How can I do it?</strong></summary>
 
-You can remove your delegations by going to[https://demo.snapshot.org/#/delegate](https://demo.snapshot.org/#/delegate) and clicking the ❌ for the delegations you wish to remove.
+You can remove your delegations by going to [https://testnet.snapshot.org/#/delegate](https://testnet.snapshot.org/#/delegate) and clicking the ❌ for the delegations you wish to remove.
 
 ![](<.gitbook/assets/image (40).png>)
 
@@ -583,7 +583,7 @@ Yes, we do. Please create report on the respective repository as showed below:
 
 <summary>Is it possible to test Snapshot without creating ENS on mainnet?</summary>
 
-Yes. You can use the [https://demo.snapshot.org](https://demo.snapshot.org) with an ENS domain on Goerli Testnet.
+Yes. You can use [https://testnet.snapshot.org](https://testnet.snapshot.org) with an ENS domain on Goerli Testnet.
 
 </details>
 
