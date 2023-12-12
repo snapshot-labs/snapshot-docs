@@ -10,7 +10,7 @@ Space Hibernation is placing **inactive** or **incorrectly** **configured** spac
 
 Space Controller and admins will see this warning message if space has gone into hibernation mode:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -28,4 +28,4 @@ Once a space is in hibernation mode it is impossible to create new proposals.
 
 Navigate to the space settings and click "Reactivate space" at the top of the page.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
