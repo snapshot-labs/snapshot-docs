@@ -34,7 +34,7 @@ Update your DNS settings on the custom domain provider dashboard and set CNAME t
 
 ### 3. Activate your domain
 
-Once the PR is merged use the below link to activate the domain:
+Use the below link to activate the domain:
 
 \
 [https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com](https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com)\
@@ -87,7 +87,7 @@ Create a Pull Request on the original [snapshot-spaces](https://github.com/snaps
 
 It can take the team around **72 hours** to merge your Pull Request, so please be patient :pray:
 
-Once the PR is merged you will have to wait for the release of a new version on [https://snapshot.org](https://snapshot.org). It can take up to a **couple of days**. Once the new version is released you can move on to the next step.
+Once the PR is merged you will have to wait for the release of a new version on [https://snapshot.org](https://snapshot.org). It can take up to a **couple of days**. Once the new version is released, your space will be accessible from your custom domain.
 
 
 
