@@ -34,7 +34,7 @@ Each space has a limit on the number of proposals that can be created daily and 
     <figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 4.  Fill in the following fields:\
     \- Title\
-    \- Description (optional, 20K character limit)\
+    \- Description (optional, 10K character limit)\
     \- Discussion link (optional)\
 
 
@@ -61,7 +61,7 @@ It means that if the user acquires required tokens **after** the proposal has be
 
 ### Proposals limitations
 
-* There is a character limit of **20,000** for the description of a proposal.
+* There is a character limit of **10,000** for the description of a proposal.
 * One address can have a maximum of **10 active proposals at a time**, across multiple spaces.
 * Each space has a limit on the number of proposals created daily and monthly:
 
