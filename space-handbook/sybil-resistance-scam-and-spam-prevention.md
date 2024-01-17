@@ -16,7 +16,7 @@ In the crypto world, attacks, hacks, and scams are unfortunately all too common.
 
 ## How to make your Space more Sybil resistant?
 
-There are multiple ways which can help you minimise the risk of scams, bots and spam behaviors within your space. We will look into:
+There are multiple ways which can help you minimize the risk of scams, bots and spam behaviors within your space. We will look into:
 
 * [Space roles](sybil-resistance-scam-and-spam-prevention.md#1.-space-roles)
 * [Validation Strategies](sybil-resistance-scam-and-spam-prevention.md#2.-validation-strategies) (use for Proposal Creation and Voting)
@@ -35,11 +35,11 @@ Let’s first recap what are the different permissions of the [roles](../user-gu
 
 Even though we provide several automated mechanisms to minimise the risk of harmful proposals it is still important to have to ability to review the created proposals by an **actual person**.
 
-The Moderator role enables just that - without having the access to space settings moderators **can hide proposals**. It is a great way to have more organisation members involved in keeping the governance safe without requiring Admins to be available at all times.
+The Moderator role enables just that - without having the access to space settings moderators **can hide proposals**. It is a great way to have more organization members involved in keeping the governance safe without requiring Admins to be available at all times.
 
 #### Discord Bot
 
-A great addition to the Moderators is a **notification system** which will inform you and your community about newly created proposals. If your organisation uses Discord, you can easily activate our Discord Bot on your server.
+A great addition to the Moderators is a **notification system** which will inform you and your community about newly created proposals. If your organization uses Discord, you can easily activate our Discord Bot on your server.
 
 To do so, invite the bot with [this link](https://discord.com/oauth2/authorize?client\_id=892847850780762122\&permissions=83968\&scope=bot).
 
@@ -72,7 +72,7 @@ In technical terms a [Validation Strategy](https://docs.snapshot.org/user-guides
 Validation strategy can check both for monetary and non-financial assets of the user like POAPs, Gitcoin Passport stamps.
 
 {% hint style="info" %}
-All spaces are now **required to use Proposal Validation** in order to minimise the risk of malicious proposals.
+All spaces are now **required to use Proposal Validation** in order to minimize the risk of malicious proposals.
 {% endhint %}
 
 ### Basic Validation

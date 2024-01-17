@@ -42,4 +42,4 @@ Have a look here on the requirements for adding a new validation strategy and ma
 
 ### 5. Create a pull request
 
-The team will then review your PR and after it's approved and merged it will be available to chose in your space settings.
+The team will then review your PR and after it's approved and merged it will be available to choose in your space settings.

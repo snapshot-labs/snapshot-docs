@@ -78,7 +78,7 @@ As a last step, we match these percentages with the total voting power of 14 tok
 * B: 64% of 15 = 9.6 tokens
 
 {% hint style="info" %}
-All in all you don't have to understand each step of the calculation, yet it should give you an idea how John with 100 SMS tokens was not able to push through his choice despite having the majority of Voting Power in the group as Quadratic Funding model emphasises the **number of individual contributors** rather than the amount contributed.
+All in all you don't have to understand each step of the calculation, yet it should give you an idea how John with 100 SMS tokens was not able to push through his choice despite having the majority of Voting Power in the group as Quadratic Funding model emphasizes the **number of individual contributors** rather than the amount contributed.
 {% endhint %}
 
 {% hint style="danger" %}
