@@ -435,6 +435,16 @@ As a space controller or an admin you can reactive the space through the space s
 
 </details>
 
+<details>
+
+<summary>Why can't I create a new space with my previous deleted space ENS name ?</summary>
+
+Deleting a space does not release its attached ENS name, so you can not create a new space with the same ENS name. Head [Space deletion](user-guides/spaces/migrate-or-delete.md) to to learn more.
+
+If you wish to retain the same ENS domain for you new space, you could create a new space under a [subdomain](https://wagmi.tips/guides/ens-subdomain/) of your previous ENS name.
+
+</details>
+
 ### Voting strategies
 
 <details>
