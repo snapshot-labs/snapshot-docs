@@ -20,6 +20,7 @@ If you can't see the network you are looking for on the list or you want to add 
 
 #### Requirements
 
+* Pay to support your network by clicking [here](https://snapshot.org/#/payment/network)
 * New network must be **EVM**-based
 * RPC node must be an **archive node**
 * RPC node's url must use **`https`**&#x20;
