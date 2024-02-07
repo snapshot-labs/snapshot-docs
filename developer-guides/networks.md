@@ -14,24 +14,25 @@ Snapshot supports EVM-based networks. You can explore them at [**https://snapsho
 
 You can also follow this link directly: [https://snapshot.org/#/?filter=networks](https://snapshot.org/#/?filter=networks).
 
-## Add a new network
+## **Add a new network**
 
-If you can't see the network you are looking for on the list or you want to add your custom network, fill in the form linked below to include it within Snapshot.
+To add a new network to Snapshot, you need to subscribe to the Network plan. The Network plan is tailored for projects seeking to integrate their EVM compatible chain network in Snapshot. This plan facilitates governance across your networks by supporting both a mainnet and a testnet network.
 
-#### Requirements
+**Features:**
 
-* Pay to support your network by clicking [here](https://snapshot.org/#/payment/network)
-* New network must be **EVM**-based
-* RPC node must be an **archive node**
-* RPC node's url must use **`https`**&#x20;
-* Multicall contract must be **verified and published**&#x20;
-* The node should accept **minimum payload and have higher gas caps** (at least **500** addresses into a multicall)
-* Logo has to be stored on **IPFS**
+* **Network support**: Includes integration of 1 mainnet and 1 testnet.
+* **Quick setup**: Networks are typically ready within an average of 48 hours.
+* **Social announcement**: Announcement of your network addition on our social channels.
+* **Dedicated support**: Direct support available through a dedicated Telegram group.
 
-{% embed url="https://tally.so/r/31ApGb" %}
+**Pricing:**
 
-It's now in the hands of the Snapshot team to review your changes and apply them to [https://snapshot.org](https://snapshot.org).&#x20;
+* Monthly subscription: $2,000
+* Annual subscription: $20,000 (offering a saving of $4,000 over monthly payments)
 
-The average time to add a new network is 7 days, so please be patient! 😉
+**How to get started:**
 
-**Once added, we will tag you in the PR on Github.**
+1. **Make a payment**: To subscribe to the Network plan, please visit our payment page [here](https://snapshot.org/#/payment/network) or transfer the amount to `0x01e8CEC73B020AB9f822fD0dee3Aa4da2fe39e38` on Ethereum mainnet.
+2. **Request to add your network**: To request the addition of a your network, fill out our form [here](https://tally.so/r/31ApGb).
+
+For further information or assistance, contact our support team.
