@@ -10,7 +10,7 @@ Space Hibernation is placing **inactive** or **incorrectly** **configured** spac
 
 Space Controller and admins will see this warning message if space has gone into hibernation mode:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

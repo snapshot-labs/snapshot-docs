@@ -36,7 +36,7 @@ There can be only **one controller** per space and can be updated **only by the 
 
 To update the controller role head to the space settings on Snapshot and the **Advanced** tab. At the bottom of the page you'll find the **Danger zone** where you can change the controller:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Paste the address of the account you want to set as space controller in the pop-up window and click `Set`. It will trigger your wallet browser extension and ask you to sign a **transaction with a gas fee.**&#x20;
 
@@ -46,5 +46,5 @@ To update the admins and authors lists head to the space settings on Snapshot an
 
 You can add addresses one by one and choose their applicable role:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 

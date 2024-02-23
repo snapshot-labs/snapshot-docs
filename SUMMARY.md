@@ -33,6 +33,7 @@
   * [Migrate your space to ENS](user-guides/spaces/migrate-to-ens.md)
   * [Migrate or delete or a space](user-guides/spaces/migrate-or-delete.md)
   * [Space badges](user-guides/spaces/badges-and-warnings.md)
+  * [Turbo plan](user-guides/spaces/turbo-plan.md)
 * [Proposals](user-guides/proposals/README.md)
   * [Create a proposal](user-guides/proposals/create.md)
   * [Edit a proposal](user-guides/proposals/edit-a-proposal.md)
