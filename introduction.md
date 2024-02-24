@@ -43,8 +43,8 @@ This guide is meant for all existing and future Snapshot users. Therefore regard
 
 If you don't know where to start or have a specific question, head to the FAQ section!
 
-{% content-ref url="faq.md" %}
-[faq.md](faq.md)
+{% content-ref url="faq/" %}
+[faq](faq/)
 {% endcontent-ref %}
 
 ### Contributing

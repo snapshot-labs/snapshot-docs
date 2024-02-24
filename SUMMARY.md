@@ -14,7 +14,15 @@
     * [Multi-token: ERC-1155](space-handbook/nft-voting/multi-token-erc-1155.md)
     * [POAP - Proof of Attendance](space-handbook/nft-voting/poap-proof-of-attendance.md)
   * [Custom calculations](space-handbook/custom-calculations.md)
-* [FAQs](faq.md)
+* [FAQs](faq/README.md)
+  * [👋 Getting started](faq/getting-started.md)
+  * [🙎 I'm a Snapshot user](faq/im-a-snapshot-user/README.md)
+    * [🗳️ Voting](faq/im-a-snapshot-user/voting.md)
+    * [📄 Proposals](faq/im-a-snapshot-user/proposals.md)
+    * [⚙️ Space settings](faq/im-a-snapshot-user/space-settings.md)
+    * [✨ Voting strategies](faq/im-a-snapshot-user/voting-strategies.md)
+    * [⏫ Boost](faq/im-a-snapshot-user/boost.md)
+  * [👩‍💻 I'm a developer](faq/im-a-developer.md)
 
 ## User guides
 
@@ -59,6 +67,7 @@
 * [Delegation](user-guides/delegation.md)
 * [Email notifications](user-guides/email-notifications.md)
 * [Mobile notifications](user-guides/mobile-notifications.md)
+* [Boost](user-guides/boost.md)
 
 ## Developer Guides
 
