@@ -24,11 +24,12 @@ To add a new network to Snapshot, you need to subscribe to the Network plan. The
 * **Quick setup**: Networks are typically ready within an average of 48 hours.
 * **Social announcement**: Announcement of your network addition on our social channels.
 * **Dedicated support**: Direct support available through a dedicated Telegram group.
+* **Custom registry**: Support network specific ENS-compatible registry.
 
 **Pricing:**
 
-* Monthly subscription: $2,000
-* Annual subscription: $20,000 (offering a saving of $4,000 over monthly payments)
+* Monthly subscription: **$2,000**
+* Annual subscription: **$20,000** (offering a saving of $4,000 over monthly payments)
 
 **How to get started:**
 

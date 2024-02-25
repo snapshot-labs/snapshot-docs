@@ -4,29 +4,22 @@ Turbo is Snapshot's pro plan tailored for spaces, designed to enhance and stream
 
 ### Advantages
 
-**Enhanced monitoring service**\
-Monitoring of proposals for spam or scam, with flagged content reported within a maximum delay of 2 hours.
-
-**Expanded proposal content limit**\
-Increase in the maximum character limit for proposal content from 10,000 to 20,000 characters.
-
-**Increased proposal submission limit**\
-Increase the limit of proposals from 20 to 40 daily and from 100 to 200 monthly.
-
-**Customizable whitelabel interface**\
-Customization of the Snapshot interface with Client's branding, including a custom domain, colors, and logo.
-
-**Extended voting strategies**\
-Increase in the number of voting strategies available to the Client from 8 to 10.
-
-**Enhanced visibility**\
-Promotion of the Client's presence with higher ranking on the snapshot.org homepage and in search results.
-
-**Dedicated Telegram support group**\
-Access to a dedicated Telegram support channel with a maximum response time of 4 hours.
-
-**Service Level Agreement (SLA)**\
-Assurance of high-standard service and responsiveness.
+* **Enhanced monitoring service**\
+  Monitoring of proposals for spam or scam, with flagged content reported within a maximum delay of 2 hours.
+* **Expanded proposal content limit**\
+  Increase in the maximum character limit for proposal content from 10,000 to 20,000 characters.
+* **Increased proposal submission limit**\
+  Increase the limit of proposals from 20 to 40 daily and from 100 to 200 monthly.
+* **Customizable whitelabel interface**\
+  Customization of the Snapshot interface with Client's branding, including a custom domain, colors, and logo.
+* **Extended voting strategies**\
+  Increase in the number of voting strategies available to the Client from 8 to 10.
+* **Enhanced visibility**\
+  Promotion of the Client's presence with higher ranking on the snapshot.org homepage and in search results.
+* **Dedicated Telegram support group**\
+  Access to a dedicated Telegram support channel with a maximum response time of 4 hours.
+* **Service Level Agreement (SLA)**\
+  Assurance of high-standard service and responsiveness.
 
 ### Pricing
 
