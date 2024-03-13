@@ -25,7 +25,11 @@ When setting up a boost, you have the flexibility to choose how rewards are dist
 
 #### Lottery
 
-The lottery system introduces an exciting twist — while still acknowledging voting power, it randomizes who gets the rewards. You can set the number of winners who will share the tokens equally, and to level the playing field, implement a cap on voting power. This cap means that beyond a certain point, additional voting power doesn't increase one's chances in the lottery, giving everyone a fair shot at the reward, while still recognizing their contribution to the voting process.
+The lottery system randomly selects winners, where the chances to win are based on voting power. You can set the number of winners who will share the tokens equally, and to level the playing field, implement a cap on voting power. This cap means that beyond a certain point, additional voting power doesn't increase one's chances in the lottery, giving everyone a more fair shot at the reward.
+
+{% hint style="info" %}
+The randomness generator we use is the \`ChaCha20Rng\` randomness generator, fed with a specific seed. This seed is the sha256 hash of the RANDAO reveal of the finalized epoch corresponding to the end timestamp of the proposal.
+{% endhint %}
 
 #### Weighted
 
@@ -33,13 +37,13 @@ This method allows you to reward voters proportionally to their voting power. Yo
 
 ### Benefits of Boosting
 
-Boosting has a twofold benefit: increasing participation and allowing for strategic incentivization, sometimes referred to as "bribing" within the context of governance.
+Boosting has a twofold benefit: increasing participation and allowing for strategic incentivization.
 
 #### Increasing Participation
 
 By boosting a proposal, you directly contribute to the governance process, encouraging others to take part in important decisions. Your influence can lead to higher voter turnout and a more robust decision-making process.
 
-#### Strategic Incentivization (Bribing)
+#### Strategic Incentivization
 
 Boosting allows you to incentivize voting in a way that aligns with your interests. This strategic layer adds depth to the voting process, as participants can receive additional rewards by voting a certain way.
 
@@ -56,6 +60,10 @@ Our platform incorporates a dual-fee system designed to sustain the ecosystem an
 A nominal fee of 0.01 ETH will be implemented as a spam prevention measure. This fee also helps cover any network fees incurred by the platform during the operation.
 
 #### Token Fee
+
+{% hint style="warning" %}
+We have set both the ETH fee and the Token fee to zero for our closed beta testing phase.
+{% endhint %}
 
 In addition to the ETH fee, a token fee of 3% will be taken from the deposited tokens. This fee is essential for the platform's revenue, allowing us to continue providing quality services, innovating our offerings, and supporting the community. The token fee is calculated based on the total token amount committed to the boost at the time of creation.
 
