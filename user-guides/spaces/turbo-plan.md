@@ -23,5 +23,5 @@ Turbo is Snapshot's pro plan tailored for spaces, designed to enhance and stream
 
 ### Pricing
 
-For those interested in taking their governance to the next level with Turbo, the plan is priced at **$600 per month** or **$6,000 a year**. To learn more or to subscribe, please reach out to us on [Discord](https://discord.snapshot.org) or [Telegram](https://t.me/bonustrack).
+For those interested in taking their governance to the next level with Turbo, the plan is priced at **$6,000 a year**. To learn more or to subscribe, please reach out to us on [Discord](https://discord.snapshot.org) or [Telegram](https://t.me/bonustrack).
 
