@@ -16,6 +16,8 @@ Turbo is Snapshot's pro plan tailored for spaces, designed to enhance and stream
   Increase in the number of voting strategies available to the Client from 8 to 10.
 * **Enhanced visibility**\
   Promotion of the Client's presence with higher ranking on the snapshot.org homepage and in search results.
+* **Promote your first proposal**\
+  We will relay your first proposal on Snapshot in our social accounts to give higher visibility. &#x20;
 * **Dedicated Telegram support group**\
   Access to a dedicated Telegram support channel with a maximum response time of 4 hours.
 * **Service Level Agreement (SLA)**\
@@ -24,4 +26,3 @@ Turbo is Snapshot's pro plan tailored for spaces, designed to enhance and stream
 ### Pricing
 
 For those interested in taking their governance to the next level with Turbo, the plan is priced at **$6,000 a year**. To learn more or to subscribe, please reach out to us on [Discord](https://discord.snapshot.org) or [Telegram](https://t.me/bonustrack).
-
