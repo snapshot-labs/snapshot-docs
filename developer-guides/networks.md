@@ -28,8 +28,7 @@ To add a new network to Snapshot, you need to subscribe to the Network plan. The
 
 **Pricing:**
 
-* Monthly subscription: **$2,000**
-* Annual subscription: **$20,000** (offering a saving of $4,000 over monthly payments)
+* Annual subscription: **$20,000**
 
 **How to get started:**
 
