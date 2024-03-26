@@ -34,13 +34,11 @@ Update your DNS settings on the custom domain provider dashboard and set CNAME t
 
 ### 3. Activate your domain
 
-Use the below link to activate the domain:
+Use the below link to activate the domain: (make sure to replace `<YOUR_DOMAIN_NAME_HERE>` with your domain)
 
-\
-[https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com](https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com)\
+`https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=<YOUR_DOMAIN_NAME_HERE>`
 
-
-**Replace "example.com" with your custom domain.**&#x20;
+If your domain name is `example.com` then URL will look [this](https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com)
 
 {% hint style="info" %}
 Note that at this step the returned message could contain warnings, this could happen if the domain DNS zone is not fully resolved yet or if you've already successfully activated your domain. The bottom line is if you've setup the CNAME record correctly you should not worry at all.
