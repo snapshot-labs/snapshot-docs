@@ -38,7 +38,7 @@ Use the below link to activate the domain: (make sure to replace `<YOUR_DOMAIN_N
 
 `https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=<YOUR_DOMAIN_NAME_HERE>`
 
-If your domain name is `example.com` then URL will look [this](https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com)
+If your domain name is `example.com` then URL will look like [this](https://ina9pk8175.execute-api.us-west-2.amazonaws.com/dev?domain=example.com)
 
 {% hint style="info" %}
 Note that at this step the returned message could contain warnings, this could happen if the domain DNS zone is not fully resolved yet or if you've already successfully activated your domain. The bottom line is if you've setup the CNAME record correctly you should not worry at all.
