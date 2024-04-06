@@ -18,10 +18,16 @@ Type `/` to see the commands (require administrator role)
 
 Need help? Ask on [Discord](https://discord.gg/snapshot)  &#x20;
 
+### Domino
+
+**For:** Discord, Telegram, Twitter, Email, Slack, Webhook, and many more custom automations\
+**Status:** Ready\
+**Install:** [https://domino.run/explore/apps/snapshot-tmkg6ni3l3r](https://domino.run/explore/apps/snapshot-tmkg6ni3l3r)
+
 ### HAL
 
 **For:** Discord, Telegram, Twitter, Email, Slack, Webhook\
-**Status:** Ready (for all spaces)\
+**Status:** Ready\
 **Install:** [https://9000.hal.xyz/recipes/snapshot-follow-new-proposals](https://9000.hal.xyz/recipes/snapshot-follow-new-proposals)
 
 ### propbot
