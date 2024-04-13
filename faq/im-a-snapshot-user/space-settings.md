@@ -91,7 +91,7 @@ Have a read here to learn how to set it up: [#voting-validation-in-space-setting
 
 <summary>My space is no longer verified. Why is that?</summary>
 
-Verification status is valid as long as the space meets all requirements. Make sure you meet all the requirements defined [here](../../user-guides/spaces/get-verified.md#how-to-get-your-space-verified) and reach out to our team on the Discord through [#helpdesk-tickets](https://discord.com/channels/707079246388133940/1090290400943677440) to regain the space verification.
+Verification status is valid as long as the space meets all requirements. Make sure you meet all the requirements defined [here](../../user-guides/spaces/get-verified.md#how-to-get-your-space-verified) and contact our support on [Help Center](https://help.snapshot.org/en/) to regain the space verification.
 
 </details>
 

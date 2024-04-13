@@ -94,6 +94,6 @@ Yes. All our repositories can be found at [https://github.com/snapshot-labs/](ht
 
 If you have an issue with your space, a proposal or voting, make sure to first read the FAQ and use a search bar in our documentation: [https://docs.snapshot.org](https://docs.snapshot.org).
 
-If it doesn’t answer your question or you would like to get in touch with regard to another topic, you can reach us in our [Discord](https://discord.snapshot.org) server and send a message in appropriate channel (i.e. [#general](https://discord.com/channels/707079246388133940/728646188252921956)) or create a new thread on the [#helpdesk](https://discord.com/channels/707079246388133940/1019725253519351838) forum.
+If it doesn’t answer your question or you would like to get in touch with regard to another topic, you can reach us in our [Discord](https://discord.snapshot.org) server and send a message in appropriate channel (i.e. [#general](https://discord.com/channels/707079246388133940/728646188252921956)) or contact our support on [Help Center](https://help.snapshot.org/en/)
 
 </details>

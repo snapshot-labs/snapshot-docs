@@ -133,7 +133,7 @@ A common mistake is using a wrong type (string instead of object) or extending a
 
 <summary>Is there an alternative to <code>snapshot.js</code> in python?</summary>
 
-No. If you are interested in building it, reach out to the team on the [#contributor](https://discord.com/channels/707079246388133940/865557228702662667) channel!
+No. If you are interested in building it, reach out to the team on the [#developer](https://discord.com/channels/707079246388133940/747050056422785055) channel!
 
 </details>
 

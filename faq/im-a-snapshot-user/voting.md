@@ -28,7 +28,7 @@ You can add a short explanation when casting a vote:
 
 <summary><strong>I get “Your voting power could not be calculated due to misconfigured strategy or unresponsive RPC node”. What should I do?</strong></summary>
 
-This issue is related to either space settings or the failure of the external infrastructure that Snapshot relies on. We recommend to wait 15 minutes before trying again. If the error persists, please post a message in the [Misconfigured node](https://discord.com/channels/707079246388133940/1070376451070767124/1070376451070767124) thread on helpdesk forum on Discord with the following details:
+This issue is related to either space settings or the failure of the external infrastructure that Snapshot relies on. We recommend to wait 15 minutes before trying again. If the error persists, please contact our support on [Help Center](https://help.snapshot.org/en/) with the following details:
 
 * URL of the proposal you were trying to vote on
 * The error message you received (in this case: “Your voting power could not be calculated due to misconfigured strategy or unresponsive RPC node”)
@@ -74,7 +74,7 @@ No. Snapshot calculates the voting power on the basis of proposal creation time.
 
 <summary>I get “Oops, failed to check voting power”. What should I do?</summary>
 
-This issue is related to either space settings or the failure of the external infrastructure that Snapshot relies on. We recommend to wait 15 minutes before trying again. If the error persists, please post a message in the [thread on helpdesk forum](https://discord.com/channels/707079246388133940/1070378969238601868/1070378969238601868) on Discord with the following details:
+This issue is related to either space settings or the failure of the external infrastructure that Snapshot relies on. We recommend to wait 15 minutes before trying again. If the error persists, contact our support on [Help Center](https://help.snapshot.org/en/) with the following details:
 
 * URL of the proposal you were trying to vote on
 * The error message you received (in this case: “Oops, failed to check voting power”)

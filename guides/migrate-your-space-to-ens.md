@@ -32,5 +32,5 @@ You must add your new alias in the [aliases.json file](https://github.com/snapsh
 
 ### 3. Migrate proposals, votes and urls
 
-The migration of the proposals, votes and urls is done manually, once your space with ENS is ready please contact an admin on [Discord](https://discord.snapshot.page) to do the changes.
+The migration of the proposals, votes and urls is done manually, once your space with ENS is ready please contact our support on [Help Center](https://help.snapshot.org/en/) to do the changes.
 

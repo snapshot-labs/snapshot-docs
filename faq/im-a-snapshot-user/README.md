@@ -22,10 +22,8 @@
 
 <summary><strong>I have an issue, where should I report it?</strong></summary>
 
-Before you report it make sure to browse through this FAQ, our documentation or the Discord server. There is a high chance that the issue has already been discussed before. If not, create a new thread on the [helpdesk forum](https://discord.com/channels/707079246388133940/1019725253519351838) with the following details:
+Before you report it make sure to browse through this FAQ, our documentation. If you still facing some issue, contact our support on [Help Center](https://help.snapshot.org/en/) with the following details:
 
-* Clear title describing your issue
-* Tags which are related to the problem
 * Detailed description of the issue: what action were you trying to perform (i.e. casting a vote), what error did you get
 * Screenshots - provide the screenshots of the error you are getting
 * URLs - applicable urls, i.e. proposal or space url
@@ -40,7 +38,7 @@ We recommend to wait for around 10 minutes and try again. If the error persist, 
 
 ![](<../../.gitbook/assets/image (36).png>)
 
-Make a screenshot of the panel and post a message on the [helpdesk forum on Discord](https://discord.com/channels/707079246388133940/1019725253519351838) with the following details:
+Make a screenshot of the panel and contact our support on [Help Center](https://help.snapshot.org/en/) with the following details:
 
 * Topic: clear on context when you got the error - Cannot cast a vote - Oops, something went wrong
 * What were you attempting to do? (i.e. vote on a proposal, create a proposal)

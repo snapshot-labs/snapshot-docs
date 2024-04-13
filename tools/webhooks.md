@@ -41,4 +41,4 @@ You can use this URL [https://webhook.snapshot.org/api/test?url=https://example.
 
 If you want to subscribe to Webhooks, please fill out this [form](https://tally.so/r/mVQZQl), \
 \
-If you don't receive events even after 48 hours after filling the form, please contact us on [Discord](https://discord.snapshot.org) in this [#helpdesk thread](https://discord.com/channels/707079246388133940/1061160799407702029/1061160799407702029).
+If you don't receive events even after 48 hours after filling the form, please contact our support on [Help Center](https://help.snapshot.org/en/)

@@ -27,7 +27,7 @@ After September 12th, the limits will be updated to:
 **🔑 With the API Key:** 2 million requests per month.
 
 {% hint style="info" %}
-If you are getting **close to 2M requests a month** please reach out to our team directly on Discord by creating a new ticket in the [#helpdesk-tickets](https://discord.com/channels/707079246388133940/1090290400943677440) channel.
+If you are getting **close to 2M requests a month** contact our support on [Help Center](https://help.snapshot.org/en/)
 {% endhint %}
 
 ## How can I get an API Key?
@@ -44,7 +44,7 @@ If you haven’t already please **fill in the below form** or submit it via [the
 
 We will review your submission and **whitelist the address** you provided in the form.
 
-**After 72 hours** have passed you can continue with the next steps. If you get any errors while generating the key, please create a ticket in the [#helpdesk-tickets](https://discord.com/channels/707079246388133940/1090290400943677440) channel.
+**After 72 hours** have passed you can continue with the next steps. If you get any errors while generating the key, please contact our support on [Help Center](https://help.snapshot.org/en/).
 
 ### 3. Generate the API Key
 
