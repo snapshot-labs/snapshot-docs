@@ -6,7 +6,7 @@ description: Learn what HAL plugin is and how to add it to your space.
 
 ## Important: Hal will sunset its services on June 1st, 2024. [learn more](https://www.hal.xyz/blog/hal-will-sunset-its-services-on-june-1st)
 
-## Try [Domino](./domino.md) as an alternative
+## Try [Domino](domino.md) as an alternative
 
 HAL is a crypto notification system which makes it simple for DAOs to monitor and build automated workflows based on governance data. The HAL plugin allows you to alert space members about new and ended proposals on Snapshot.
 
