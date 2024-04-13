@@ -18,7 +18,7 @@ In order to add a plugin head to your space settings by clicking **Settings** on
 
 Scroll down to the **Plugins** section and click **Add plugin**. Select the plugin you want to add in the pop-up window:
 
-<figure><img src="../../.gitbook/assets/add-plugin-domino.png" alt="The Domino plugin on Snapshot"><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/add-plugin-domino.png>)
 
 ### **3. Save your settings**
 
@@ -32,10 +32,10 @@ Create a new proposal for your space. You don't need to set anything up for the 
 
 Users can now head to the proposal's page and click **any automation** to receive notifications about the proposal.
 
-<figure><img src="../../.gitbook/assets/domino-plugin-in-proposal.png" alt="Snapshot proposal with the Domino plugin enabled"><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/domino-plugin-in-proposal.png>)
 
 As a next step users will be redirected to Dominos's [webpage](https://domino.run/explore/apps/snapshot-tmkg6ni3l3r) in order to set up their custom notification rules:
 
-<figure><img src="../../.gitbook/assets/dominonotification.png" alt="Domino Snapshot Slack Notification"><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/dominonotification.png>)
 
 That's it! You're all set up and users can receive direct notifications about the Snapshot proposals :tada:
