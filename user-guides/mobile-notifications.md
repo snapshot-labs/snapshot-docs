@@ -35,3 +35,12 @@ You can easily _toggle_, _start_, or _stop_ notifications by sending a message i
 
 <figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
 
+## Lighthouse
+
+[Lighthouse](https://lighthouse.cx/) provides a way to connect your space to Snapshot and automatically send messages to your community ensuring that they have been endorsed, with plans to be cryptographically secure to ensure that only intended messages are sent to community members.
+
+Currently Lighthouse notfiy members when:
+
+- A new proposal is created
+- A proposal is ending soon
+- A proposal has ended
