@@ -37,10 +37,8 @@ You can easily _toggle_, _start_, or _stop_ notifications by sending a message i
 
 ## Lighthouse
 
-[Lighthouse](https://lighthouse.cx/) provides a way to connect your space to Snapshot and automatically send messages to your community ensuring that they have been endorsed, with plans to be cryptographically secure to ensure that only intended messages are sent to community members.
+[Lighthouse](https://lighthouse.cx/download?utm_source=snapshot_org) connects you to all your Snapshot spaces and keeps you updated with push notifications whenever a proposal is created or ending soon. Read proposals and comments, and even vote without leaving the app. Everything is cryptographically verified, allowing you to focus on the content that matters.
 
-Currently Lighthouse notfiy members when:
+If you own or manage a space, Lighthouse also enables you to securely communicate with your voters, analyze engagement, and more.
 
-- A new proposal is created
-- A proposal is ending soon
-- A proposal has ended
+<figure><img src="../.gitbook/assets/lighthouse-screenshot.png" alt=""><figcaption></figcaption></figure>
