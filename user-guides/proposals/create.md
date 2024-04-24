@@ -76,3 +76,4 @@ Learn more about Space verification and flagging in [badges-and-warnings.md](../
 {% endhint %}
 
 * You can combine up to **8** [voting strategies](../strategies/voting-strategies.md). The limit also applies to multi-chain strategies.
+* All testnet spaces will have the same proposal limits as a Verified space
