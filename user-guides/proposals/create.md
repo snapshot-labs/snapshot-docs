@@ -65,12 +65,12 @@ It means that if the user acquires required tokens **after** the proposal has be
 * One address can have a maximum of **10 active proposals at a time**, across multiple spaces.
 * Each space has a limit on the number of proposals created daily and monthly:
 
-| Space status | Daily proposal limit | Monthly proposal limit |
-| ------------ | -------------------- | ---------------------- |
-| [Turbo](../spaces/turbo-plan.md)    | 40                   | 200                    |
-| Verified     | 20                   | 100                    |
-| Unverified   | 3                    | 15                     |
-| Flagged      | 1                    | 5                      |
+| Space status                        | Daily proposal limit | Monthly proposal limit |
+| ----------------------------------- | -------------------- | ---------------------- |
+| [Turbo](../spaces/turbo-plan.md)    | 40                     | 200                    |
+| [Verified](../spaces/get-verified)  | 20                     | 100                    |
+| Unverified                          | 3                      | 15                     |
+| Flagged                             | 1                      | 5                      |
 
 {% hint style="info" %}
 Learn more about Space verification and flagging in [badges-and-warnings.md](../spaces/badges-and-warnings.md "mention").
