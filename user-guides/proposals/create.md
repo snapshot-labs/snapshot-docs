@@ -67,7 +67,7 @@ It means that if the user acquires required tokens **after** the proposal has be
 
 | Space status | Daily proposal limit | Monthly proposal limit |
 | ------------ | -------------------- | ---------------------- |
-| Turbo        | 40                   | 200                    |
+| [Turbo](../spaces/turbo-plan.md)    | 40                   | 200                    |
 | Verified     | 20                   | 100                    |
 | Unverified   | 3                    | 15                     |
 | Flagged      | 1                    | 5                      |
