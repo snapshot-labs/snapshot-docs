@@ -18,4 +18,4 @@ Do this for both your main space and all subspaces to link them to each other. I
 
 
 ### Limits
-- A space can add upto 8 sub-spaces
+- A space can add upto 16 sub-spaces
