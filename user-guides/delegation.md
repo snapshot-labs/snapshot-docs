@@ -89,16 +89,16 @@ Here is an example of integration in a Solidity contract:&#x20;
 
 [https://github.com/convex-eth/platform/blob/d3061c19b5e01a4e562c8121b08c44f1b42f0b85/contracts/contracts/BasicCvxHolder.sol#L49-L53](https://github.com/convex-eth/platform/blob/d3061c19b5e01a4e562c8121b08c44f1b42f0b85/contracts/contracts/BasicCvxHolder.sol#L49-L53)
 
-#### Supported Networks
+#### Supported networks
 
 * Mainnet
-* Goerli
+* Sepolia
 * Optimism
-* Binance Smart Chain
-* Gnosis Chain
-* Matic (Polygon)
-* Fantom
 * Arbitrum
+* Polygon
+* BNB Chain
+* Gnosis Chain
+* Fantom
 
 ## Delegation contract
 
