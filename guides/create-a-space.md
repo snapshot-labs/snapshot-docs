@@ -82,7 +82,7 @@ Click **Save** and **sign settings message** on your wallet.
 Now you are set! You can go on [https://snapshot.page/\#/my-space.eth](https://snapshot.page/#/my-space.eth) to see your space.
 
 {% hint style="info" %}
-When you create or edit a space, it take about 3min to see the changes live.
+When you create or edit a space, it takes about 3min to see the changes live.
 {% endhint %}
 
 ## What you should do now**?**
