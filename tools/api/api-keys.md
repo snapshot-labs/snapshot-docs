@@ -1,10 +1,10 @@
 ---
-description: In order to obtain higher limits on the Hub API use, apply for an API Key.
+description: To obtain higher rate limits on the Hub API use, apply for an API Key.
 ---
 
 # API Keys
 
-We want to make sure that we limit the risk of the API downtime and provide a reliable and continuous service and therefore we decided to implement API Keys to make sure that the requests are coming from genuine users.
+We want to ensure that we limit the risk of API downtime and provide a reliable and continuous service. Therefore we decided to implement API Keys to ensure that the requests come from genuine users.
 
 {% hint style="info" %}
 You can use **the same API key** for different Snapshot APIs.\
@@ -13,14 +13,6 @@ Limits are **counted individually** per each API Service.
 {% endhint %}
 
 ## Limits
-
-Currently, we are in a transition period. During the next two months until July 30th, the limits for keyless access to the API will not change:
-
-**🔓 No API Key:** 60 requests per 20 seconds.
-
-**🔑 With the API Key:** 2 million requests per month.
-
-After September 12th, the limits will be updated to:
 
 **🔓 No API Key:** 100 requests per minute.
 
