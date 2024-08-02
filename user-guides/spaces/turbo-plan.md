@@ -8,6 +8,8 @@ Turbo is Snapshot's pro plan tailored for spaces, designed to enhance and stream
   Monitoring of proposals for spam or scam, with flagged content reported within a maximum delay of 2 hours.
 * **Expanded proposal content limit**\
   Increase in the maximum character limit for proposal content from 10,000 to 40,000 characters.
+* **Increased proposal choices limit**\
+  Increase in the maximum number of choices per proposal from 500 to 1000 characters.
 * **Increased proposal submission limit**\
   Increase the limit of proposals from 20 to 40 daily and from 100 to 200 monthly.
 * **Customizable whitelabel interface**\
