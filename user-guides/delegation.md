@@ -99,6 +99,7 @@ Here is an example of integration in a Solidity contract:&#x20;
 * BNB Chain
 * Gnosis Chain
 * Fantom
+* Base
 
 ## Delegation contract
 
