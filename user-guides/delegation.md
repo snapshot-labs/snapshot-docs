@@ -94,6 +94,7 @@ Here is an example of integration in a Solidity contract:
 * Gnosis Chain
 * Fantom
 * Base
+* Linea
 
 ## Delegation contract
 
