@@ -27,4 +27,12 @@ Turbo is Snapshot's pro plan tailored for spaces, designed to enhance and stream
 
 ### Pricing
 
-For those interested in taking their governance to the next level with Turbo, the plan is priced at **$6,000 a year**. To learn more or to subscribe, please reach out to us on [Help Center](https://help.snapshot.org/en/) or [Discord](https://discord.snapshot.org) or [Telegram](https://t.me/bonustrack).
+For those interested in taking their governance to the next level with Turbo, the plan is priced at **$6,000 a year**.&#x20;
+
+### Payment
+
+We support payment with crypto using ETH, USDC, USDT, DAI or GHO at these addresses:\
+**Ethereum:** 0x01e8CEC73B020AB9f822fD0dee3Aa4da2fe39e38\
+**Base:** 0x6910d649F8c24c39e6010ACC62c65225E534Ea97\
+Please reach out to confirm a payment in our [Help Center](https://help.snapshot.org/en/), [Discord](https://discord.snapshot.org) or [Telegram](https://t.me/bonustrack).
+
