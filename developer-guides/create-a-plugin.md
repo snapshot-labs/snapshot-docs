@@ -14,7 +14,7 @@ The development of new plugins should be coordinated with the Snapshot team.&#x2
 
 Create a fork of the **snapshot** repository:
 
-{% embed url="https://github.com/snapshot-labs/snapshot/tree/" %}
+{% @github-files/github-code-block url="https://github.com/snapshot-labs/snapshot/tree/" %}
 
 ## 2. Create a new directory and the plugin.json
 

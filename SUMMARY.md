@@ -72,8 +72,6 @@
 
 ## Developer Guides
 
-* [Contribute](developer-guides/contribute/README.md)
-  * [🙋‍♂️ Support](developer-guides/contribute/support.md)
 * [Add a network](developer-guides/networks.md)
 * [Create a plugin](developer-guides/create-a-plugin.md)
 * [Create a strategy](developer-guides/create-a-strategy/README.md)
