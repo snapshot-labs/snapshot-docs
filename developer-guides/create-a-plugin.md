@@ -14,7 +14,7 @@ The development of new plugins should be coordinated with the Snapshot team.&#x2
 
 Create a fork of the **snapshot** repository:
 
-{% embed url="https://github.com/snapshot-labs/snapshot/tree/" %}
+{% @github-files/github-code-block url="https://github.com/snapshot-labs/snapshot/tree/" %}
 
 ## 2. Create a new directory and the plugin.json
 
@@ -141,7 +141,7 @@ Most plugins will require some configuration options so that a space admin can e
 Under the `"space"` key you can define global config options. They can then be set in the plugin section on a space's settings like so:\
 
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
 The `"proposal"` key let's you define options specific to a single proposal. This key must be set in order for the `Create.vue` component to be shown in the proposal creation process.
 

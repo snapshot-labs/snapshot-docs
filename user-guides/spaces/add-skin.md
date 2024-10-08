@@ -22,7 +22,7 @@ Select a skin by scrolling through the list of available choices or by typing th
 
 Don't forget that the skin will **only be applied to the custom domain URL!**
 
-![Snapshot skin selector.](../../.gitbook/assets/capture-de-cran-2020-12-30-a-09.33.58.png)
+![Snapshot skin selector.](<../../.gitbook/assets/Capture d’écran 2020-12-30 à 09.33.58.png>)
 
 That's it! You should be able to see the custom color scheme for your space on its custom domain  :tada:
 

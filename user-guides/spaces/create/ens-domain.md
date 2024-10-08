@@ -11,7 +11,7 @@ description: >-
 
 To register a space on [https://snapshot.org](https://snapshot.org) you need an ENS domain on the **Ethereum Mainnet** even if you want to use Ethereum Testnet or any other network (Binance Smart Chain, xDAI, etc).\
 \
-However if you want to experiment with the platform you can register a test space on [https://demo.snapshot.org](https://demo.snapshot.org) using an ENS on Goerli Testnet.&#x20;
+However if you want to experiment with the platform you can register a test space on [https://testnet.snapshot.org](https://testnet.snapshot.org) using an ENS on Goerli Testnet.&#x20;
 {% endhint %}
 
 If you already have an ENS domain, feel free to skip this and follow the [.](./ "mention") guide.

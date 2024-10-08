@@ -1,5 +1,5 @@
 # Comment Box
 
 {% hint style="warning" %}
-The content of this page is being working on at the moment
+The Comment Box plugin has been deprecated and is no longer available.
 {% endhint %}

@@ -14,7 +14,7 @@ Deleting a space **cannot be reversed** and you will **not be able to create a n
 
 Head to your space settings and click **Advanced** tab in the sidebar on the left:
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 Scroll down to the bottom to the Danger Zone and click **Delete space:**
 
@@ -30,5 +30,5 @@ Create a proposal on the source space as well as on the target space with the ti
 
 ### One last step
 
-Get in touch with @space-lead on our [Discord server](https://discord.gg/snapshot).\
+Contact our support on [Help Center](https://help.snapshot.org/en/)\
 Please allow a couple of days for the workflow to be processed.

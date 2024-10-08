@@ -10,7 +10,9 @@ description: >-
 
 **`Snapshot.js`** is an open source JavaScript client which comes with the core functions of the Snapshot's off-chain voting system. It was designed to work both in the browser and with `Node.js`.
 
-{% embed url="https://github.com/snapshot-labs/snapshot.js" %}
+:point\_right: [**Snapshot.js Repository**](https://github.com/snapshot-labs/snapshot.js)
+
+
 
 ## Get started
 
@@ -55,7 +57,7 @@ yarn build
 ```javascript
 import snapshot from '@snapshot-labs/snapshot.js';
 
-const hub = 'https://hub.snapshot.org'; // or https://testnet.snapshot.org for testnet
+const hub = 'https://hub.snapshot.org'; // or https://testnet.hub.snapshot.org for testnet
 const client = new snapshot.Client712(hub);
 ```
 
@@ -94,7 +96,6 @@ const receipt = await client.proposal(web3, account, {
   start: 1636984800,
   end: 1637244000,
   snapshot: 13620822,
-  network: '1',
   plugins: JSON.stringify({}),
   app: 'my-app' // provide the name of your project which is using this snapshot.js integration
 });
@@ -110,7 +111,7 @@ const [account] = await web3.listAccounts();
 
 const receipt = await client.space(web3, account, {
   "space":"pistachiodao.eth",
-  "settings":{
+  "settings": `{
     "name":"pistachiodao.eth",
     "avatar":"", // IPFS address of space avatar
     "about":"",
@@ -162,7 +163,7 @@ const receipt = await client.space(web3, account, {
       "params":{}
     }, // provide one voting validation strategy
     "treasuries":[] // provide the organization's treasury account(s)
-    }
+    }`
 });
 ```
 
@@ -212,7 +213,7 @@ const voters = [
   '0xeF8305E140ac520225DAf050e2f71d5fBcC543e7',
   '0x1E1A51E25f2816335cA436D65e9Af7694BE232ad'
 ];
-const blockNumber = 11437846;
+const snapshot = 11437846;
 const apiKey = 'your_api_key_here' // get an API Key for higher limits
 const url = `https://score.snapshot.org/?apiKey=${apiKey}`
 
@@ -221,7 +222,7 @@ snapshot.utils.getScores(
   strategies,
   network,
   voters,
-  blockNumber,
+  snapshot,
   url
 ).then(scores => {
   console.log('Scores', scores);
@@ -251,9 +252,9 @@ const snapshot = 11437846;
 const space = 'yam.eth';
 const delegation = false;
 const apiKey = 'your_api_key_here' // get an API Key for higher limits
-const url = `https://score.snapshot.org/?apiKey=${apiKey}`
+const options = { url: `https://score.snapshot.org/?apiKey=${apiKey}` }
 
-snapshot.utils.getVp(address, network, strategies, snapshot, space, delegation, url).then(vp => {
+snapshot.utils.getVp(address, network, strategies, snapshot, space, delegation, options).then(vp => {
   console.log('Voting Power', vp);
 });
 js

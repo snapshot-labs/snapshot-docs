@@ -10,7 +10,7 @@ Space verification is a process of checking if the space is real and can be trus
 
 Verified spaces have a special badge next to their name, as presented on the screenshot below.
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (79).png>)
 
 {% hint style="info" %}
 Don't worry if you voted on a proposal of a fake space - signing a message doesn't cause any implications for you.
@@ -25,7 +25,7 @@ Make sure to follow all steps from the below checklist:
 * There are at least **5 closed proposals**
 * A **link** from the official website, the **GitHub** organization or a **tweet** to confirm the ownership of the Snapshot space
 * Space is not using a testnet or network that has no recognition
-* **Ask to get verified** by an admin in [#helpdesk-tickets](https://discord.com/channels/707079246388133940/1090290400943677440) channel on [Discord](https://discord.snapshot.org)
+* **Ask to get verified** by contacting our support on [Help Center](https://help.snapshot.org/en/)
 
 Verification process can last up to 72 hours.
 

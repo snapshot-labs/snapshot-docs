@@ -18,7 +18,7 @@ If you would like to get your space verified, head to [get-verified.md](get-veri
 \
 The **warning badge** means that we either identified that space as impersonating a project, IP infringement or potential scam.
 
-<table><thead><tr><th width="115">Badge</th><th>Label</th><th>Description</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/Capture d’écran 2022-10-24 à 22.01.25 (1) (1) (1) (1).png" alt=""></td><td>Verified</td><td>Manually curated by Snapshot Labs to identify spaces that passed the verification criteria.</td></tr><tr><td><img src="../../.gitbook/assets/Capture d’écran 2022-10-24 à 22.02.40.png" alt=""></td><td>Warning</td><td>Manually curated by Snapshot Labs to identify spaces that impersonate a project, infringe IP, or spaces that are proven to be scams.</td></tr></tbody></table>
+<table><thead><tr><th width="115">Badge</th><th>Label</th><th>Description</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/image (3).png" alt="" data-size="original"></td><td>Turbo space</td><td>Verified space with Turbo plan</td></tr><tr><td><img src="../../.gitbook/assets/Capture d’écran 2022-10-24 à 22.01.25 (1).png" alt=""></td><td>Verified</td><td>Manually curated by Snapshot Labs to identify spaces that passed the verification criteria.</td></tr><tr><td><img src="../../.gitbook/assets/Capture d’écran 2022-10-24 à 22.02.40.png" alt=""></td><td>Warning</td><td>Manually curated by Snapshot Labs to identify spaces that impersonate a project, infringe IP, or spaces that are proven to be scams.</td></tr></tbody></table>
 
 {% hint style="success" %}
 Voting on a proposal which belongs to a space flagged with the warning badge **is not dangerous** as the vote does not trigger a transaction - your account as assets are safe.

@@ -35,7 +35,7 @@ This strategy returns the balance for a specific ERC20 token that user holds in 
 
 **Strategy setup:**
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 You can test it out in the **Playground on Snapshot**:
 
@@ -69,7 +69,7 @@ This strategy returns the balance for a specific ERC721 NFT as the user's Voting
 
 **Strategy setup:**
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 You can test it out in the **Playground on Snapshot**:
 
@@ -172,11 +172,11 @@ Below you can see an example of the **Basic Proposal Validation** using Voting S
 
 
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 If you want to set up a more complex validation, you can use custom strategies as shown in the screenshot below:
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ### Gitcoin Passport Validation
 
@@ -184,6 +184,6 @@ While Basic Validation focuses on the monetary assets, [this validation](../user
 
 You can select individual or multiple stamps that matter for your space. You can also decide if they need to meet all of these criteria or only one. The more criteria you select, the more Sybil-resistant your space is.
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ##
