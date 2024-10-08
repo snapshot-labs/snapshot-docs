@@ -22,7 +22,7 @@ description: Learn how to create a proposal.
 
 ### **Add a Snapshot block number**
 
-This number is important, to lock the state of community members who are able to vote. Meaning that if you attempt to vote on a proposal and block number is in the past, and you weren't holding required token yet, your vote will not be counted.
+This number is important, to lock the state of community members who are able to vote. Meaning that if you attempt to vote on a proposal and the block number is in the past, and you weren't holding required token yet, your vote will not be counted.
 
 * You can click the "?" top right the snapshot website, and get the blocknumber from there.
 * Or just look at [etherscan.io/blocks](https://etherscan.io/blocks) and use the last block number.

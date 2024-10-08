@@ -1,6 +1,6 @@
 # Block Number
 
-Block number is important, to lock the state of community members who are able to vote. Meaning that if you attempt to vote on a proposal and block number is in the past, and you weren't holding required token yet, your vote will not be counted.
+Block number is important, to lock the state of community members who are able to vote. Meaning that if you attempt to vote on a proposal and the block number is in the past, and you weren't holding the required token yet, your vote will not be counted.
 
 Explained in depth:
 
