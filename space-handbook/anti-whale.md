@@ -126,7 +126,7 @@ You can test it out in the **Playground on Snapshot**:
 This strategy executes a chosen Voting Strategy and applies algorithms to its result to reduce the impact of big wallets on the vote.&#x20;
 
 {% hint style="info" %}
-This strategy requires understanding some of the calculations shown below. If you have issues with setting it up don't hesitate to [create a ticket on Discord](https://discord.com/channels/707079246388133940/1090290400943677440)!
+This strategy requires understanding some of the calculations shown below. If you have issues with setting it up contact our support on [Help Center](https://help.snapshot.org/en/)
 {% endhint %}
 
 In practice, the strategy sets a **soft restriction on the voting threshold** by giving limited incentive to the voter below threshold by **moderately increasing the voting power** of voters and **reducing the impact** of whales as token amount increases, keeping the gap in voting power within a relatively moderate range.&#x20;

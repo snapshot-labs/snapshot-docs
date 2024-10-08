@@ -157,7 +157,7 @@ The good news is, if there's a method in your contract that reads the balance of
 Instead, use `contract-call` strategy, which allows **any contract method** to be used to calculate voter scores.&#x20;
 
 {% hint style="info" %}
-**As this is a more advanced strategy, don't hesitate to reach out to our support team on** [**Discord**](https://discord.com/channels/707079246388133940/1090290400943677440)**!**
+**As this is a more advanced strategy, don't hesitate to reach out to our support team on** [**Help Center**](https://help.snapshot.org/en/)**!**
 {% endhint %}
 
 **Strategy setup:**

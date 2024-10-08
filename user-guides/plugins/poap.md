@@ -66,6 +66,6 @@ If curation needs to contact you, they will do so via the email curation@poap.io
 ## Support
 
 Join POAP Discord: [http://poap.xyz/discord](http://poap.xyz/discord)\
-Join Snapshot Discord: [https://discord.gg/snapshot](https://discord.gg/snapshot)
+Snapshot Help Center: [https://help.snapshot.org/en](https://help.snapshot.org/en/)
 
 \\

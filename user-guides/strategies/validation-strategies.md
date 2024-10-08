@@ -1,25 +1,5 @@
 # Validation strategies
 
-{% hint style="info" %}
-Due to many spam attacks on Snapshot all Spaces are now required to use **Proposal Validation**.\
-\
-Learn how to set it up on this page or read [**our article**](https://snapshot.mirror.xyz/-uSylOUP82hGAyWUlVn4lCg9ESzKX9QCvsUgvv-ng84)**.**\
-\
-If you see this error it means your space doesn't have any Proposal Validation:
-
-\
-<img src="../../.gitbook/assets/image (63).png" alt="" data-size="original">
-{% endhint %}
-
-{% hint style="info" %}
-Spaces using only a [ticket strategy](https://snapshot.org/#/strategy/ticket) are required to set a Voting Validation to secure their spaces and ensure a fair voting process preventing spam.\
-\
-Learn here how to set it up: [#voting-validation-in-space-settings](validation-strategies.md#voting-validation-in-space-settings "mention")\
-\
-If you see this error it means your space has to set up the Validation:\
-![](<../../.gitbook/assets/image (35).png>)
-{% endhint %}
-
 ## What is a validation strategy?
 
 A voting validation is a JavaScript function that returns a boolean (`true` or `false`) for the connected account. Voting validations are being used on Snapshot to decide if an **account can vote** or **create a proposal** in a specific space**.** Each space can use one voting validation for all of its proposals at a time. While voting strategies calculate the Voting Power mainly on the basis of the monetary assets, the validation strategy can serve as a protection against **Sybil attacks**. It can take into consideration how many POAPs an account owns or track the account activity to assess if the account is a bot or a **real human**.
@@ -29,6 +9,14 @@ The **default** validation is checking if the address has **any voting power.** 
 When setting the Validation Strategy up it’s important to keep in mind that it is **meant to make it difficult for users outside of your community to post scam proposals or post spam votes.**
 
 Therefore for Proposal Validation make sure to use a **high threshold**, for example $100 worth of your organization’s token. A good idea would be to check the holdings of previous proposal creators, both legitimate and scammers, to assess a reasonable value.
+
+{% hint style="info" %}
+Spaces are required to use **Proposal Validation**. Learn how to set it up on this page or read [**our article**](https://snapshot.mirror.xyz/-uSylOUP82hGAyWUlVn4lCg9ESzKX9QCvsUgvv-ng84)**.**
+{% endhint %}
+
+{% hint style="info" %}
+Spaces using only a [ticket strategy](https://snapshot.org/#/strategy/ticket) are required to set a Voting Validation to secure their spaces and ensure a fair voting process preventing spam. Learn here how to set it up: [#voting-validation-in-space-settings](validation-strategies.md#voting-validation-in-space-settings "mention")
+{% endhint %}
 
 ## How to use validation strategies:
 

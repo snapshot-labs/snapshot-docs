@@ -34,7 +34,7 @@ Each space has a limit on the number of proposals that can be created daily and 
     <figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 4.  Fill in the following fields:\
     \- Title\
-    \- Description (optional, 20K character limit)\
+    \- Description (optional, 10K character limit)\
     \- Discussion link (optional)\
 
 
@@ -61,18 +61,21 @@ It means that if the user acquires required tokens **after** the proposal has be
 
 ### Proposals limitations
 
-* There is a character limit of **20,000** for the description of a proposal.
+* There is a character limit of **10,000** for the description of a proposal.
 * One address can have a maximum of **10 active proposals at a time**, across multiple spaces.
 * Each space has a limit on the number of proposals created daily and monthly:
 
-| Space status | Daily proposal limit | Monthly proposal limit |
-| ------------ | -------------------- | ---------------------- |
-| Verified     | 20                   | 100                    |
-| Unverified   | 3                    | 15                     |
-| Flagged      | 1                    | 5                      |
+| Space status                        | Daily proposal limit | Monthly proposal limit |
+| ----------------------------------- | -------------------- | ---------------------- |
+| [Turbo](../spaces/turbo-plan.md)    | 40                     | 200                    |
+| [Verified](../spaces/get-verified)  | 20                     | 100                    |
+| Unverified                          | 3                      | 15                     |
+| Flagged                             | 1                      | 5                      |
 
 {% hint style="info" %}
 Learn more about Space verification and flagging in [badges-and-warnings.md](../spaces/badges-and-warnings.md "mention").
 {% endhint %}
 
 * You can combine up to **8** [voting strategies](../strategies/voting-strategies.md). The limit also applies to multi-chain strategies.
+* All testnet spaces will have the same proposal limits as a Verified space
+* Can add up to 500 choices on a proposal

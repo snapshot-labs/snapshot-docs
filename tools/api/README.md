@@ -7,16 +7,14 @@ description: >-
 # API
 
 {% hint style="info" %}
-On **September 12th** we will change the **limits for the API usage** for users without the API Keys. \
-\
-To ensure you don't lose continuous access to the service please apply for an API Key by following this guide: [api-keys.md](api-keys.md "mention")
+There is a limit of 60 requests per minute with the API, to get higher limits please apply for an API Key by following this guide: [api-keys.md](api-keys.md "mention")
 {% endhint %}
 
 ## Hub GraphQL API - Explorer
 
-You can run queries on Snapshot data using a GraphQL Explorer.&#x20;
+You can run queries on Snapshot data using a GraphQL Explorer.
 
-We have exposed an integrated development environment in the browser that includes docs, syntax highlighting, and validation errors. Click the link below to access the interface.&#x20;
+We have exposed an integrated development environment in the browser that includes docs, syntax highlighting, and validation errors. Click the link below to access the interface.
 
 {% embed url="https://hub.snapshot.org/graphql" %}
 
@@ -33,7 +31,7 @@ https://hub.snapshot.org/graphql
 Demo hub
 
 ```
-https://testnet.snapshot.org/graphql
+https://testnet.hub.snapshot.org/graphql
 ```
 
 ## Queries
@@ -95,8 +93,8 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20spa
 first `number`\
 skip `number`\
 where:\
-&#x20;   \- id`string`\
-&#x20;   \- id\_in`array`\
+\- id`string`\
+\- id\_in`array`\
 orderBy `string`\
 orderDirection `asc` or `desc`
 
@@ -259,15 +257,15 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?operationName=Proposal\&query
 first `number`\
 skip `number`\
 where:\
-&#x20;   \- id`string`\
-&#x20;   \- id\_in`array`\
-&#x20;   \- space:`string`\
-&#x20;   \- space\_in:`array`\
-&#x20;   \- author:`string`\
-&#x20;   \- author\_in:`array`\
-&#x20;   \- network: `string`\
-&#x20;   \- network\_in: `array`\
-&#x20;   \- state: `array`\
+\- id`string`\
+\- id\_in`array`\
+\- space:`string`\
+\- space\_in:`array`\
+\- author:`string`\
+\- author\_in:`array`\
+\- network: `string`\
+\- network\_in: `array`\
+\- state: `array`\
 orderBy `string`\
 orderDirection `asc` or `desc`
 
@@ -415,14 +413,14 @@ Choices are indexed 1-based. The first choice has index 1.
 first `number`\
 skip `number`\
 where:\
-&#x20;   \- id`string`\
-&#x20;   \- id\_in`array`\
-&#x20;   \- space:`string`\
-&#x20;   \- space\_in:`array`\
-&#x20;   \- voter:`string`\
-&#x20;   \- voter\_in:`array`\
-&#x20;   \- proposal: `string`\
-&#x20;   \- proposal\_in: `array`\
+\- id`string`\
+\- id\_in`array`\
+\- space:`string`\
+\- space\_in:`array`\
+\- voter:`string`\
+\- voter\_in:`array`\
+\- proposal: `string`\
+\- proposal\_in: `array`\
 orderBy `string`\
 orderDirection `asc` or `desc`
 
@@ -552,12 +550,12 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20vp%
 first `number`\
 skip `number`\
 where:\
-&#x20;   \- id`string`\
-&#x20;   \- id\_in`array`\
-&#x20;   \- space:`string`\
-&#x20;   \- space\_in:`array`\
-&#x20;   \- follower:`string`\
-&#x20;   \- follower\_in:`array`\
+\- id`string`\
+\- id\_in`array`\
+\- space:`string`\
+\- space\_in:`array`\
+\- follower:`string`\
+\- follower\_in:`array`\
 orderBy `string`\
 orderDirection `asc` or `desc`
 
@@ -632,8 +630,8 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20fol
 first `number`\
 skip `number`\
 where:\
-&#x20;   \- id:`string`\
-&#x20;   \- id\_in:`array`\
+\- id:`string`\
+\- id\_in:`array`\
 orderBy `string`\
 orderDirection `asc` or `desc`
 
@@ -680,7 +678,7 @@ Try on [GraphiQL](https://hub.snapshot.org/graphql?query=query%20%7B%0A%20%20use
 first `number`\
 skip `number`\
 where:\
-&#x20;   \- address:`string`\
+\- address:`string`\
 orderBy `string`\
 orderDirection `asc` or `desc`
 
@@ -735,11 +733,11 @@ Messages are all the actions (votes, proposals, space settings etc..) that was c
 first `number`\
 skip `number`\
 where:\
-&#x20;   \- timestamp`string`\
-&#x20;   \- space`array`\
-&#x20;   \- space\_in:`array`\
-&#x20;   \- type:`string`\
-&#x20;   \- type\_in:`string`\
+\- timestamp`string`\
+\- space`array`\
+\- space\_in:`array`\
+\- type:`string`\
+\- type\_in:`string`\
 orderBy `string`\
 orderDirection `asc` or `desc`
 

@@ -57,7 +57,7 @@ yarn build
 ```javascript
 import snapshot from '@snapshot-labs/snapshot.js';
 
-const hub = 'https://hub.snapshot.org'; // or https://testnet.snapshot.org for testnet
+const hub = 'https://hub.snapshot.org'; // or https://testnet.hub.snapshot.org for testnet
 const client = new snapshot.Client712(hub);
 ```
 
@@ -96,7 +96,6 @@ const receipt = await client.proposal(web3, account, {
   start: 1636984800,
   end: 1637244000,
   snapshot: 13620822,
-  network: '1',
   plugins: JSON.stringify({}),
   app: 'my-app' // provide the name of your project which is using this snapshot.js integration
 });
@@ -112,7 +111,7 @@ const [account] = await web3.listAccounts();
 
 const receipt = await client.space(web3, account, {
   "space":"pistachiodao.eth",
-  "settings":{
+  "settings": `{
     "name":"pistachiodao.eth",
     "avatar":"", // IPFS address of space avatar
     "about":"",
@@ -164,7 +163,7 @@ const receipt = await client.space(web3, account, {
       "params":{}
     }, // provide one voting validation strategy
     "treasuries":[] // provide the organization's treasury account(s)
-    }
+    }`
 });
 ```
 
@@ -177,7 +176,7 @@ const web3 = new Web3Provider(window.ethereum);
 const [account] = await web3.listAccounts();
 
 const receipt = await client.follow(web3, account, {
-  "name":"pistachiodao.eth"
+  "space":"pistachiodao.eth"
 });
 ```
 

@@ -42,6 +42,6 @@ Once the PR is merged you will have to wait for the release of a new version on 
 
 Now the Snapshot team has to migrate your old space to the new one.
 
-Send us a message on the [#helpdesk](https://discord.com/channels/707079246388133940/1054898384995090462/1054898384995090462) forum thread on [Discord](https://discord.snapshot.org) to start the migration.
+Contact our support on [Help Center](https://help.snapshot.org/en/) to start the migration.
 
 You have now successfully migrated your space to ENS! :tada:

@@ -1,10 +1,10 @@
 ---
-description: In order to obtain higher limits on the Hub API use, apply for an API Key.
+description: To obtain higher rate limits on the Hub API use, apply for an API Key.
 ---
 
 # API Keys
 
-We want to make sure that we limit the risk of the API downtime and provide a reliable and continuous service and therefore we decided to implement API Keys to make sure that the requests are coming from genuine users.
+We want to ensure that we limit the risk of API downtime and provide a reliable and continuous service. Therefore we decided to implement API Keys to ensure that the requests come from genuine users.
 
 {% hint style="info" %}
 You can use **the same API key** for different Snapshot APIs.\
@@ -14,20 +14,12 @@ Limits are **counted individually** per each API Service.
 
 ## Limits
 
-Currently, we are in a transition period. During the next two months until July 30th, the limits for keyless access to the API will not change:
-
-**🔓 No API Key:** 60 requests per 20 seconds.
-
-**🔑 With the API Key:** 2 million requests per month.
-
-After September 12th, the limits will be updated to:
-
 **🔓 No API Key:** 100 requests per minute.
 
 **🔑 With the API Key:** 2 million requests per month.
 
 {% hint style="info" %}
-If you are getting **close to 2M requests a month** please reach out to our team directly on Discord by creating a new ticket in the [#helpdesk-tickets](https://discord.com/channels/707079246388133940/1090290400943677440) channel.
+If you are getting **close to 2M requests a month** contact our support on [Help Center](https://help.snapshot.org/en/)
 {% endhint %}
 
 ## How can I get an API Key?
@@ -44,7 +36,7 @@ If you haven’t already please **fill in the below form** or submit it via [the
 
 We will review your submission and **whitelist the address** you provided in the form.
 
-**After 72 hours** have passed you can continue with the next steps. If you get any errors while generating the key, please create a ticket in the [#helpdesk-tickets](https://discord.com/channels/707079246388133940/1090290400943677440) channel.
+**After 72 hours** have passed you can continue with the next steps. If you get any errors while generating the key, please contact our support on [Help Center](https://help.snapshot.org/en/).
 
 ### 3. Generate the API Key
 

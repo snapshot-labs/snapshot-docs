@@ -16,13 +16,13 @@ Have a look at the list below to see what is currently possible:
 
 Type `/` to see the commands (require administrator role)
 
-Need help? Ask on [Discord](https://discord.gg/snapshot)  &#x20;
+Need help? Ask on contact our support on [Help Center](https://help.snapshot.org/en/)  &#x20;
 
-### HAL
+### Domino
 
-**For:** Discord, Telegram, Twitter, Email, Slack, Webhook\
-**Status:** Ready (for all spaces)\
-**Install:** [https://9000.hal.xyz/recipes/snapshot-follow-new-proposals](https://9000.hal.xyz/recipes/snapshot-follow-new-proposals)
+**For:** Discord, Telegram, Twitter, Email, Slack, Webhook, and many more custom automations\
+**Status:** Ready\
+**Install:** [https://domino.run/explore/apps/snapshot-tmkg6ni3l3r](https://domino.run/explore/apps/snapshot-tmkg6ni3l3r)
 
 ### propbot
 
@@ -37,5 +37,5 @@ Need help? Ask on [Discord](https://discord.gg/snapshot)  &#x20;
 **Install:** [https://medium.com/boto-corp/telegram-bot-for-snapshot-no-code-353e7f3e2dc8](https://medium.com/boto-corp/telegram-bot-for-snapshot-no-code-353e7f3e2dc8)
 
 {% hint style="info" %}
-If you would like to set up another bot integration contact us on [Discord](https://discord.snapshot.org) with the details!
+If you would like to set up another bot integration, contact us on [Discord](https://discord.snapshot.org) with the details!
 {% endhint %}
