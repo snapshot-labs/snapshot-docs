@@ -85,4 +85,5 @@
 * [API](tools/api/README.md)
   * [API Keys](tools/api/api-keys.md)
 * [Webhooks](tools/webhooks.md)
+* [Subgraphs](tools/subgraphs.md)
 * [Bots](tools/bots.md)
