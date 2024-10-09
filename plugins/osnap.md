@@ -49,7 +49,7 @@ Updating the oSnap using admin functions:
 
 ## Security recommendations
 
-In order to ensure maximal safety we recommend to define several paremeters for your oSnap setup:
+In order to ensure maximal safety we recommend to define several parameters for your oSnap setup:
 
 * Set a **substantial bond** for an answer
 * Select a **long challenge period**

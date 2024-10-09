@@ -87,7 +87,7 @@ Example: `index.json`
 ### **5: Create a skin \(optional\)**
 
 1. To create your own skin go to the `/skins` folder.
-2. Copy `example.scss` change the name to what you like \(prefferably your space name\).
+2. Copy `example.scss` change the name to what you like \(preferably your space name\).
 3. Change the colors, then make sure both the `scss` file and its class name are the same.
 4. Exampe: your file is `your-space.scss` class name should be `.your-space`
 5. Include your skin name in the `index.json` file as: `"skin": "your-space"`
@@ -110,7 +110,7 @@ Example: `your-space.scss`
 
 ### **6: Make sure everything is ready**
 
-Your files should something like this:
+Your files should be something like this:
 
 ```text
 |-- spaces
