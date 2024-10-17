@@ -95,6 +95,7 @@ Here is an example of integration in a Solidity contract:
 * Fantom
 * Base
 * Linea
+* Blast
 
 ## Delegation contract
 
