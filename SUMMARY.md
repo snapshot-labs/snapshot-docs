@@ -72,6 +72,7 @@
 
 ## Developer Guides
 
+* [Identify integrator activity](developer-guides/identify-integrator-activity.md)
 * [Add a network](developer-guides/networks.md)
 * [Create a plugin](developer-guides/create-a-plugin.md)
 * [Create a strategy](developer-guides/create-a-strategy/README.md)
