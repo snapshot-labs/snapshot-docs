@@ -109,7 +109,7 @@ Make sure to generate your API Key to get higher usage limits. One key can be us
 
 </details>
 
-### Snaphot.js&#x20;
+### Snapshot.js&#x20;
 
 <details>
 
