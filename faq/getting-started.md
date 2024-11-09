@@ -58,7 +58,7 @@ You need to connect to Snapshot with your wallet and fulfil the requirements def
 
 ![](<../.gitbook/assets/image (34).png>)
 
-If you don’t understand why your voting power is `0` or how the strategies work in detail, we recommend reaching out to the organization directly. In most cases you don’t have the voting power because you did not hold the required tokens at the time of proposal creation. Tokens which were acquired after the proposal has been create are not taken into account for the voting power calculation.
+If you don’t understand why your voting power is `0` or how the strategies work in detail, we recommend reaching out to the organization directly. In most cases you don’t have the voting power because you did not hold the required tokens at the time of proposal creation. Tokens which were acquired after the proposal has been created are not taken into account for the voting power calculation.
 
 If you are eligible to vote, you can cast your vote directly from the proposal’s page. Once you select the choice(s) and confirm your vote, a new window will pop up and open your wallet extension in the browser. You will be then asked to sign a message which doesn’t create any gas fees (voting is free of charge) or affect your holdings. Signing the message is the last step of casting a vote. That’s it!
 
@@ -76,7 +76,7 @@ Yes. The message you sign in your wallet to cast the vote doesn’t affect your 
 
 <summary><strong>I can’t vote, what should I do?</strong></summary>
 
-There might be multiple reasons for that. Most usually you didn’t have the required tokens in you wallet at the time of proposal creation. Have a look at [this discussion ](https://github.com/snapshot-labs/snapshot/discussions/767)to explore other potential reasons.
+There might be multiple reasons for that. Most usually you didn’t have the required tokens in your wallet at the time of proposal creation. Have a look at [this discussion ](https://github.com/snapshot-labs/snapshot/discussions/767)to explore other potential reasons.
 
 </details>
 
