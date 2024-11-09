@@ -4,7 +4,7 @@ description: Learn how to create a new plugin for Snapshot.
 
 # Create a plugin
 
-If the existing plugins do not fulfill the needs of your space it is possible to create a new one. Keep in mind though that at this moment we have a curated list of plugins that extend the core funcitonality of Snapshot and we want to make sure that their logic is written in line with Snapshot's values.
+If the existing plugins do not fulfill the needs of your space it is possible to create a new one. Keep in mind though that at this moment we have a curated list of plugins that extend the core functionality of Snapshot and we want to make sure that their logic is written in line with Snapshot's values.
 
 {% hint style="info" %}
 The development of new plugins should be coordinated with the Snapshot team.&#x20;
