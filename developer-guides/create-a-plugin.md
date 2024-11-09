@@ -26,7 +26,7 @@ Make sure to update `myPlugin` with the name of your plugin (using `camelCase` n
 ```shell
 mkdir src/plugins/myPlugin && echo '{
   "name": "My Snapshot Plugin",
-  "author: "My GH profile",
+  "author": "My GH profile",
   "version": "1.0.0",
   "description": "A plugin to show how plugins are built.", # optional
   "defaults": {}, # predefined parameters, optional
