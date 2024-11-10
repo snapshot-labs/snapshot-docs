@@ -4,7 +4,7 @@ description: Learn how to create a new plugin for Snapshot.
 
 # Create a plugin
 
-If the existing plugins do not fulfill the needs of your space it is possible to create a new one. Keep in mind though that at this moment we have a curated list of plugins that extend the core funcitonality of Snapshot and we want to make sure that their logic is written in line with Snapshot's values.
+If the existing plugins do not fulfill the needs of your space it is possible to create a new one. Keep in mind though that at this moment we have a curated list of plugins that extend the core functionality of Snapshot and we want to make sure that their logic is written in line with Snapshot's values.
 
 {% hint style="info" %}
 The development of new plugins should be coordinated with the Snapshot team.&#x20;
@@ -26,7 +26,7 @@ Make sure to update `myPlugin` with the name of your plugin (using `camelCase` n
 ```shell
 mkdir src/plugins/myPlugin && echo '{
   "name": "My Snapshot Plugin",
-  "author: "My GH profile",
+  "author": "My GH profile",
   "version": "1.0.0",
   "description": "A plugin to show how plugins are built.", # optional
   "defaults": {}, # predefined parameters, optional
