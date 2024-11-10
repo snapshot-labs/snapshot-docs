@@ -17,7 +17,7 @@ const receipt = await client.vote(web3, account, {
   proposal: '0x21ea31e896ec5b5a49a3653e51e787ee834aaf953263144ab936ed756f36609f',
   type: 'single-choice',
   choice: 1,
-  reason: 'Choice 1 make lot of sense',
+  reason: 'Choice 1 makes a lot of sense',
   app: 'yourappname'
 });
 ```

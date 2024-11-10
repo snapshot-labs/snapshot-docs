@@ -36,7 +36,7 @@ npm run test --validation=<VALIDATION NAME> // replace <VALIDATION NAME>
 
 ### 4. Make sure you pass the checklist
 
-Have a look here on the requirements for adding a new validation strategy and make sure you full fill the points in the checklist:&#x20;
+Have a look here on the requirements for adding a new validation strategy and make sure you fulfill the points in the checklist:&#x20;
 
 [https://github.com/snapshot-labs/snapshot-strategies#checklist-for-adding-a-new-strategy](https://github.com/snapshot-labs/snapshot-strategies#checklist-for-adding-a-new-strategy)
 
