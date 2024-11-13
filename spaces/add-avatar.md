@@ -22,7 +22,7 @@ To get a logo for your space, images you need to do a pull request on this repos
 You will need to create a folder with the id of your space \(example: "my-space.eth"\). In this folder you need a file "space.png" and "logo.png" \(for the first strategy\) and "logo1.png" if you have a second strategy.
 
 {% hint style="danger" %}
-All the images must be squared and less than 50kb.
+All the images must be square and less than 50kb.
 {% endhint %}
 
 {% hint style="info" %}

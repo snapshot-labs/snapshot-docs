@@ -1,6 +1,6 @@
 ---
 description: >-
-  Which Voting Strategy to choose to enable enable users to vote on behalf of
+  Which Voting Strategy to choose to enable users to vote on behalf of
   their delegators?
 ---
 
