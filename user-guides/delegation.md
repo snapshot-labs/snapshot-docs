@@ -103,7 +103,7 @@ Snapshot uses the Gnosis "Delegate Registry" contract here:\
 [https://github.com/gnosis/delegate-registry](https://github.com/gnosis/delegate-registry)
 
 The contract is deployed on this address: [0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446](https://etherscan.io/address/0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446#code)\
-The contract is also available on Optimism, Arbitrum, Polygon, Base, BNB Chain, Gnoisis Chain, Fantom and Sepolia at the same address.
+The contract is also available on Optimism, Arbitrum, Polygon, Base, BNB Chain, Gnosis Chain, Fantom and Sepolia at the same address.
 
 Delegations are stored on this subgraph:\
 [https://thegraph.com/explorer/subgraph/snapshot-labs/snapshot](https://thegraph.com/explorer/subgraph/snapshot-labs/snapshot)
