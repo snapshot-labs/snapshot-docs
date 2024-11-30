@@ -2,7 +2,7 @@
 
 ## What is a validation strategy?
 
-A voting validation is a JavaScript function that returns a boolean (`true` or `false`) for the connected account. Voting validations are being used on Snapshot to decide if an **account can vote** or **create a proposal** in a specific space**.** Each space can use one voting validation for all of its proposals at a time. While voting strategies calculate the Voting Power mainly on the basis of the monetary assets, the validation strategy can serve as a protection against **Sybil attacks**. It can take into consideration how many POAPs an account owns or track the account activity to assess if the account is a bot or a **real human**.
+A voting validation is a JavaScript function that returns a boolean (`true` or `false`) for the connected account. Voting validations are being used on Snapshot to decide if an **account can vote** or **create a proposal** in a specific spac&#x65;**.** Each space can use one voting validation for all of its proposals at a time. While voting strategies calculate the Voting Power mainly on the basis of the monetary assets, the validation strategy can serve as a protection against **Sybil attacks**. It can take into consideration how many POAPs an account owns or track the account activity to assess if the account is a bot or a **real human**.
 
 The **default** validation is checking if the address has **any voting power.** If the voting power is higher than `0` the connected account is validated. A validation strategy can send a call to a node or subgraph.
 

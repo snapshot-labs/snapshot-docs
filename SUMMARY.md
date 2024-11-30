@@ -87,3 +87,23 @@
 * [Webhooks](tools/webhooks.md)
 * [Subgraphs](tools/subgraphs.md)
 * [Bots](tools/bots.md)
+
+## Snapshot X
+
+* [Overview](snapshot-x/overview.md)
+* [Protocol](snapshot-x/protocol/README.md)
+  * [Overview](snapshot-x/protocol/overview.md)
+  * [Space actions](snapshot-x/protocol/space-actions.md)
+  * [Space controller actions](snapshot-x/protocol/space-controller-actions.md)
+  * [Authenticators](snapshot-x/protocol/authenticators.md)
+  * [Proposal validations](snapshot-x/protocol/proposal-validations.md)
+  * [Voting strategies](snapshot-x/protocol/voting-strategies.md)
+  * [Starknet specifics](snapshot-x/protocol/starknet-specifics.md)
+  * [Execution strategies](snapshot-x/protocol/execution-strategies.md)
+  * [Audits](snapshot-x/protocol/audits.md)
+* [Services](snapshot-x/services/README.md)
+  * [Architecture](snapshot-x/services/architecture.md)
+  * [API](snapshot-x/services/api.md)
+  * [SX.js](snapshot-x/services/sx.js.md)
+  * [UI](snapshot-x/services/ui.md)
+  * [Mana](snapshot-x/services/mana.md)

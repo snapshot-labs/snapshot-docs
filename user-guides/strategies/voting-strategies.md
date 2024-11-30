@@ -25,7 +25,7 @@ Majority of spaces on Snapshot is using a single strategy however if you need a 
 {% hint style="info" %}
 **Multiple voting strategies**\
 If you combine several voting strategies the voting power will be calculated in the following way:\
-_total voting power = voting power from strategy A + voting power from strategy B + ..._
+&#xNAN;_&#x74;otal voting power = voting power from strategy A + voting power from strategy B + ..._
 {% endhint %}
 
 \
