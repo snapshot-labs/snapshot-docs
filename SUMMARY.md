@@ -91,6 +91,11 @@
 ## Snapshot X
 
 * [Overview](snapshot-x/overview.md)
+* [User guides](snapshot-x/user-guides/README.md)
+  * [Create a space](snapshot-x/user-guides/create-a-space.md)
+  * [Proposals](snapshot-x/user-guides/proposals.md)
+  * [Voting](snapshot-x/user-guides/voting.md)
+  * [Safe execution setup](snapshot-x/user-guides/safe-execution-setup.md)
 * [Protocol](snapshot-x/protocol/README.md)
   * [Overview](snapshot-x/protocol/overview.md)
   * [Space actions](snapshot-x/protocol/space-actions.md)

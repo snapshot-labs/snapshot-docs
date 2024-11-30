@@ -11,7 +11,7 @@ This is all handled seamlessly by the Snapshot X protocol by taking advantage of
 This diagram represents the flow of a proposal that will get executed on L1, with voters using their regular EVM account to vote.\
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 [https://whimsical.com/storageproofs-7kjLqMvsR3okzFgMrad9Fu](https://whimsical.com/storageproofs-7kjLqMvsR3okzFgMrad9Fu)
 

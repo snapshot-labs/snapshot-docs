@@ -62,7 +62,7 @@ A new pop-up window will open where you can toggle the different options:
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## How to unsubscribe?
 
