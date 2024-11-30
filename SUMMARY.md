@@ -112,3 +112,9 @@
   * [SX.js](snapshot-x/services/sx.js.md)
   * [UI](snapshot-x/services/ui.md)
   * [Mana](snapshot-x/services/mana.md)
+
+## Community
+
+* [Discord](https://discord.snapshot.org)
+* [X (Twitter)](https://x.com/SnapshotLabs)
+* [GitHub](https://github.com/snapshot-labs)
