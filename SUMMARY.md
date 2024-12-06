@@ -116,5 +116,5 @@
 ## Community
 
 * [Discord](https://discord.snapshot.org)
-* [X (Twitter)](https://x.com/SnapshotLabs)
+* [X (X)](https://x.com/SnapshotLabs)
 * [GitHub](https://github.com/snapshot-labs)
