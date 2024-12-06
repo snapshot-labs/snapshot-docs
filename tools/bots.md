@@ -16,19 +16,19 @@ Have a look at the list below to see what is currently possible:
 
 Type `/` to see the commands (require administrator role)
 
-Need help? Ask on contact our support on [Help Center](https://help.snapshot.org/en/)  &#x20;
+Need help? Contact our support on [Help Center](https://help.snapshot.org/en/)  &#x20;
 
 ### Domino
 
-**For:** Discord, Telegram, Twitter, Email, Slack, Webhook, and many more custom automations\
+**For:** Discord, Telegram, X, Email, Slack, Webhook, and many more custom automations\
 **Status:** Ready\
 **Install:** [https://domino.run/explore/apps/snapshot-tmkg6ni3l3r](https://domino.run/explore/apps/snapshot-tmkg6ni3l3r)
 
 ### propbot
 
-**For:** Twitter\
+**For:** X\
 **Status:** Ready\
-**Install:** [https://twitter.com/proposalbot](https://twitter.com/proposalbot)
+**Install:** [https://x.com/proposalbot](https://x.com/proposalbot)
 
 ### Boto
 
