@@ -11,7 +11,7 @@ description: >-
 
 Snapshot is a **voting platform** that allows DAOs, DeFi protocols, or NFT communities to vote easily and **without gas fees**.&#x20;
 
-The tool allows high customization of the voting process to cater to the diverse needs of the users and organizations. Customization includes different aspects like calculation of the users' voting power, selection of the voting mechanism, proposal and vote validation, and many more.
+The tool allows for high customization of the voting process to cater to the diverse needs of users and organizations. Customization includes different aspects like calculation of the users' voting power, selection of the voting mechanism, proposal and vote validation, and many more.
 
 In short, Snapshot is an off-chain gasless multi-governance client which results are easy to verify and hard to contest.
 
@@ -29,11 +29,11 @@ In short, Snapshot is an off-chain gasless multi-governance client which results
 
 There are three key elements that are involved in the voting process: **spaces**, **proposals** and **votes**. Proposals and votes are associated with a space, while each space is an account (profile) of an organization.&#x20;
 
-You will need an **ENS domain** in order to create a space on Snapshot, which is also the only requirement from Snapshot's side to set up a space.
+You will need an **ENS domain** in order to create a space on Snapshot, which is also the only requirement from the Snapshot side to set up a space.
 
-Users can then create proposals for the space and vote on them. Space admins can define the **rules** for proposal creation and casting a vote by setting up voting and validation strategies. For example only users holding a minimum of 10K of specified token can create a new proposal and the voting power of users is proportional to the balance of the specified token in their wallet.
+Users can then create proposals for the space and vote on these. Space admins can define the **rules** for proposal creation and casting a vote by setting up voting and validation strategies. For example only users holding a minimum of 10K of specified token can create a new proposal and the voting power of users is proportional to the balance of the specified token in their wallet.
 
-For more details about the voting process and customization have a look at the detailed pages of our documentation.
+For additional details about the voting process and customization have a look at the detailed pages of our documentation.
 
 ### Where to start?
 
