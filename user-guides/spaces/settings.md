@@ -121,7 +121,7 @@ The **voting period** is the duration that the proposal is active and votes can 
 
 ### Shielded Voting
 
-You can enable Shielded Voting within your space if you want to enable partial privacy and reduce voter apathy. Shielded Voting designed by Shutter is enabling that by using threshold encryption. You can learn more about it in the [technical overview.](https://blog.shutter.network/shutter-brings-shielded-voting-to-snapshot/)
+You can enable Shielded Voting within your space if you want to enable partial privacy and reduce voter apathy. Shielded Voting designed by Shutter is enabling that by using threshold encryption. You can learn more about it in the [technical overview.](https://www.shutter.network/shielded-voting)
 
 In short, Shielded Voting is a voting setting in which the voters choices are private during the voting period and get revealed when the proposal closes.
 
