@@ -2,7 +2,7 @@
 description: Combine Gnosis Safe with Snapshot using SafeSnap plugin.
 ---
 
-# SafeSnap: Reality
+# SafeSnap
 
 Combining the Gnosis Safe with Snapshot, SafeSnap enables decentralized execution of crypto governance proposals, through on-chain execution of off-chain votes.\
 
@@ -29,7 +29,7 @@ Follow the official Zodiac guide on how to setup a SafeSnap for your project.\
 
 **I'm a developer:**
 
-{% embed url="https://github.com/gnosis/zodiac-module-reality/blob/main/docs/setup_guide.md" %}
+{% @github-files/github-code-block url="https://github.com/gnosis/zodiac-module-reality/blob/main/docs/setup_guide.md" %}
 
 **More information:**
 

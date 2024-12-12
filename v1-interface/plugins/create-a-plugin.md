@@ -7,7 +7,7 @@ description: Learn how to create a new plugin for Snapshot.
 If the existing plugins do not fulfill the needs of your space it is possible to create a new one. Keep in mind though that at this moment we have a curated list of plugins that extend the core functionality of Snapshot and we want to make sure that their logic is written in line with Snapshot's values.
 
 {% hint style="info" %}
-The development of new plugins should be coordinated with the Snapshot team.&#x20;
+The development of new plugins should be coordinated with the Snapshot team.
 {% endhint %}
 
 ## 1. Fork the snapshot repository
@@ -41,9 +41,9 @@ You can check that by running the local server and heading to any space's settin
 
 Now it's time to add the logic to it!
 
-## 3. Create plugin structure and logic&#x20;
+## 3. Create plugin structure and logic
 
-In order to display the plugin on Snapshot, you need to create its structure by using components. The below table is listing the available components with their render location:&#x20;
+In order to display the plugin on Snapshot, you need to create its structure by using components. The below table is listing the available components with their render location:
 
 | Plugin component               | will be rendered here:          |
 | ------------------------------ | ------------------------------- |
@@ -138,10 +138,9 @@ Most plugins will require some configuration options so that a space admin can e
 }
 ```
 
-Under the `"space"` key you can define global config options. They can then be set in the plugin section on a space's settings like so:\
+Under the `"space"` key you can define global config options. They can then be set in the plugin section on a space's settings like so:\\
 
-
-<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
 The `"proposal"` key let's you define options specific to a single proposal. This key must be set in order for the `Create.vue` component to be shown in the proposal creation process.
 

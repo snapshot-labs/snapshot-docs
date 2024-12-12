@@ -1,8 +1,9 @@
 ---
 description: Learn what Gnosis Impact plugin is and how to set it up for your space.
+hidden: true
 ---
 
-# Gnosis Impact
+# Gnosis Impact (deprecated)
 
 The [Gnosis Impact app](https://impact.gnosis.io/) is a tool for projecting into the future. The app uses simple analysis of prediction markets to expose the price that traders are willing to pay for an asset in the condition that a particular event occurs. This information is an invaluable decision-making tool as it gives insight into how the market perceives the event impacting the relative value of asset pairs.
 

@@ -19,7 +19,7 @@ Voting type is defined in the space settings or at the level of an individual pr
 * Choose only **one option** - [#single-choice-voting](voting-types.md#single-choice-voting "mention")
 * Spread their votes over **multiple options** - [#weighted-voting](voting-types.md#weighted-voting "mention")
 * **Approve** a certain number of options - [#approval-voting](voting-types.md#approval-voting "mention")
-* Spread their votes over multiple options using the [**quadratic voting**](https://en.wikipedia.org/wiki/Quadratic\_voting) **formula** - [#quadratic-voting](voting-types.md#quadratic-voting "mention")
+* Spread their votes over multiple options using the [**quadratic voting**](https://en.wikipedia.org/wiki/Quadratic_voting) **formula** - [#quadratic-voting](voting-types.md#quadratic-voting "mention")
 * Rank the different choices in their **order of preference** - [#ranked-choice-voting-instant-runoff-voting](voting-types.md#ranked-choice-voting-instant-runoff-voting "mention")
 * **Abstain** from voting while still participating in quorum - [#basic-voting](voting-types.md#basic-voting "mention")
 
@@ -124,7 +124,7 @@ All in all, you don't have to understand each step of the calculation. Yet, it s
 {% hint style="danger" %}
 This Voting type may encourage the whales to create multiple wallets and split their holdings among them. Therefore it's important to also implement a mechanism providing Sybil Resistance. \
 \
-**Read more** [**here**](../../space-handbook/sybil-resistance-scam-and-spam-prevention.md)**!**
+**Read more** [**here**](../spaces/space-handbook/sybil-resistance-scam-and-spam-prevention.md)**!**
 {% endhint %}
 
 **Pros**: Dilutes the whales' voting power in favor of smaller holders. Individuals will matter more than the number of tokens. \

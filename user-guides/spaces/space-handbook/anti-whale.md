@@ -32,7 +32,7 @@ Drawing key principles from the Quadratic Funding model, our QV type **fosters g
 
 You can set it up for all proposals in your Space by heading to the **Voting** tab in the Space settings and selecting the desired Voting System in the **Type** field:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-06-12 at 15.26.16.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-06-12 at 15.26.16.png" alt=""><figcaption></figcaption></figure>
 
 #### **Let's have a look at an example:**
 
@@ -82,7 +82,7 @@ All in all you don't have to understand each step of the calculation, yet it sho
 {% endhint %}
 
 {% hint style="danger" %}
-This Voting System may encourage the whales to create multiple wallets and split their holdings among them. Therefore it's important to also implement a mechanism providing Sybil Resistance. \
+This Voting System may encourage the whales to create multiple wallets and split their holdings among them. Therefore it's important to also implement a mechanism providing Sybil Resistance.\
 \
 **Read more** [**here**](sybil-resistance-scam-and-spam-prevention.md)**!**
 {% endhint %}
@@ -98,7 +98,7 @@ You can think of it as creating multiple buckets which will determine the Voting
 * users who hold from 10 to 20 tokens will have **2** Voting Power
 * users who hold more than 20 tokens will have **5** Voting Power
 
-As you can see, you are able to set various thresholds which will fix user's Voting Power at a specific level. This way whales who may have large holdings, for example 1000 tokens, will not get more than **5** Voting Power.&#x20;
+As you can see, you are able to set various thresholds which will fix user's Voting Power at a specific level. This way whales who may have large holdings, for example 1000 tokens, will not get more than **5** Voting Power.
 
 This way the voting can be more reflective of the public opinion.
 
@@ -123,13 +123,13 @@ You can test it out in the **Playground on Snapshot**:
 
 ### 2.[ anti-whale](https://snapshot.org/#/strategy/anti-whale)
 
-This strategy executes a chosen Voting Strategy and applies algorithms to its result to reduce the impact of big wallets on the vote.&#x20;
+This strategy executes a chosen Voting Strategy and applies algorithms to its result to reduce the impact of big wallets on the vote.
 
 {% hint style="info" %}
 This strategy requires understanding some of the calculations shown below. If you have issues with setting it up contact our support on [Help Center](https://help.snapshot.org/en/)
 {% endhint %}
 
-In practice, the strategy sets a **soft restriction on the voting threshold** by giving limited incentive to the voter below threshold by **moderately increasing the voting power** of voters and **reducing the impact** of whales as token amount increases, keeping the gap in voting power within a relatively moderate range.&#x20;
+In practice, the strategy sets a **soft restriction on the voting threshold** by giving limited incentive to the voter below threshold by **moderately increasing the voting power** of voters and **reducing the impact** of whales as token amount increases, keeping the gap in voting power within a relatively moderate range.
 
 As an example, assuming our threshold is **5**:
 
@@ -151,7 +151,7 @@ If result <= antiWhale.threshold {
 
 #### **Parameters**
 
-**`antiWhale.threshold`** - point at which the `antiWhale` takes effect.&#x20;
+**`antiWhale.threshold`** - point at which the `antiWhale` takes effect.
 
 {% hint style="info" %}
 Results not greater than the **threshold** will be treated with a **static multiplier.** This is to reduce infinite incentive for **multiple wallet** exploits.
@@ -162,21 +162,21 @@ Results not greater than the **threshold** will be treated with a **static multi
 
 **`thresholdMultiplier`** - the multiplier at which all results below `antiWhale.threshold` are multiplied.
 
-**`antiWhale.inflectionPoint`** - point at which the output matches the result.&#x20;
+**`antiWhale.inflectionPoint`** - point at which the output matches the result.
 
-\-> Results **less** than this will **increase** output.&#x20;
+-> Results **less** than this will **increase** output.
 
-\-> Results **greater** than the inflection point will decrease output.
+-> Results **greater** than the inflection point will decrease output.
 
 * Default: 6500
 * Lower limit: > 0 - set to default if ≤ 0
 * Must be bigger or equal to `antiWhale.threshold`. Otherwise will be same as `antiWhale.threshold`
 
-**`antiWhale.exponent`** - the exponent is responsible for the antiWhale effect.&#x20;
+**`antiWhale.exponent`** - the exponent is responsible for the antiWhale effect.
 
-\-> Must be ≤ 1, or else it will have a pro-whale effect.&#x20;
+-> Must be ≤ 1, or else it will have a pro-whale effect.
 
-\-> Must be ＞0, or else it will cause total voting power to trend to 0. Look at the example below to understand its effect.
+-> Must be ＞0, or else it will cause total voting power to trend to 0. Look at the example below to understand its effect.
 
 {% hint style="info" %}
 **Example**
@@ -221,6 +221,6 @@ As you can see exponent **lower than 1 will reduce** the original random value w
 }
 ```
 
-[^1]: [Voting ](../user-guides/proposals/voting-types.md)[type](../user-guides/proposals/voting-types.md) defines how users can cast their votes and how the final result is calculated.
+[^1]: [Voting ](../../proposals/voting-types.md)[type](../../proposals/voting-types.md) defines how users can cast their votes and how the final result is calculated.
 
-    Do not mistake it with the voting strategy though - a [voting strategy](../user-guides/strategies/voting-strategies.md) is used to calculate the **individual voting power** of a user while the voting system calculates the **outcome of the proposal**.
+    Do not mistake it with the voting strategy though - a [voting strategy](../../strategies/voting-strategies.md) is used to calculate the **individual voting power** of a user while the voting system calculates the **outcome of the proposal**.

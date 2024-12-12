@@ -8,9 +8,9 @@ Suppose you want to restrict the ability to vote within your community for examp
 
 To recap what Voting and Validation Strategies are:
 
-[Validation Strategies](../user-guides/strategies/validation-strategies.md) are a way to define who is allowed to vote on a proposal or create a new one.&#x20;
+[Validation Strategies](../../strategies/validation-strategies.md) are a way to define who is allowed to vote on a proposal or create a new one.&#x20;
 
-[Voting Strategies](../user-guides/strategies/voting-strategies.md) calculate how much Voting Power each user has.
+[Voting Strategies](../../strategies/voting-strategies.md) calculate how much Voting Power each user has.
 
 ## Voting Validation&#x20;
 
@@ -20,13 +20,13 @@ Defining the required threshold of the user's Voting Power can be set up simply 
 
 Go to Space Settings and open the **Voting** tab. At the bottom you can find the Validation section:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-05-24 at 15.53.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-05-24 at 15.53.41.png" alt=""><figcaption></figcaption></figure>
 
 ### Basic Voting Validation
 
-Select the [**Basic Voting Validation**](../user-guides/strategies/validation-strategies.md#validation-strategy-example-basic)**.**
+Select the [**Basic Voting Validation**](../../strategies/validation-strategies.md#validation-strategy-example-basic)**.**
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-06-20 at 11.39.23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-06-20 at 11.39.23.png" alt=""><figcaption></figcaption></figure>
 
 This way you can easily define how much Voting Power is required for the users to cast votes on Proposals in your Space. Voting Power is calculated on the basis of the Voting Strategies set for your Space.
 
@@ -36,11 +36,11 @@ If they hold 5 tokens, they won't be able to cast a vote as it's < 10 VP.
 
 ### Gitcoin Passport Validation
 
-Select the [**Gitcoin Passport Validation**](../user-guides/strategies/validation-strategies.md#validation-strategy-example-gitcoin-passport).
+Select the [**Gitcoin Passport Validation**](../../strategies/validation-strategies.md#validation-strategy-example-gitcoin-passport).
 
 This Validation allows you to set requirements by checking the [Gitcoin Passport](https://passport.gitcoin.co/) stamps which serve as validation for the user’s identity and online reputation. You can select individual or multiple stamps that matter for your space. You can also decide if they need to meet all of these criteria or only one.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-05-24 at 16.03.47.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-05-24 at 16.03.47.png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -22,8 +22,8 @@ Sure thing, read on!
 [multi-token-erc-1155.md](multi-token-erc-1155.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../v1-interface/plugins/poap.md" %}
-[poap.md](../../v1-interface/plugins/poap.md)
+{% content-ref url="../../../../v1-interface/plugins/poap.md" %}
+[poap.md](../../../../v1-interface/plugins/poap.md)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}

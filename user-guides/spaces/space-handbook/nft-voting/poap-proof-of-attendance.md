@@ -40,7 +40,7 @@ The `poap` strategy returns the **balance** of POAP for a certain event as Votin
 
 Visit the POAP[ gallery](https://poap.gallery) and search for the name of the POAP you're looking for:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-06-27 at 12.16.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2023-06-27 at 12.16.15.png" alt=""><figcaption></figcaption></figure>
 
 You can test it out in the **Playground on Snapshot:**
 

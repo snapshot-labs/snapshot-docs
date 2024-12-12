@@ -9,11 +9,11 @@ description: Find the best solution for your use case!
 \
 Make sure to learn about those concepts before diving into this chapter! \
 \
-👉 [Voting strategies](../user-guides/strategies/voting-strategies.md)\
-👉 [Validation strategies](../user-guides/strategies/validation-strategies.md)\
-👉 [Voting t](../user-guides/proposals/voting-types.md)[ypes](../user-guides/proposals/voting-types.md)\
+👉 [Voting strategies](../../strategies/voting-strategies.md)\
+👉 [Validation strategies](../../strategies/validation-strategies.md)\
+👉 [Voting t](../../proposals/voting-types.md)[ypes](../../proposals/voting-types.md)\
 \
-We also recommend going through the entire [Spaces](../user-guides/spaces/) guide to get acquainted with the process of [creating a Space](../user-guides/spaces/create/) and updating its [settings](../user-guides/spaces/settings.md).
+We also recommend going through the entire [Spaces](../) guide to get acquainted with the process of [creating a Space](../create/) and updating its [settings](../settings.md).
 {% endhint %}
 
 This section will help you **combine Voting types, Validation, and Voting strategies** based on your organization's needs. We will look into:
@@ -29,12 +29,12 @@ This section will help you **combine Voting types, Validation, and Voting strate
 
 If none of the above are a good fit for your Space, we encourage you to use the **Search** feature of this documentation with the **Lens** option selected to ask a question and receive a human-friendly answer :wink:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-05-23 at 12.48.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-05-23 at 12.48.02.png" alt=""><figcaption></figcaption></figure>
 
 Feel free to reach out to us on [Discord](https://discord.com/channels/707079246388133940/1090290400943677440) to suggest use cases that we did not cover!
 
-[^1]: Voting Strategies are used to calculated user's Voting Power. [Read more here](../user-guides/strategies/voting-strategies.md).
+[^1]: Voting Strategies are used to calculated user's Voting Power. [Read more here](../../strategies/voting-strategies.md).
 
-[^2]: Validation Strategies are used to define if a user is eligible to vote or create a proposal. [Read more here](../user-guides/strategies/validation-strategies.md).
+[^2]: Validation Strategies are used to define if a user is eligible to vote or create a proposal. [Read more here](../../strategies/validation-strategies.md).
 
-[^3]: Voting Systems relate to how users can cast their votes and how the final results of a proposal is calculated. [Read more here.](../user-guides/proposals/voting-types.md)
+[^3]: Voting Systems relate to how users can cast their votes and how the final results of a proposal is calculated. [Read more here.](../../proposals/voting-types.md)
