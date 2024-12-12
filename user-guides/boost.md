@@ -51,23 +51,17 @@ Boosting allows you to incentivize voting in a way that aligns with your interes
 If strategic incentivization is not be in line with your space's goals it can be disabled by an admin at space level.
 {% endhint %}
 
-### Fee Structure
+### Fee structure
 
 Our platform incorporates a dual-fee system designed to sustain the ecosystem and prevent misuse. While both fees are currently set to zero during our closed beta, they are structured as follows:
 
-#### ETH Fee
+#### Boost creation fee
 
-A nominal fee of 0.01 ETH will be implemented as a spam prevention measure. This fee also helps cover any network fees incurred by the platform during the operation.
+A fixed fee in ETH can be added for Boost creation. Currently, this fee is set to 0 ETH.
 
-#### Token Fee
+#### Token fee
 
-{% hint style="warning" %}
-We have set both the ETH fee and the Token fee to zero for our closed beta testing phase.
-{% endhint %}
-
-In addition to the ETH fee, a token fee of 3% will be taken from the deposited tokens. This fee is essential for the platform's revenue, allowing us to continue providing quality services, innovating our offerings, and supporting the community. The token fee is calculated based on the total token amount committed to the boost at the time of creation.
-
-Both fees are designed to be reasonable and ensure the longevity and integrity of the platform. Participants will always have full visibility of any applicable fees before finalizing their boost creations.
+The protocol includes a fee mechanism that can be configured as a percentage of the reward tokens. This fee is paid using the same ERC-20 token committed as the reward and is designed to support the platform’s sustainability. Currently, the token fee is set to 0%. If the fee is enabled in the future, it will be clearly displayed in the interface during the Boost creation process.
 
 ### FAQs
 
