@@ -21,7 +21,6 @@
     * [📄 Proposals](faq/im-a-snapshot-user/proposals.md)
     * [⚙️ Space settings](faq/im-a-snapshot-user/space-settings.md)
     * [✨ Voting strategies](faq/im-a-snapshot-user/voting-strategies.md)
-    * [⏫ Boost](faq/im-a-snapshot-user/boost.md)
   * [👩‍💻 I'm a developer](faq/im-a-developer.md)
 
 ## User guides

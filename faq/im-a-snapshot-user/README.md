@@ -12,8 +12,8 @@
 [voting-strategies.md](voting-strategies.md)
 {% endcontent-ref %}
 
-{% content-ref url="boost.md" %}
-[boost.md](boost.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ### General
@@ -36,7 +36,7 @@ Before you report it make sure to browse through this FAQ, our documentation. If
 
 We recommend to wait for around 10 minutes and try again. If the error persist, open the console panel (right click with your mouse and click `Inspect` and open the `Console` tab):
 
-![](<../../.gitbook/assets/image (36).png>)
+<img src="../../.gitbook/assets/image (36).png" alt="" data-size="original">
 
 Make a screenshot of the panel and contact our support on [Help Center](https://help.snapshot.org/en/) with the following details:
 
@@ -59,6 +59,6 @@ Yes. Limiting the number of followed spaces to 25 is one of our anti-scam & -spa
 
 <summary>I'm receiving the error "The message timestamp is not valid. Please check the clock on your device, and make sure it is set to the correct date and time, and try again"?</summary>
 
-The reason behind this error is that the time configured on your device isn't accurate. [Refer here to troubleshoot](https://github.com/snapshot-labs/snapshot/discussions/769#discussioncomment-1400619).&#x20;
+The reason behind this error is that the time configured on your device isn't accurate. [Refer here to troubleshoot](https://github.com/snapshot-labs/snapshot/discussions/769#discussioncomment-1400619).
 
 </details>

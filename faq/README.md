@@ -1,5 +1,6 @@
 ---
 description: Frequently asked questions.
+hidden: true
 ---
 
 # FAQs
