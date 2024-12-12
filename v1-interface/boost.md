@@ -19,7 +19,7 @@ Creating a boost is a straightforward process, here's what happens when you set 
 3. As the creator of the boost, you will receive an NFT from the Boost contract after setting up the boost. This NFT represents your ownership and is essentially your claim ticket for retrieving any unclaimed tokens once the claiming period ends. The retrieval of remaining tokens can be done directly from the proposal page.
 4. After the voting on the proposal voting period ends, the claiming period is initiated. This period lasts for two weeks, during which voters can claim their rewards. The length of this period is enforced by us to give voters enough time to claim their rewards.
 
-### Distribution Types
+### Distribution types
 
 When setting up a boost, you have the flexibility to choose how rewards are distributed to voters. Two of the primary distribution types are "Lottery" and "Weighted".
 
@@ -35,15 +35,15 @@ The randomness generator we use is the \`ChaCha20Rng\` randomness generator, fed
 
 This method allows you to reward voters proportionally to their voting power. You can also set a maximum reward limit per voter to ensure a more equitable distribution and prevent any single voter from receiving a disproportionately large share of the rewards. This can help maintain balance and fairness in the incentive system, especially in spaces where voting power varies significantly between members.
 
-### Benefits of Boosting
+### Benefits of Boost
 
 Boosting has a twofold benefit: increasing participation and allowing for strategic incentivization.
 
-#### Increasing Participation
+#### Increasing participation
 
 By boosting a proposal, you directly contribute to the governance process, encouraging others to take part in important decisions. Your influence can lead to higher voter turnout and a more robust decision-making process.
 
-#### Strategic Incentivization
+#### Strategic incentivization
 
 Boosting allows you to incentivize voting in a way that aligns with your interests. This strategic layer adds depth to the voting process, as participants can receive additional rewards by voting a certain way.
 

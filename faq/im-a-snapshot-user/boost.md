@@ -36,6 +36,6 @@ Effectiveness can be gauged by the increase in participation on the proposals yo
 
 <summary><strong>What safeguards are in place to prevent abuse of the boosting system?</strong></summary>
 
-We're actively monitoring the use of boosts and will iterate on the rules and mechanisms to prevent any form of abuse as we learn from the beta phase. There are some potential risks with [Strategic incentivization](../../user-guides/boost.md), so you might want to disable this feature in your space settings.
+We're actively monitoring the use of boosts and will iterate on the rules and mechanisms to prevent any form of abuse as we learn from the beta phase. There are some potential risks with [Strategic incentivization](../../v1-interface/boost.md), so you might want to disable this feature in your space settings.
 
 </details>

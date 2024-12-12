@@ -24,7 +24,7 @@ You can extend your space's functionality by adding plugin(s) to it. They will b
 
 3\. Configure the plugin according to your needs. \
 \
-Each plugin requires different setup so before you add it to your space make sure which parameters do you need to provide. As an example, the Gnosis SafeSnap plugin requires a `CHAIN_ID` of the network your safe is using and the `realityAddress` . Check out the [using-safe-multi-sig.md](../using-safe-multi-sig.md "mention") setup steps if you want to learn more about this specific plugin.
+Each plugin requires different setup so before you add it to your space make sure which parameters do you need to provide. As an example, the Gnosis SafeSnap plugin requires a `CHAIN_ID` of the network your safe is using and the `realityAddress` . Check out the [using-safe-multi-sig.md](../../user-guides/using-safe-multi-sig.md "mention") setup steps if you want to learn more about this specific plugin.
 
 <figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 

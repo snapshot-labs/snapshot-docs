@@ -18,14 +18,14 @@ If you have trouble finding the settings page you can manually navigate to it wi
 
 ## Edit the controller of your space
 
-Space controller is the main account that is able to manage the space settings and assign other addresses as admins of the space. By default it's set as the ENS Controller address however you can change it to another address.&#x20;
+Space controller is the main account that is able to manage the space settings and assign other addresses as admins of the space. By default it's set as the ENS Controller address however you can change it to another address.
 
 To replace the current space controller by a new controller click the `Edit controller` button.
 
 ![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 14.14.17.png>)
 
 {% hint style="info" %}
-You will need to **sign a transaction** on the Ethereum Mainnet to set the ENS text-record.&#x20;
+You will need to **sign a transaction** on the Ethereum Mainnet to set the ENS text-record.
 {% endhint %}
 
 ## Edit your profile information
@@ -36,7 +36,7 @@ To complete your profile, you can upload an avatar/logo, enter a name for your D
 
 ## Social accounts
 
-You can link your social media accounts to the space on Snapshot by typing in your account handle, i.e. [@SnapshotLabs ](https://twitter.com/SnapshotLabs)
+You can link your social media accounts to the space on Snapshot by typing in your account handle, i.e. [@SnapshotLabs](https://twitter.com/SnapshotLabs)
 
 ![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 14.30.17.png>)
 
@@ -54,7 +54,7 @@ In order to connect the space with sub-spaces you need to set them up for both m
 ![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 14.30.37.png>)
 
 {% hint style="warning" %}
-If you see a  ❌  after typing the sub-space name it means that it cannot be found. Make sure that you have created the sub-space before adding it.
+If you see a ❌ after typing the sub-space name it means that it cannot be found. Make sure that you have created the sub-space before adding it.
 {% endhint %}
 
 ## Voting strategies
@@ -64,7 +64,7 @@ Specify how the voting power should be calculated by adding one or up to 8 strat
 To learn more about what they are and how they work head to [voting-strategies.md](../strategies/voting-strategies.md "mention").
 
 {% hint style="danger" %}
-If you are using a [ticket](https://snapshot.org/#/strategy/ticket) strategy which gives everyone 1 vote regardless of their holdings, you are required to set up a Voting Validation. \
+If you are using a [ticket](https://snapshot.org/#/strategy/ticket) strategy which gives everyone 1 vote regardless of their holdings, you are required to set up a Voting Validation.\
 \
 Head here to learn how to do it: [#validation-strategy-example-gitcoin-passport](../strategies/validation-strategies.md#validation-strategy-example-gitcoin-passport "mention")
 {% endhint %}
@@ -75,7 +75,7 @@ Head here to learn how to do it: [#validation-strategy-example-gitcoin-passport]
 
 In order to specify who can manage the space or create proposals, fill in the apropriate field with addresses for:
 
-* **Admins** - able to edit the space settings and moderate proposals.&#x20;
+* **Admins** - able to edit the space settings and moderate proposals.
 * **Authors** - able to create proposals without any constraints Make sure that members specified in authors field are allowed to submit a proposal.
 
 {% hint style="info" %}
@@ -112,8 +112,8 @@ To learn what a validation is head to [validation-strategies.md](../strategies/v
 
 ## Voting
 
-The **voting delay** is a value in time between the time of proposal creation and the moment when users are allowed to vote. \
-The **voting period** is the duration that the proposal is active and votes can be cast. It is counted from the moment&#x20;
+The **voting delay** is a value in time between the time of proposal creation and the moment when users are allowed to vote.\
+The **voting period** is the duration that the proposal is active and votes can be cast. It is counted from the moment
 
 **Quorum** is the amount of voting power collectively achieved by voters which is required for a proposal to pass.
 
@@ -125,7 +125,7 @@ You can enable Shielded Voting within your space if you want to enable partial p
 
 In short, Shielded Voting is a voting setting in which the voters choices are private during the voting period and get revealed when the proposal closes.
 
-To enable it head to **Voting** tab and select Shutter within the **Privacy** setting.&#x20;
+To enable it head to **Voting** tab and select Shutter within the **Privacy** setting.
 
 <figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
@@ -153,15 +153,15 @@ In order to link your organization's treasury to Snapshot you have to:
 
 1. Choose the treasury network
 2. Enter its Ethereum address
-3. Fill in the name of that treasury.&#x20;
+3. Fill in the name of that treasury.
 
-It is possible to add multiple treasuries to one space. &#x20;
+It is possible to add multiple treasuries to one space.
 
 ![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 14.32.50.png>)
 
 ## Plugins
 
-You can customize your space even further with various plugins which provide extra features. To learn more about the plugins head to [plugins](../plugins/ "mention") section.&#x20;
+You can customize your space even further with various plugins which provide extra features. To learn more about the plugins head to [plugins](../../v1-interface/plugins/ "mention") section.
 
 ![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 14.33.20.png>)
 

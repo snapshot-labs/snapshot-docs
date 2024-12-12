@@ -24,7 +24,7 @@ To see unverified tokens you can select the filter option:
 
 Fork the snapshot-sidekick repository on Github:
 
-{% embed url="https://github.com/snapshot-labs/snapshot-sidekick" %}
+{% @github-files/github-code-block url="https://github.com/snapshot-labs/snapshot-sidekick" %}
 
 ### 2. Update the token list file
 

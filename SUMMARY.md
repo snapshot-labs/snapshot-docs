@@ -52,22 +52,11 @@
 * [Strategies](user-guides/strategies/README.md)
   * [Voting strategies](user-guides/strategies/voting-strategies.md)
   * [Validation strategies](user-guides/strategies/validation-strategies.md)
-* [Plugins](user-guides/plugins/README.md)
-  * [What is a plugin?](user-guides/plugins/what-is-a-plugin-and-how-to-use-it.md)
-  * [SafeSnap: oSnap](user-guides/plugins/safesnap-osnap.md)
-  * [SafeSnap: Reality](user-guides/plugins/safesnap-reality.md)
-  * [POAP](user-guides/plugins/poap.md)
-  * [Comment Box](user-guides/plugins/comment-box.md)
-  * [Quorum](user-guides/plugins/quorum.md)
-  * [Domino Notifications](user-guides/plugins/domino.md)
-  * [Gnosis Impact (deprecated)](user-guides/plugins/gnosis-impact.md)
-  * [Galxe](user-guides/plugins/galxe.md)
 * [Token verification](user-guides/token-verification.md)
 * [Using Safe multi-sig](user-guides/using-safe-multi-sig.md)
 * [Delegation](user-guides/delegation.md)
 * [Email notifications](user-guides/email-notifications.md)
 * [Mobile notifications](user-guides/mobile-notifications.md)
-* [Boost](user-guides/boost.md)
 
 ## Developer Guides
 
@@ -112,6 +101,20 @@
   * [SX.js](snapshot-x/services/sx.js.md)
   * [UI](snapshot-x/services/ui.md)
   * [Mana](snapshot-x/services/mana.md)
+
+## V1 interface
+
+* [Plugins](v1-interface/plugins/README.md)
+  * [What is a plugin?](v1-interface/plugins/what-is-a-plugin-and-how-to-use-it.md)
+  * [SafeSnap: oSnap](v1-interface/plugins/safesnap-osnap.md)
+  * [SafeSnap: Reality](v1-interface/plugins/safesnap-reality.md)
+  * [POAP](v1-interface/plugins/poap.md)
+  * [Comment Box](v1-interface/plugins/comment-box.md)
+  * [Quorum](v1-interface/plugins/quorum.md)
+  * [Domino Notifications](v1-interface/plugins/domino.md)
+  * [Gnosis Impact (deprecated)](v1-interface/plugins/gnosis-impact.md)
+  * [Galxe](v1-interface/plugins/galxe.md)
+* [Boost](v1-interface/boost.md)
 
 ## Community
 
