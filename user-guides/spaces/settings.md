@@ -61,12 +61,12 @@ If you see a ❌ after typing the sub-space name it means that it cannot be foun
 
 Specify how the voting power should be calculated by adding one or up to 8 strategies.
 
-To learn more about what they are and how they work head to [voting-strategies.md](../strategies/voting-strategies.md "mention").
+To learn more about what they are and how they work head to [voting-strategies.md](../voting-strategies.md "mention").
 
 {% hint style="danger" %}
 If you are using a [ticket](https://snapshot.org/#/strategy/ticket) strategy which gives everyone 1 vote regardless of their holdings, you are required to set up a Voting Validation.\
 \
-Head here to learn how to do it: [#validation-strategy-example-gitcoin-passport](../strategies/validation-strategies.md#validation-strategy-example-gitcoin-passport "mention")
+Head here to learn how to do it: [#validation-strategy-example-gitcoin-passport](../validation-strategies.md#validation-strategy-example-gitcoin-passport "mention")
 {% endhint %}
 
 ![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 14.31.08.png>)
@@ -101,12 +101,12 @@ You can provide guidelines and a template which will be displayed during the pro
 {% hint style="danger" %}
 Due to multiple spam attacks on Snapshot each space is now required to set up a **Proposal Validation**.\
 \
-Learn how to do it in [#how-to-use-validation-strategies](../strategies/validation-strategies.md#how-to-use-validation-strategies "mention")
+Learn how to do it in [#how-to-use-validation-strategies](../validation-strategies.md#how-to-use-validation-strategies "mention")
 {% endhint %}
 
 To validate if someone can post a proposal or not you can use the basic validation by default which takes your voting power with space strategies and checks if you pass a defined threshold.
 
-To learn what a validation is head to [validation-strategies.md](../strategies/validation-strategies.md "mention").
+To learn what a validation is head to [validation-strategies.md](../validation-strategies.md "mention").
 
 ![](<../../.gitbook/assets/Capture d’écran 2022-08-11 à 14.31.47.png>)
 

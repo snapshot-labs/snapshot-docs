@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Welcome to Snapshot docs](README.md)
+* [Migrate your space to ENS](migrate-to-ens.md)
+* [Proposals](proposals/README.md)
+  * [Edit a proposal](proposals/edit-a-proposal.md)
+  * [Voting types](proposals/voting-types.md)
 * [FAQs](faq/README.md)
   * [👋 Getting started](faq/getting-started.md)
   * [🙎 I'm a Snapshot user](faq/im-a-snapshot-user/README.md)
@@ -24,7 +28,6 @@
   * [Add a custom domain](user-guides/spaces/add-custom-domain.md)
   * [Add a skin](user-guides/spaces/add-skin.md)
   * [Space roles](user-guides/spaces/space-roles.md)
-  * [Migrate your space to ENS](user-guides/spaces/migrate-to-ens.md)
   * [Migrate or delete or a space](user-guides/spaces/migrate-or-delete.md)
   * [Space badges](user-guides/spaces/badges-and-warnings.md)
   * [Turbo plan](user-guides/spaces/turbo-plan.md)
@@ -40,27 +43,21 @@
       * [Multi-token: ERC-1155](user-guides/spaces/space-handbook/nft-voting/multi-token-erc-1155.md)
       * [POAP - Proof of Attendance](user-guides/spaces/space-handbook/nft-voting/poap-proof-of-attendance.md)
     * [Custom calculations](user-guides/spaces/space-handbook/custom-calculations.md)
-* [Proposals](user-guides/proposals/README.md)
-  * [Create a proposal](user-guides/proposals/create.md)
-  * [Edit a proposal](user-guides/proposals/edit-a-proposal.md)
-  * [Voting types](user-guides/proposals/voting-types.md)
+* [Create a proposal](user-guides/create.md)
 * [Voting](user-guides/voting/README.md)
   * [Vote on a proposal](user-guides/voting/vote.md)
   * [Delegate your voting power](user-guides/voting/delegate-your-voting-power.md)
-* [Strategies](user-guides/strategies/README.md)
-  * [Voting strategies](user-guides/strategies/voting-strategies.md)
-  * [Validation strategies](user-guides/strategies/validation-strategies.md)
-* [Token verification](user-guides/token-verification.md)
+* [Voting strategies](user-guides/voting-strategies.md)
+* [Validation strategies](user-guides/validation-strategies.md)
 * [Using Safe multi-sig](user-guides/using-safe-multi-sig.md)
 * [Delegation](user-guides/delegation.md)
 
 ## Developer Guides
 
-* [Add a network](developer-guides/networks.md)
-* [Create a strategy](developer-guides/create-a-strategy/README.md)
-  * [Create a voting strategy](developer-guides/create-a-strategy/voting-strategy.md)
-  * [Create a validation strategy](developer-guides/create-a-strategy/validation-strategy.md)
+* [Create a voting strategy](developer-guides/voting-strategy.md)
+* [Create a validation strategy](developer-guides/validation-strategy.md)
 * [Identify integrator activity](developer-guides/identify-integrator-activity.md)
+* [Add a network](developer-guides/networks.md)
 
 ## Tools
 
@@ -112,6 +109,7 @@
   * [Gnosis Impact (deprecated)](v1-interface/plugins/gnosis-impact.md)
   * [Galxe](v1-interface/plugins/galxe.md)
 * [Boost](v1-interface/boost.md)
+* [Token verification](v1-interface/token-verification.md)
 
 ## Community
 

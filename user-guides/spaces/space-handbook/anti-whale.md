@@ -221,6 +221,6 @@ As you can see exponent **lower than 1 will reduce** the original random value w
 }
 ```
 
-[^1]: [Voting ](../../proposals/voting-types.md)[type](../../proposals/voting-types.md) defines how users can cast their votes and how the final result is calculated.
+[^1]: [Voting ](../../../proposals/voting-types.md)[type](../../../proposals/voting-types.md) defines how users can cast their votes and how the final result is calculated.
 
-    Do not mistake it with the voting strategy though - a [voting strategy](../../strategies/voting-strategies.md) is used to calculate the **individual voting power** of a user while the voting system calculates the **outcome of the proposal**.
+    Do not mistake it with the voting strategy though - a [voting strategy](../../voting-strategies.md) is used to calculate the **individual voting power** of a user while the voting system calculates the **outcome of the proposal**.

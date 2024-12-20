@@ -4,7 +4,7 @@
 
 <details>
 
-<summary>Which networks are currently supported for voting with Gnosis Safe? </summary>
+<summary>Which networks are currently supported for voting with Gnosis Safe?</summary>
 
 You can find the networks’ IDs here: [https://github.com/snapshot-labs/snapshot-relayer/blob/master/src/check.ts#L9](https://github.com/snapshot-labs/snapshot-relayer/blob/master/src/check.ts#L9)
 
@@ -12,7 +12,7 @@ You can find the networks’ IDs here: [https://github.com/snapshot-labs/snapsho
 
 <details>
 
-<summary>Do we need to deploy an ENS contract on our custom network to be able to support Snapshot? </summary>
+<summary>Do we need to deploy an ENS contract on our custom network to be able to support Snapshot?</summary>
 
 No, it’s not needed.
 
@@ -24,7 +24,7 @@ No, it’s not needed.
 
 Yes, we do. Please create report on the respective repository as showed below:
 
-![](<../.gitbook/assets/image (64).png>)
+<img src="../.gitbook/assets/image (64).png" alt="" data-size="original">
 
 </details>
 
@@ -46,7 +46,7 @@ We use IPFS to pin the receipts of the votes. You can have a more detailed look 
 
 <details>
 
-<summary>How to add a webhook? </summary>
+<summary>How to add a webhook?</summary>
 
 Have a look at our documentation: [webhooks.md](../tools/webhooks.md "mention")
 
@@ -92,8 +92,7 @@ After September 12th the limits will be updated:
 
 **🔓 No API Key:** 100 requests per minute.
 
-**🔑 With the API Key:** 2 million requests per month.\
-
+**🔑 With the API Key:** 2 million requests per month.\\
 
 Learn how to apply and generate your API Key here: [api-keys.md](../tools/api/api-keys.md "mention")
 
@@ -109,7 +108,7 @@ Make sure to generate your API Key to get higher usage limits. One key can be us
 
 </details>
 
-### Snapshot.js&#x20;
+### Snapshot.js
 
 <details>
 
@@ -173,7 +172,7 @@ If you get a correct response without any errors, the Node is a Full Archive.
 
 <details>
 
-<summary>How to use our staking contract for voting? </summary>
+<summary>How to use our staking contract for voting?</summary>
 
 You can browse through the existing staking strategies →[https://snapshot.org/#/?type=strategies\&q=stake](https://snapshot.org/#/?type=strategies\&q=stake).
 
@@ -198,9 +197,7 @@ It usually takes around 72 hours so please have some patience. Once the PR is me
 
 Yes. If it’s not supported yet you can create a custom voting strategy to enable delegation on your network. You can see an example here →[https://snapshot.org/#/strategy/orbs-network-delegation](https://snapshot.org/#/strategy/orbs-network-delegation)
 
-
-
-To learn more have a look at our documentation: [voting-strategy.md](../developer-guides/create-a-strategy/voting-strategy.md "mention")
+To learn more have a look at our documentation: [voting-strategy.md](../developer-guides/voting-strategy.md "mention")
 
 </details>
 
@@ -216,6 +213,6 @@ Most probably you are missing the `delegationSpace` parameter. Make sure to prov
 
 <summary>How to use our token from our network for voting?</summary>
 
-If it doesn’t exist yet, you can create a new voting strategy. Have a look at our documentation to learn more: [voting-strategy.md](../developer-guides/create-a-strategy/voting-strategy.md "mention")
+If it doesn’t exist yet, you can create a new voting strategy. Have a look at our documentation to learn more: [voting-strategy.md](../developer-guides/voting-strategy.md "mention")
 
 </details>

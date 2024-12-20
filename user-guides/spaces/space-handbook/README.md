@@ -9,9 +9,9 @@ description: Find the best solution for your use case!
 \
 Make sure to learn about those concepts before diving into this chapter! \
 \
-👉 [Voting strategies](../../strategies/voting-strategies.md)\
-👉 [Validation strategies](../../strategies/validation-strategies.md)\
-👉 [Voting t](../../proposals/voting-types.md)[ypes](../../proposals/voting-types.md)\
+👉 [Voting strategies](../../voting-strategies.md)\
+👉 [Validation strategies](../../validation-strategies.md)\
+👉 [Voting t](../../../proposals/voting-types.md)[ypes](../../../proposals/voting-types.md)\
 \
 We also recommend going through the entire [Spaces](../) guide to get acquainted with the process of [creating a Space](../create/) and updating its [settings](../settings.md).
 {% endhint %}
@@ -33,8 +33,8 @@ If none of the above are a good fit for your Space, we encourage you to use the 
 
 Feel free to reach out to us on [Discord](https://discord.com/channels/707079246388133940/1090290400943677440) to suggest use cases that we did not cover!
 
-[^1]: Voting Strategies are used to calculated user's Voting Power. [Read more here](../../strategies/voting-strategies.md).
+[^1]: Voting Strategies are used to calculated user's Voting Power. [Read more here](../../voting-strategies.md).
 
-[^2]: Validation Strategies are used to define if a user is eligible to vote or create a proposal. [Read more here](../../strategies/validation-strategies.md).
+[^2]: Validation Strategies are used to define if a user is eligible to vote or create a proposal. [Read more here](../../validation-strategies.md).
 
-[^3]: Voting Systems relate to how users can cast their votes and how the final results of a proposal is calculated. [Read more here.](../../proposals/voting-types.md)
+[^3]: Voting Systems relate to how users can cast their votes and how the final results of a proposal is calculated. [Read more here.](../../../proposals/voting-types.md)

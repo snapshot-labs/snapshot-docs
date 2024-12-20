@@ -12,7 +12,7 @@ Snapshot provides several Voting Strategies that allow you to use your own API t
 {% hint style="info" %}
 You can also create a new custom Voting or Validation Strategy if none of the available solutions meet your needs. \
 \
-Have a look at the [create-a-strategy](../../../developer-guides/create-a-strategy/ "mention") section of this documentation to learn more!
+Have a look at the [Broken link](broken-reference "mention") section of this documentation to learn more!
 {% endhint %}
 
 ### [api-v2](https://snapshot.org/#/strategy/api-v2)

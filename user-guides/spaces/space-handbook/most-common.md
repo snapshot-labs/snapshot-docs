@@ -10,15 +10,15 @@ Before we jump into specific use cases, let's have a look at the most common con
 
 The minimum setup required to run your governance on Snapshot consists of:
 
-* selecting at least one Voting strategy
-* choosing a Validation strategy for proposal creation
+* Selecting at least one Voting strategy
+* Choosing a Validation strategy for proposal creation
 
 {% hint style="info" %}
 To recap what Voting and Validation Strategies are:
 
-:zap: [**Validation strategies**](../../strategies/validation-strategies.md) are a way to define who is allowed to vote on a proposal or create a new one.
+:zap: [**Validation strategies**](../../validation-strategies.md) are a way to define who is allowed to vote on a proposal or create a new one.
 
-:zap: [**Voting strategies**](../../strategies/voting-strategies.md) calculate how much Voting power each user has.
+:zap: [**Voting strategies**](../../voting-strategies.md) calculate how much Voting power each user has.
 {% endhint %}
 
 ## Most common Voting strategies
@@ -121,7 +121,7 @@ To assign arbitrary votes to a specific address, see [whitelist weighted](https:
 {% hint style="danger" %}
 Note that if you add other Strategies to your space and users meet the criteria set by those Strategies, the **whitelist** approach will not work anymore.\
 \
-To be able to combine multiple Voting strategies for whitelisted users, use the [Basic Validation strategy](../../strategies/validation-strategies.md#validation-strategy-example-basic) in a custom setup with the `whitelist` strategy selected, and a minimum score of 1 VP.
+To be able to combine multiple Voting strategies for whitelisted users, use the [Basic Validation strategy](../../validation-strategies.md#validation-strategy-example-basic) in a custom setup with the `whitelist` strategy selected, and a minimum score of 1 VP.
 {% endhint %}
 
 **Strategy setup:**
@@ -142,7 +142,7 @@ You can test it out in the **Playground on Snapshot**:
 
 ## Validation strategies
 
-:zap: [**Validation strategies**](../../strategies/validation-strategies.md) are a way to define who is allowed to vote on a proposal or create a new one.
+:zap: [**Validation strategies**](../../validation-strategies.md) are a way to define who is allowed to vote on a proposal or create a new one.
 
 {% hint style="info" %}
 All spaces are now **required to use Proposal Validation** in order to minimize the risk of malicious proposals. You can read more about this requirement [here](../settings.md#proposal-validation).
@@ -150,15 +150,15 @@ All spaces are now **required to use Proposal Validation** in order to minimize 
 
 You can also configure a Validation strategy for voting. The combination of Voting Strategies and Voting validation allows you to achieve high customization of your governance process. How? Let's go through a couple of possible scenarios:
 
-* You are using several Voting strategies for the Voting Power calculation, and at the same time, you want to require each user to have at least 10 VP to be able to cast a vote. You can then use [Basic Validation](../../strategies/validation-strategies.md#validation-strategy-example-basic) with a minimum score of 10.
+* You are using several Voting strategies for the Voting Power calculation, and at the same time, you want to require each user to have at least 10 VP to be able to cast a vote. You can then use [Basic Validation](../../validation-strategies.md#validation-strategy-example-basic) with a minimum score of 10.
 * Only specific users should be able to vote, and their Voting Power should depend on their holdings. You can use [`whitelist`](most-common.md#whitelist) strategy in the custom Basic Validation setup, and any combination of Voting Strategies for the calculation of the individual Voting power.
-* Your space is attacked by bots and you want only genuine humans to cast votes. You can use the [Gitcoin Validation](../../strategies/validation-strategies.md#validation-strategy-example-gitcoin-passport) for Sybil resistance, and select a combination of Voting Strategies for VP calculation.
+* Your space is attacked by bots and you want only genuine humans to cast votes. You can use the [Gitcoin Validation](../../validation-strategies.md#validation-strategy-example-gitcoin-passport) for Sybil resistance, and select a combination of Voting Strategies for VP calculation.
 
 Let's have a look at the currently available strategies:
 
 ### Basic Validation
 
-The[ Basic Validation Strategy](../../strategies/validation-strategies.md#validation-strategy-example-basic) allows you to specify multiple **Voting strategies** to determine if a user is eligible to create a proposal.
+The[ Basic Validation Strategy](../../validation-strategies.md#validation-strategy-example-basic) allows you to specify multiple **Voting strategies** to determine if a user is eligible to create a proposal.
 
 > [Voting Strategy](https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy) is a set of conditions used to calculate user's voting power. Strategies enable Snapshot to calculate the final result of voting on a given proposal.
 
@@ -178,7 +178,7 @@ If you want to set up a more complex validation, you can use custom strategies a
 
 ### Gitcoin Passport Validation
 
-While Basic Validation focuses on the monetary assets, [this validation](../../strategies/validation-strategies.md#validation-strategy-example-gitcoin-passport) allows you to set requirements protecting your space against Sybil attacks by checking the [Gitcoin Passport](https://passport.gitcoin.co/) stamps which serve as validation for the user’s identity and online reputation.
+While Basic Validation focuses on the monetary assets, [this validation](../../validation-strategies.md#validation-strategy-example-gitcoin-passport) allows you to set requirements protecting your space against Sybil attacks by checking the [Gitcoin Passport](https://passport.gitcoin.co/) stamps which serve as validation for the user’s identity and online reputation.
 
 You can select individual or multiple stamps that matter for your space. You can also decide if they need to meet all of these criteria or only one. The more criteria you select, the more Sybil-resistant your space is.
 

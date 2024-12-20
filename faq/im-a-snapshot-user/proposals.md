@@ -14,7 +14,7 @@ It depends on the space settings. Spaces can set up a validation strategy which 
 
 Users are restricted in the proposal creation by the limits imposed on Spaces.
 
-Have a look at [proposals](../../user-guides/proposals/ "mention") to learn the limits specific for different Space types.
+Have a look at [proposals](../../proposals/ "mention") to learn the limits specific for different Space types.
 
 </details>
 
@@ -33,7 +33,7 @@ If a proposal does not reach the required quorum, it is considered as not passed
 ![](<../../.gitbook/assets/image (76).png>)
 
 Due to multiple spam attacks on Snapshot all Spaces are now required to set up a Proposal Validation. \
-Head here to learn how to do it: [#how-to-use-validation-strategies](../../user-guides/strategies/validation-strategies.md#how-to-use-validation-strategies "mention")
+Head here to learn how to do it: [#how-to-use-validation-strategies](../../user-guides/validation-strategies.md#how-to-use-validation-strategies "mention")
 
 </details>
 
@@ -41,7 +41,7 @@ Head here to learn how to do it: [#how-to-use-validation-strategies](../../user-
 
 <summary>The token I want to use for executing transaction is not verified. Can I verify it?</summary>
 
-You can submit your request by following the process described in the [token-verification.md](../../user-guides/token-verification.md "mention") section.
+You can submit your request by following the process described in the [token-verification.md](../../v1-interface/token-verification.md "mention") section.
 
 </details>
 

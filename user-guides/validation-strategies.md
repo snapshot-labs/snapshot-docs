@@ -29,17 +29,17 @@ Validation strategies can be used for two purposes:
 
 Head to **Proposals** tab in the sidebar to update the configuration:&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-06-01 at 12.44.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-01 at 12.44.17.png" alt=""><figcaption></figcaption></figure>
 
 #### Voting Validation in Space Settings
 
 Head to **Voting** tab in the sidebar to update the configuration:&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-06-01 at 12.44.57.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-01 at 12.44.57.png" alt=""><figcaption></figcaption></figure>
 
 If you want to allow addresses with any voting power to vote you can use the default voting validation.
 
-<figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you are using only a [ticket](https://snapshot.org/#/strategy/ticket) Voting Strategy for your space you are required to use a [Gitcoin Passport Validation](validation-strategies.md#validation-strategy-example-gitcoin-passport) for Voting to protect your space from spam votes.
@@ -49,7 +49,7 @@ If you are using only a [ticket](https://snapshot.org/#/strategy/ticket) Voting 
 
 If you wish to limit proposal creators to Admins, Moderators and Authors only, you can do so by enabling the **Authors only** setting in the **Proposal** tab in the space settings. Make sure to give the Author role to the users you trust!
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-06-01 at 12.22.46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-01 at 12.22.46.png" alt=""><figcaption></figcaption></figure>
 
 ## Validation strategy example - Basic
 
@@ -57,11 +57,11 @@ The Basic validation strategy allows you to use existing Voting Strategies confi
 
 In order to use existing setup of Voting Strategies you can simply chose **Basic Validation** and define a required threshold as on the screenshot below. `100` corresponds to user's Voting Power calculated on the basis of the Voting Strategies.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-06-01 at 12.16.21.png" alt=""><figcaption><p>Use current setup and define a strong threshold to avoid spam in your space.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-01 at 12.16.21.png" alt=""><figcaption><p>Use current setup and define a strong threshold to avoid spam in your space.</p></figcaption></figure>
 
 If you wish to use a different configuration, toggle the **Use custom strategies** button and define the strategies for your use case:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-06-01 at 12.18.16.png" alt=""><figcaption><p>Use a custom setup using various Voting Strategies to calculate if a user is eligible to create a proposal or vote.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-01 at 12.18.16.png" alt=""><figcaption><p>Use a custom setup using various Voting Strategies to calculate if a user is eligible to create a proposal or vote.</p></figcaption></figure>
 
 ## Validation strategy example - Gitcoin Passport
 
@@ -69,7 +69,7 @@ Validation strategy built together with **Gitcoin Passport.** You can select ind
 
 
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -135,7 +135,7 @@ Voting validation can be specified in your space settings at `https://snapshot.p
 
 ## Create a custom validation&#x20;
 
-The possibilities are endless! You can build a custom validation strategy for your space. Please have a look at [validation-strategy.md](../../developer-guides/create-a-strategy/validation-strategy.md "mention")for more details.
+The possibilities are endless! You can build a custom validation strategy for your space. Please have a look at [validation-strategy.md](../developer-guides/validation-strategy.md "mention")for more details.
 
 ## Find more voting validations here: <a href="#find-more-strategies-here" id="find-more-strategies-here"></a>
 

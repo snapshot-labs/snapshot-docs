@@ -76,7 +76,7 @@ All spaces are now **required to use Proposal Validation** in order to minimize 
 
 ### Basic Validation
 
-The[ Basic Validation Strategy](../../strategies/validation-strategies.md#validation-strategy-example-basic) allows you to specify multiple **Voting Strategies** to determine if a user is eligible to create a proposal.
+The[ Basic Validation Strategy](../../validation-strategies.md#validation-strategy-example-basic) allows you to specify multiple **Voting Strategies** to determine if a user is eligible to create a proposal.
 
 > [Voting Strategy](https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy) is a set of conditions used to calculate user's voting power. Strategies enable Snapshot to calculate the final result of voting on a given proposal.
 
@@ -96,7 +96,7 @@ If you want to set up a more complex validation, you can use custom strategies a
 
 ### Gitcoin Passport Validation
 
-While Basic Validation focuses on the monetary assets, [this validation](../../strategies/validation-strategies.md#validation-strategy-example-gitcoin-passport) allows you to set requirements protecting your space against Sybil attacks by checking the [Gitcoin Passport](https://passport.gitcoin.co/) stamps which serve as validation for user’s identity and online reputation.
+While Basic Validation focuses on the monetary assets, [this validation](../../validation-strategies.md#validation-strategy-example-gitcoin-passport) allows you to set requirements protecting your space against Sybil attacks by checking the [Gitcoin Passport](https://passport.gitcoin.co/) stamps which serve as validation for user’s identity and online reputation.
 
 You can select individual or multiple stamps that matter for your space. You can also decide if they need to meet all of these criteria or only one. The more criteria you select, the more sybil resistant your space is.
 

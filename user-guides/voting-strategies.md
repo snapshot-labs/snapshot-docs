@@ -10,13 +10,13 @@ Voting strategy is a set of conditions used to calculate user's voting power. St
 
 > &#x20;In technical terms a strategy is a JavaScript function that returns a score for a set of addresses.&#x20;
 
-Strategy/-ies are defined in the space settings in [#voting-strategies](../spaces/settings.md#voting-strategies "mention") section. Each space can select from one up to eight voting strategies. The default strategy is `erc20-balance-of` - it calculates the balance of a predefined ERC20 token for each user.
+Strategy/-ies are defined in the space settings in [#voting-strategies](spaces/settings.md#voting-strategies "mention") section. Each space can select from one up to eight voting strategies. The default strategy is `erc20-balance-of` - it calculates the balance of a predefined ERC20 token for each user.
 
 Voting strategies can be used to create a score from on-chain data, the data however does not necessarily need to be monetary. As an example a strategy can calculate how many POAPs or specific NFTs a user owns.
 
-You can browse through 400+ strategies by selecting the **Strategies** filter on the main page of [https://snapshot.org](https://snapshot.org). If you can't find a strategy that fulfills your needs you can create a new one. To learn more about creating custom voting strategies head to [voting-strategy.md](../../developer-guides/create-a-strategy/voting-strategy.md "mention").
+You can browse through 400+ strategies by selecting the **Strategies** filter on the main page of [https://snapshot.org](https://snapshot.org). If you can't find a strategy that fulfills your needs you can create a new one. To learn more about creating custom voting strategies head to [voting-strategy.md](../developer-guides/voting-strategy.md "mention").
 
-<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
 ## How to set up a strategy?
 
@@ -31,7 +31,7 @@ If you combine several voting strategies the voting power will be calculated in 
 \
 In order to set up a voting strategy head to your space settings and scroll down to **Strategies** section. You should see the below pop-up after clicking **Add strategy** and selecting a strategy from the list:
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption><p>Example of setting up an erc20-balance-of strategy.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Example of setting up an erc20-balance-of strategy.</p></figcaption></figure>
 
 You will see that there is information that you need to provide in order to make the strategy work, for example the **network** where the token is deployed, its **symbol** and **address** of the token's contract.&#x20;
 
@@ -48,12 +48,12 @@ The best solution would be to (1) delete the proposal, (2) update the settings w
 
 You can access it from the strategy's detail page by clicking the **Playground** on the right-hand side:
 
-<figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
 Your browser will load a Playground page where you can test the custom setup for the chosen strategy. As you can see on the below screenshot you can set the required parameters and provide a list of addresses which in this case are or are not holding a the `PUNK` ERC721 token.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 If everything is set up correctly you should see the calculated voting power for each address after clicking the :arrow\_forward: button:
 
-<figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>

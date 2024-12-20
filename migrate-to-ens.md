@@ -1,5 +1,6 @@
 ---
 description: Follow this guide if you have a space on Snapshot without an ENS name.
+hidden: true
 ---
 
 # Migrate your space to ENS
@@ -8,10 +9,10 @@ If you already have a space on Snapshot which does not have an ENS name, you nee
 
 ## 1. Create a space with ENS
 
-To migrate your space you will need first to create a new space with an ENS domain.&#x20;
+To migrate your space you will need first to create a new space with an ENS domain.
 
-{% content-ref url="create/" %}
-[create](create/)
+{% content-ref url="user-guides/spaces/create/" %}
+[create](user-guides/spaces/create/)
 {% endcontent-ref %}
 
 ## 2. Map your old space alias to the ENS
@@ -20,7 +21,7 @@ To migrate your space you will need first to create a new space with an ENS doma
 
 Fork the below repository to make changes needed to mirate your space.
 
-{% embed url="https://github.com/snapshot-labs/snapshot-spaces" %}
+{% @github-files/github-code-block url="https://github.com/snapshot-labs/snapshot-spaces" %}
 
 ### 2b. Link your old space alias to ENS
 

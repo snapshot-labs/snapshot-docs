@@ -6,7 +6,7 @@
 
 You can remove your delegations by going to [https://testnet.snapshot.org/#/delegate](https://testnet.snapshot.org/#/delegate) and clicking the ❌ for the delegations you wish to remove.
 
-![](<../../.gitbook/assets/image (40).png>)
+<img src="../../.gitbook/assets/image (40).png" alt="" data-size="original">
 
 Moreover, if you want to override your delegate’s vote on a proposal using [the delegation strategy](https://snapshot.org/#/strategy/delegation) you can simply cast your own vote and it will override the delegate’s vote. If the delegation happened on-chain, then head to the delegation portal of the project you’re looking for and redelegate there.
 
@@ -20,7 +20,7 @@ Yes, apart from the proposals using shielded voting.
 
 You can add a short explanation when casting a vote:
 
-![](<../../.gitbook/assets/image (29).png>)
+<img src="../../.gitbook/assets/image (29).png" alt="" data-size="original">
 
 </details>
 
@@ -42,7 +42,7 @@ This issue is related to either space settings or the failure of the external in
 
 Go to the proposals page and click the download icon to get a CSV file. You can open it directly in excel or import it in the Google Sheets.
 
-![](<../../.gitbook/assets/image (74).png>)
+<img src="../../.gitbook/assets/image (74).png" alt="" data-size="original">
 
 </details>
 
@@ -86,9 +86,9 @@ This issue is related to either space settings or the failure of the external in
 
 <summary><strong>Can I vote on any proposal?</strong></summary>
 
-No. Your eligibility to vote depends on the voting strategies defined by the space and usually requires holding the organization’s token. Some spaces allow anyone to vote, however this is a rare case.&#x20;
+No. Your eligibility to vote depends on the voting strategies defined by the space and usually requires holding the organization’s token. Some spaces allow anyone to vote, however this is a rare case.
 
-You can read more about the voting strategies in our documentation: [voting-strategies.md](../../user-guides/strategies/voting-strategies.md "mention")
+You can read more about the voting strategies in our documentation: [voting-strategies.md](../../user-guides/voting-strategies.md "mention")
 
 </details>
 

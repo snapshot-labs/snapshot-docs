@@ -12,7 +12,7 @@ Snapshot supports a number of different voting types and we plan to support many
 
 Voting type defines how users can cast their votes and how the final result is calculated.
 
-Do not mistake it with the voting strategy though - a [voting strategy](../strategies/voting-strategies.md) is used to calculate the **individual voting power** of a user while the voting type calculates the **outcome of the proposal**.
+Do not mistake it with the voting strategy though - a [voting strategy](../user-guides/voting-strategies.md) is used to calculate the **individual voting power** of a user while the voting type calculates the **outcome of the proposal**.
 
 Voting type is defined in the space settings or at the level of an individual proposal (unless it has been already defined in the space settings) and can allow the users to:&#x20;
 
@@ -38,7 +38,7 @@ Ideal for choosing one option from many.\
 
 👉 [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x02c3fcd64e86157d07c88e5a715ac08f57655917f8bfd5be30a99092136511ec)
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 ### Weighted voting
 
@@ -51,7 +51,7 @@ This voting method was first introduced by Float Protocol with [Scattershot](htt
 
 :point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0xf93f1ac80e22cc930b1eef1d20bd34671ccc33b88b04695479c9de364451d77f)
 
-<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
 ### Approval voting
 
@@ -62,7 +62,7 @@ Each user can select (_approve_) any number of choices, each selected choice wil
 
 :point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x08c3bd2960700525770a1d634f8599ba967e55fcc05b6c1649d984d88253769d)
 
-<figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
 ### Quadratic voting
 
@@ -124,15 +124,15 @@ All in all, you don't have to understand each step of the calculation. Yet, it s
 {% hint style="danger" %}
 This Voting type may encourage the whales to create multiple wallets and split their holdings among them. Therefore it's important to also implement a mechanism providing Sybil Resistance. \
 \
-**Read more** [**here**](../spaces/space-handbook/sybil-resistance-scam-and-spam-prevention.md)**!**
+**Read more** [**here**](../user-guides/spaces/space-handbook/sybil-resistance-scam-and-spam-prevention.md)**!**
 {% endhint %}
 
 **Pros**: Dilutes the whales' voting power in favor of smaller holders. Individuals will matter more than the number of tokens. \
-**Cons**: This voting type needs to be accompanied by a [Sybil-resistance mechanism](../strategies/validation-strategies.md) that prevents whales from splitting funds across different wallets.&#x20;
+**Cons**: This voting type needs to be accompanied by a [Sybil-resistance mechanism](../user-guides/validation-strategies.md) that prevents whales from splitting funds across different wallets.&#x20;
 
 :point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x21f64875abbca71762a980efae43ab62b546d54f19a208d0e61a5d7cee571a35)
 
-<figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
 
 ### Ranked choice voting (Instant Runoff Voting)
 
@@ -155,7 +155,7 @@ Some options will show up as if they had **not received any votes** because they
 
 :point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x5003da0f03e718b461e53fe10a998b60172e2e108472153282fcef781c300f23)
 
-<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
 
 ### Basic voting
 
@@ -168,4 +168,4 @@ The votes cast on the `Abstain` choice are counted in calculating if the necessa
 
 :point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x38c654c0f81b63ea1839ec3b221fad6ecba474aa0c4e8b4e8bc957f70100e753)
 
-<figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>

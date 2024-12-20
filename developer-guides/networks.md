@@ -4,4 +4,4 @@ To add a new network to Snapshot, you need to subscribe to the Network plan. The
 
 ### **How to get started**
 
-Refer to https://snapshot.org/#/network
+Refer to [https://snapshot.box/#/network](https://snapshot.box/#/network)

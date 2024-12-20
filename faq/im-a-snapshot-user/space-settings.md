@@ -28,7 +28,7 @@ You can use sub-spaces on Snapshot. This solution allows you to link multiple sp
 
 <summary>Can I change the name of my space?</summary>
 
-Yes. You can do it in the space settings.&#x20;
+Yes. You can do it in the space settings.
 
 Do not confuse it with changing the `ID` or the ENS domain for your space. To do that, you need to migrate the space. You can read more about changing the ENS domain in our documentation: [migrate-or-delete.md](../../user-guides/spaces/migrate-or-delete.md "mention")
 
@@ -58,7 +58,7 @@ You cannot invalidate existing votes. However you can delete the proposal.
 
 If you are an admin of the space or proposal’s creator you can delete the current proposal by clicking `Delete` on the proposal’s page:
 
-![](<../../.gitbook/assets/image (46).png>)
+<img src="../../.gitbook/assets/image (46).png" alt="" data-size="original">
 
 Then change the space settings and make sure to persist the changes.
 
@@ -78,12 +78,12 @@ Yes, you can customize the appearance of your Snapshot space to some extent by s
 
 <summary>Your proposal cannot be submitted due to a missing Voting Validation rule required with the "ticket" strategy. What does it mean?</summary>
 
-![](<../../.gitbook/assets/image (58).png>)
+<img src="../../.gitbook/assets/image (58).png" alt="" data-size="original">
 
-If your space is using only a [ticket](https://snapshot.org/#/strategy/ticket) Voting Strategy you are required to set a Voting Validation to minimize the risk of spam votes on your proposals. \
+If your space is using only a [ticket](https://snapshot.org/#/strategy/ticket) Voting Strategy you are required to set a Voting Validation to minimize the risk of spam votes on your proposals.\
 Without it, hackers can easily create multiple accounts (each getting 1 Voting Power) and take the voting process over.\
 \
-Have a read here to learn how to set it up: [#voting-validation-in-space-settings](../../user-guides/strategies/validation-strategies.md#voting-validation-in-space-settings "mention")
+Have a read here to learn how to set it up: [#voting-validation-in-space-settings](../../user-guides/validation-strategies.md#voting-validation-in-space-settings "mention")
 
 </details>
 
