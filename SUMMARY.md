@@ -5,6 +5,7 @@
 * [Proposals](proposals/README.md)
   * [Edit a proposal](proposals/edit-a-proposal.md)
   * [Voting types](proposals/voting-types.md)
+* [Add a custom domain (archived)](add-custom-domain.md)
 * [FAQs](faq/README.md)
   * [👋 Getting started](faq/getting-started.md)
   * [🙎 I'm a Snapshot user](faq/im-a-snapshot-user/README.md)
