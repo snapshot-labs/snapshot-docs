@@ -97,6 +97,7 @@ Here is an example of integration in a Solidity contract:
 * Base sepolia
 * Linea
 * Blast
+* Sonic
 
 ## Delegation contract
 
