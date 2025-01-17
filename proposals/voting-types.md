@@ -5,7 +5,7 @@ description: Learn more about the different voting schemes on Snapshot.
 # Voting types
 
 {% hint style="info" %}
-Snapshot supports a number of different voting types and we plan to support many more in the future. If you would like to request a new voting type, please open a feature request [here](https://features.snapshot.org/feature-requests) :pray:&#x20;
+Snapshot supports a number of different voting types and we plan to support many more in the future. If you would like to request a new voting type, please open a feature request [here](https://snapshot.canny.io/feature-requests) :pray:&#x20;
 {% endhint %}
 
 ## What is a voting type?
