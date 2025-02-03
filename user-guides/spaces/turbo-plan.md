@@ -10,7 +10,7 @@ Increase your proposal character limit from 10,000 to 40,000 characters, enablin
 
 ### Greater proposal choices
 
-Offer up to 1,000 voting choices per proposal (previously limited to 50), giving your community a broader range of input.
+Offer up to 1,000 voting choices per proposal (previously limited to 20), giving your community a broader range of input.
 
 ### Higher proposal submission limit
 

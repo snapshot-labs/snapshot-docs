@@ -67,6 +67,6 @@ It means that if the user acquires required tokens **after** the proposal has be
 Learn more about Space verification and flagging in [badges-and-warnings.md](spaces/badges-and-warnings.md "mention").
 {% endhint %}
 
-* You can combine up to **8** [voting strategies](voting-strategies.md). The limit also applies to multi-chain strategies.
+* You can combine up to **8** [voting strategies](voting-strategies.md). The limit also applies to multi-chain strategies. ([Turbo](spaces/turbo-plan.md) spaces can add up to **10** strategies)
 * All testnet spaces will have the same proposal limits as a Verified space
-* Can add up to 500 choices on a proposal
+* Can add up to **20** choices on a proposal ([Turbo](spaces/turbo-plan.md) spaces can add up to **1000** choices)
