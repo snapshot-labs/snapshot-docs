@@ -40,6 +40,10 @@ Boost community engagement: we’ll feature your first proposal on our social ch
 
 Enjoy a private Telegram support group with a maximum 4-hour response time, ensuring fast and personalized assistance.
 
+### Support non-premium network
+
+Your space can use premium or non-premium network as base network or as voting strategy.
+
 ## Pricing
 
 The Turbo plan is priced at **$6,000 per year**.
