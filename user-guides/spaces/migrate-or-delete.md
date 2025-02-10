@@ -1,7 +1,11 @@
+---
+hidden: true
+---
+
 # Migrate or delete or a space
 
 {% hint style="info" %}
-Currently, migrating spaces still requires some manual effort.&#x20;
+Currently, migrating spaces still requires some manual effort.
 {% endhint %}
 
 ## Delete a space
@@ -22,7 +26,7 @@ Scroll down to the bottom to the Danger Zone and click **Delete space:**
 
 Confirm the space deletion with the **space ID** and sign a message in your wallet.
 
-That's it!&#x20;
+That's it!
 
 ## Migrate a space
 
