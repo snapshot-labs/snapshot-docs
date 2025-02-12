@@ -98,6 +98,7 @@ Here is an example of integration in a Solidity contract:
 * Linea
 * Blast
 * Sonic
+* Mantle
 
 ## Delegation contract
 
