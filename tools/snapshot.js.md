@@ -12,8 +12,6 @@ description: >-
 
 :point\_right: [**Snapshot.js Repository**](https://github.com/snapshot-labs/snapshot.js)
 
-
-
 ## Get started
 
 ### **Installation**
@@ -97,6 +95,8 @@ const receipt = await client.proposal(web3, account, {
   end: 1637244000,
   snapshot: 13620822,
   plugins: JSON.stringify({}),
+  labels: []
+  privacy: ''
   app: 'my-app' // provide the name of your project which is using this snapshot.js integration
 });
 ```
@@ -185,7 +185,7 @@ const receipt = await client.follow(web3, account, {
 {% hint style="info" %}
 The below methods are sending a request to Score API. Same as [Hub API](api/) it requires an API Key for **higher usage limits**. You can see we require it for the **`apiKey`** variable.\
 \
-If you already have an API Key for Hub API, you can reuse it for Score. \
+If you already have an API Key for Hub API, you can reuse it for Score.\
 In case you don't have an API Key, follow the instructions here: [api-keys.md](api/api-keys.md "mention")
 {% endhint %}
 
@@ -295,4 +295,3 @@ import snapshot from '@snapshot-labs/snapshot.js';
 const network = '1';
 const provider = snapshot.utils.getProvider(network);
 ```
-
