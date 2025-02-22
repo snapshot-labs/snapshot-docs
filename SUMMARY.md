@@ -58,6 +58,7 @@
 * [Create a voting strategy](developer-guides/voting-strategy.md)
 * [Create a validation strategy](developer-guides/validation-strategy.md)
 * [Identify integrator activity](developer-guides/identify-integrator-activity.md)
+* [Add a network](https://snapshot.box/#/network)
 * [Add a network](developer-guides/networks.md)
 
 ## Tools
@@ -114,6 +115,7 @@
 
 ## Community
 
+* [Help center](https://help.snapshot.box)
 * [Discord](https://discord.snapshot.org)
-* [X (X)](https://x.com/SnapshotLabs)
+* [X (Twitter)](https://x.com/SnapshotLabs)
 * [GitHub](https://github.com/snapshot-labs)

@@ -1,5 +1,6 @@
 ---
 description: Learn how to verify a token for your Space.
+hidden: true
 ---
 
 # Token verification
