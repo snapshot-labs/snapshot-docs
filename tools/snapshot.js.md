@@ -86,17 +86,17 @@ const web3 = new Web3Provider(window.ethereum);
 const [account] = await web3.listAccounts();
 
 const receipt = await client.proposal(web3, account, {
-  space: 'yam.eth',
+  space: 'yam.eth', // your space id
   type: 'single-choice', // define the voting system
   title: 'Test proposal using Snapshot.js',
   body: 'This is the content of the proposal',
   choices: ['Alice', 'Bob', 'Carol'],
-  start: 1636984800,
-  end: 1637244000,
-  snapshot: 13620822,
+  start: 1636984800, // change it according to your space settings
+  end: 1637244000, // change it according to your space settings
+  snapshot: 13620822, // Use a latest block
   plugins: JSON.stringify({}),
-  labels: []
-  privacy: ''
+  labels: [],
+  privacy: '', // Either '' or 'shutter'
   app: 'my-app' // provide the name of your project which is using this snapshot.js integration
 });
 ```
