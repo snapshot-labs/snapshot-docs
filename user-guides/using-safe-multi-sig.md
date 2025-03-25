@@ -35,7 +35,7 @@ If you'd like to enable asynchronous signing for all Safe's signers and not have
 
 
 1. Go to Safe Settings -> Safe Apps.
-2. Enable `Always user on-chain signatures`
+2. Enable `Always use on-chain signatures`
 
 <figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
