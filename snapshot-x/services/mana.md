@@ -12,4 +12,4 @@ Note that currently Mana only supports proposal creation, proposal updates, and 
 
 #### Public API
 
-[https://mana.pizza](https://mana.pizza/)
+[https://mana.box](https://mana.box)
