@@ -31,7 +31,7 @@
   * [Space roles](user-guides/spaces/space-roles.md)
   * [Migrate or delete or a space](user-guides/spaces/migrate-or-delete.md)
   * [Space badges](user-guides/spaces/badges-and-warnings.md)
-  * [Turbo plan](user-guides/spaces/turbo-plan.md)
+  * [Snapshot Pro](user-guides/spaces/turbo-plan.md)
   * [Space handbook](user-guides/spaces/space-handbook/README.md)
     * [Most common](user-guides/spaces/space-handbook/most-common.md)
     * [Voting threshold](user-guides/spaces/space-handbook/voting-threshold.md)

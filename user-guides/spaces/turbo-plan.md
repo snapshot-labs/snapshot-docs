@@ -1,6 +1,6 @@
-# Turbo plan
+# Snapshot Pro
 
-Turbo is Snapshot's pro plan, designed specifically for spaces seeking advanced governance tools. By upgrading to Turbo, you gain access to a powerful set of features that streamline proposal creation, voting, and oversight, letting you focus on what really matters: effective, transparent governance.
+Snapshot Pro plan is designed specifically for spaces seeking advanced governance tools. By upgrading to Pro, you gain access to a powerful set of features that streamline proposal creation, voting, and oversight, letting you focus on what really matters: effective, transparent governance.
 
 ## Key benefits
 
@@ -46,11 +46,11 @@ Your space can use premium or non-premium network as base network or as voting s
 
 ## Pricing
 
-The Turbo plan is priced at **$6,000 per year**.
+The Pro plan is priced at **$6,000 per year**.
 
 ## Payment
 
 We support payment with crypto using ETH, USDC, USDT, DAI or GHO on Ethereum or Base at this address: **`0x6A870312a810409Ff4f1e8Ff2A2724ad8820Fd70`**\
 **Please reach out to confirm a payment in our** [**Help center**](https://help.snapshot.org/en/)**,** [**Discord**](https://discord.snapshot.org) **or** [**Telegram**](https://t.me/bonustrack)**.**
 
-Upgrade to Turbo today and unlock the full potential of your Snapshot space with robust features, enhanced visibility, and dedicated support.
+Upgrade to Pro today and unlock the full potential of your Snapshot space with robust features, enhanced visibility, and dedicated support.
