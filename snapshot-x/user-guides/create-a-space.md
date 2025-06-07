@@ -4,7 +4,7 @@ description: Learn how to create a new space for your organization.
 
 # Create a space
 
-Head to the [Create space page](https://snapshot.box/#/create) and follow the below steps:
+Head to the [Create space page](https://snapshot.box/#/create/snapshot-x) and follow the below steps:
 
 ## 1. Organization's details
 
