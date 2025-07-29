@@ -107,9 +107,9 @@ Use the [Ticket](https://snapshot.org/#/strategy/ticket) strategy to give voting
 
 <summary>I am not a developer, can someone work on my strategy for money?</summary>
 
-Yes. You can create an issue on [https://github.com/snapshot-labs/snapshot-strategies/issues](https://github.com/snapshot-labs/snapshot-strategies/issues) and then post in on the [#developers](https://discord.com/channels/707079246388133940/747050056422785055) channel on Discord.
+Yes. You can create an issue on [https://github.com/snapshot-labs/score-api/issues](https://github.com/snapshot-labs/score-api/issues) and then post in on the [#developers](https://discord.com/channels/707079246388133940/747050056422785055) channel on Discord.
 
 \
-Snapshot is not reponsible for the agreement between you and the contributors.
+Snapshot is not responsible for the agreement between you and the contributors.
 
 </details>
