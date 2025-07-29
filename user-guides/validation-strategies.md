@@ -67,17 +67,13 @@ If you wish to use a different configuration, toggle the **Use custom strategies
 
 Validation strategy built together with **Gitcoin Passport.** You can select individual or multiple stamps that matter for your space. You can also decide if they need to meet all of these criteria or only one. The more criteria you select, the more sybil resistant your space is.
 
-
-
 <figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
-
-
 
 #### Implementation
 
 Have a look at the example of the Gitcoin Passport validation strategy.
 
-{% embed url="https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/validations/passport-gated/index.ts" %}
+{% embed url="https://github.com/snapshot-labs/score-api/blob/master/src/strategies/validations/passport-gated/index.ts" %}
 
 ```javascript
 import snapshot from '@snapshot-labs/snapshot.js';
@@ -139,4 +135,4 @@ The possibilities are endless! You can build a custom validation strategy for yo
 
 ## Find more voting validations here: <a href="#find-more-strategies-here" id="find-more-strategies-here"></a>
 
-{% embed url="https://github.com/snapshot-labs/snapshot-strategies/tree/master/src/validations" %}
+{% embed url="https://github.com/snapshot-labs/score-api/tree/master/src/strategies/validations" %}

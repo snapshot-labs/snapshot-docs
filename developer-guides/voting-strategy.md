@@ -6,20 +6,21 @@ description: Learn how to create a new custom voting strategy.
 
 If you can't find a strategy that fits your the needs of your space you can create a new custom one. Follow the steps below to learn how to do that:
 
-### 1. Fork the snapshot-strategies repository
+### **1. Fork the score-api repository**&#x20;
 
-Create a fork of the snapshot-strategies repository:
+Create a fork of the score-api repository:
 
 {% @github-files/github-code-block %}
 
 ### **2. Duplicate the `erc20-balance-of` strategy folder**&#x20;
 
-Navigate to `strategies` directory, duplicate the `erc20-balance-of` directory and rename it to the chosen name for your new strategy.
+Navigate to `src/strategies/strategies` directory, duplicate the `erc20-balance-of` directory and rename it to the chosen name for your new strategy.
 
 ```bash
 └── src
     └── strategies
-        └── erc20-balance-of
+        └── strategies
+            └── erc20-balance-of
 ```
 
 ### **3. Write the logic for your strategy**
@@ -108,12 +109,12 @@ Describe the structure of your strategy by editing the `properties`, `required` 
 }
 ```
 
-#### d.  `./snapshot-strategies/src/strategies/index.ts`
+#### d.  `./score-api/src/strategies/strategies/index.ts`
 
-Import and declare you new strategy in the [`index.ts`](https://github.com/snapshot-labs/snapshot-strategies/blob/master/src/strategies/index.ts) file:
+Import and declare you new strategy in the [`index.ts`](https://github.com/snapshot-labs/score-api/blob/master/src/strategies/strategies/index.ts) file:
 
 ```typescript
-import * as youStrategyName from './your-strategy-name';
+import * as yourStrategyName from './your-strategy-name';
 ```
 
 
@@ -186,18 +187,18 @@ Here is an example of parameters:
 Once you saved all the files run the below command with the name of your new strategy:
 
 ```javascript
-npm run test --strategy=<STRATEGY NAME> // replace <STRATEGY NAME>
+npm run test:strategy --strategy=<STRATEGY NAME> // replace <STRATEGY NAME>
 ```
 
-It will trigger the tests which you can find in [this file](https://github.com/snapshot-labs/snapshot-strategies/blob/master/test/strategy.test.ts). If you get any errors read them carefully as they should point directly to the problem.
+It will trigger the tests which you can find in [this file](https://github.com/snapshot-labs/score-api/blob/master/test/strategies/unit/strategy.test.ts). If you get any errors read them carefully as they should point directly to the problem.
 
 ### **5. Review the checklist**
 
-Ensure you meet the requirements for adding a new strategy by reviewing the checklist for adding a new strategy which can be found at: [https://github.com/snapshot-labs/snapshot-strategies#checklist-for-adding-a-new-strategy](https://github.com/snapshot-labs/snapshot-strategies#checklist-for-adding-a-new-strategy)
+Ensure you meet the requirements for adding a new strategy by reviewing the checklist for adding a new strategy which can be found on [this documentation](https://github.com/snapshot-labs/score-api/blob/master/STRATEGIES.md#checklist-for-new-strategies)
 
 ### **6. Create a pull request**
 
-Create a Pull Request with the above changes on the original [snapshot-strategies](https://github.com/snapshot-labs/snapshot-strategies/) repo.
+Create a Pull Request with the above changes on the original [score-api](https://github.com/snapshot-labs/score-api/) repo.
 
 The review can take the team up to 72 hours, so please be patient 🙏
 
