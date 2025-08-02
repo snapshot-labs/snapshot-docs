@@ -10,7 +10,7 @@ If you can't find a strategy that fits your the needs of your space you can crea
 
 Create a fork of the score-api repository:
 
-{% @github-files/github-code-block %}
+{% @github-files/github-code-block url="https://github.com/snapshot-labs/score-api" %}
 
 ### **2. Duplicate the `erc20-balance-of` strategy folder**&#x20;
 
