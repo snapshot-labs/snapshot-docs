@@ -1,6 +1,23 @@
 ---
-cover: .gitbook/assets/Snapshot_infra.jpg
+cover: .gitbook/assets/240307_Variant-High-Perf-Chains_v1.png
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Welcome to Snapshot docs
