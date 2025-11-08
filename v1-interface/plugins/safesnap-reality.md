@@ -25,15 +25,11 @@ Follow the official Zodiac guide on how to setup a SafeSnap for your project.\
 \
 **I'm a non-dev operator (space controller or admin):**
 
-{% embed url="https://zodiac.wiki/index.php/Reality_Module:_Operator_Tutorial" %}
+[https://docs.kleros.io/integrations/types-of-integrations/1.-dispute-resolution-integration-plan/channel-partners/kleros-reality-module](https://docs.kleros.io/integrations/types-of-integrations/1.-dispute-resolution-integration-plan/channel-partners/kleros-reality-module)
 
 **I'm a developer:**
 
 {% @github-files/github-code-block url="https://github.com/gnosis/zodiac-module-reality/blob/main/docs/setup_guide.md" %}
-
-**More information:**
-
-{% embed url="https://zodiac.wiki/index.php/Category:Reality_Module" %}
 
 ## Security recommendations
 
