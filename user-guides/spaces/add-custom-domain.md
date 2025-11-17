@@ -21,7 +21,7 @@ To enable this whitelabel experience, you must subscribe to our [Turbo plan](tur
 Go to your DNS provider or registrar and create a new CNAME record.
 
 * Host: _your custom domain_ (for example, vote.myprotocol.xyz)
-* Points to: `cname.snapshot.box`
+* Points to: `cname-2.snapshot.box`
 
 #### 2. Contact us
 
