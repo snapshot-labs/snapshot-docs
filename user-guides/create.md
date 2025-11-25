@@ -37,7 +37,7 @@ Each space has a limit on the number of proposals that can be created daily and 
     <figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 5.  Select the desired voting system, specify the possible vote options, and define the duration of your proposal. Make sure you allow enough time for users to vote.\\
 
-    <figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 6. Click `Publish` - and that's it! You can see your proposal in the proposals list on the space page.
 
 ## **Snapshot block number**

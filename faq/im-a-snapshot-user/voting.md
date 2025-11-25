@@ -6,7 +6,7 @@
 
 You can remove your delegations by going to [https://testnet.snapshot.org/#/delegate](https://testnet.snapshot.org/#/delegate) and clicking the ❌ for the delegations you wish to remove.
 
-<img src="../../.gitbook/assets/image (40).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (27) (1).png" alt="" data-size="original">
 
 Moreover, if you want to override your delegate’s vote on a proposal using [the delegation strategy](https://snapshot.org/#/strategy/delegation) you can simply cast your own vote and it will override the delegate’s vote. If the delegation happened on-chain, then head to the delegation portal of the project you’re looking for and redelegate there.
 

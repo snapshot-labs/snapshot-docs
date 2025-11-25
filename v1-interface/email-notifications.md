@@ -6,7 +6,7 @@ description: >-
 
 # Email notifications
 
-Snapshot allows you to subscribe to an e-mail notification system which helps you to stay up to date with spaces you follow.&#x20;
+Snapshot allows you to subscribe to an e-mail notification system which helps you to stay up to date with spaces you follow.
 
 You can opt in to receive the following notifications:
 
@@ -56,11 +56,9 @@ You can easily opt-in and out of the available notifications.
 
 Click on your profile name in the top bar and select **Email notifications:**
 
-<figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (134) (1).png" alt=""><figcaption></figcaption></figure>
 
 A new pop-up window will open where you can toggle the different options:
-
-&#x20;
 
 <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -68,6 +66,6 @@ A new pop-up window will open where you can toggle the different options:
 
 You can easily unsubscribe via the link in each weekly digest or proposal-related notification email.
 
-Head to your inbox and find an email from the Snapshot subscription, apart from the initial verification message. Scroll down and find the **Unsubscribe** link.&#x20;
+Head to your inbox and find an email from the Snapshot subscription, apart from the initial verification message. Scroll down and find the **Unsubscribe** link.
 
 You'll be redirected to a page informing you that you have successfully unsubscribed from the notifications.

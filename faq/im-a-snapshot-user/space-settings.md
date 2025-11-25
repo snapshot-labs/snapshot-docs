@@ -58,7 +58,7 @@ You cannot invalidate existing votes. However you can delete the proposal.
 
 If you are an admin of the space or proposal’s creator you can delete the current proposal by clicking `Delete` on the proposal’s page:
 
-<img src="../../.gitbook/assets/image (46).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (16) (1).png" alt="" data-size="original">
 
 Then change the space settings and make sure to persist the changes.
 
@@ -78,7 +78,7 @@ Yes, you can customize the appearance of your Snapshot space to some extent by s
 
 <summary>Your proposal cannot be submitted due to a missing Voting Validation rule required with the "ticket" strategy. What does it mean?</summary>
 
-<img src="../../.gitbook/assets/image (58).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (35) (1).png" alt="" data-size="original">
 
 If your space is using only a [ticket](https://snapshot.org/#/strategy/ticket) Voting Strategy you are required to set a Voting Validation to minimize the risk of spam votes on your proposals.\
 Without it, hackers can easily create multiple accounts (each getting 1 Voting Power) and take the voting process over.\

@@ -5,7 +5,7 @@ description: Learn more about the different voting schemes on Snapshot.
 # Voting types
 
 {% hint style="info" %}
-Snapshot supports a number of different voting types and we plan to support many more in the future. If you would like to request a new voting type, please open a feature request [here](https://snapshot.canny.io/feature-requests) :pray:&#x20;
+Snapshot supports a number of different voting types and we plan to support many more in the future. If you would like to request a new voting type, please open a feature request [here](https://snapshot.canny.io/feature-requests) :pray:
 {% endhint %}
 
 ## What is a voting type?
@@ -14,7 +14,7 @@ Voting type defines how users can cast their votes and how the final result is c
 
 Do not mistake it with the voting strategy though - a [voting strategy](../user-guides/voting-strategies.md) is used to calculate the **individual voting power** of a user while the voting type calculates the **outcome of the proposal**.
 
-Voting type is defined in the space settings or at the level of an individual proposal (unless it has been already defined in the space settings) and can allow the users to:&#x20;
+Voting type is defined in the space settings or at the level of an individual proposal (unless it has been already defined in the space settings) and can allow the users to:
 
 * Choose only **one option** - [#single-choice-voting](voting-types.md#single-choice-voting "mention")
 * Spread their votes over **multiple options** - [#weighted-voting](voting-types.md#weighted-voting "mention")
@@ -29,7 +29,7 @@ Let's have a look at each voting type in the next section.
 
 ### Single choice voting
 
-Each user can select only one option. The results will reflect these votes as percentages of the total voting power of all voting participants cast on the specific choice.&#x20;
+Each user can select only one option. The results will reflect these votes as percentages of the total voting power of all voting participants cast on the specific choice.
 
 Ideal for choosing one option from many.\
 \
@@ -122,13 +122,13 @@ All in all, you don't have to understand each step of the calculation. Yet, it s
 {% endhint %}
 
 {% hint style="danger" %}
-This Voting type may encourage the whales to create multiple wallets and split their holdings among them. Therefore it's important to also implement a mechanism providing Sybil Resistance. \
+This Voting type may encourage the whales to create multiple wallets and split their holdings among them. Therefore it's important to also implement a mechanism providing Sybil Resistance.\
 \
 **Read more** [**here**](../user-guides/spaces/space-handbook/sybil-resistance-scam-and-spam-prevention.md)**!**
 {% endhint %}
 
-**Pros**: Dilutes the whales' voting power in favor of smaller holders. Individuals will matter more than the number of tokens. \
-**Cons**: This voting type needs to be accompanied by a [Sybil-resistance mechanism](../user-guides/validation-strategies.md) that prevents whales from splitting funds across different wallets.&#x20;
+**Pros**: Dilutes the whales' voting power in favor of smaller holders. Individuals will matter more than the number of tokens.\
+**Cons**: This voting type needs to be accompanied by a [Sybil-resistance mechanism](../user-guides/validation-strategies.md) that prevents whales from splitting funds across different wallets.
 
 :point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x21f64875abbca71762a980efae43ab62b546d54f19a208d0e61a5d7cee571a35)
 
@@ -136,13 +136,13 @@ This Voting type may encourage the whales to create multiple wallets and split t
 
 ### Ranked choice voting (Instant Runoff Voting)
 
-Each user has to rank all choices in a desired order.&#x20;
+Each user has to rank all choices in a desired order.
 
 In the **first step** votes are counted for each voter's number one choice. If a choice receives more than 50% votes (cast on number one choices of each user), that choice wins. The result will show the percentages reflecting how users voted for their **first choice only**.
 
-In the **second step** if the first-choice candidate doesn't get over 50% of the total votes the choice with the **fewest** number one votes is **eliminated**. Voters who had chosen the defeated choice as number one now have their number two choice **counted as their number one** choice.&#x20;
+In the **second step** if the first-choice candidate doesn't get over 50% of the total votes the choice with the **fewest** number one votes is **eliminated**. Voters who had chosen the defeated choice as number one now have their number two choice **counted as their number one** choice.
 
-The process continues over multiple rounds until a choice has more than half (> 50%) of the total votes.&#x20;
+The process continues over multiple rounds until a choice has more than half (> 50%) of the total votes.
 
 For more details, read [this discussion](https://github.com/snapshot-labs/snapshot/discussions/1624).
 
@@ -150,12 +150,12 @@ For more details, read [this discussion](https://github.com/snapshot-labs/snapsh
 Some options will show up as if they had **not received any votes** because they were **eliminated** in the ranked-choice voting process.
 {% endhint %}
 
-**Pros**: Favors the option with the strongest support and reduces wasted votes. \
+**Pros**: Favors the option with the strongest support and reduces wasted votes.\
 **Cons**: Complex to understand. Will only determine one winner, doesn’t work well to select 2 or more winning options.
 
 :point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x5003da0f03e718b461e53fe10a998b60172e2e108472153282fcef781c300f23)
 
-<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (57) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Basic voting
 
@@ -164,7 +164,7 @@ Each user can select one of three options: `For`, `Against`, `Abstain`.
 The votes cast on the `Abstain` choice are counted in calculating if the necessary quorum has been reached for a proposal to pass.
 
 **Pros**: Results are easy to interpret and hard to contest.\
-**Cons**: Choices are predefined and cannot be edited.&#x20;
+**Cons**: Choices are predefined and cannot be edited.
 
 :point\_right: [**Try it yourself!**](https://snapshot.org/#/pistachiodao.eth/proposal/0x38c654c0f81b63ea1839ec3b221fad6ecba474aa0c4e8b4e8bc957f70100e753)
 

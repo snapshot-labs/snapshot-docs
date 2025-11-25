@@ -14,7 +14,7 @@ With the Galxe plugin users can easily create a campaign and integrate it into [
 
 In order to add a plugin head to your space settings by clicking **Settings** on your space's page:
 
-<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (56) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Create a new proposal
 
