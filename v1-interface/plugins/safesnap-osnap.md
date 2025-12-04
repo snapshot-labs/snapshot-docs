@@ -2,7 +2,12 @@
 description: Combine Safe with Snapshot using oSnap.
 ---
 
-# SafeSnap: oSnap
+# oSnap
+
+{% hint style="danger" %}
+**oSnap is being deprecated, and support for the product will end on December 15, 2025. To ensure continued functionality, please follow the migration guide here:** \
+[**https://help.snapshot.box/en/articles/12886075-osnap-deprecation-migration-guide**](https://help.snapshot.box/en/articles/12886075-osnap-deprecation-migration-guide)
+{% endhint %}
 
 “oSnap” is short for Optimistic Snapshot Execution. oSnap lets DAOs propose transactions, do an off-chain governance vote, and have the transaction data submitted in a trustless fashion.
 
