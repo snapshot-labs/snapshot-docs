@@ -1,6 +1,7 @@
 ---
-cover: .gitbook/assets/240307_Variant-High-Perf-Chains_v1.png
+cover: .gitbook/assets/Composition 1.png
 coverY: 0
+coverHeight: 180
 layout:
   width: default
   cover:
