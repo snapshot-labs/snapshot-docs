@@ -42,7 +42,7 @@ We will review your submission and **whitelist the address** you provided in the
 
 After your address has been whitelisted go to [https://app.mycrypto.com/sign-message](https://app.mycrypto.com/sign-message) and connect your wallet using the account you provided in the submission form above.
 
-#### a) Sign the message with keyword `generateKey:`
+#### a) Sign the message with keyword `generateKey`:
 
 <figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
