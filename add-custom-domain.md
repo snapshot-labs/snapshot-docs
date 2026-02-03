@@ -31,7 +31,7 @@ Head to your space settings on Snapshot and fill in the custom domain name field
 
 Update your DNS settings on the custom domain provider dashboard and set CNAME to:
 
-`cname-2.snapshot.box`
+`cname.snapshot.box`
 
 ### 3. Activate your domain
 
