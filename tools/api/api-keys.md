@@ -36,46 +36,8 @@ If you haven’t already please **fill in the below form** or submit it via [the
 
 We will review your submission and **whitelist the address** you provided in the form.
 
-**After 72 hours** have passed you can continue with the next steps. If you get any errors while generating the key, please contact our support on [Help Center](https://help.snapshot.org/en/).
+Once whitelisted, you will **receive an email with your API key**. If you haven't received an email after 72 hours, please contact our support on [Help Center](https://help.snapshot.org/en/).
 
-### 3. Generate the API Key
-
-After your address has been whitelisted go to [https://app.mycrypto.com/sign-message](https://app.mycrypto.com/sign-message) and connect your wallet using the account you provided in the submission form above.
-
-#### a) Sign the message with keyword `generateKey`:
-
-<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9538a791-a2af-4c1d-889b-3b95a25f070e/Untitled.jpeg)
-
-b) Copy the signature and run the below `curl` command.&#x20;
-
-```javascript
-curl --location 'https://keycard.snapshot.org' \
---header 'accept: application/json' \
---header 'content-type: application/json' \
---data '{
-    "jsonrpc": "2.0",
-    "method": "generate_key",
-    "params": {
-        "sig": "<SIGNATURE_HASH>"
-    },
-    "id": "123456789"
-}'
-```
-
-Make sure to use the signature hash from step 5 in the `sig` param, **do not paste** the entire response after signing the message. As an example:
-
-```javascript
-...
-    "method": "generate_key",
-    "params": {
-        "sig": "0x85bcabdeb3b43131364d21b32f8c74124d155009fc9d6d40901b4b725f23e0ac632808ebb00f3569bf875ded07b61ac5163ebe757b0897278ab276cdc982e3001c"
-    },
-...
-```
-
-You will receive the API Key as a response of the `curl` request. Make sure to store it securely.
 
 ## How to structure the query with my key?
 
